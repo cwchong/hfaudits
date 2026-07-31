@@ -1,0 +1,17 @@
+{
+  "repo": "qwen/Qwen3.5-9B",
+  "requested_revision": "main",
+  "commit": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-07-31T02:27:56Z-51773",
+  "collected_at": "2026-07-31T02:28:43Z",
+  "tool": "hf-audit.sh 1.0.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 16,
+  "total_bytes": 19329393661,
+  "safetensors_count": 4,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

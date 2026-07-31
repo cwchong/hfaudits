@@ -1,0 +1,1878 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 1805,
+    "blob_oid": "de5b1dc3a4a2d8af8056e86ecb1cddcc936136e3",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "28b89dbec86c4b0630f70259ce5fe1c588e894b3",
+      "title": "Upload MERaLiON-Public-Licence-v3.pdf",
+      "date": "2026-02-02T06:18:24.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=de5b1dc3a4a2d8af8056e86ecb1cddcc936136e3&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=de5b1dc3a4a2d8af8056e86ecb1cddcc936136e3&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "MERaLiON-Public-Licence-v3.pdf",
+    "size": 186661,
+    "blob_oid": "8326973046da26e30d468962b910abf229d3da97",
+    "sha256": "5de8bb1ea3c6e3d5e0cc588f8b3743dcc00e7bf7df0c261082aada94c2842e11",
+    "lfs_pointer_size": 131,
+    "xet_hash": "28408bf854e59de752a83498c389d0c7984b77897105d151938fd99eea9fa3da",
+    "last_commit": {
+      "id": "28b89dbec86c4b0630f70259ce5fe1c588e894b3",
+      "title": "Upload MERaLiON-Public-Licence-v3.pdf",
+      "date": "2026-02-02T06:18:24.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=8326973046da26e30d468962b910abf229d3da97&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/5de8bb1ea3c6e3d5e0cc588f8b3743dcc00e7bf7df0c261082aada94c2842e11?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=8326973046da26e30d468962b910abf229d3da97&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/5de8bb1ea3c6e3d5e0cc588f8b3743dcc00e7bf7df0c261082aada94c2842e11?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 46386,
+    "blob_oid": "f2cde3025db2712eae709df9c24b57df5ebc3520",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "3291e0b1f2fc48e43001b24ab500b38758003639",
+      "title": "Update vLLM link to PyPI (#5)",
+      "date": "2026-03-31T00:10:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=f2cde3025db2712eae709df9c24b57df5ebc3520&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=f2cde3025db2712eae709df9c24b57df5ebc3520&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "config.json",
+    "size": 2823,
+    "blob_oid": "46dbcc00bd92ff0bb2b4ffeb7c5595caa517d540",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "7a34e90c1d623ad51a76a752a92354879705e766",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:51:04.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=46dbcc00bd92ff0bb2b4ffeb7c5595caa517d540&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=46dbcc00bd92ff0bb2b4ffeb7c5595caa517d540&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "configuration_meralion2.py",
+    "size": 2933,
+    "blob_oid": "3bf6a61bb1425edd3178e2db8bb37715c6132afb",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "76158b2a8988c45cbe4676e07f4f913d107784f5",
+      "title": "Upload config",
+      "date": "2025-05-26T19:36:25.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=3bf6a61bb1425edd3178e2db8bb37715c6132afb&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=3bf6a61bb1425edd3178e2db8bb37715c6132afb&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "generation_config.json",
+    "size": 227,
+    "blob_oid": "26b7c3e76f72b45806232364fe34be56dd498a5a",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=26b7c3e76f72b45806232364fe34be56dd498a5a&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=26b7c3e76f72b45806232364fe34be56dd498a5a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "model-00001-of-00005.safetensors",
+    "size": 4944547928,
+    "blob_oid": "6279eb5bf22af9a9c72ba1755420a8ce48e51c89",
+    "sha256": "cd268d844e4b7498cc26ee4580d0d231f995f809f8ac9e36b5f1c627022c59a8",
+    "lfs_pointer_size": 135,
+    "xet_hash": "08fda4584513005c2f4ee39a662f6d554c175094df9e2ca9bd8237899a3d6da5",
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=6279eb5bf22af9a9c72ba1755420a8ce48e51c89&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.1/27895"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/cd268d844e4b7498cc26ee4580d0d231f995f809f8ac9e36b5f1c627022c59a8?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=6279eb5bf22af9a9c72ba1755420a8ce48e51c89&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.1/27895"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cd268d844e4b7498cc26ee4580d0d231f995f809f8ac9e36b5f1c627022c59a8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00002-of-00005.safetensors",
+    "size": 4991612584,
+    "blob_oid": "f9b0be82b0168fe3331a361da72ef4fbaf0bc960",
+    "sha256": "7c6208360ff670e6526e5c162718e836f036d99820802c66781ed7f93f37da3a",
+    "lfs_pointer_size": 135,
+    "xet_hash": "679e01eb70c738667fd913fbe0bbaefb8d15fac37bc7a15514629e200d547d5e",
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=f9b0be82b0168fe3331a361da72ef4fbaf0bc960&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.4.2/27649"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/7c6208360ff670e6526e5c162718e836f036d99820802c66781ed7f93f37da3a?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=f9b0be82b0168fe3331a361da72ef4fbaf0bc960&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.4.2/27649"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/7c6208360ff670e6526e5c162718e836f036d99820802c66781ed7f93f37da3a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00003-of-00005.safetensors",
+    "size": 4918183272,
+    "blob_oid": "1a5260e345856a5cadccec699379a9ef525dfd05",
+    "sha256": "e51266aba27f944b2c91b042984d326ed76b3cc6770b22aa3ff50a497dfec3ec",
+    "lfs_pointer_size": 135,
+    "xet_hash": "3d2397091eb8cb99844d62b897ee00edae2a6dd4795fbca3387cfe6250ed5308",
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1a5260e345856a5cadccec699379a9ef525dfd05&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.4.2/27649"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/e51266aba27f944b2c91b042984d326ed76b3cc6770b22aa3ff50a497dfec3ec?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1a5260e345856a5cadccec699379a9ef525dfd05&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.4.2/27649"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e51266aba27f944b2c91b042984d326ed76b3cc6770b22aa3ff50a497dfec3ec?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00004-of-00005.safetensors",
+    "size": 4991612648,
+    "blob_oid": "3c215f386c1cb9817287389ac97cd191f8b6d285",
+    "sha256": "30b94245e43633a8df805d30018ed60e34eba654a3d2d787bdb8970e175e3a5c",
+    "lfs_pointer_size": 135,
+    "xet_hash": "454fcf8f3b9376c593e987d7bbc85acf1843dcce8c1c01e75a4de2e08856d317",
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=3c215f386c1cb9817287389ac97cd191f8b6d285&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.4.2/27649"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/30b94245e43633a8df805d30018ed60e34eba654a3d2d787bdb8970e175e3a5c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=3c215f386c1cb9817287389ac97cd191f8b6d285&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.4.2/27649"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/30b94245e43633a8df805d30018ed60e34eba654a3d2d787bdb8970e175e3a5c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00005-of-00005.safetensors",
+    "size": 367038856,
+    "blob_oid": "7c494cf19ef449814d14aa1f418eef218ad320a4",
+    "sha256": "59109af7285d2dcd8d55b58c69c3fa373ee9f0f49835b3c83b0e07e8d5be806c",
+    "lfs_pointer_size": 134,
+    "xet_hash": "dfbee4bdc001d507019cfd0930a21b277344f902878d01cbd09d35e492755707",
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=7c494cf19ef449814d14aa1f418eef218ad320a4&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/77 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/59109af7285d2dcd8d55b58c69c3fa373ee9f0f49835b3c83b0e07e8d5be806c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=7c494cf19ef449814d14aa1f418eef218ad320a4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/77 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/59109af7285d2dcd8d55b58c69c3fa373ee9f0f49835b3c83b0e07e8d5be806c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model.safetensors.index.json",
+    "size": 88661,
+    "blob_oid": "129d97d18720b5b085312f1074efc6a691f61275",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=129d97d18720b5b085312f1074efc6a691f61275&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=129d97d18720b5b085312f1074efc6a691f61275&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "modeling_meralion2.py",
+    "size": 27539,
+    "blob_oid": "2006ecc2c9971e0021a3ba49fbca8e4a6ff503f6",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "dc656507a2d60f9b4f3c9770c7bcf93ac77a23bc",
+      "title": "Upload MERaLiON2ForConditionalGeneration",
+      "date": "2025-05-26T19:40:16.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=2006ecc2c9971e0021a3ba49fbca8e4a6ff503f6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=2006ecc2c9971e0021a3ba49fbca8e4a6ff503f6&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "preprocessor_config.json",
+    "size": 443,
+    "blob_oid": "c80f44790b75604a19cf525c7401d044295d395f",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "447e6e910a71d6444f0dde10a1bd376fba2240b5",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:36:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c80f44790b75604a19cf525c7401d044295d395f&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c80f44790b75604a19cf525c7401d044295d395f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "processing_meralion2.py",
+    "size": 8953,
+    "blob_oid": "c84b4a420f8394732d56b6871aa505a8b7ad6783",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "ac09b8b43de5934eb8ec177f6e0f2b8c914ef404",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:50:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c84b4a420f8394732d56b6871aa505a8b7ad6783&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c84b4a420f8394732d56b6871aa505a8b7ad6783&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "processor_config.json",
+    "size": 281,
+    "blob_oid": "c57b16d978c2d78d4b206a49ba9ae560c26ca560",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "ac09b8b43de5934eb8ec177f6e0f2b8c914ef404",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:50:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c57b16d978c2d78d4b206a49ba9ae560c26ca560&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=c57b16d978c2d78d4b206a49ba9ae560c26ca560&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "radar_asr.png",
+    "size": 1433927,
+    "blob_oid": "268056981bb92ac82c3b8948949d26e2ed434409",
+    "sha256": "f470c1fb148f3bb30d8cbc9d2fd3bc7b38957308ec5e6c22834105c790ad4793",
+    "lfs_pointer_size": 132,
+    "xet_hash": "7529801733008bcd5fb6864b0a05b1f2f52eba4fd9866be3c8c6f377804d0741",
+    "last_commit": {
+      "id": "e0ff5a261851052eb90638ff7e049f668a7ab5b0",
+      "title": "Upload 2 files",
+      "date": "2025-05-28T11:32:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=268056981bb92ac82c3b8948949d26e2ed434409&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/f470c1fb148f3bb30d8cbc9d2fd3bc7b38957308ec5e6c22834105c790ad4793?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=268056981bb92ac82c3b8948949d26e2ed434409&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f470c1fb148f3bb30d8cbc9d2fd3bc7b38957308ec5e6c22834105c790ad4793?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "radar_task.png",
+    "size": 1215994,
+    "blob_oid": "856c64ec4c7259b3fbe354befcd0f9b133e8eefc",
+    "sha256": "ad9b118a93685b3fd7ce8df2a5e3bf6b1df413454c282b9267ae9e296e9e4b54",
+    "lfs_pointer_size": 132,
+    "xet_hash": "17c32f8f94c633671410cf1fbf27f9feaab1a4455807b18d4ef90084e831c917",
+    "last_commit": {
+      "id": "e0ff5a261851052eb90638ff7e049f668a7ab5b0",
+      "title": "Upload 2 files",
+      "date": "2025-05-28T11:32:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=856c64ec4c7259b3fbe354befcd0f9b133e8eefc&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/ad9b118a93685b3fd7ce8df2a5e3bf6b1df413454c282b9267ae9e296e9e4b54?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=856c64ec4c7259b3fbe354befcd0f9b133e8eefc&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ad9b118a93685b3fd7ce8df2a5e3bf6b1df413454c282b9267ae9e296e9e4b54?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "special_tokens_map.json",
+    "size": 636,
+    "blob_oid": "8d6368f7e735fbe4781bf6e956b7c6ad0586df80",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "447e6e910a71d6444f0dde10a1bd376fba2240b5",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:36:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=8d6368f7e735fbe4781bf6e956b7c6ad0586df80&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=8d6368f7e735fbe4781bf6e956b7c6ad0586df80&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer.json",
+    "size": 34362877,
+    "blob_oid": "1938fa79699333a4a70d3b78a6f6dda2e12c88d5",
+    "sha256": "0ead607d5168e96c02d261dfac8408c63ff2f52e0ac240ac89d0450b3ec805d8",
+    "lfs_pointer_size": 133,
+    "xet_hash": "510d9f12a58383d3af56c3934ebda8eb0bfe7c4f69881921519d2d13080a41a0",
+    "last_commit": {
+      "id": "447e6e910a71d6444f0dde10a1bd376fba2240b5",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:36:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1938fa79699333a4a70d3b78a6f6dda2e12c88d5&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/0ead607d5168e96c02d261dfac8408c63ff2f52e0ac240ac89d0450b3ec805d8?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1938fa79699333a4a70d3b78a6f6dda2e12c88d5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/0ead607d5168e96c02d261dfac8408c63ff2f52e0ac240ac89d0450b3ec805d8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer.model",
+    "size": 4241003,
+    "blob_oid": "796efe9ab515c15e146ce7588e6d7b9b8134dbf8",
+    "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+    "lfs_pointer_size": 132,
+    "xet_hash": "fde8653f2f656fb4ab30c2a5db64ba86a916a86134355b76c3bf26a5b022b323",
+    "last_commit": {
+      "id": "447e6e910a71d6444f0dde10a1bd376fba2240b5",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:36:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=796efe9ab515c15e146ce7588e6d7b9b8134dbf8&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/75 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=796efe9ab515c15e146ce7588e6d7b9b8134dbf8&utm_source=huggingface",
+        "message": "This file has no security findings."
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer_config.json",
+    "size": 46915,
+    "blob_oid": "1815f18a06efc2e96eed99ef443388fec03d85d1",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "447e6e910a71d6444f0dde10a1bd376fba2240b5",
+      "title": "Upload processor",
+      "date": "2025-05-26T19:36:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1815f18a06efc2e96eed99ef443388fec03d85d1&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MERaLiON/MERaLiON-2-10B-ASR/3291e0b1f2fc48e43001b24ab500b38758003639/files?blob-id=1815f18a06efc2e96eed99ef443388fec03d85d1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

@@ -1,0 +1,97 @@
+# Audit report — `zai-org/GLM-5.2-FP8`
+
+| Field | Value |
+|---|---|
+| Repository | `zai-org/GLM-5.2-FP8` |
+| Requested revision | `main` |
+| Resolved commit | `ba978f7d347eaf65d22f1a86833408afdb953541` |
+| Endpoint | https://huggingface.co |
+| Files | 50 |
+| Safetensors | 44 |
+| Collected at | 2026-07-29T04:28:49Z |
+| Collected by | cheewaichong@Chees-MacBook-Air.local |
+| Tool | hf-audit.sh 1.0.0, normaliser v1 |
+| Total size | 219.79 GiB |
+| Repo-level security status | `unknown` |
+
+## Scan status
+
+| Status | Files | Size |
+|--------|-------|------|
+| `safe` | 50 | 219.79 GiB |
+
+## Scanner verdicts
+
+| Scanner | Verdict | Files |
+|---------|---------|-------|
+| `avScan` | safe | 6 |
+| `avScan` | unscanned | 44 |
+| `jFrogScan` | safe | 44 |
+| `jFrogScan` | unscanned | 6 |
+| `pickleImportScan` | unscanned | 50 |
+| `protectAiScan` | safe | 50 |
+| `virusTotalScan` | unscanned | 50 |
+
+## Safetensors
+
+| File | Size | sha256 (first 16) | Status |
+|------|------|-------------------|--------|
+| `model-00001-of-00141.safetensors` | 5 GiB | `cd4b389324d8ed22` | safe |
+| `model-00002-of-00141.safetensors` | 4.99 GiB | `11b80a3a469fe8ab` | safe |
+| `model-00003-of-00141.safetensors` | 4.99 GiB | `3960cfbfa5e2f7bb` | safe |
+| `model-00004-of-00141.safetensors` | 4.99 GiB | `bf88f32b6d8f43ec` | safe |
+| `model-00005-of-00141.safetensors` | 5 GiB | `ff48f71f3a005abf` | safe |
+| `model-00006-of-00141.safetensors` | 4.99 GiB | `2e9ce4ee588a5c73` | safe |
+| `model-00007-of-00141.safetensors` | 5 GiB | `99f92392fd0b9fc3` | safe |
+| `model-00008-of-00141.safetensors` | 4.99 GiB | `af41af526c10de51` | safe |
+| `model-00009-of-00141.safetensors` | 5 GiB | `6b63348060bc3034` | safe |
+| `model-00010-of-00141.safetensors` | 4.99 GiB | `512b70194c08d5b3` | safe |
+| `model-00011-of-00141.safetensors` | 4.99 GiB | `a0acf28004cee9c1` | safe |
+| `model-00012-of-00141.safetensors` | 5 GiB | `5c9163d9d7ce3765` | safe |
+| `model-00013-of-00141.safetensors` | 4.99 GiB | `ae74ec25db1cedd8` | safe |
+| `model-00014-of-00141.safetensors` | 5 GiB | `4dcc960bd41c7a2a` | safe |
+| `model-00015-of-00141.safetensors` | 4.99 GiB | `9b0749ad2ad53075` | safe |
+| `model-00016-of-00141.safetensors` | 5 GiB | `d55105e496b79d3d` | safe |
+| `model-00017-of-00141.safetensors` | 4.99 GiB | `bcb77ae2f687e27b` | safe |
+| `model-00018-of-00141.safetensors` | 4.99 GiB | `756113e9521d3955` | safe |
+| `model-00019-of-00141.safetensors` | 4.99 GiB | `4dd4ec5b07f1d12b` | safe |
+| `model-00020-of-00141.safetensors` | 5 GiB | `5381c71742768c88` | safe |
+| `model-00021-of-00141.safetensors` | 4.99 GiB | `13aa866d1b48ee53` | safe |
+| `model-00022-of-00141.safetensors` | 5 GiB | `99e5ca5f30d7129b` | safe |
+| `model-00023-of-00141.safetensors` | 4.99 GiB | `23b63f18f5a670a3` | safe |
+| `model-00024-of-00141.safetensors` | 4.99 GiB | `fb99757b4ea90a1b` | safe |
+| `model-00025-of-00141.safetensors` | 4.99 GiB | `e78dccea55fe0d54` | safe |
+| `model-00026-of-00141.safetensors` | 4.99 GiB | `12a4f637a50fe236` | safe |
+| `model-00027-of-00141.safetensors` | 5 GiB | `9beb92efca20325a` | safe |
+| `model-00028-of-00141.safetensors` | 4.99 GiB | `68d45c421cac6851` | safe |
+| `model-00029-of-00141.safetensors` | 5 GiB | `fa8915c4907c0dec` | safe |
+| `model-00030-of-00141.safetensors` | 4.99 GiB | `128b570a6fb59ae7` | safe |
+| `model-00031-of-00141.safetensors` | 5 GiB | `aea2c91014901cd0` | safe |
+| `model-00032-of-00141.safetensors` | 4.99 GiB | `aa6396111a23f211` | safe |
+| `model-00033-of-00141.safetensors` | 4.99 GiB | `eea8bf4e723abc1a` | safe |
+| `model-00034-of-00141.safetensors` | 4.99 GiB | `140be56abe6eb707` | safe |
+| `model-00035-of-00141.safetensors` | 5 GiB | `0409d47af586afbf` | safe |
+| `model-00036-of-00141.safetensors` | 5 GiB | `85a859f10feb4c50` | safe |
+| `model-00037-of-00141.safetensors` | 4.99 GiB | `94482035358945bd` | safe |
+| `model-00038-of-00141.safetensors` | 5 GiB | `6b90a5d73bdd88fc` | safe |
+| `model-00039-of-00141.safetensors` | 4.99 GiB | `1dd05deff86bb352` | safe |
+| `model-00040-of-00141.safetensors` | 5 GiB | `4ae0969cb9eb6afa` | safe |
+| `model-00041-of-00141.safetensors` | 4.99 GiB | `d1cf4c756326aae7` | safe |
+| `model-00042-of-00141.safetensors` | 4.99 GiB | `ec7f6d4e9ed6914a` | safe |
+| `model-00043-of-00141.safetensors` | 4.99 GiB | `14c66c8e7eedb3b9` | safe |
+| `model-00044-of-00141.safetensors` | 5 GiB | `f31755fee2c07bc6` | safe |
+
+
+## Evidence in this bundle
+
+| File | What it is |
+|------|------------|
+| `tree.json` | raw Hub tree response, verbatim |
+| `paths-info.json` | raw Hub paths-info response, verbatim |
+| `model-info.json` | raw repo metadata incl. aggregate security status |
+| `files.json` / `files.jsonl` | normalised per-file record |
+| `files.tsv` | flat view for grep and spreadsheets |
+| `SHA256SUMS` | verify downloads with `sha256sum -c` |
+| `audit.json` | run manifest: tool, normaliser version, who, when |
+
+_Generated by hf-audit.sh 1.0.0 at 2026-07-29T04:28:50Z._

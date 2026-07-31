@@ -1,0 +1,194 @@
+{
+  "_id": "683318a1c092c29d62a5d3cd",
+  "id": "MERaLiON/MERaLiON-2-10B-ASR",
+  "private": false,
+  "pipeline_tag": "automatic-speech-recognition",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "meralion2",
+    "automatic-speech-recognition",
+    "meralion",
+    "meralion-2",
+    "custom_code",
+    "en",
+    "zh",
+    "ms",
+    "ta",
+    "id",
+    "th",
+    "vi",
+    "dataset:MERaLiON/Multitask-National-Speech-Corpus-v1",
+    "arxiv:2412.09818",
+    "arxiv:2501.01034",
+    "arxiv:2409.06635",
+    "base_model:google/gemma-2-9b-it",
+    "base_model:finetune:google/gemma-2-9b-it",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 54,
+  "likes": 12,
+  "modelId": "MERaLiON/MERaLiON-2-10B-ASR",
+  "author": "MERaLiON",
+  "sha": "3291e0b1f2fc48e43001b24ab500b38758003639",
+  "lastModified": "2026-03-31T00:10:54.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "MERaLiON2ForConditionalGeneration"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_meralion2.MERaLiON2Config",
+      "AutoModelForSpeechSeq2Seq": "modeling_meralion2.MERaLiON2ForConditionalGeneration"
+    },
+    "model_type": "meralion2",
+    "tokenizer_config": {
+      "bos_token": "<bos>",
+      "chat_template": "{{ bos_token }}{% for message in messages %}{% if (message['role'] == 'assistant') %}{% set role = 'model' %}{% else %}{% set role = message['role'] %}{% endif %}{{ '<start_of_turn>' + role + '\n' + message['content'] | trim + '<end_of_turn>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\n'}}{% endif %}",
+      "eos_token": "<eos>",
+      "pad_token": "<pad>",
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "license": "other",
+    "license_name": "meralion-public-license-v3",
+    "license_link": "https://huggingface.co/datasets/MERaLiON/MERaLiON_Public_Licence/blob/main/MERaLiON-Public-Licence-v3.pdf",
+    "extra_gated_fields": {
+      "First Name": "text",
+      "Last Name": "text",
+      "Country": "country",
+      "Affiliation": "text",
+      "Job title": {
+        "type": "select",
+        "options": [
+          "Student",
+          "Research Graduate",
+          "AI developer/Researcher",
+          "Other"
+        ]
+      },
+      "I consent to being contacted by the MERaLiON team for feedback or follow-up regarding my experience using the model": "checkbox"
+    },
+    "extra_gated_description": "By downloading this model, you acknowledge that you have read and agree to be bound by the Terms and Conditions set out in this document [MERaLiON Public License v3](https://huggingface.co/datasets/MERaLiON/MERaLiON_Public_Licence/blob/main/MERaLiON-Public-Licence-v3.pdf). The information you provide will be collected, stored, processed, and shared in accordance with the [A*STAR Privacy Policy](https://www.a-star.edu.sg/privacy-statement).",
+    "extra_gated_button_content": "Submit",
+    "datasets": [
+      "MERaLiON/Multitask-National-Speech-Corpus-v1"
+    ],
+    "language": [
+      "en",
+      "zh",
+      "ms",
+      "ta",
+      "id",
+      "th",
+      "vi"
+    ],
+    "metrics": [
+      "wer",
+      "bleu"
+    ],
+    "base_model": [
+      "openai/whisper-large-v3",
+      "google/gemma-2-9b-it"
+    ],
+    "library_name": "transformers",
+    "tags": [
+      "meralion",
+      "meralion-2"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForSpeechSeq2Seq",
+    "custom_class": "modeling_meralion2.MERaLiON2ForConditionalGeneration",
+    "pipeline_tag": "automatic-speech-recognition"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "MERaLiON-Public-Licence-v3.pdf"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "configuration_meralion2.py"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00005.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00005.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00005.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00005.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-00005.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "modeling_meralion2.py"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "processing_meralion2.py"
+    },
+    {
+      "rfilename": "processor_config.json"
+    },
+    {
+      "rfilename": "radar_asr.png"
+    },
+    {
+      "rfilename": "radar_task.png"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer.model"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "MERaLiON/MERaLiON-AudioLLM"
+  ],
+  "createdAt": "2025-05-25T13:18:25.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 10106437888
+    },
+    "total": 10106437888
+  },
+  "usedStorage": 20254862811
+}

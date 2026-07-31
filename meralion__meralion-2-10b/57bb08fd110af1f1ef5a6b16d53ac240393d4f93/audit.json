@@ -1,0 +1,17 @@
+{
+  "repo": "MERaLiON/MERaLiON-2-10B",
+  "requested_revision": "main",
+  "commit": "57bb08fd110af1f1ef5a6b16d53ac240393d4f93",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-07-31T02:27:56Z-51773",
+  "collected_at": "2026-07-31T02:28:01Z",
+  "tool": "hf-audit.sh 1.0.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 22,
+  "total_bytes": 20254665791,
+  "safetensors_count": 5,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

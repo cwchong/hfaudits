@@ -1,0 +1,174 @@
+{
+  "_id": "6a1348e3b01210cacbcbce64",
+  "id": "MERaLiON/MERaLiON-3-3B-ASR",
+  "private": false,
+  "pipeline_tag": "automatic-speech-recognition",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "meralion3_asr",
+    "automatic-speech-recognition",
+    "meralion3",
+    "meralion",
+    "audio",
+    "asr",
+    "southeast-asian",
+    "code-switching",
+    "custom_code",
+    "en",
+    "zh",
+    "ms",
+    "ta",
+    "id",
+    "th",
+    "vi",
+    "yue",
+    "nan",
+    "arxiv:2412.09818",
+    "arxiv:2501.01034",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 1643,
+  "likes": 5,
+  "modelId": "MERaLiON/MERaLiON-3-3B-ASR",
+  "author": "MERaLiON",
+  "sha": "9f226d738dee62c60a2f43b0ab7b9a2585a132c3",
+  "lastModified": "2026-06-06T19:08:24.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "MERaLiON3ASRForConditionalGeneration"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_meralion3.MERaLiON3ASRConfig",
+      "AutoModelForSpeechSeq2Seq": "modeling_meralion3.MERaLiON3ASRForConditionalGeneration"
+    },
+    "model_type": "meralion3_asr",
+    "tokenizer_config": {
+      "bos_token": "<bos>",
+      "chat_template": "{{ bos_token }}{% for message in messages %}{% if (message['role'] == 'assistant') %}{% set role = 'model' %}{% else %}{% set role = message['role'] %}{% endif %}{{ '<start_of_turn>' + role + '\n' + message['content'] | trim + '<end_of_turn>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\n'}}{% endif %}",
+      "eos_token": "<eos>",
+      "pad_token": "<pad>",
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "pipeline_tag": "automatic-speech-recognition",
+    "library_name": "transformers",
+    "license": "other",
+    "license_name": "meralion-3-public-licence",
+    "license_link": "https://huggingface.co/datasets/MERaLiON/MERaLiON_Public_Licence/blob/main/MERaLiON-3-Public-Licence.pdf",
+    "tags": [
+      "meralion3",
+      "meralion",
+      "audio",
+      "asr",
+      "southeast-asian",
+      "code-switching"
+    ],
+    "language": [
+      "en",
+      "zh",
+      "ms",
+      "ta",
+      "id",
+      "th",
+      "vi",
+      "yue",
+      "nan"
+    ],
+    "arxiv": [
+      2412.09818,
+      2501.01034,
+      2409.06635
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForSpeechSeq2Seq",
+    "custom_class": "modeling_meralion3.MERaLiON3ASRForConditionalGeneration",
+    "pipeline_tag": "automatic-speech-recognition"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "assets/meralion_hf_comparison.png"
+    },
+    {
+      "rfilename": "assets/samples/1_cantonese.wav"
+    },
+    {
+      "rfilename": "assets/samples/2_hokkien.wav"
+    },
+    {
+      "rfilename": "assets/samples/3_codeswitch_tamil.wav"
+    },
+    {
+      "rfilename": "assets/samples/4_codeswitch_singlish.wav"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "configuration_meralion3.py"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00002.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00002.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "modeling_meralion3.py"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "processing_meralion3.py"
+    },
+    {
+      "rfilename": "processor_config.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer.model"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [],
+  "createdAt": "2026-05-24T18:52:19.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 3307027712
+    },
+    "total": 3307027712
+  },
+  "usedStorage": 6654229954
+}
