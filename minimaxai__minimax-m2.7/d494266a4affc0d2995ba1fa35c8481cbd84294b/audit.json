@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "MiniMaxAI/MiniMax-M2.7",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "d494266a4affc0d2995ba1fa35c8481cbd84294b",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:09:46Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
-  "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
+  "file_count": 48,
+  "total_bytes": 51442125761,
+  "safetensors_count": 27,
   "files_unscanned": 0,
   "files_not_safe": 0
 }

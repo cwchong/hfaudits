@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "moonshotai/Kimi-K2.7-Code",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "74797c9c62378b951a1f6fcf5c4631024e9b8bef",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:09:31Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
-  "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
+  "file_count": 48,
+  "total_bytes": 314885036258,
+  "safetensors_count": 33,
   "files_unscanned": 0,
   "files_not_safe": 0
 }

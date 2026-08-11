@@ -1,0 +1,202 @@
+{
+  "_id": "679eeebd37a46d35e4361e16",
+  "id": "dphn/Dolphin3.0-Mistral-24B",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "mistral",
+    "text-generation",
+    "conversational",
+    "en",
+    "dataset:OpenCoder-LLM/opc-sft-stage1",
+    "dataset:OpenCoder-LLM/opc-sft-stage2",
+    "dataset:microsoft/orca-agentinstruct-1M-v1",
+    "dataset:microsoft/orca-math-word-problems-200k",
+    "dataset:NousResearch/hermes-function-calling-v1",
+    "dataset:AI-MO/NuminaMath-CoT",
+    "dataset:AI-MO/NuminaMath-TIR",
+    "dataset:allenai/tulu-3-sft-mixture",
+    "dataset:cognitivecomputations/dolphin-coder",
+    "dataset:HuggingFaceTB/smoltalk",
+    "dataset:cognitivecomputations/samantha-data",
+    "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+    "dataset:m-a-p/Code-Feedback",
+    "base_model:mistralai/Mistral-Small-24B-Base-2501",
+    "base_model:finetune:mistralai/Mistral-Small-24B-Base-2501",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 435,
+  "likes": 87,
+  "modelId": "dphn/Dolphin3.0-Mistral-24B",
+  "author": "dphn",
+  "sha": "65e9d03d587dfbfdee82b5ba067758a14c05a301",
+  "lastModified": "2025-04-25T04:57:03.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "MistralForCausalLM"
+    ],
+    "model_type": "mistral",
+    "tokenizer_config": {
+      "bos_token": "<s>",
+      "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Dolphin, created by Eric Hartford. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Dolphin, created by Eric Hartford. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+      "eos_token": "<|im_end|>",
+      "pad_token": "<pad>",
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "datasets": [
+      "OpenCoder-LLM/opc-sft-stage1",
+      "OpenCoder-LLM/opc-sft-stage2",
+      "microsoft/orca-agentinstruct-1M-v1",
+      "microsoft/orca-math-word-problems-200k",
+      "NousResearch/hermes-function-calling-v1",
+      "AI-MO/NuminaMath-CoT",
+      "AI-MO/NuminaMath-TIR",
+      "allenai/tulu-3-sft-mixture",
+      "cognitivecomputations/dolphin-coder",
+      "HuggingFaceTB/smoltalk",
+      "cognitivecomputations/samantha-data",
+      "m-a-p/CodeFeedback-Filtered-Instruction",
+      "m-a-p/Code-Feedback"
+    ],
+    "language": [
+      "en"
+    ],
+    "base_model": [
+      "mistralai/Mistral-Small-24B-Base-2501"
+    ],
+    "pipeline_tag": "text-generation",
+    "library_name": "transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "Modelfile"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00006-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00007-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00008-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00009-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model-00010-of-00010.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "trainer_state.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": [
+      {
+        "path": "model.safetensors.index.json",
+        "level": "error"
+      }
+    ]
+  },
+  "spaces": [
+    "KBaba7/Quant",
+    "FallnAI/Quantize-HF-Models",
+    "openfree/LLM_Quantization",
+    "bhaskartripathi/LLM_Quantization",
+    "ruslanmv/convert_to_gguf",
+    "seawolf2357/LLM_Quantization",
+    "totolook/Quant",
+    "K00B404/LLM_Quantization",
+    "Oss11/Quantize-HF-Models",
+    "Xlnk/Quantize-HF-Models",
+    "exploitz3r0bbd/Quantize-HF-Models",
+    "Abhi0028/Dolphin",
+    "K00B404/convert_to_gguf",
+    "Hackerssms/Myllm",
+    "GTOMA83/Quantize-HF-Models",
+    "dayday98/balna",
+    "dayday98/cset",
+    "Guilherme34/convert_to_gguf",
+    "ydaradkeh/yazan",
+    "GTO83/LLM_Quantization"
+  ],
+  "createdAt": "2025-02-02T04:04:13.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 23572423680
+    },
+    "total": 23572423680
+  },
+  "inference": "warm",
+  "usedStorage": 47161968247
+}

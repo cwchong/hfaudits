@@ -1,0 +1,483 @@
+{
+  "_id": "69560ecbf73b42a14aa67455",
+  "id": "moonshotai/Kimi-K2.5",
+  "private": false,
+  "pipeline_tag": "image-text-to-text",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "kimi_k25",
+    "feature-extraction",
+    "compressed-tensors",
+    "image-text-to-text",
+    "conversational",
+    "custom_code",
+    "arxiv:2602.02276",
+    "license:other",
+    "eval-results",
+    "deploy:sagemaker",
+    "region:us"
+  ],
+  "downloads": 862929,
+  "likes": 2862,
+  "modelId": "moonshotai/Kimi-K2.5",
+  "author": "moonshotai",
+  "sha": "4d01dfe0332d63057c186e0b262165819efb6611",
+  "lastModified": "2026-04-30T03:56:40.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "KimiK25ForConditionalGeneration"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_kimi_k25.KimiK25Config",
+      "AutoModel": "modeling_kimi_k25.KimiK25ForConditionalGeneration",
+      "AutoModelForCausalLM": "modeling_kimi_k25.KimiK25ForConditionalGeneration"
+    },
+    "model_type": "kimi_k25",
+    "text_config": {
+      "quantization_config": {
+        "config_groups": {
+          "group_0": {
+            "targets": [
+              "Linear"
+            ],
+            "weights": {
+              "num_bits": 4
+            }
+          }
+        },
+        "format": "pack-quantized",
+        "ignore": [
+          "re:.*self_attn.*",
+          "re:.*shared_experts.*",
+          "re:.*mlp\\.(gate|up|gate_up|down)_proj.*",
+          "re:.*lm_head.*",
+          "re:vision_tower.*",
+          "re:mm_projector.*"
+        ],
+        "quant_method": "compressed-tensors"
+      }
+    },
+    "tokenizer_config": {
+      "bos_token": "[BOS]",
+      "eos_token": "[EOS]",
+      "pad_token": "[PAD]",
+      "unk_token": "[UNK]"
+    },
+    "chat_template_jinja": "{%- macro render_content(msg) -%}\n    {%- set c = msg.get('content') -%}\n    {%- if c is string -%}\n      {{ c }}\n    {%- elif c is not none -%}\n      {% for content in c -%}\n        {% if content['type'] == 'image' or content['type'] == 'image_url' -%}\n          <|media_begin|>image<|media_content|><|media_pad|><|media_end|>\n        {% elif content['type'] == 'video' or content['type']== 'video_url'-%}\n          <|kimi_k25_video_placeholder|>\n        {% else -%}\n          {{ content['text'] }}\n        {%- endif -%}\n      {%- endfor -%}\n    {%- endif -%}\n{%- endmacro -%}\n\n{% macro set_roles(message) -%}\n  {%- set role_name =  message.get('name') or  message['role'] -%}\n  {%- if message['role'] == 'user' -%}\n    <|im_user|>{{role_name}}<|im_middle|>\n  {%- elif message['role'] == 'assistant' -%}\n    <|im_assistant|>{{role_name}}<|im_middle|>\n  {%- else -%}\n    <|im_system|>{{role_name}}<|im_middle|>\n  {%- endif -%}\n{%- endmacro -%}\n\n\n{%- macro render_toolcalls(message) -%}\n  <|tool_calls_section_begin|>\n  {%- for tool_call in message['tool_calls'] -%}\n    {%- set formatted_id = tool_call['id'] -%}\n    <|tool_call_begin|>{{ formatted_id }}<|tool_call_argument_begin|>{% if tool_call['function']['arguments'] is string %}{{ tool_call['function']['arguments'] }}{% else %}{{ tool_call['function']['arguments'] | tojson }}{% endif %}<|tool_call_end|>\n  {%- endfor -%}\n  <|tool_calls_section_end|>\n{%- endmacro -%}\n\n\n{# Find last non-tool-call assisitant message #}\n{%- set ns = namespace(last_non_tool_call_assistant_msg=-1) -%}\n{%- for idx in range(messages|length-1, -1, -1) -%}\n    {%- if messages[idx]['role'] == 'assistant' and not messages[idx].get('tool_calls') -%}\n        {%- set ns.last_non_tool_call_assistant_msg = idx -%}\n        {%- break -%}\n    {%- endif -%}\n{%- endfor -%}\n\n{# split all messages into history & suffix, reasoning_content in suffix should be reserved.#}\n{%- set hist_msgs = messages[:ns.last_non_tool_call_assistant_msg+1] -%}\n{%- set suffix_msgs = messages[ns.last_non_tool_call_assistant_msg+1:] -%}\n\n{%- if tools -%}\n  {%- if tools_ts_str -%}\n    <|im_system|>tool_declare<|im_middle|>{{ tools_ts_str }}<|im_end|>\n  {%- else -%}\n    <|im_system|>tool_declare<|im_middle|>{{ tools | tojson(separators=(',', ':')) }}<|im_end|>\n  {%- endif -%}\n{%- endif -%}\n  \n{%- for message in hist_msgs -%}\n  {{set_roles(message)}}\n  {%- if message['role'] == 'assistant' -%}\n    <think></think>{{render_content(message)}}\n    {%- if message.get('tool_calls') -%}\n      {{render_toolcalls(message)}}\n    {%- endif -%}\n  {%- elif message['role'] == 'tool' -%}\n    {%- set tool_call_id = message.tool_call_id -%}\n    ## Return of {{ tool_call_id }}\n{{render_content(message)}}\n  {%- elif message['content'] is not none -%}\n    {{render_content(message)}}\n  {%- endif -%}\n  <|im_end|>\n{%- endfor -%}\n\n{%- for message in suffix_msgs -%}\n  {{set_roles(message)}}\n  {%- if message['role'] == 'assistant' -%}\n    {%- if thinking is defined and thinking is false -%}\n    <think></think>{{render_content(message)}}\n    {%- else -%}\n    {%- set rc = message.get('reasoning_content', '') -%}\n    <think>{{rc}}</think>{{render_content(message)}}\n    {%- endif -%}\n    {%- if message.get('tool_calls') -%}\n     {{render_toolcalls(message)}}\n    {%- endif -%}\n  {%- elif message['role'] == 'tool' -%}\n    {%- set tool_call_id = message.tool_call_id -%}\n    ## Return of {{ tool_call_id }}\n{{render_content(message)}}\n  {%- elif message['content'] is not none -%}\n    {{render_content(message)}}\n  {%- endif -%}\n  <|im_end|>\n{%- endfor -%}\n\n\n{%- if add_generation_prompt -%}\n  <|im_assistant|>assistant<|im_middle|>\n  {%- if thinking is defined and thinking is false -%}\n  <think></think>\n  {%- else -%}\n  <think>\n  {%- endif -%}\n{%- endif -%}"
+  },
+  "cardData": {
+    "tags": [
+      "compressed-tensors"
+    ],
+    "license": "other",
+    "license_name": "modified-mit",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "paper": "arxiv.org/abs/2602.02276"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "custom_class": "modeling_kimi_k25.KimiK25ForConditionalGeneration",
+    "pipeline_tag": "feature-extraction",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "rfilename": "chat_template.jinja"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "configuration_deepseek.py"
+    },
+    {
+      "rfilename": "configuration_kimi_k25.py"
+    },
+    {
+      "rfilename": "docs/deploy_guidance.md"
+    },
+    {
+      "rfilename": "figures/demo_video.mp4"
+    },
+    {
+      "rfilename": "figures/kimi-logo.png"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "kimi_k25_processor.py"
+    },
+    {
+      "rfilename": "kimi_k25_vision_processing.py"
+    },
+    {
+      "rfilename": "media_utils.py"
+    },
+    {
+      "rfilename": "model-00001-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00006-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00007-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00008-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00009-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00010-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00011-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00012-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00013-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00014-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00015-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00016-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00017-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00018-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00019-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00020-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00021-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00022-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00023-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00024-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00025-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00026-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00027-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00028-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00029-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00030-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00031-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00032-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00033-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00034-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00035-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00036-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00037-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00038-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00039-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00040-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00041-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00042-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00043-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00044-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00045-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00046-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00047-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00048-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00049-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00050-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00051-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00052-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00053-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00054-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00055-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00056-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00057-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00058-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00059-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00060-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00061-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00062-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00063-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00064-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "modeling_deepseek.py"
+    },
+    {
+      "rfilename": "modeling_kimi_k25.py"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "tiktoken.model"
+    },
+    {
+      "rfilename": "tokenization_kimi.py"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "tool_declaration_ts.py"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "pliny-the-prompter/obliteratus",
+    "FINAL-Bench/Leaderboard",
+    "HPAI-BSC/TuRTLe-Leaderboard",
+    "eduagarcia/multilingual-tokenizer-leaderboard",
+    "dumbordumber/obliteratus",
+    "M-hv1/Titan-Gateway",
+    "S-Dreamer/obliteratus",
+    "marchkamal51/obliteratus",
+    "akhaliq/anycoder",
+    "hadadxyz/ai",
+    "hfmlsoc/different-flops",
+    "aiqtech/final-bench-Proprietary",
+    "akhaliq/daggr-new",
+    "Sharofbek84/moonshotai-Kimi-K2.5",
+    "Chunte/Top-Downloaded-Trending-Models",
+    "mortimerme/pyvideotrans",
+    "EdwardSamuel13/moonshotai-Kimi-K2.5",
+    "ai-coscientist/ablation-bench",
+    "Kodacoda/obliteratus",
+    "YogeshRana/career_conversations",
+    "bpHigh/financial-task-env",
+    "aishgrt/show-dont-tell",
+    "Muras125/carrer_conversation",
+    "segoedu/botpoet",
+    "aiempirehub/aiempirehub.com",
+    "okapiorji/moonshotai-Kimi-K2.5",
+    "AdarshJi/FALTU_ADARSH",
+    "akhaliq/inferenceprovidersrankings",
+    "Chhagan005/Chhagan-OCR-Space",
+    "YuZijie123/myyy-woof",
+    "aidn/PromptPlenum42",
+    "ausntmarzi/final-bench-Proprietary",
+    "dromero14521/obliteratus",
+    "kicfk/obliteratus",
+    "aaahmet/obliteratus",
+    "rbinrs/obliteratus",
+    "Ngixdev/obliteratus",
+    "Deadmon/obliteratus",
+    "Trkaga/anycoder",
+    "sameerkatkar13/career_conversation",
+    "mpatil12/MeetMukesh",
+    "ZENLLC/anycoder",
+    "raizenxd/career_conversation",
+    "PARZ2344/PNGTECH",
+    "williamwuphd/career_conversation2",
+    "neuroticscomputing/chatwithme",
+    "hcs0/career_conversation",
+    "Rikishini/anycoder",
+    "williamwuphd/career_conversation_05152026",
+    "madDegen/Agent-Q3",
+    "vishalvarkhede/career_conversation",
+    "sushantkshirsagar/career_conversations",
+    "Shuklac/Carrer_Conversation",
+    "chddddq/any",
+    "sqswpaez/convo_sqswpaez",
+    "Superwolff/anycoder",
+    "build-small-hackathon/letxinet-lat",
+    "Reja1/jee-neet-benchmark-leaderboard",
+    "Wimmboo2/OpenAIProxy",
+    "AlanaSky/asgaard",
+    "gugi123/career_conversation",
+    "OllieCentral/rheoneiro2",
+    "Malaji71/Prompteador",
+    "swapnilsinha99/career_conversations",
+    "JanickVision/career_conversations",
+    "reflectiveattention/prompt-prix",
+    "AlekseyCalvin/LYRICAL_Chain_of_Translations",
+    "meissosisai/aimodel",
+    "TejAndrewsACC/Jeff",
+    "amkj84/moonshotai-Kimi-K2.5",
+    "tbo1996/moonshotai-Kimi-K2.5",
+    "LuisJeRU/ai",
+    "kunaldp379/moonshotai-Kimi-K2.5",
+    "Yusefgamer10/moonshotai-Kimi-K2.5",
+    "NewHeyah/KIMI",
+    "jm0x/image-to-text",
+    "zakiadhitia/moonshotai-Kimi-K2.5",
+    "mohamedtsou/moonshotai-Kimi-K2.5",
+    "torxytonnicker/moltbot-brain",
+    "brijeshbabariya30/moonshotai-Kimi-K2.5",
+    "asdadsd233/anycoder",
+    "indianboyz/anycoder",
+    "mdhosainp414/my-clawdbot",
+    "ddadauyy/moonshotai-Kimi-K2.5",
+    "Xlnk/moonshotai-Kimi-K2.5",
+    "maxance2000/moonshotai-Kimi-K2.5",
+    "zhang-hf-20251208/moonshotai-Kimi-K2.5",
+    "ujjwaljha/moonshotai-Kimi-K2.5",
+    "pony2/moonshotai-Kimi-K2.5",
+    "TimZeng777/alexandria-formatter",
+    "lilyluvlola0z/QA_Backend",
+    "Donyking1818/moonshotai-Kimi-K2.5",
+    "aluuk/moonshotai-Kimi-K2.5",
+    "agentus520/moonshotai-Kimi-K2.5",
+    "seblemire/moonshotai-Kimi-K2.5",
+    "Luanw1/moonshotai-Kimi-K2.5",
+    "Kalirajnavicator/moonshotai-Kimi-K2.5",
+    "ahmeddtareekk1/moonshotai-Kimi-K2.5",
+    "raheem786/anycoder",
+    "aknibir/moonshotai-Kimi-K2.5"
+  ],
+  "createdAt": "2026-01-01T06:06:03.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 23040,
+      "I32": 1014686023680,
+      "BF16": 12193329648
+    },
+    "total": 1026879376368
+  },
+  "inference": "warm",
+  "usedStorage": 595246118966
+}

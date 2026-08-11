@@ -1,0 +1,810 @@
+[
+  {
+    "type": "file",
+    "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "3db6b0652d7f336d768ff1051a67e3c05cd0985a",
+      "title": "initial commit",
+      "date": "2025-07-22T14:52:38.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+    "size": 11343,
+    "path": "LICENSE",
+    "lastCommit": {
+      "id": "fa2f1d4bdf733a521ce1e35cf35721409ad5de48",
+      "title": "Create LICENSE",
+      "date": "2025-07-24T04:51:19.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9b9ffadbb561798417c7fa4370e30144359626e3",
+    "size": 5500,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "2f1d70bf509d223be6f1024c1cfeaf3750d52a31",
+      "title": "Update README.md",
+      "date": "2025-07-24T02:30:16.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "49b0e8d0ee7e655434942233b4b0ab2104d5247e",
+    "size": 6211,
+    "path": "chat_template.jinja",
+    "lastCommit": {
+      "id": "9d90cf8fca1bf7b7acca42d3fc9ae694a2194069",
+      "title": "Update chat_template and tool_parser (#27)",
+      "date": "2025-08-21T10:18:07.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6b5ff7b7ef7c909f2bb9568b7db3ada56bfad60d",
+    "size": 994,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "de5f0dd4579a4745aede110c41a4c329a2c00933",
+      "title": "Upload 4 files",
+      "date": "2025-07-22T17:23:04.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ba3e8d9206508daab666e1aaa9dcc9c435bfa541",
+    "size": 180,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "de5f0dd4579a4745aede110c41a4c329a2c00933",
+      "title": "Upload 4 files",
+      "date": "2025-07-22T17:23:04.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+    "size": 1671839,
+    "path": "merges.txt",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e7de09d1c75dd6c8316ac4b763431e07b45c0e6b",
+    "size": 3987218640,
+    "lfs": {
+      "oid": "696359183790b186b584590f0a09dbed9a71ac1cf99776090be9b9355257097b",
+      "size": 3987218640,
+      "pointerSize": 135
+    },
+    "xetHash": "b3d48f7ab3e066c2a9e26bad33608a91d681461917da6c06448aa585ad3c3766",
+    "path": "model-00001-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "821b217d131008f1c79eb8e2a8bc5306eda1108a",
+    "size": 3995090312,
+    "lfs": {
+      "oid": "f15136f1864960b643ee0facb4c698bfe20dcd9da2420163310eae607cbca67d",
+      "size": 3995090312,
+      "pointerSize": 135
+    },
+    "xetHash": "f84aad359bf78eccf18e555406a33612b01914ea70b0057c271ed4fb75b06968",
+    "path": "model-00002-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8b36c16057d17c60d1f3ea988b6fcd7373aa8798",
+    "size": 3995090328,
+    "lfs": {
+      "oid": "7bd6a23bb5a0c1c32c7e4afea306d1bed4ba120d1cf92f8ca80498b04e927283",
+      "size": 3995090328,
+      "pointerSize": 135
+    },
+    "xetHash": "d5ecf9a21747de3776e08ea19142db1429185862182e0944fc7b1bc7fa06d95f",
+    "path": "model-00003-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5120a0f2ff7967182332668f73a1b44bab0084c4",
+    "size": 3995090448,
+    "lfs": {
+      "oid": "0b7bef72a61bdb5e64d0d863068bb65b3270c39c741c9089390412731dba0fb8",
+      "size": 3995090448,
+      "pointerSize": 135
+    },
+    "xetHash": "b1663872e37ee0c3007cb74948af28c64d49b59bfd7b562c63e3522a0e3a1e28",
+    "path": "model-00004-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "78e389b8829b877ed2a80f5f1369eb87660ec53d",
+    "size": 3978206784,
+    "lfs": {
+      "oid": "ba3291e8db1bdd5080f1b8393c06a1c00cc3cf3ea74a116f2ff04865ce2c44ec",
+      "size": 3978206784,
+      "pointerSize": 135
+    },
+    "xetHash": "bc4994f5dc8a623d9b4d61f69b5ac18768b8e5f3a3629085f56ac34aa809be0a",
+    "path": "model-00005-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7f0b15e0dd7ecfb0cc5b025604efee0a0f832a84",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "38e134c3eb7e9b0108672d797865420f060e5b8e4a95a548ce29f67455b2748e",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "a3d65f03d511d860ead9f780d9cddb6f5abe7a1d33245c0feb505aadb859ed26",
+    "path": "model-00006-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4e53af5931cacbf9426200ae92cdd6fa230e6e61",
+    "size": 3995090344,
+    "lfs": {
+      "oid": "3c6dcab788c6ece9da6055bf7149506ae7926b66a7b3ec7221fe4001c93daac0",
+      "size": 3995090344,
+      "pointerSize": 135
+    },
+    "xetHash": "8c9452c5c7a49c9f5745b86ca207b1da12be53eee50e90d1860009c993534545",
+    "path": "model-00007-of-00241.safetensors",
+    "lastCommit": {
+      "id": "64add8b4ec6b8d8e8e31b7ec8f91897d404e1665",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:29:50.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d1d2417a6d326dfca15753f8c10aef3d87809fa5",
+    "size": 3995090448,
+    "lfs": {
+      "oid": "eb218233ab8d7c0cc9e69303b52849251f12326c18d65c3da3d5c46eda79553b",
+      "size": 3995090448,
+      "pointerSize": 135
+    },
+    "xetHash": "0ccd3683d7e9046aa63f4b210793e92723eba56d0e7109e6de5c6482e9c2cabf",
+    "path": "model-00008-of-00241.safetensors",
+    "lastCommit": {
+      "id": "6466868cf2769e71a42699ec7f0f64d58fef0b4c",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:30:09.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2609dbae6aa94e180662a5dcfad742a75bc9c8d5",
+    "size": 3978206760,
+    "lfs": {
+      "oid": "4b0178266bb08753bad9b1a90a02f19b70f2f881dd2035e023ce4497b8c4d251",
+      "size": 3978206760,
+      "pointerSize": 135
+    },
+    "xetHash": "4f7919feb8d4bce25403ef76e549672cce2b0f954a169b1103999149f56ba3d7",
+    "path": "model-00009-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "431b30fbd3ba3a0faa470255c5574024abbbf2ec",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "9bb58f5c16a5a557b2b6f9a739f7facc8b500d62406c0392f862177871b3a236",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "8616aa48178c4b9555a81397884e267bada784996ee0b4572496ea5805e765f3",
+    "path": "model-00010-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0b9e9ff408864b4e9322578f933bd91c4f904825",
+    "size": 3995090360,
+    "lfs": {
+      "oid": "bde201697a22d933b7c214ff4267109547f4ad3c527aac6ae6da596252e88511",
+      "size": 3995090360,
+      "pointerSize": 135
+    },
+    "xetHash": "1d7f98c8b5bf00d2405d4921463a35ce032def9d7603bfa4e60d7735bcbae810",
+    "path": "model-00011-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "28837a54fb708191a1c20e1fecaf5c03c4fe1464",
+    "size": 3995090440,
+    "lfs": {
+      "oid": "68afa2bc64a5d871e828942d04090e2875401acd8958989b0e5895f2aea60a73",
+      "size": 3995090440,
+      "pointerSize": 135
+    },
+    "xetHash": "d94671a4c7cd60603e1af50430ae497716188caebd20f84b3372e11030ed70f1",
+    "path": "model-00012-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3c07bc50ef8ad29d46d6ddb87754375e3a2d9cff",
+    "size": 3978206744,
+    "lfs": {
+      "oid": "efecfffb46905ff8ae2f7150dad70a583d9547c1bcbaf21898977ae6a29f73b1",
+      "size": 3978206744,
+      "pointerSize": 135
+    },
+    "xetHash": "da2b53cb649700ddf506394a4d3355333269d5cbc3f83b88b3d9199a404aec4a",
+    "path": "model-00013-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b93359c254ad6fe43ea442c2103ce21e14e10a85",
+    "size": 3995090312,
+    "lfs": {
+      "oid": "0a360907b5fa30e82d0f53efa2d4948fbb8190da47b7a7be8363c2cc70aa4508",
+      "size": 3995090312,
+      "pointerSize": 135
+    },
+    "xetHash": "ccc8440ad175798b2c3b58a2e2d712b1e6c8e6f448a1cdb9325365f183df490b",
+    "path": "model-00014-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "81d70fc05957bbf7302219781d905d723a618002",
+    "size": 3995090376,
+    "lfs": {
+      "oid": "3021af86247ed15068c9d1d2e15d157ef2f0d2d6c04b517588f6f26c2ef29ee9",
+      "size": 3995090376,
+      "pointerSize": 135
+    },
+    "xetHash": "4894dd8eb6c45e5bd8c734ebbf3c36de43fca277393f130fdcaf539a3e1ab89d",
+    "path": "model-00015-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "42e84757aaccbb4ca360aff942804aede27cc3ac",
+    "size": 3890125904,
+    "lfs": {
+      "oid": "75dea6d7e0ea0e9748ca0a4fb8255d7657eb7e477397264c3b382da297785e04",
+      "size": 3890125904,
+      "pointerSize": 135
+    },
+    "xetHash": "c9b409f8bba03ae741bcd6c5b89704fcd278dde5c4f8ac05aa4fef4ad14eef1c",
+    "path": "model-00016-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "11011547a161d0de9c1ff1a28de13c7aa1cffb0f",
+    "size": 3988799064,
+    "lfs": {
+      "oid": "06c90be752a9047abec50f93205a02f74ab6f92bfd73520b6480f490aa75280c",
+      "size": 3988799064,
+      "pointerSize": 135
+    },
+    "xetHash": "6d954df04c7f8e80c8db4862ab4a95aefa574e5cc1b0f10e87acdf8084c64848",
+    "path": "model-00017-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "797701573a94d2b2385b0d7a76904eb178ced6f3",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "1398bceef358a05285f0de48c6d6144f40c803e03ab999763d69c9f3960ce6f9",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "9408a02a81c9a8f7253bad1ff64756c2541660b8ac1942e46acaa35c3ee2475f",
+    "path": "model-00018-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3005447a6ceeecca588595485c6f0d2f6781a691",
+    "size": 3995090392,
+    "lfs": {
+      "oid": "15ac812c536dd408f1f287e3d496f4f461aab337918e5f4bb27421de8a0a57c8",
+      "size": 3995090392,
+      "pointerSize": 135
+    },
+    "xetHash": "c5e09759cd07748f26eb2e9c577ca1d6177e1a8db9b0127216afb56a964cdc73",
+    "path": "model-00019-of-00241.safetensors",
+    "lastCommit": {
+      "id": "6466868cf2769e71a42699ec7f0f64d58fef0b4c",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:30:09.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cddd4e316c1762d5a1af7847e61e959bb7952017",
+    "size": 3978206864,
+    "lfs": {
+      "oid": "84d80084411562beb050a7b9d931a487b01f31b73b814b11829a3b16992f0b28",
+      "size": 3978206864,
+      "pointerSize": 135
+    },
+    "xetHash": "370d60687b949278dccc4c2d3ccd0528b913234735a7733a645662fa1f776021",
+    "path": "model-00020-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f3dd0476faa1dabb5701a5f256c5a122109afbae",
+    "size": 3995090296,
+    "lfs": {
+      "oid": "ce12a0de36b3a9016972c48762424adebd91e02ad475112c550c71530a403fb2",
+      "size": 3995090296,
+      "pointerSize": 135
+    },
+    "xetHash": "90f3654b6c9904f3319b4a186931065e032fe8e1ccf7fee955e9d8ff4bfac579",
+    "path": "model-00021-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "91ed0cb10947f378cec1cee5c36821e50c644405",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "9b353e30eeaa4e9c1e526e7ecd69444455f05d5576a6b876f12e6aa17ff4608b",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "4779f6f2ecee083757632cc5c03a507f5dba2837cecb621440e594d1765b07e9",
+    "path": "model-00022-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "00e9943df4c1ccc5788897e482ffa0ca0e0ec530",
+    "size": 3995090408,
+    "lfs": {
+      "oid": "51067fc9bf28ee5ebfbad19ad43d5fd3df4100c0b9111e4346162ae47527e259",
+      "size": 3995090408,
+      "pointerSize": 135
+    },
+    "xetHash": "4fe7d7fa492a0ec6e0058f10e1d6f246045e65766165db9f970ad9aa2f3e7d26",
+    "path": "model-00023-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fed54613fee559a29f3cc2d124ad2eb048f1326d",
+    "size": 3978206824,
+    "lfs": {
+      "oid": "4947a83eb17460d488ab8c45d10b23908100ccc5646b95c4721cfcf077f2a689",
+      "size": 3978206824,
+      "pointerSize": 135
+    },
+    "xetHash": "00c8d9747f4a795079f00e537eea36f1e7be5c192cb843eb66a9c826689a2521",
+    "path": "model-00024-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ad5d573855e79f45db0efd75db9acd629080c65b",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "428ffc8747f788b24b678934dcf4ff2530a103c84fda541e1d02a8450101b644",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "7ce5960cba8ef31ee4ef44f43b39cde8aa698ebdb58837d3dad7ecc00b470261",
+    "path": "model-00025-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f6ddd268471da664d4bb34763ebaa8949306113f",
+    "size": 3995090312,
+    "lfs": {
+      "oid": "65da06755a2c02ef8aef83e1b73e221dac1916c1fdd6b7a1ee6fb9ae17163808",
+      "size": 3995090312,
+      "pointerSize": 135
+    },
+    "xetHash": "1ed328ca2e553c468c0a4a58dbc9c956299db41ccb63315bd72739aa2c9701f4",
+    "path": "model-00026-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "38cdfd56008b0a4dfdc70982ba9d146cba0e9727",
+    "size": 3995090424,
+    "lfs": {
+      "oid": "b547a982929374484e8231c4360ffbf40b442137faddd772e6472a8f000ccdaa",
+      "size": 3995090424,
+      "pointerSize": 135
+    },
+    "xetHash": "77bf1ea231347360c7f556ecd8eba4f6ec3f9498249549200dbafca153c561a6",
+    "path": "model-00027-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "384893d72dadd98e7bb055272f032693f79bcdbd",
+    "size": 3978206808,
+    "lfs": {
+      "oid": "a9a09cb7c6d8eaa28716d8de96f03e3e465a5ae61ada4bd6de88bdc3b11fad04",
+      "size": 3978206808,
+      "pointerSize": 135
+    },
+    "xetHash": "0cfa70aef9f13fbc5ff62e0e73ad2f58b3be70714d9d02eb9fbf03255ab92df7",
+    "path": "model-00028-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e2b0e6385409ab251fbccc5975014df98d8e1ad9",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "5737bc3d3183f149a9d59d310b4478b33e056123ecd9f6ade93f01e236947cec",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "d08d0bd4e54d18725f3cec9f61f911186c6132c8f6c1dfc6b977ac3db86fbf15",
+    "path": "model-00029-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b20bebb3eb3f68bfcd9be8cf267b68a094feef86",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "9c7993bf1396c1fda1d9976f0fb841ed58bc913fbbf85bba87719835e2855686",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "c55a8beaf32513bbc3f4b446fd71dfa8d2a5f3cdb65476f7ebd375937f21f899",
+    "path": "model-00030-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a1024b152f3d06772cebef6b98be23aef9c31535",
+    "size": 3995090440,
+    "lfs": {
+      "oid": "3c6ba5c8e28077e419d874932f397c8258f7bccd51bad514766c31b0fb634009",
+      "size": 3995090440,
+      "pointerSize": 135
+    },
+    "xetHash": "2f3131c21816d4fbf83d2c461e12957831399dbaea2f5ed2967b8e378ab7cbca",
+    "path": "model-00031-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "36ff46830c89e8715b87eb205368eab3d5869885",
+    "size": 3978206792,
+    "lfs": {
+      "oid": "e8c3deb16ba6f30636667733085a31b5ee073f2b36435791cc3c8a4c95bf55e5",
+      "size": 3978206792,
+      "pointerSize": 135
+    },
+    "xetHash": "0fcc53bcd4a5bc91226cb5d9dacf296ef0fbde292196b9f4bcf7527d364d28df",
+    "path": "model-00032-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "29b5477ed80e357e623c89e3ac86774e4e2307f6",
+    "size": 3995090312,
+    "lfs": {
+      "oid": "032774e27661175134ba328c5cfd1ccecff4c5f4120667bd4b88f4025b5c4701",
+      "size": 3995090312,
+      "pointerSize": 135
+    },
+    "xetHash": "947d7f51f661b650cedaa6e42d2834db026e8b668747ba0297745babd9f97f0f",
+    "path": "model-00033-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0d76dbf0e9fb3f3d1c2165742a9c77035768c42c",
+    "size": 3995090336,
+    "lfs": {
+      "oid": "f081c85bc9a753da755c51cc6bbca4188a952c4439d74a80e05006bbbf57c199",
+      "size": 3995090336,
+      "pointerSize": 135
+    },
+    "xetHash": "2e79e15a935a6ad894e034240c7c265daa789b86ca33926b414ad9cc92bc942b",
+    "path": "model-00034-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "aa3b92c5480f802d3c1c873dc89b1f72a8fd6df2",
+    "size": 3995090448,
+    "lfs": {
+      "oid": "f773d5d20662dc0cd902fd7589bf77b48be0b403393fac6cd1cd9c21d89e7d65",
+      "size": 3995090448,
+      "pointerSize": 135
+    },
+    "xetHash": "d96f8accbf6f889d35973cd13f668a98cee224fc7f6db337f39591608ca9716a",
+    "path": "model-00035-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "10df7777c01599bf6a1e4191a6ad3f024a404831",
+    "size": 3978206776,
+    "lfs": {
+      "oid": "82888814641532ff220d91571c0a46c81ea40a1c333b88a91c13caefce19f41b",
+      "size": 3978206776,
+      "pointerSize": 135
+    },
+    "xetHash": "d179716b88ae8ef93580f05ccc3398ab07a7368f85376b9256f90dd042a8b2f0",
+    "path": "model-00036-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5b433cef8f33bc05fb5064a1775c3b09ac516fe0",
+    "size": 3995090320,
+    "lfs": {
+      "oid": "62a9b0f7ab5167c67c3bd9bec2194612640b7eb04cf6b8af0036e4e1054abec1",
+      "size": 3995090320,
+      "pointerSize": 135
+    },
+    "xetHash": "eafce6a52c8afc261da6982c3d125f4dbd7baf013c113cd495c916c5616eab33",
+    "path": "model-00037-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0c12843e433f5032d58c31428957007f0a40a52f",
+    "size": 3995090352,
+    "lfs": {
+      "oid": "8eba06af74446d4a41bc959f379652db340519ce9299a98958f8668e13c193b8",
+      "size": 3995090352,
+      "pointerSize": 135
+    },
+    "xetHash": "8009a2da6e701682e08bfecbe37f6c012c028f878068915e2d7d92a037da90a0",
+    "path": "model-00038-of-00241.safetensors",
+    "lastCommit": {
+      "id": "6466868cf2769e71a42699ec7f0f64d58fef0b4c",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:30:09.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a24f4842dbfbdfa363d560ebcf4f0f1acef61798",
+    "size": 3995090448,
+    "lfs": {
+      "oid": "bdd1a347b949a57f1bace9fd62af574a8b45fbb5168c8d486d478fa1bdbf0d66",
+      "size": 3995090448,
+      "pointerSize": 135
+    },
+    "xetHash": "5b420c40053fcc947ec5f9018129f3a7bd188231b6f316fb99d8315795b0710b",
+    "path": "model-00039-of-00241.safetensors",
+    "lastCommit": {
+      "id": "71e6659b91ca1ed7e41b01ff5ed5131e9612486a",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:27:33.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "77c99f50aaa0428ad608449e571c00effef2f7aa",
+    "size": 3978206872,
+    "lfs": {
+      "oid": "38c52f38250a3a8f86bc0bbdbfdce987b8375403440913a20f06ee5ae884f0ec",
+      "size": 3978206872,
+      "pointerSize": 135
+    },
+    "xetHash": "3715999e1ad6777643bbd1eedc3b91ed5b77032bb47c199bf44303aceee7cf59",
+    "path": "model-00040-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2a21f45fabd38e7c19ec974d1fa31c08130c8c36",
+    "size": 3995090448,
+    "lfs": {
+      "oid": "431d22d56955c52a94fdf39a2ef10dfb6b79686b35eb6728008b4ddac0a952be",
+      "size": 3995090448,
+      "pointerSize": 135
+    },
+    "xetHash": "a3077b2422fdcf5437b840136b5971827c79169778cb578eca15c1346f0a6e7c",
+    "path": "model-00041-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "09cabb6c9cc664415eea0bcf61a5693a5c36598e",
+    "size": 3995090496,
+    "lfs": {
+      "oid": "6a5297559a7745d57576df98b66d59c4668f14e612db85a9ba80c8a2ca05a54b",
+      "size": 3995090496,
+      "pointerSize": 135
+    },
+    "xetHash": "68062641d7b389f0421adbe0757c7895c85684d28013b9a5cb391a35b470711b",
+    "path": "model-00042-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3f1218758fa2ef4757c59e6bd7212c2b290c44d5",
+    "size": 3995090568,
+    "lfs": {
+      "oid": "0c8ad437c376bf5cf71a6a2292e01223de5593ccaa15cde51fb0a286cca505b9",
+      "size": 3995090568,
+      "pointerSize": 135
+    },
+    "xetHash": "a9a3a7d900732d138c92779b2a97c24aa08ab30bf90d409cce90138d0ff1adc8",
+    "path": "model-00043-of-00241.safetensors",
+    "lastCommit": {
+      "id": "7cf2fa4b5607d073ae67e080bca2a2a3e8898b40",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2025-07-22T15:28:46.000Z"
+    }
+  }
+]

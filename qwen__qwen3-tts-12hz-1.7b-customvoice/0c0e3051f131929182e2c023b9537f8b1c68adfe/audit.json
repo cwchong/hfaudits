@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:08:51Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
-  "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
+  "file_count": 13,
+  "total_bytes": 4520218951,
+  "safetensors_count": 2,
   "files_unscanned": 0,
   "files_not_safe": 0
 }

@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "Aryn/deformable-detr-DocLayNet",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "d5503a90ae08dd43565de6984a5dd7924cad2400",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:08:55Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
-  "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
+  "file_count": 8,
+  "total_bytes": 165779938,
+  "safetensors_count": 1,
   "files_unscanned": 0,
   "files_not_safe": 0
 }

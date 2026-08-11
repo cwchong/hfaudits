@@ -1,0 +1,2033 @@
+[
+  {
+    "type": "file",
+    "oid": "cf7f419946a00bf195362f9abd8ca36216a57050",
+    "size": 318,
+    "path": ".eval_results/lhtb.yaml",
+    "lastCommit": {
+      "id": "f0e1c1e04d40177e4673a22097036854f536e9c0",
+      "title": "Add LHTB (Long-Horizon-Terminal-Bench) eval result (#24)",
+      "date": "2026-07-23T04:25:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=cf7f419946a00bf195362f9abd8ca36216a57050&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "390c0fc0efed29109ea6b92701ee3ce799fa8de1",
+    "size": 3624,
+    "path": ".eval_results/minimax-m3.yaml",
+    "lastCommit": {
+      "id": "bfd6c97f0296da547f10ecb20102c5d51a5c462e",
+      "title": "Fix YC-Bench score: use full value 2100000 instead of 2.1 (#18)",
+      "date": "2026-06-23T11:50:00.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=390c0fc0efed29109ea6b92701ee3ce799fa8de1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5ca4638cfc3f2a8ff6b23a3b0872fdfaa82707c8",
+    "size": 1578,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=5ca4638cfc3f2a8ff6b23a3b0872fdfaa82707c8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f413dfa3bbb4d3713823106599052624b91434d9",
+    "size": 3339,
+    "path": "LICENSE",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=f413dfa3bbb4d3713823106599052624b91434d9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b1e395c849f3147d0645ee6f8f17b3d5781af0e5",
+    "size": 5122,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "77aa6d316e99c8be956f43a8ea36cb59954d4e60",
+      "title": "Update README.md",
+      "date": "2026-07-23T03:55:32.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=b1e395c849f3147d0645ee6f8f17b3d5781af0e5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "43c846ca31dbefd9250f2681d0013f3304c20b55",
+    "size": 1660,
+    "path": "added_tokens.json",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=43c846ca31dbefd9250f2681d0013f3304c20b55&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "93022eb9ceec98f50e7a510841850f7f2e952d9d",
+    "size": 11756,
+    "path": "chat_template.jinja",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=93022eb9ceec98f50e7a510841850f7f2e952d9d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6ad82bf04f219470b07fafe8715d7b05936540f1",
+    "size": 5254,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=6ad82bf04f219470b07fafe8715d7b05936540f1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0534f70354808a0f93f70546a919770fcca57b56",
+    "size": 4356,
+    "path": "configuration_minimax_m3_vl.py",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=0534f70354808a0f93f70546a919770fcca57b56&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5bc1bdd97b088885678861765fa6b3fa6cd7c55c",
+    "size": 4417149,
+    "lfs": {
+      "oid": "b4bc02e54f508f540e71a9286905477c780934bb79c0b17cd5892b6338313e57",
+      "size": 4417149,
+      "pointerSize": 132
+    },
+    "xetHash": "5f167f1fc938d56530cc4a9db15a039e5ef9ecee3b726a332be7b021897d9f3c",
+    "path": "figures/benchmark.jpeg",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=5bc1bdd97b088885678861765fa6b3fa6cd7c55c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b4bc02e54f508f540e71a9286905477c780934bb79c0b17cd5892b6338313e57?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cf0c76a949f52bfb48a3332760933a213edc224c",
+    "size": 47694,
+    "path": "figures/efficiency_gqa_vs_msa.png",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "queued",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=cf0c76a949f52bfb48a3332760933a213edc224c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "queued",
+        "message": ""
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "972b41cdb04e1ab4c2b94fa0c35df0c80a5151a2",
+    "size": 8462,
+    "path": "figures/logo.svg",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=972b41cdb04e1ab4c2b94fa0c35df0c80a5151a2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "54806f9d4ea503f2d1afa468de37764acbbaa97d",
+    "size": 150,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=54806f9d4ea503f2d1afa468de37764acbbaa97d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "aa896bba971dfc6e79c8b4d51730e0c6ea7953dc",
+    "size": 7856,
+    "path": "image_processor.py",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=aa896bba971dfc6e79c8b4d51730e0c6ea7953dc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ff574e20e38bcb4a57a4cbdb6e2df9f533339435",
+    "size": 2414077,
+    "path": "merges.txt",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=ff574e20e38bcb4a57a4cbdb6e2df9f533339435&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "48fe9b4810f178f31fa1bde28fb74a8ebf0d787f",
+    "size": 5583706344,
+    "lfs": {
+      "oid": "dd43571ea444cb0c966f2b2523d437252f81145f204062aea46521e202c32c9f",
+      "size": 5583706344,
+      "pointerSize": 135
+    },
+    "xetHash": "e6ad4033a0cb3f1f6b6421e9b25d51ba0f3f31afd9f0bb2f1863c34b5fa5d9e6",
+    "path": "model-00001-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=48fe9b4810f178f31fa1bde28fb74a8ebf0d787f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/dd43571ea444cb0c966f2b2523d437252f81145f204062aea46521e202c32c9f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e81285772935184740ce7b529384b6f29586e87b",
+    "size": 10922058704,
+    "lfs": {
+      "oid": "f00337b2ad18c2d7ea3ede488ac40578b6faa4118bb8cfd5767ace9cbdadc26c",
+      "size": 10922058704,
+      "pointerSize": 136
+    },
+    "xetHash": "62344f0fba7685794059492c0272ebb4c385b17bfd0c2b05339ef53f0f77de73",
+    "path": "model-00002-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=e81285772935184740ce7b529384b6f29586e87b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f00337b2ad18c2d7ea3ede488ac40578b6faa4118bb8cfd5767ace9cbdadc26c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2dd983e067f586ceb17bc4a560cd65d4a923ee87",
+    "size": 16079479008,
+    "lfs": {
+      "oid": "db80e5edf8169e3c5cc098e032d556381c1a84b1738f84ac376ed7b39cafffb5",
+      "size": 16079479008,
+      "pointerSize": 136
+    },
+    "xetHash": "c955e40a1577d62764ae84d662f332888cde7c32c2afcc02edab77539d74f4e0",
+    "path": "model-00003-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=2dd983e067f586ceb17bc4a560cd65d4a923ee87&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/db80e5edf8169e3c5cc098e032d556381c1a84b1738f84ac376ed7b39cafffb5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d37fc4dfb69b12a3847557d775bbef4dd8a76ed6",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "97990b9a6477674a32acbbcb8b9ae5ead5eff93e882e31c8da36c95b3e1c62b8",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "50c512c467b745977b94ae113a3134d38d4f5a7679e7b63cd5b0a0a9bc1decb8",
+    "path": "model-00004-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=d37fc4dfb69b12a3847557d775bbef4dd8a76ed6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/97990b9a6477674a32acbbcb8b9ae5ead5eff93e882e31c8da36c95b3e1c62b8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ad48998e1793b3c6a008909a36c71c50437f8a27",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "109c0245ed614bf8502edc1e83ef9575ec4aa210cb99fc34bf2db03245f3c305",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "a3aee1397acc8e9091607805d64e9096a3df7e8e8d7b82cee0122a124b92fe1d",
+    "path": "model-00005-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=ad48998e1793b3c6a008909a36c71c50437f8a27&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/109c0245ed614bf8502edc1e83ef9575ec4aa210cb99fc34bf2db03245f3c305?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fe7ac747829d1ccb6c8ea2be951cf7c09bee0524",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "d787b2366131f8fb9175aec5bb986d0b3f3fa3a6433b73124b089fe78a765bbb",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "35a5d31580f8fac8269a0111aac13e422eb8a5ac96d5fae20479253e7912ac65",
+    "path": "model-00006-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=fe7ac747829d1ccb6c8ea2be951cf7c09bee0524&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/d787b2366131f8fb9175aec5bb986d0b3f3fa3a6433b73124b089fe78a765bbb?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "197b4256fc002f8dd3ebea2028e3f438483a740f",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "c6ec7f70426ab2ee7decd771c1db66f231a57110fd382dc07c8a00d2b28b79a5",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "cd7cef26afe2bd7a9c9608e9609d69b3b917ecadad9242ec6271ebd65f61e605",
+    "path": "model-00007-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=197b4256fc002f8dd3ebea2028e3f438483a740f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/c6ec7f70426ab2ee7decd771c1db66f231a57110fd382dc07c8a00d2b28b79a5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bd0d26da9c778aa4b2b16d14b30208ce9f583028",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "6463a6c079529088be571dff7d49714e5ba53e8be91d0365c85861f8e24813c5",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "26541928c2a1e83e30b94c8c99cbc66bf66c3a7e2987e56459b1667eb2ff2973",
+    "path": "model-00008-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=bd0d26da9c778aa4b2b16d14b30208ce9f583028&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/6463a6c079529088be571dff7d49714e5ba53e8be91d0365c85861f8e24813c5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "af0a6e129ac99e052cd7896d10c77779fdab74c4",
+    "size": 16079479000,
+    "lfs": {
+      "oid": "b40f0eb7c619e133498a5e7c08cb5dc19e7d7ba410bbec95604af2d7a60560ea",
+      "size": 16079479000,
+      "pointerSize": 136
+    },
+    "xetHash": "6f184a4042f085cdf66aa59f1a1849719081f94ab38f0eaf76d1ac427fd57412",
+    "path": "model-00009-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=af0a6e129ac99e052cd7896d10c77779fdab74c4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/b40f0eb7c619e133498a5e7c08cb5dc19e7d7ba410bbec95604af2d7a60560ea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "971cee221885ac63e1ff26412782b6d246b4c06a",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "dda2800d133243292ddc513c6840965719bf9be56b8e0688f1e0976f9a1f8718",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "a0ac3853a67462cbd04bc6fd3314a60ff3c7f2aa90d3d697b8ab6f1ce577f365",
+    "path": "model-00010-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=971cee221885ac63e1ff26412782b6d246b4c06a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/dda2800d133243292ddc513c6840965719bf9be56b8e0688f1e0976f9a1f8718?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9bfed94f8e26b0c1e953c753935b59007983f0f2",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "2b9034b9465cc74d7597f772bebb2ab2a11927bccbafe3c945d83fe416b18b31",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "c81912a80c2534d8ad0247205597071b545f8fccd6aad587e93f8a1aac7747ae",
+    "path": "model-00011-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=9bfed94f8e26b0c1e953c753935b59007983f0f2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/2b9034b9465cc74d7597f772bebb2ab2a11927bccbafe3c945d83fe416b18b31?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4c452951334786288d5a7d399026d166a36100d9",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "428bd21d923d485be8f3a9c07c05f11d4cbb17663b116501f7ce70920928e0ae",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "2da82638f2e1cd6001865b240ff122bd1dba150055e1cfabfe9e13deb958b0b5",
+    "path": "model-00012-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=4c452951334786288d5a7d399026d166a36100d9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/428bd21d923d485be8f3a9c07c05f11d4cbb17663b116501f7ce70920928e0ae?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "08fea561996178d141b82eff59418a98c6afb9e3",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "63e7bccc9bfde81758dbbc8f3c1d489265e5e7b8090cbd3c680f716169238d02",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "6f909ca014cf08ce045102f53ca5a1adfed6bf9a06dfe2c2901c550545dfdf45",
+    "path": "model-00013-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=08fea561996178d141b82eff59418a98c6afb9e3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/63e7bccc9bfde81758dbbc8f3c1d489265e5e7b8090cbd3c680f716169238d02?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d4223c82322fd6277caf233056d8ed5fff6df77b",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "2bb43609c1f96762ff37e1ea96e5de13042e7ca449f456b6f8e8177adf3c7a6e",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "0f373c5542db61f98e4e3dd1bbe3432f35c867af33c2cad1354c6e6565183c67",
+    "path": "model-00014-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=d4223c82322fd6277caf233056d8ed5fff6df77b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/2bb43609c1f96762ff37e1ea96e5de13042e7ca449f456b6f8e8177adf3c7a6e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3f368a683604a23e268bff7e3781b92a6656ab72",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "e8a996b3b76b09d956f38c37ec7a0849068ac4cf42da2b449055d6ab452d422a",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "f45a28a7faa68c7c594aca595ddd23c4a22498f384899d4077da5d5bf598c530",
+    "path": "model-00015-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=3f368a683604a23e268bff7e3781b92a6656ab72&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e8a996b3b76b09d956f38c37ec7a0849068ac4cf42da2b449055d6ab452d422a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f77bbc29dae4d1ff0bd7f11cbae8b5b5300f35a4",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "468d354425f54ad3f8f4f434d611fa27c1164e5362610acf2e58a491c41157f5",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "5dc82d5fa8c0e6749db886dd356cf3d8ce0110dcebd965593a309d0a16d6bea4",
+    "path": "model-00016-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=f77bbc29dae4d1ff0bd7f11cbae8b5b5300f35a4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/468d354425f54ad3f8f4f434d611fa27c1164e5362610acf2e58a491c41157f5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c0d56f8f79f018ce95d0cbf1c52aa322099f3c84",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "6698280d2df1837e76674b1b93825b397390c80ff4790f5a3cc12fb555e4b86e",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "aab7efc6fdce46bd3ece84d8a4ca5a415f7eae431d6b19d7cbf669582f0a841f",
+    "path": "model-00017-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=c0d56f8f79f018ce95d0cbf1c52aa322099f3c84&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/6698280d2df1837e76674b1b93825b397390c80ff4790f5a3cc12fb555e4b86e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0ac4a4b28aed8a3de7e179929b2d2369b997bfe4",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "52982932f6fb23d4805317bf9785582b9e6db13d034669f45d8b186df7110b6e",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "152be20bb83e94c95faf77c79a7a6a17fd526b258d306b3435254b00d29187e1",
+    "path": "model-00018-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=0ac4a4b28aed8a3de7e179929b2d2369b997bfe4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/52982932f6fb23d4805317bf9785582b9e6db13d034669f45d8b186df7110b6e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f6042aabdd75643bb7ffaf82b8321b6ca00e98bf",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "999ed59667d5546aa47ed447c63d3a7523e1c011c0406c3db27248fb88789aa8",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "37190a90d53373950b1afef0294687d277f458858093e13314ed6fe4d2aed3d3",
+    "path": "model-00019-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=f6042aabdd75643bb7ffaf82b8321b6ca00e98bf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/999ed59667d5546aa47ed447c63d3a7523e1c011c0406c3db27248fb88789aa8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "901f31f53bd034e5ba788015d1d8259c68c7ccf8",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "465b4c6a0b2aa62ee77364d885d25fc05348704fc721baec8a68be99ce96b2a9",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "f80f8bbc3968810a8fd43f9b6d2919b8ba8a71042508c5f5012015b233c1f06d",
+    "path": "model-00020-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=901f31f53bd034e5ba788015d1d8259c68c7ccf8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/465b4c6a0b2aa62ee77364d885d25fc05348704fc721baec8a68be99ce96b2a9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1f51c0182d8d40fc24f56b33e411e07cb8b63f66",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "10f62f292fe4914b80ba3b1304c88152d25dbb811a89ead2609ce7f831e80fc4",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "546e1f04842b33f2097a071fecde78445528273e6c5da68586ca994969e1f687",
+    "path": "model-00021-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=1f51c0182d8d40fc24f56b33e411e07cb8b63f66&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/10f62f292fe4914b80ba3b1304c88152d25dbb811a89ead2609ce7f831e80fc4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e687b810c118a8972684623df92b6bad77913639",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "7a2a1e556b9dfe3915ceb28a0a6394372957c63063f692c740349a74b6aa177a",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "49710611af8401a155d4d2faf4e6e8ab795ae21f9026829ec343683a9e0a3e46",
+    "path": "model-00022-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=e687b810c118a8972684623df92b6bad77913639&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/7a2a1e556b9dfe3915ceb28a0a6394372957c63063f692c740349a74b6aa177a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8ba02c56b1ae7740feba321e6fa29787815ae4e5",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "f8294c392c4daff5deca1fd3c0c22de13bbc79078a18986e8865a49527dbe275",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "3e3582801c247dc34353d4175aec46fbbece73908191af9ad979c2292bd54402",
+    "path": "model-00023-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=8ba02c56b1ae7740feba321e6fa29787815ae4e5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f8294c392c4daff5deca1fd3c0c22de13bbc79078a18986e8865a49527dbe275?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "563984ea6afe5ceb8cb250cd184fd0085fb95123",
+    "size": 16079479408,
+    "lfs": {
+      "oid": "5c54a7513a720e7d1a9709be756d5f78fa97d14b0e7ce9877494cebad681852f",
+      "size": 16079479408,
+      "pointerSize": 136
+    },
+    "xetHash": "af282d73beb3eb782780ccd2a974b18b57c9b95be0acf2ecb4dca1148e3d7ab6",
+    "path": "model-00024-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=563984ea6afe5ceb8cb250cd184fd0085fb95123&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/5c54a7513a720e7d1a9709be756d5f78fa97d14b0e7ce9877494cebad681852f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8c42895860b0c31bfc8eb4a010ba10f4fc6504cf",
+    "size": 5245548280,
+    "lfs": {
+      "oid": "06562ebf1ab9a4ebf1c048dec2de812ca4bec77f1250b868dc90c72d96fe1137",
+      "size": 5245548280,
+      "pointerSize": 135
+    },
+    "xetHash": "8f07ecdf3deef30463c75c14f1d5b59ee577c6ff69aa81041679ed27290bc35b",
+    "path": "model-00025-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=8c42895860b0c31bfc8eb4a010ba10f4fc6504cf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/06562ebf1ab9a4ebf1c048dec2de812ca4bec77f1250b868dc90c72d96fe1137?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4a7c823c136e9f963c1ee25175fb0bfff4fd8367",
+    "size": 15302516656,
+    "lfs": {
+      "oid": "92d4b0199b5bfc57337d15ab057d9056bad11d37788274a1727a69d929d7caac",
+      "size": 15302516656,
+      "pointerSize": 136
+    },
+    "xetHash": "f16688cb4f9c22669194bc370bf0a6b3c8e17aa998c0e6036a11cd07a40a4f0a",
+    "path": "model-00026-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=4a7c823c136e9f963c1ee25175fb0bfff4fd8367&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/92d4b0199b5bfc57337d15ab057d9056bad11d37788274a1727a69d929d7caac?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a2bb8248e0c845217d390f1d83f7cb7c27acf925",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "3d707b6c6f9240204119bc781fd2d4f0640866c02de75a5b9d504aad73003c18",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "de1484af68d33ec60549ef57bb2ac35761ced359b8c8e1791c1527f5c556f5e1",
+    "path": "model-00027-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=a2bb8248e0c845217d390f1d83f7cb7c27acf925&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/3d707b6c6f9240204119bc781fd2d4f0640866c02de75a5b9d504aad73003c18?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e32d598b338136c504e20e9ed3386bef68fbe19e",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "713c7a51b4dfaef7f36016e5f33fd0af6aa2842a0c424786e9163b2ceeeecb63",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "08f09a6f1e6579eabf414dbb6ae3dd67cfbd273dd61e881aa3e344b4e64b149d",
+    "path": "model-00028-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=e32d598b338136c504e20e9ed3386bef68fbe19e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/713c7a51b4dfaef7f36016e5f33fd0af6aa2842a0c424786e9163b2ceeeecb63?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "310f33add413c1bb0f21446ba0e4ab2323061753",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "1c912118399e767c7eaf5d7096d78a91610df7a67ee1d11de141777d2a5c3797",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "da1e9bf318c934f14df1fa45dd73d241cad4f923f66ca323e9298c060aebe941",
+    "path": "model-00029-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=310f33add413c1bb0f21446ba0e4ab2323061753&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/1c912118399e767c7eaf5d7096d78a91610df7a67ee1d11de141777d2a5c3797?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "da027df5142bb9cc857e62ac7ae3baccd22ce835",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "20553bba3fd11ae151b2160c1b33f6dc5a7da0a6e9c6bd408fb300fcde4727eb",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "303b4753c8d5172f07c018579abbd4d0e3f901319f976b9c56a9be86563dd04d",
+    "path": "model-00030-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=da027df5142bb9cc857e62ac7ae3baccd22ce835&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/20553bba3fd11ae151b2160c1b33f6dc5a7da0a6e9c6bd408fb300fcde4727eb?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "db6cba2c456ae6f4b6af889d6091dc72c13a455f",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "03d00987b21643b8a5821641dd829473433c9b0b8f98b48732ca25fcf27c5e48",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "1c1a1b46b2f7ea072e7651686feefed7ddabf5aab856cd451c3da660bcf94ff1",
+    "path": "model-00031-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=db6cba2c456ae6f4b6af889d6091dc72c13a455f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/03d00987b21643b8a5821641dd829473433c9b0b8f98b48732ca25fcf27c5e48?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "153abbd70f092a3ef12a0e0740e8dd3199be0bd0",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "a6bc4b5a14c34d6ddd6b784f2dd5c358d142bb7b50087329ab07b124461899b5",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "2f425ea8f9f1f4c158602cb6d617250702d211e9854c4e2512fa9ff765327650",
+    "path": "model-00032-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=153abbd70f092a3ef12a0e0740e8dd3199be0bd0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28019"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/a6bc4b5a14c34d6ddd6b784f2dd5c358d142bb7b50087329ab07b124461899b5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "63db7ce7b2f236173932379384ea469942e33bbf",
+    "size": 14833765536,
+    "lfs": {
+      "oid": "316fe078370010b9d95ff1d9bc7c21c6198610da8ed5d2d84d0415fc24bee642",
+      "size": 14833765536,
+      "pointerSize": 136
+    },
+    "xetHash": "22e9b399f1ed0a9869f203f8b0b2008f8a22373c1c0c2bc2ef9b575dfd5c4140",
+    "path": "model-00033-of-00059.safetensors",
+    "lastCommit": {
+      "id": "3a41b311ffa5719cef48fed3974ccf2cc03733ea",
+      "title": "Initial commit",
+      "date": "2026-06-12T12:52:11.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0/files?blob-id=63db7ce7b2f236173932379384ea469942e33bbf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/28020"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/316fe078370010b9d95ff1d9bc7c21c6198610da8ed5d2d84d0415fc24bee642?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  }
+]

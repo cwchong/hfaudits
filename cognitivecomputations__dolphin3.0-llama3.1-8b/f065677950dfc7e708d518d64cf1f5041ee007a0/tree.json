@@ -1,0 +1,514 @@
+[
+  {
+    "type": "file",
+    "oid": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+    "size": 1570,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fe753197960cf2eb881bded376e2d074e16b52c3",
+    "size": 9631,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "f065677950dfc7e708d518d64cf1f5041ee007a0",
+      "title": "Adding Evaluation Results (#3)",
+      "date": "2025-04-14T19:19:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=fe753197960cf2eb881bded376e2d074e16b52c3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a8f3b6446941192db2112a24e1a489c02db458e4",
+    "size": 936,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "588863a7020bcc91d0a803e1172afe6c31484eaa",
+      "title": "Update config.json",
+      "date": "2024-12-30T02:38:40.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=a8f3b6446941192db2112a24e1a489c02db458e4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "269a72a8be3b414e4e083c508631e9b0c4b6e49e",
+    "size": 206,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "30ad57da3466878738080e97c16f3c6771beb483",
+      "title": "Update generation_config.json",
+      "date": "2024-12-30T02:39:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=269a72a8be3b414e4e083c508631e9b0c4b6e49e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8b5e1cee29ba2e8952ffd7c8ad2aab589b2e4ce7",
+    "size": 4976715056,
+    "lfs": {
+      "oid": "3cefb45d70138704e88ef40aabc345bca71aa916e1603c3f111022c3759529d6",
+      "size": 4976715056,
+      "pointerSize": 135
+    },
+    "xetHash": "d24aed318174a61f5e2589910ddc0de3d71a0b4225f80257e36ae96b3a9264d7",
+    "path": "model-00001-of-00004.safetensors",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=8b5e1cee29ba2e8952ffd7c8ad2aab589b2e4ce7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27963"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/0 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3cefb45d70138704e88ef40aabc345bca71aa916e1603c3f111022c3759529d6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "08ffd3dca050a50c7d7fad804c30fbb110d7c8e5",
+    "size": 4999802720,
+    "lfs": {
+      "oid": "22d9c8a8a3d8d4ae145fc4a9c846c877bb485a2d3fff81924fe4918c2eb17ba8",
+      "size": 4999802720,
+      "pointerSize": 135
+    },
+    "xetHash": "a4e1122d22eab3ec2e58a7869e63d7ec7cc7a58b522ac70f720b9b4dea0beb7f",
+    "path": "model-00002-of-00004.safetensors",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=08ffd3dca050a50c7d7fad804c30fbb110d7c8e5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27963"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/0 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/22d9c8a8a3d8d4ae145fc4a9c846c877bb485a2d3fff81924fe4918c2eb17ba8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a41257059a87761c28915522eade38eac52e85e2",
+    "size": 4915916176,
+    "lfs": {
+      "oid": "34806daa7441ecb31d7bbbfdf17c7bef2bbad544d550da1cb99e300af36ebf8c",
+      "size": 4915916176,
+      "pointerSize": 135
+    },
+    "xetHash": "5e44374b1daeb17f1966de57f71d820810e4a158f70c4be2e945a9eaf73d5e11",
+    "path": "model-00003-of-00004.safetensors",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=a41257059a87761c28915522eade38eac52e85e2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27963"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/0 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/34806daa7441ecb31d7bbbfdf17c7bef2bbad544d550da1cb99e300af36ebf8c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6e89930ff2a09fa232c35dd096a1b3ec3a99a357",
+    "size": 1168155192,
+    "lfs": {
+      "oid": "0ce0b3146956b8c5fce3a886d953b3aa2746247062253572721dd9ebbf61dfd3",
+      "size": 1168155192,
+      "pointerSize": 135
+    },
+    "xetHash": "98d0e37f0726c8cf9c0fbdf9792f2e0ce34e76a10bfe10f14f1e4641991dfb0b",
+    "path": "model-00004-of-00004.safetensors",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=6e89930ff2a09fa232c35dd096a1b3ec3a99a357&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/0 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/0ce0b3146956b8c5fce3a886d953b3aa2746247062253572721dd9ebbf61dfd3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8d8b4acdbf058106d0bf767021732bbd13f1b452",
+    "size": 23950,
+    "path": "model.safetensors.index.json",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=8d8b4acdbf058106d0bf767021732bbd13f1b452&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "44e8cb8943364b2bfdcf16fc526008d9d0577c48",
+    "size": 444,
+    "path": "special_tokens_map.json",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=44e8cb8943364b2bfdcf16fc526008d9d0577c48&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f4af41dbb731b61894ff344ee88ba2aa0aff517e",
+    "size": 17210298,
+    "lfs": {
+      "oid": "e40b93124a3e29f62d5f4ff41be56cb2af34ecacf9239acd9da53a98860380b5",
+      "size": 17210298,
+      "pointerSize": 133
+    },
+    "xetHash": "ed7fc6f2938467a4786d5a89425e0f165a36fd0c5d2bdecd12e53f98454eb9d8",
+    "path": "tokenizer.json",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=f4af41dbb731b61894ff344ee88ba2aa0aff517e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e40b93124a3e29f62d5f4ff41be56cb2af34ecacf9239acd9da53a98860380b5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0fd8d5469bd35f72da8c591f7ecf150745275b01",
+    "size": 51234,
+    "path": "tokenizer_config.json",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=0fd8d5469bd35f72da8c591f7ecf150745275b01&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b09d99af7550679f6612eee9ced28badcd233bab",
+    "size": 1063526,
+    "path": "trainer_state.json",
+    "lastCommit": {
+      "id": "89713c67d789dcb620050c39075a2c1c75f5007d",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-12-29T18:37:34.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-Llama3.1-8B/f065677950dfc7e708d518d64cf1f5041ee007a0/files?blob-id=b09d99af7550679f6612eee9ced28badcd233bab&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

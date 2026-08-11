@@ -1,0 +1,304 @@
+[
+  {
+    "type": "directory",
+    "oid": "45862234f7fcc6f8e9df417a06fc8e4cd2c2036b",
+    "size": 0,
+    "path": "examples",
+    "lastCommit": {
+      "id": "c5946fb892bd99f527c0dd69577b9e9e55364f8f",
+      "title": "Delete examples/test.md",
+      "date": "2024-03-27T18:53:04.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "dde42b55b5c602abb9d776bed4cbcb76bb82085e",
+      "title": "initial commit",
+      "date": "2024-03-19T00:46:32.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "77c77807a11c1d47e754a6d1a3fb189324bbbd2d",
+    "size": 4551,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "d5503a90ae08dd43565de6984a5dd7924cad2400",
+      "title": "Update README.md (#6)",
+      "date": "2025-08-08T22:03:22.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=77c77807a11c1d47e754a6d1a3fb189324bbbd2d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "336bffe566b8f4302e1591f49056b5575d00adf5",
+    "size": 1822,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "d7e6683c45885fc2d027387f241aa7bcf0bfc53e",
+      "title": "Add model weights",
+      "date": "2024-03-19T17:21:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=336bffe566b8f4302e1591f49056b5575d00adf5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fe22505bffa6065b6b08ecca6f220013a4df0fe1",
+    "size": 403143,
+    "path": "examples/doclaynet_example_1.png",
+    "lastCommit": {
+      "id": "626ff74cb7c7d5ce7051fbc4e2ffd13b1a8a3c3f",
+      "title": "Rename doclaynet_example_1.png to examples/doclaynet_example_1.png",
+      "date": "2024-03-27T18:52:01.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=fe22505bffa6065b6b08ecca6f220013a4df0fe1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6df608f88abe5939d044752c0206ef66e1b49ee1",
+    "size": 187660,
+    "path": "examples/doclaynet_example_2.png",
+    "lastCommit": {
+      "id": "194e5f4e03db4bca6ed5d4f95ac7da25e3838bd4",
+      "title": "Rename doclaynet_example_2.png to examples/doclaynet_example_2.png",
+      "date": "2024-03-27T18:52:26.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=6df608f88abe5939d044752c0206ef66e1b49ee1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0a4a5aae7297ed44559aeef6ded40916709a68a3",
+    "size": 527247,
+    "path": "examples/doclaynet_example_3.png",
+    "lastCommit": {
+      "id": "08003163a1b7d5a4b70cbf50ec2dee753c39bd16",
+      "title": "Rename doclaynet_example_3.png to examples/doclaynet_example_3.png",
+      "date": "2024-03-27T18:52:48.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=0a4a5aae7297ed44559aeef6ded40916709a68a3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4abbb9b741407ed9fb424b2bb1bcb37019d3b4a1",
+    "size": 164653696,
+    "lfs": {
+      "oid": "e3861d34685d3b36e5f38370597daf98fb2f98a852cfa5c125035057ded06809",
+      "size": 164653696,
+      "pointerSize": 134
+    },
+    "xetHash": "d5f7061f8a9daf5024894641ed8ed87ed46d77d6e4eba3c03e332c16054ab903",
+    "path": "model.safetensors",
+    "lastCommit": {
+      "id": "d7e6683c45885fc2d027387f241aa7bcf0bfc53e",
+      "title": "Add model weights",
+      "date": "2024-03-19T17:21:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=4abbb9b741407ed9fb424b2bb1bcb37019d3b4a1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/77 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e3861d34685d3b36e5f38370597daf98fb2f98a852cfa5c125035057ded06809?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "10914b698aebf532e26b4021eea2013620788943",
+    "size": 300,
+    "path": "preprocessor_config.json",
+    "lastCommit": {
+      "id": "fecaa5b9941e2bb4e36ba4b7012e1406b4f12c39",
+      "title": "[Clean-up] Planned removal of the `max_size` argument (#4)",
+      "date": "2024-12-06T17:47:17.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Aryn/deformable-detr-DocLayNet/d5503a90ae08dd43565de6984a5dd7924cad2400/files?blob-id=10914b698aebf532e26b4021eea2013620788943&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

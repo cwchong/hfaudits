@@ -1,0 +1,457 @@
+{
+  "_id": "677196cca2a174d7a5920410",
+  "id": "dphn/Dolphin3.0-Llama3.1-8B",
+  "private": false,
+  "tags": [
+    "safetensors",
+    "llama",
+    "en",
+    "dataset:OpenCoder-LLM/opc-sft-stage1",
+    "dataset:OpenCoder-LLM/opc-sft-stage2",
+    "dataset:microsoft/orca-agentinstruct-1M-v1",
+    "dataset:microsoft/orca-math-word-problems-200k",
+    "dataset:NousResearch/hermes-function-calling-v1",
+    "dataset:AI-MO/NuminaMath-CoT",
+    "dataset:AI-MO/NuminaMath-TIR",
+    "dataset:allenai/tulu-3-sft-mixture",
+    "dataset:cognitivecomputations/dolphin-coder",
+    "dataset:HuggingFaceTB/smoltalk",
+    "dataset:cognitivecomputations/samantha-data",
+    "dataset:m-a-p/CodeFeedback-Filtered-Instruction",
+    "dataset:m-a-p/Code-Feedback",
+    "base_model:meta-llama/Llama-3.1-8B",
+    "base_model:finetune:meta-llama/Llama-3.1-8B",
+    "license:llama3.1",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 10244,
+  "likes": 353,
+  "modelId": "dphn/Dolphin3.0-Llama3.1-8B",
+  "author": "dphn",
+  "sha": "f065677950dfc7e708d518d64cf1f5041ee007a0",
+  "lastModified": "2025-04-14T19:19:34.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "Dolphin3.0-Llama3.1-8B",
+      "results": [
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "IFEval (0-Shot)",
+            "type": "wis-k/instruction-following-eval",
+            "split": "train",
+            "args": {
+              "num_few_shot": 0
+            }
+          },
+          "metrics": [
+            {
+              "type": "inst_level_strict_acc and prompt_level_strict_acc",
+              "value": 76.21,
+              "name": "averaged accuracy",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        },
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "BBH (3-Shot)",
+            "type": "SaylorTwift/bbh",
+            "split": "test",
+            "args": {
+              "num_few_shot": 3
+            }
+          },
+          "metrics": [
+            {
+              "type": "acc_norm",
+              "value": 27.63,
+              "name": "normalized accuracy",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        },
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "MATH Lvl 5 (4-Shot)",
+            "type": "lighteval/MATH-Hard",
+            "split": "test",
+            "args": {
+              "num_few_shot": 4
+            }
+          },
+          "metrics": [
+            {
+              "type": "exact_match",
+              "value": 10.5,
+              "name": "exact match",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        },
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "GPQA (0-shot)",
+            "type": "Idavidrein/gpqa",
+            "split": "train",
+            "args": {
+              "num_few_shot": 0
+            }
+          },
+          "metrics": [
+            {
+              "type": "acc_norm",
+              "value": 4.36,
+              "name": "acc_norm",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        },
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "MuSR (0-shot)",
+            "type": "TAUR-Lab/MuSR",
+            "args": {
+              "num_few_shot": 0
+            }
+          },
+          "metrics": [
+            {
+              "type": "acc_norm",
+              "value": 8.97,
+              "name": "acc_norm",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        },
+        {
+          "task": {
+            "type": "text-generation",
+            "name": "Text Generation"
+          },
+          "dataset": {
+            "name": "MMLU-PRO (5-shot)",
+            "type": "TIGER-Lab/MMLU-Pro",
+            "config": "main",
+            "split": "test",
+            "args": {
+              "num_few_shot": 5
+            }
+          },
+          "metrics": [
+            {
+              "type": "acc",
+              "value": 22.13,
+              "name": "accuracy",
+              "verified": false
+            }
+          ],
+          "source": {
+            "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+            "name": "Open LLM Leaderboard"
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "model_type": "llama",
+    "tokenizer_config": {
+      "bos_token": "<|begin_of_text|>",
+      "chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|end_of_text|>"
+    }
+  },
+  "cardData": {
+    "license": "llama3.1",
+    "datasets": [
+      "OpenCoder-LLM/opc-sft-stage1",
+      "OpenCoder-LLM/opc-sft-stage2",
+      "microsoft/orca-agentinstruct-1M-v1",
+      "microsoft/orca-math-word-problems-200k",
+      "NousResearch/hermes-function-calling-v1",
+      "AI-MO/NuminaMath-CoT",
+      "AI-MO/NuminaMath-TIR",
+      "allenai/tulu-3-sft-mixture",
+      "cognitivecomputations/dolphin-coder",
+      "HuggingFaceTB/smoltalk",
+      "cognitivecomputations/samantha-data",
+      "m-a-p/CodeFeedback-Filtered-Instruction",
+      "m-a-p/Code-Feedback"
+    ],
+    "language": [
+      "en"
+    ],
+    "base_model": [
+      "meta-llama/Llama-3.1-8B"
+    ],
+    "model-index": [
+      {
+        "name": "Dolphin3.0-Llama3.1-8B",
+        "results": [
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "IFEval (0-Shot)",
+              "type": "wis-k/instruction-following-eval",
+              "split": "train",
+              "args": {
+                "num_few_shot": 0
+              }
+            },
+            "metrics": [
+              {
+                "type": "inst_level_strict_acc and prompt_level_strict_acc",
+                "value": 76.21,
+                "name": "averaged accuracy",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          },
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "BBH (3-Shot)",
+              "type": "SaylorTwift/bbh",
+              "split": "test",
+              "args": {
+                "num_few_shot": 3
+              }
+            },
+            "metrics": [
+              {
+                "type": "acc_norm",
+                "value": 27.63,
+                "name": "normalized accuracy",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          },
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "MATH Lvl 5 (4-Shot)",
+              "type": "lighteval/MATH-Hard",
+              "split": "test",
+              "args": {
+                "num_few_shot": 4
+              }
+            },
+            "metrics": [
+              {
+                "type": "exact_match",
+                "value": 10.5,
+                "name": "exact match",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          },
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "GPQA (0-shot)",
+              "type": "Idavidrein/gpqa",
+              "split": "train",
+              "args": {
+                "num_few_shot": 0
+              }
+            },
+            "metrics": [
+              {
+                "type": "acc_norm",
+                "value": 4.36,
+                "name": "acc_norm",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          },
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "MuSR (0-shot)",
+              "type": "TAUR-Lab/MuSR",
+              "args": {
+                "num_few_shot": 0
+              }
+            },
+            "metrics": [
+              {
+                "type": "acc_norm",
+                "value": 8.97,
+                "name": "acc_norm",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          },
+          {
+            "task": {
+              "type": "text-generation",
+              "name": "Text Generation"
+            },
+            "dataset": {
+              "name": "MMLU-PRO (5-shot)",
+              "type": "TIGER-Lab/MMLU-Pro",
+              "config": "main",
+              "split": "test",
+              "args": {
+                "num_few_shot": 5
+              }
+            },
+            "metrics": [
+              {
+                "type": "acc",
+                "value": 22.13,
+                "name": "accuracy",
+                "verified": false
+              }
+            ],
+            "source": {
+              "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=cognitivecomputations%2FDolphin3.0-Llama3.1-8B",
+              "name": "Open LLM Leaderboard"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "trainer_state.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "bts696969/dolphin3-chat",
+    "12matt3r/dolphin3-chat",
+    "Goldstandard777/RebelClaw",
+    "glockinhand/space"
+  ],
+  "createdAt": "2024-12-29T18:37:00.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 8030277632
+    },
+    "total": 8030277632
+  },
+  "usedStorage": 16077799442
+}

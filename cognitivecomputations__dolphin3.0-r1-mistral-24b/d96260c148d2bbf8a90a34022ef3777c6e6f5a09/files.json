@@ -1,0 +1,1706 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 1570,
+    "blob_oid": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "Modelfile",
+    "size": 1752,
+    "blob_oid": "5ff85753ee53a41b79552570795ee4a232430937",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "4c3090ef237780ceadd79914f935270f4d4c3cbc",
+      "title": "Update Modelfile",
+      "date": "2025-02-15T07:06:36.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=5ff85753ee53a41b79552570795ee4a232430937&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=5ff85753ee53a41b79552570795ee4a232430937&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 7572,
+    "blob_oid": "2ee15b7e087e83068a43a0f0aa97520192683eaf",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "2ac46c7f7b8a25946acfd4673d52bf0557770abe",
+      "title": "Update README.md",
+      "date": "2025-02-15T17:59:02.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=2ee15b7e087e83068a43a0f0aa97520192683eaf&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=2ee15b7e087e83068a43a0f0aa97520192683eaf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "config.json",
+    "size": 698,
+    "blob_oid": "86891883daa2a120b34dc6958885e15f32dec049",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "9a728322e5d1417b8aaf64bbf91629f339b2bd2b",
+      "title": "Update config.json",
+      "date": "2025-02-06T22:20:44.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=86891883daa2a120b34dc6958885e15f32dec049&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=86891883daa2a120b34dc6958885e15f32dec049&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "generation_config.json",
+    "size": 177,
+    "blob_oid": "6376dc1c165ed5c1cd5acb94739c830e31774369",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "f429429302cada8d068f62f12ec23f941ce9beb9",
+      "title": "Update generation_config.json",
+      "date": "2025-02-15T06:04:59.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=6376dc1c165ed5c1cd5acb94739c830e31774369&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=6376dc1c165ed5c1cd5acb94739c830e31774369&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "model-00001-of-00010.safetensors",
+    "size": 4781592216,
+    "blob_oid": "8109c7cb8cd8b764dff776f37f3f768cc5383a10",
+    "sha256": "741673f7aeb350a93d917bbf5e140be1d46eba95a48cc4c5cbff5348835d72f1",
+    "lfs_pointer_size": 135,
+    "xet_hash": "8ec27268f23683894ea3ff79993ce8da0419058c0a3c8ba1847811abd30319f1",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=8109c7cb8cd8b764dff776f37f3f768cc5383a10&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/741673f7aeb350a93d917bbf5e140be1d46eba95a48cc4c5cbff5348835d72f1?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=8109c7cb8cd8b764dff776f37f3f768cc5383a10&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/741673f7aeb350a93d917bbf5e140be1d46eba95a48cc4c5cbff5348835d72f1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00002-of-00010.safetensors",
+    "size": 4781592784,
+    "blob_oid": "6eb3b5f16475b22027ce4ef75cc2bae06da8ea13",
+    "sha256": "5db0e252d019ead94dd23aeffc3fb7f4437f5408f76900b40677eab9b833dbad",
+    "lfs_pointer_size": 135,
+    "xet_hash": "cf6ee92d68c13435aba187b7775007ed99e1783030b14bcb85b22628c615a493",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=6eb3b5f16475b22027ce4ef75cc2bae06da8ea13&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/5db0e252d019ead94dd23aeffc3fb7f4437f5408f76900b40677eab9b833dbad?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=6eb3b5f16475b22027ce4ef75cc2bae06da8ea13&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/5db0e252d019ead94dd23aeffc3fb7f4437f5408f76900b40677eab9b833dbad?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00003-of-00010.safetensors",
+    "size": 4781592800,
+    "blob_oid": "45e3e1eeaccd6d92e62f8a920dd0928600cabf35",
+    "sha256": "364202bd4db30ab5bf8147858217962b9af51366c0741c41c2ee651bb281f019",
+    "lfs_pointer_size": 135,
+    "xet_hash": "41c3c67866c573a22da7b903c8c52f39267be9648c4ae7360aef3a028cd004d8",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=45e3e1eeaccd6d92e62f8a920dd0928600cabf35&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/364202bd4db30ab5bf8147858217962b9af51366c0741c41c2ee651bb281f019?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=45e3e1eeaccd6d92e62f8a920dd0928600cabf35&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/364202bd4db30ab5bf8147858217962b9af51366c0741c41c2ee651bb281f019?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00004-of-00010.safetensors",
+    "size": 4886471600,
+    "blob_oid": "023f17c8d363f0470c735776982f69705cb54ec6",
+    "sha256": "593355b8dac30f42d2a1bdf34460ff3330850aad2b2cc35b7fd53449e6c0a25a",
+    "lfs_pointer_size": 135,
+    "xet_hash": "2129262842c85177b31c9bcab8d28bee710ebd2dbefef8ed6e2f4ba29da7df9b",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=023f17c8d363f0470c735776982f69705cb54ec6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/593355b8dac30f42d2a1bdf34460ff3330850aad2b2cc35b7fd53449e6c0a25a?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=023f17c8d363f0470c735776982f69705cb54ec6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/593355b8dac30f42d2a1bdf34460ff3330850aad2b2cc35b7fd53449e6c0a25a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00005-of-00010.safetensors",
+    "size": 4781592824,
+    "blob_oid": "922faf597822b458bfff7b08eb73798be162c245",
+    "sha256": "f194eeb26f3dc5209058ce3567421adb3d7c7500c843b4be20a42e4a44f4d2e2",
+    "lfs_pointer_size": 135,
+    "xet_hash": "dbbb7dc3bf29938adcda0e8a44f4d5d16eeda6c24e9824adf6725f74459d605b",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=922faf597822b458bfff7b08eb73798be162c245&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/f194eeb26f3dc5209058ce3567421adb3d7c7500c843b4be20a42e4a44f4d2e2?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=922faf597822b458bfff7b08eb73798be162c245&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f194eeb26f3dc5209058ce3567421adb3d7c7500c843b4be20a42e4a44f4d2e2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00006-of-00010.safetensors",
+    "size": 4781592816,
+    "blob_oid": "ff31b6fedee7efbd08fdb33a60519804bf774d82",
+    "sha256": "809eb8ef8e5ea03e03bcbc9c045c3a3263d91ce1b310e27b548d000bf1ba9c8c",
+    "lfs_pointer_size": 135,
+    "xet_hash": "63c3ab577e5c1ba08b2f2d632ddeb244bfb1de84a26006014a4252b95a1eacac",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=ff31b6fedee7efbd08fdb33a60519804bf774d82&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/809eb8ef8e5ea03e03bcbc9c045c3a3263d91ce1b310e27b548d000bf1ba9c8c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=ff31b6fedee7efbd08fdb33a60519804bf774d82&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/809eb8ef8e5ea03e03bcbc9c045c3a3263d91ce1b310e27b548d000bf1ba9c8c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00007-of-00010.safetensors",
+    "size": 4886471600,
+    "blob_oid": "acc77561fe80bf254b051cfe7f069026e7df4b66",
+    "sha256": "afdcbb5476d9eb2609f729e74af11b144ada8c2bf2d2788f682c31e778b7598a",
+    "lfs_pointer_size": 135,
+    "xet_hash": "67acd255712d6cf49712bfb2c7b793ed4efb75938c30d0fba9a45767350937dd",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=acc77561fe80bf254b051cfe7f069026e7df4b66&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/afdcbb5476d9eb2609f729e74af11b144ada8c2bf2d2788f682c31e778b7598a?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=acc77561fe80bf254b051cfe7f069026e7df4b66&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/afdcbb5476d9eb2609f729e74af11b144ada8c2bf2d2788f682c31e778b7598a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00008-of-00010.safetensors",
+    "size": 4781592824,
+    "blob_oid": "4c239e374f067c6b838d63e52f1d674986a042fc",
+    "sha256": "30a1bc3621452ceea452814fe6e11d4ca5d88ced7e50e2fb2aec66e7d1c66643",
+    "lfs_pointer_size": 135,
+    "xet_hash": "6822848f5f83277f2555366a543e988aa18672a1075bcdbb0c0855028bebd018",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=4c239e374f067c6b838d63e52f1d674986a042fc&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/30a1bc3621452ceea452814fe6e11d4ca5d88ced7e50e2fb2aec66e7d1c66643?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=4c239e374f067c6b838d63e52f1d674986a042fc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/30a1bc3621452ceea452814fe6e11d4ca5d88ced7e50e2fb2aec66e7d1c66643?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00009-of-00010.safetensors",
+    "size": 4781592816,
+    "blob_oid": "5e581286ab605ff04227ec8ca58277b69036fcd3",
+    "sha256": "cc2708e74308299e28a74bfd042496c0c6f1ffa5a23fd4d41c9915c6627b8f64",
+    "lfs_pointer_size": 135,
+    "xet_hash": "ed1c82c5252bec9a983774fe55632ecc1d9d1a22a97c777de067733ce592bcd6",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=5e581286ab605ff04227ec8ca58277b69036fcd3&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/cc2708e74308299e28a74bfd042496c0c6f1ffa5a23fd4d41c9915c6627b8f64?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=5e581286ab605ff04227ec8ca58277b69036fcd3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cc2708e74308299e28a74bfd042496c0c6f1ffa5a23fd4d41c9915c6627b8f64?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00010-of-00010.safetensors",
+    "size": 3900797552,
+    "blob_oid": "38311b649de593d1d6975158faa3cf6c23d1038e",
+    "sha256": "d48e2e4e9bd3532b7de029ed15133f8c1c8584927b9a0b42c40a3842b0c7dfd6",
+    "lfs_pointer_size": 135,
+    "xet_hash": "6f1bd3397c970bf8b961442a7fa64272700dbef6947247fc61dc0175b4861144",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=38311b649de593d1d6975158faa3cf6c23d1038e&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/d48e2e4e9bd3532b7de029ed15133f8c1c8584927b9a0b42c40a3842b0c7dfd6?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=38311b649de593d1d6975158faa3cf6c23d1038e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/d48e2e4e9bd3532b7de029ed15133f8c1c8584927b9a0b42c40a3842b0c7dfd6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model.safetensors.index.json",
+    "size": 29894,
+    "blob_oid": "3fbec2a2a94eb5b75b0f512bdac78cb31467f8f5",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=3fbec2a2a94eb5b75b0f512bdac78cb31467f8f5&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "",
+          "version": "1.5.2/27951"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=3fbec2a2a94eb5b75b0f512bdac78cb31467f8f5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27951"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "special_tokens_map.json",
+    "size": 21455,
+    "blob_oid": "678e69f9ec30138fa29e7de6e47bb03f0db2c4e6",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=678e69f9ec30138fa29e7de6e47bb03f0db2c4e6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=678e69f9ec30138fa29e7de6e47bb03f0db2c4e6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer.json",
+    "size": 17078415,
+    "blob_oid": "28b9e5961093c2bb5b5510e410d9e3bd14844981",
+    "sha256": "d272e2518247a1d572131387580a2f6269e295616bc32dab17bbd886b55672d2",
+    "lfs_pointer_size": 133,
+    "xet_hash": "cb4926d39feaba69e6274d34e23d6567329d179789135151bf6ef9d90eefaf6f",
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=28b9e5961093c2bb5b5510e410d9e3bd14844981&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/75 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/d272e2518247a1d572131387580a2f6269e295616bc32dab17bbd886b55672d2?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=28b9e5961093c2bb5b5510e410d9e3bd14844981&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d272e2518247a1d572131387580a2f6269e295616bc32dab17bbd886b55672d2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer_config.json",
+    "size": 201069,
+    "blob_oid": "c5d9ce299b957c8dbcabb5695cad3006b84473c3",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "d96260c148d2bbf8a90a34022ef3777c6e6f5a09",
+      "title": "Update tokenizer_config.json (#12)",
+      "date": "2025-04-25T20:08:13.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=c5d9ce299b957c8dbcabb5695cad3006b84473c3&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=c5d9ce299b957c8dbcabb5695cad3006b84473c3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "trainer_state.json",
+    "size": 1772180,
+    "blob_oid": "0e47081b35cedaa4ca7d62c2beaf76f5db75fac1",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a3b1939fb582a9707e82c55ffb1a6e6af26080c7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-06T22:16:01.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=0e47081b35cedaa4ca7d62c2beaf76f5db75fac1&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/dphn/Dolphin3.0-R1-Mistral-24B/d96260c148d2bbf8a90a34022ef3777c6e6f5a09/files?blob-id=0e47081b35cedaa4ca7d62c2beaf76f5db75fac1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

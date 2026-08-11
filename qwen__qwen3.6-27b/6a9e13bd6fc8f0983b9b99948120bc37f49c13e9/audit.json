@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "Qwen/Qwen3.6-27B",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:09:15Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
-  "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
+  "file_count": 29,
+  "total_bytes": 55586107940,
+  "safetensors_count": 15,
   "files_unscanned": 0,
   "files_not_safe": 0
 }

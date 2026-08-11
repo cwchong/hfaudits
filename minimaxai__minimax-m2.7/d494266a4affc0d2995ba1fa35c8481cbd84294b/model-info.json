@@ -1,0 +1,653 @@
+{
+  "_id": "69d71ee848d2a47600feda6e",
+  "id": "MiniMaxAI/MiniMax-M2.7",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "minimax_m2",
+    "text-generation",
+    "conversational",
+    "custom_code",
+    "license:other",
+    "eval-results",
+    "endpoints_compatible",
+    "fp8",
+    "deploy:sagemaker",
+    "region:us"
+  ],
+  "downloads": 875421,
+  "likes": 1236,
+  "modelId": "MiniMaxAI/MiniMax-M2.7",
+  "author": "MiniMaxAI",
+  "sha": "d494266a4affc0d2995ba1fa35c8481cbd84294b",
+  "lastModified": "2026-04-20T04:28:14.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "MiniMaxM2ForCausalLM"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_minimax_m2.MiniMaxM2Config",
+      "AutoModelForCausalLM": "modeling_minimax_m2.MiniMaxM2ForCausalLM"
+    },
+    "model_type": "minimax_m2",
+    "num_experts_per_tok": 8,
+    "quantization_config": {
+      "quant_method": "fp8",
+      "modules_to_not_convert": [
+        "gate",
+        "e_score_correction_bias",
+        "lm_head"
+      ]
+    },
+    "tokenizer_config": {
+      "bos_token": "]~!b[",
+      "eos_token": "[e~[",
+      "unk_token": "]!d~["
+    },
+    "chat_template_jinja": "{# ----------‑‑‑ special token variables ‑‑‑---------- #}\n{%- set toolcall_begin_token   = '<minimax:tool_call>'         -%}\n{%- set toolcall_end_token     = '</minimax:tool_call>'        -%}\n{#- Tool Rendering Functions ============================================== -#}\n{%- macro render_tool_namespace(namespace_name, tool_list) -%}\n{%- for tool in tool_list -%}\n<tool>{{ tool.function | tojson(ensure_ascii=False) }}</tool>\n{% endfor -%}\n{%- endmacro -%}\n{%- macro visible_text(content) -%}\n    {%- if content is string -%}\n        {{ content }}\n    {%- elif content is iterable and content is not mapping -%}\n        {%- for item in content -%}\n            {%- if item is mapping and item.type == 'text' -%}\n                {{- item.text }}\n            {%- elif item is string -%}\n                {{- item }}\n            {%- endif -%}\n        {%- endfor -%}\n    {%- else -%}\n        {{- content }}\n    {%- endif -%}\n{%- endmacro -%}\n{#- System Message Construction ============================================ -#}\n{%- macro build_system_message(system_message) -%}\n    {%- if system_message and system_message.content -%}\n        {{- visible_text(system_message.content) }}\n    {%- else -%}\n        {%- if model_identity is not defined -%}\n            {%- set model_identity = \"You are a helpful assistant. Your name is MiniMax-M2.7 and is built by MiniMax.\" -%}\n        {%- endif -%}\n        {{- model_identity }}\n    {%- endif -%}\n    \n    {#- Handle current_date -#}\n    {%- if system_message and system_message.current_date -%}\n        {{- '\\n' ~ 'Current date: ' + system_message.current_date }}\n    {%- endif -%}\n    {#- Handle current_location -#}\n    {%- if system_message and system_message.current_location -%}\n        {{- '\\n' ~ 'Current location: ' + system_message.current_location }}\n    {%- endif -%}\n{%- endmacro -%}\n{#- Main Template Logic ================================================= -#}\n{#- Extract system message (only first message if it's system) -#}\n{%- set system_message = none -%}\n{%- set conversation_messages = messages -%}\n{%- if messages and messages[0].role == \"system\" -%}\n    {%- set system_message = messages[0] -%}\n    {%- set conversation_messages = messages[1:] -%}\n{%- endif -%}\n{#- Get the last user message turn, for interleved thinking -#}\n{%- set ns = namespace(last_user_index=-1) %}\n{% for m in conversation_messages %}\n    {%- if m.role == 'user' %}\n        {% set ns.last_user_index = loop.index0 -%}\n    {%- endif %}\n{%- endfor %}\n{#- Render system message -#}\n{{- ']~!b[' ~ ']~b]system' ~ '\\n' }}\n{{- build_system_message(system_message) }}\n{#- Render tools if available -#}\n{%- if tools -%}\n    {{- '\\n\\n' ~ '# Tools' ~ '\\n' ~ 'You may call one or more tools to assist with the user query.\\nHere are the tools available in JSONSchema format:' ~ '\\n' }}\n    {{- '\\n' ~ '<tools>' ~ '\\n' }}\n    {{- render_tool_namespace(\"functions\", tools) }}\n    {{- '</tools>' ~ '\\n\\n' }}\n{{- 'When making tool calls, use XML format to invoke tools and pass parameters:' ~ '\\n' }}\n{{- '\\n' ~ toolcall_begin_token }}\n<invoke name=\"tool-name-1\">\n<parameter name=\"param-key-1\">param-value-1</parameter>\n<parameter name=\"param-key-2\">param-value-2</parameter>\n...\n</invoke>\n{{- '\\n' ~ toolcall_end_token }}\n{%- endif -%}\n{{- '[e~[\\n' }}\n\n{#- Render messages -#}\n{%- set last_tool_call = namespace(name=none) -%}\n{%- for message in conversation_messages -%}\n    {%- if message.role == 'assistant' -%}\n        {#- Only render reasoning_content if no user message follows -#}\n        {{- ']~b]ai' ~ '\\n' }}\n\n        {%- set reasoning_content = '' %}\n        {%- set content = visible_text(message.content) %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n                {%- set reasoning_content = content.split('</think>')[0].strip('\\n').split('<think>')[-1].strip('\\n') %}\n                {%- set content = content.split('</think>')[-1].strip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if reasoning_content and loop.index0 > ns.last_user_index -%}\n            {{- '<think>' ~ '\\n' ~ reasoning_content ~ '\\n' ~ '</think>' ~ '\\n\\n' }}\n        {%- endif -%}\n        {%- if content -%}\n            {{- content }}\n        {%- endif -%}\n        {%- if message.tool_calls -%}\n            {{- '\\n' ~ toolcall_begin_token ~ '\\n' }}\n\n            {%- for tool_call in message.tool_calls -%}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<invoke name=\"' + tool_call.name + '\">' }}\n                {% set _args = tool_call.arguments %}\n                {%- for k, v in _args.items() %}\n                {{- '<parameter name=\"' + k + '\">' }}\n                {{- v | tojson(ensure_ascii=False) if v is not string else v }}\n                {{- '</parameter>' }}\n                {% endfor %}\n                {{- '</invoke>' ~ '\\n' }}\n            {%- endfor -%}\n            \n            {{- toolcall_end_token}}\n            {%- set last_tool_call.name = message.tool_calls[-1].name -%}\n        {%- else -%}\n            {%- set last_tool_call.name = none -%}\n        {%- endif -%}\n        {{- '[e~[' ~ '\\n' }}\n        \n    {%- elif message.role == 'tool' -%}\n    {%- if last_tool_call.name is none -%}\n        {{- raise_exception(\"Message has tool role, but there was no previous assistant message with a tool call!\") }}\n    {%- endif -%}\n    {%- if loop.first or (conversation_messages[loop.index0 - 1].role != 'tool') -%}\n        {{- ']~b]tool' }}\n    {%- endif -%}\n    {%- if message.content is string -%}\n        {{- '\\n<response>' }}\n        {{- message.content }}\n        {{- '</response>' }}\n    {%- else -%}\n        {%- for tr in message.content -%}\n            {{- '\\n<response>' }}\n            {{- tr.output if tr.output is defined else (tr.text if tr.type == 'text' and tr.text is defined else tr) }}\n            {{- '\\n</response>' }}\n        {%- endfor -%}\n    {%- endif -%}\n    {%- if loop.last or (conversation_messages[loop.index0 + 1].role != 'tool') -%}\n        {{- '[e~[\\n' -}}\n    {%- endif -%}\n        \n    {%- elif message.role == 'user' -%}\n        {{- ']~b]user' ~ '\\n' }}\n        {{- visible_text(message.content) }}\n        {{- '[e~[' ~ '\\n' }}\n    {%- endif -%}\n{%- endfor -%}\n\n{#- Generation prompt -#}\n{%- if add_generation_prompt -%}\n{{- ']~b]ai' ~ '\\n' ~ '<think>' ~ '\\n' }}\n{%- endif -%}\n"
+  },
+  "cardData": {
+    "pipeline_tag": "text-generation",
+    "license": "other",
+    "license_name": "other",
+    "license_link": "https://github.com/MiniMax-AI/MiniMax-M2.7/blob/main/LICENSE",
+    "library_name": "transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "chat_template.jinja"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "configuration_minimax_m2.py"
+    },
+    {
+      "rfilename": "docs/sglang_deploy_guide.md"
+    },
+    {
+      "rfilename": "docs/sglang_deploy_guide_cn.md"
+    },
+    {
+      "rfilename": "docs/tool_calling_guide.md"
+    },
+    {
+      "rfilename": "docs/tool_calling_guide_cn.md"
+    },
+    {
+      "rfilename": "docs/transformers_deploy_guide.md"
+    },
+    {
+      "rfilename": "docs/transformers_deploy_guide_cn.md"
+    },
+    {
+      "rfilename": "docs/vllm_deploy_guide.md"
+    },
+    {
+      "rfilename": "docs/vllm_deploy_guide_cn.md"
+    },
+    {
+      "rfilename": "figures/agent_harness.png"
+    },
+    {
+      "rfilename": "figures/agent_teams.gif"
+    },
+    {
+      "rfilename": "figures/banner.png"
+    },
+    {
+      "rfilename": "figures/benchmark_overview.png"
+    },
+    {
+      "rfilename": "figures/mle_bench.png"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "model-00000-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00001-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00006-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00007-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00008-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00009-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00010-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00011-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00012-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00013-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00014-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00015-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00016-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00017-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00018-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00019-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00020-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00021-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00022-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00023-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00024-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00025-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00026-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00027-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00028-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00029-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00030-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00031-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00032-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00033-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00034-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00035-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00036-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00037-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00038-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00039-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00040-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00041-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00042-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00043-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00044-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00045-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00046-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00047-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00048-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00049-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00050-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00051-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00052-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00053-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00054-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00055-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00056-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00057-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00058-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00059-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00060-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00061-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00062-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00063-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00064-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00065-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00066-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00067-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00068-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00069-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00070-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00071-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00072-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00073-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00074-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00075-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00076-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00077-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00078-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00079-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00080-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00081-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00082-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00083-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00084-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00085-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00086-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00087-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00088-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00089-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00090-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00091-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00092-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00093-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00094-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00095-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00096-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00097-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00098-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00099-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00100-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00101-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00102-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00103-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00104-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00105-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00106-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00107-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00108-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00109-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00110-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00111-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00112-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00113-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00114-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00115-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00116-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00117-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00118-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00119-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00120-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00121-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00122-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00123-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model-00124-of-00130.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "modeling_minimax_m2.py"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "Zakaryabeta/MiniMaxAI-MiniMax-M2.7",
+    "tianzijian/hermes",
+    "quickgrid/Tokenizer-Visualizer",
+    "Yash030/claude-code-proxy",
+    "huggingface/ml-intern-api",
+    "build-small-hackathon/grid-royale",
+    "adesh01/civicsetu",
+    "Otter21/OPENENV_RL_01",
+    "commanderrobot14/MiniMaxAI-MiniMax-M2.7",
+    "openlaw/hermes",
+    "SrRooT/Tokenizer-Visualizer",
+    "lablab-ai-amd-developer-hackathon/proofbridge-liner-safety-kernel",
+    "dexakif/clienttarget",
+    "lauwwakigamer/hermes",
+    "xota1999/MedPlain",
+    "Banu007/Code-agent-ai-minimax-m2.7",
+    "junaid17/cortex",
+    "sim4ai/claw",
+    "sshinmen/shin",
+    "franksoo/agent",
+    "matei21/chessformer-api",
+    "bhavesh122/super_AI",
+    "cacodex/n2r-dev",
+    "tigerduff/MiniMaxAI-MiniMax-M2.7",
+    "cantap555/MiniMaxAI-MiniMax-M2.7",
+    "gdjd2314/MiniMaxAI-MiniMax-M2.7",
+    "KefranAbg/MiniMaxAI-MiniMax-M2.7",
+    "micole66/IMAGERANK",
+    "micole66/RANKOFIMAGE",
+    "asierabreu/MiniMaxAI-MiniMax-M2.7",
+    "Pilipdagh/tyler-ai-m2",
+    "midMark/MiniMaxAI-MiniMax-M2.7",
+    "anupad/MiniMaxAI-MiniMax-M2.7",
+    "Ahmyr/MiniMaxAI-MiniMax-M2.7",
+    "jctorrespy/MiniMaxAI-MiniMax-M2.7",
+    "sp1tzbergen/MiniMaxAI-MiniMax-M2.7",
+    "AmeedShaik/Ameed_MiniMaxAI-MiniMax-M2.7",
+    "xiaoniu2018/MiniMaxAI-MiniMax-M2.7",
+    "leolove5206869/AI",
+    "knightnad/MiniMaxAI-MiniMax-M2.7",
+    "Infinityecs1/infinityllm",
+    "taemin1980/shadowbrain",
+    "wsmqlr/hermes1",
+    "monikou123/hermes-pro",
+    "wuzhihao5658186/n8n",
+    "verymehari/ML-intern",
+    "BladeSzaSza/Immersive-Vibe-Development-Studio",
+    "pricity-xx87/nim4cc",
+    "ramarao1290/MiniMaxAI-MiniMax-M2.7",
+    "Aayush5665/FlakeForge",
+    "Otter21/Gov_Workflow_RL",
+    "zhaopengme/nim4cc",
+    "cosmocat555/n2r-dev",
+    "realfelixwang/NIM4CC",
+    "futureagevalue/uway-chatbot",
+    "dkay/MiniMaxAI-MiniMax-M2.7",
+    "firsttwo/Hermes",
+    "RobinZ1/my-hermes-bot",
+    "Chlee2015/MiniMaxAI-MiniMax-M2.7",
+    "JL-ftdm/my-nim4cc-gateway",
+    "zzoe110/fengshenbang",
+    "wsmqlr/hermes",
+    "jusdio/te",
+    "xenux4u/ORBIT",
+    "Suriyong/ml-intern",
+    "binfeng11/shubinfeng",
+    "MandyDeep/ml-intern",
+    "ethanzhu-ai/hermes",
+    "Ademhi090/ml-intern",
+    "hafid77/open-claude",
+    "Alokt18/UFM",
+    "Byakk1/hermes333",
+    "TONIA-MICHAUX/hermes",
+    "Jwalit/ml-intern",
+    "anu56787ty/ml-intern",
+    "anu56787ty/ml-intern3",
+    "chaux/cop",
+    "dexakif/clienttarget-python",
+    "Vlado22/MiniMaxAI-MiniMax-M2.7",
+    "bibiplay/image-change",
+    "raynecizigital/trendradar",
+    "aetherporium/hermes",
+    "djfaber/MiniMaxAI-MiniMax-M2.7",
+    "agentopenclaw01/openclaw-agent",
+    "doclaser/HermesAge",
+    "Gendle/hm",
+    "Beam091/Hermes-Agent",
+    "Anurag43/ml-intern",
+    "Anurag43/ml-intern3",
+    "LELELI/hermes",
+    "Premo4153/nse-unified-trading-platform",
+    "xuhaonapolun/hermes-hf",
+    "zhaocharile66/my-hermes",
+    "dferty/hermes",
+    "TENGYZ/HERMES",
+    "saitejatirunagari/JAA-ATS-Tool",
+    "Ok1235/hermes-agent",
+    "balagaraghuram/llmagent",
+    "Jarvis2345/jarvis-cloud",
+    "id1ot/local-llm"
+  ],
+  "createdAt": "2026-04-09T03:37:12.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 48774656,
+      "BF16": 1230021632,
+      "F8_E4M3": 227410968576
+    },
+    "total": 228689764864
+  },
+  "inference": "warm",
+  "usedStorage": 230142259486
+}

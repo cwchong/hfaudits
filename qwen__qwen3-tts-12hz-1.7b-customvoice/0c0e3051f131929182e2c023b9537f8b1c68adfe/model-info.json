@@ -1,0 +1,195 @@
+{
+  "_id": "697094d13b1fe1d6aa85d594",
+  "id": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "private": false,
+  "pipeline_tag": "text-to-speech",
+  "tags": [
+    "safetensors",
+    "qwen3_tts",
+    "text-to-speech",
+    "arxiv:2601.15621",
+    "license:apache-2.0",
+    "deploy:sagemaker",
+    "region:us"
+  ],
+  "downloads": 2072253,
+  "likes": 1869,
+  "modelId": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "author": "Qwen",
+  "sha": "0c0e3051f131929182e2c023b9537f8b1c68adfe",
+  "lastModified": "2026-01-29T08:00:54.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Qwen3TTSForConditionalGeneration"
+    ],
+    "model_type": "qwen3_tts",
+    "tokenizer_config": {
+      "bos_token": null,
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|endoftext|>",
+      "unk_token": null
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "pipeline_tag": "text-to-speech"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "merges.txt"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "speech_tokenizer/config.json"
+    },
+    {
+      "rfilename": "speech_tokenizer/configuration.json"
+    },
+    {
+      "rfilename": "speech_tokenizer/model.safetensors"
+    },
+    {
+      "rfilename": "speech_tokenizer/preprocessor_config.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "Qwen/Qwen3-TTS",
+    "smolagents/hf-realtime-voice",
+    "victor/gemma-avatar",
+    "Wordercom/Qwen3-TTS",
+    "Pendrokar/TTS-Spaces-Arena",
+    "HuggingFaceM4/faster-qwen3-tts-demo",
+    "prithivMLmods/Qwen3-TTS-Daggr-UI",
+    "Sovenok-Hacker/Qwen3-TTS",
+    "katyado/Qwen3-TTS",
+    "NeuralFalcon/Qwen3-TTS-Colab",
+    "multimodalart/Qwen3-TTS",
+    "Zyan11/LocalAI-Amlan-Edition",
+    "Yousefsg/qwen-tts-clone",
+    "techfreakworm/qwen-voice-studio",
+    "barreler/Qwen3-TTS",
+    "Chunte/Top-Downloaded-Trending-Models",
+    "build-small-hackathon/lingo-bridge",
+    "Davex256/LocalAI-Amlan-Edition",
+    "amir-tfrere/minimal-conversation-app-s2s-backend-websocket",
+    "michon/mrrrme-emotion-ai",
+    "jameshuntercarter/Qwen3-TTS",
+    "normalin/Qwen3-TTS",
+    "ysharma/Qwen3-TTS",
+    "antonios-makro/hf-realtime-voice-avatar",
+    "ArtFix0/reachy_conv_app",
+    "abubasith86/programming_ai",
+    "furaidosu/Qwen3-TTS",
+    "JymNils/Qwen3-TTS",
+    "Imosu/Qwen3-TTS",
+    "TONYSTARK1234/Qwen3-TTS",
+    "HedronCreeper/CreeperAI",
+    "nam194/Qwen3-TTS-Vietnamese",
+    "Rafii/videovoice",
+    "ayush77uh/qwen3-tts-api",
+    "PlotweaverModel/Qwen3-TTS_AudioBook_Demo",
+    "build-small-hackathon/word-conjure",
+    "A-Mahla/test",
+    "sugatoray/hf-realtime-voice",
+    "lvwerra/moon-robot-voice",
+    "Adilmar/gemma-avatar",
+    "cepc-c/Qwen3-TTS",
+    "Kentuss/Qwen3-TTS-Rulate",
+    "Kentuss/Qwen3-TTS",
+    "vineel24/Qwen3-TTS",
+    "ThaFame237/Qwen3-TTS",
+    "friedri/Qwen3-TTS",
+    "gsacco15/gsacco-voice-studio",
+    "Accordic/C____C",
+    "mforbush/Qwen3-TTS",
+    "TusharRavenclaw/Qwen3-TTS",
+    "twiggieeAU/Qwen3-TTS",
+    "999life/Qwen3-TTS",
+    "Mdz87/Qwen3-TTS",
+    "JyuViole/Qwen3-TTS-Demo-CPU",
+    "Maxdienz/Qwen3-TTS",
+    "waytoAGI/Qwen3-TTS",
+    "vvkinboxru/Qwen3-TTS",
+    "HopingZ/Qwen3-TTS",
+    "WJBSCUT/Qwen3-TTS",
+    "longhtd/Qwen3-TTS",
+    "rukia07/Qwen3-TTS",
+    "service24/Qwen3-TTS",
+    "Specialgfhdhdh/Qwen3-TTS",
+    "Samson11/Qwen3-TTS",
+    "Nikolarsen/Qwen3-TTS",
+    "litagin/Qwen3-TTS",
+    "HRET/Qwen3-TTS",
+    "hyacinthes/Qwen3-TTS",
+    "stephenhughes99/Qwen3-TTS",
+    "VolarisLLC/QwenVoiceAssistant",
+    "dashinsach/Qwen3-TTS",
+    "Dhruvdesh/Qwen3-TTS",
+    "rajchavan/Qwen3-TTS",
+    "krish897/Rk-Qwen3-TTS",
+    "taiSupermicro/Qwen3-TTS",
+    "LeroyDyer/Qwen3-TTS",
+    "ohmp/Ohm-Audio-Studio",
+    "saishekarpeddi/Qwen3-TTS",
+    "giancode/qqaq",
+    "danhcv/Qwen3-TTS",
+    "SoniaQi1984song/Qwen3-TTS",
+    "talon9510/tts-voice-generator",
+    "owardbao/Qwen3-TTS",
+    "Peepgang/Qwen3-TTS",
+    "kaihatsusya-man/saikyounobasyodayon",
+    "oicui/Qwen3-TTS",
+    "vickyzhou/qwen3-tts-exploration",
+    "kp-forks/Qwen3-TTS",
+    "tungpcco/QcpuTest",
+    "scooter7/Qwen3-TTS",
+    "kengonakajima/Qwen3-TTS",
+    "laruss5/Qwen3-TTS",
+    "dandushi98/Qwen3-TTS",
+    "dcccloudAiverse/Qwen3-TTS",
+    "FabianoBioS/Qwen3-TTS",
+    "LucaCappelletti94/talking-snake",
+    "moonyj8080/qwen-tts-factory",
+    "nedyt/Qwen3-TTS",
+    "quinn-dev/Qwen3-TTS",
+    "Pro100Zheka/Qwen3-TTS"
+  ],
+  "createdAt": "2026-01-21T08:56:49.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 1916676352
+    },
+    "total": 1916676352
+  },
+  "usedStorage": 4523965995
+}

@@ -1,0 +1,2035 @@
+[
+  {
+    "type": "file",
+    "oid": "20ea40516e24e1bacb8e3434e3a7ca441764ee9b",
+    "size": 1643,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=20ea40516e24e1bacb8e3434e3a7ca441764ee9b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7c219d7247ad815f9c73a93684402da0549e9724",
+    "size": 1465,
+    "path": "LICENSE",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=7c219d7247ad815f9c73a93684402da0549e9724&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "908e8aa5cd2f478f3c9253b474134980d4a131b4",
+    "size": 40082,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "54383e83fa343a1331754112fb9e3410c55efa2f",
+      "title": "fix recommended order of multimodal inputs",
+      "date": "2026-02-27T19:01:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=908e8aa5cd2f478f3c9253b474134980d4a131b4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c558728752e493c3764a7abdd1281e3d12bfed1d",
+    "size": 1662,
+    "path": "THIRD_PARTY_NOTICES.md",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=c558728752e493c3764a7abdd1281e3d12bfed1d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f88cb41422626beb4cf1e7826b079448a4663cd0",
+    "size": 3759,
+    "path": "chat_template.jinja",
+    "lastCommit": {
+      "id": "6650964d566fe57e540934e575005af04e933bbe",
+      "title": "Remove default system prompt, fix media_start token and update readme (#20)",
+      "date": "2026-01-29T09:11:59.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=f88cb41422626beb4cf1e7826b079448a4663cd0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "951255997883c0e4fd53a8a3e10add6e79354217",
+    "size": 5416,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "4d01dfe0332d63057c186e0b262165819efb6611",
+      "title": "support-transformers-inference (#115)",
+      "date": "2026-04-30T03:56:40.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=951255997883c0e4fd53a8a3e10add6e79354217&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b3152dd7c3e53d223d561848dc967f487daf32ef",
+    "size": 10615,
+    "path": "configuration_deepseek.py",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=b3152dd7c3e53d223d561848dc967f487daf32ef&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5858b3290a32509480affd58abc01482d5976550",
+    "size": 5435,
+    "path": "configuration_kimi_k25.py",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=5858b3290a32509480affd58abc01482d5976550&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1aac57bead663d507b156284690add81f1146953",
+    "size": 3233,
+    "path": "docs/deploy_guidance.md",
+    "lastCommit": {
+      "id": "2426b45b6af0da48d0dcce71bbce6225e5c73adc",
+      "title": "Updated deployment command to include encoder TP mode",
+      "date": "2026-01-31T00:52:48.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=1aac57bead663d507b156284690add81f1146953&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d4d34d31bd1a855188d341793a3144d7f97dd7d4",
+    "size": 270100,
+    "lfs": {
+      "oid": "09b4d925aa0a7c712feef50765355f0625d8f6d46ea302fd98db9609e9070047",
+      "size": 270100,
+      "pointerSize": 131
+    },
+    "xetHash": "8899c9cf7672afc725e291139dd8b722b3974965597aade3ecdd728f0f4fb5f9",
+    "path": "figures/demo_video.mp4",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=d4d34d31bd1a855188d341793a3144d7f97dd7d4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/09b4d925aa0a7c712feef50765355f0625d8f6d46ea302fd98db9609e9070047?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "870b8be6e07cc2c46f7173e800fbaff8af0af5d1",
+    "size": 87988,
+    "path": "figures/kimi-logo.png",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=870b8be6e07cc2c46f7173e800fbaff8af0af5d1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4bb3f8ec4a1d604598b7ffb4621b955e995bda92",
+    "size": 52,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=4bb3f8ec4a1d604598b7ffb4621b955e995bda92&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d526032f91036de5f3d226b866acf449553b986d",
+    "size": 6906,
+    "path": "kimi_k25_processor.py",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=d526032f91036de5f3d226b866acf449553b986d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fdf3ab2f100f7c28a1f1e7295297e54b515d0b53",
+    "size": 10019,
+    "path": "kimi_k25_vision_processing.py",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=fdf3ab2f100f7c28a1f1e7295297e54b515d0b53&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8795e06f381700d6420798f82174e3f9647e9f89",
+    "size": 13179,
+    "path": "media_utils.py",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=8795e06f381700d6420798f82174e3f9647e9f89&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "809b7aaebbd49d29c3f749c978a4d5d41af7e822",
+    "size": 995001888,
+    "lfs": {
+      "oid": "18daf53a15070b9c70d8bb63420dbd39764af9118af67982eeb60749f5453233",
+      "size": 995001888,
+      "pointerSize": 134
+    },
+    "xetHash": "e04853342b05db84ec6e98f11f9eaa943b610e854502690b3e7fb1ce802102b7",
+    "path": "model-00001-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=809b7aaebbd49d29c3f749c978a4d5d41af7e822&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/18daf53a15070b9c70d8bb63420dbd39764af9118af67982eeb60749f5453233?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3cb514dfe6cd50948b2b5bdba1d109255f2b3eb1",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "e017c948926333558df1a9637ff052c663378a70afbc1bb5b20528b8b5a501aa",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "76d1a9719be6e8440c17389e007f4a8b836e7ee20ef2817400a9af9c399616f5",
+    "path": "model-00002-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=3cb514dfe6cd50948b2b5bdba1d109255f2b3eb1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e017c948926333558df1a9637ff052c663378a70afbc1bb5b20528b8b5a501aa?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f8d6214c1b62a1c61becbeeff5c5be7eb604e075",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "c74880b04dc208397d7182c4692ca67644ea732be216ac4b23241db389f86886",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "0b1f39ab6cc4d18a3a63e233ffdae0ff1da6e04ab05f95a37963a7b5c0eba4c1",
+    "path": "model-00003-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=f8d6214c1b62a1c61becbeeff5c5be7eb604e075&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/c74880b04dc208397d7182c4692ca67644ea732be216ac4b23241db389f86886?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1011088c8df7ed9d43275fc8b9a5f979a0a82b4f",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "17faa37dbf12b17eb3cb94bc7d9b85db9f7d68411bdecec84224425b25b22fca",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "807af45ae9400d467bb6e99c92ce41f765ea9e96a201ce0a5ea5c64965fed0be",
+    "path": "model-00004-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=1011088c8df7ed9d43275fc8b9a5f979a0a82b4f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/17faa37dbf12b17eb3cb94bc7d9b85db9f7d68411bdecec84224425b25b22fca?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "404d054795db6680acb4e055a8a24dd619334c6a",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "a97ff66ec88a9e02a129cb3dc75b2c3cb4fc4ccf698777042253504be372b52f",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "6eccad381abff1237fe184310305701195329445641e0fdb062de77d7d5ef0fa",
+    "path": "model-00005-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=404d054795db6680acb4e055a8a24dd619334c6a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/a97ff66ec88a9e02a129cb3dc75b2c3cb4fc4ccf698777042253504be372b52f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c1dad5c90fb9fec8bdaea35394abd4dc211230aa",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "da5cfbfe78d1c740c3cbe8ba49d84712d4328be72d3389dad54361d480cd3148",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "03ecda7652e3fe80cefdf85d76a4bf2c7d18dc5ffb06ecde3ee3e98cb5d097ee",
+    "path": "model-00006-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=c1dad5c90fb9fec8bdaea35394abd4dc211230aa&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/da5cfbfe78d1c740c3cbe8ba49d84712d4328be72d3389dad54361d480cd3148?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2db6670c9ef0c897fa833ed1e26662cea67d5f70",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "65b0cd81a5c8320fdfbba91f3530bf35da9befe7a776da1f4d5485083b527d8a",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "5c06ff60b57a4345c1e5ec68a8dc50a8dba985ec0738a93783f67185e4ed5721",
+    "path": "model-00007-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=2db6670c9ef0c897fa833ed1e26662cea67d5f70&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/65b0cd81a5c8320fdfbba91f3530bf35da9befe7a776da1f4d5485083b527d8a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6752ac30894c1cca842d03f404d5d83b56516da0",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "da91fa6a5e61a3dc36a2a9e46e0be066ce67ae78a1f2dcdce04511c38e30fb5d",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "fbc248d21ffd9a11dd094dbd1a6c7b66836678978681ca4c9b3a7fbd1e259f3d",
+    "path": "model-00008-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=6752ac30894c1cca842d03f404d5d83b56516da0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/da91fa6a5e61a3dc36a2a9e46e0be066ce67ae78a1f2dcdce04511c38e30fb5d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ce1aa871f207e66cfa13c221b78ce2e1a50fbfb7",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "e4f08c59cee6cc26a92cfb5f36952511b171d5db527d1d78f84f7a081ab78599",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "0b803f7cf6293546887d78d8720787f2ce926dad97c64545d8cdb90c865cc8c3",
+    "path": "model-00009-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=ce1aa871f207e66cfa13c221b78ce2e1a50fbfb7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e4f08c59cee6cc26a92cfb5f36952511b171d5db527d1d78f84f7a081ab78599?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "46d5ba31b98f2549f1fa4486016d39d08476f7a5",
+    "size": 9809047464,
+    "lfs": {
+      "oid": "7bdae095b9c721830784435564dada40a63c2c4b434cba4d81dbc0b1173e3d75",
+      "size": 9809047464,
+      "pointerSize": 135
+    },
+    "xetHash": "5d834a2059addac54c57e6122ed7639948226e4f357b2b83d7a415756012183b",
+    "path": "model-00010-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=46d5ba31b98f2549f1fa4486016d39d08476f7a5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/7bdae095b9c721830784435564dada40a63c2c4b434cba4d81dbc0b1173e3d75?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a2786895e4eb1302fc6d057e033e0e31ba4a7a22",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "899dbf01f498fa71c4e97833caac73c7fbb3e197a237f2f7d9fea9c5262afdc3",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "43701ee4877dfcced3e637709e7f03392d2d87fac1e19b6a31db3ac73bc3c65a",
+    "path": "model-00011-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=a2786895e4eb1302fc6d057e033e0e31ba4a7a22&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/899dbf01f498fa71c4e97833caac73c7fbb3e197a237f2f7d9fea9c5262afdc3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5915e61887affe2b0812b72e781c3b242cff7314",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "72be28902ba87b0a1ac24ebb3b36ee89850cc7f13fbbb51e8b1dba743c7eb171",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "a159f04b7adf2f11d93c2da0715d6d7510887f5132842dbea7cac0105930a6c8",
+    "path": "model-00012-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=5915e61887affe2b0812b72e781c3b242cff7314&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/72be28902ba87b0a1ac24ebb3b36ee89850cc7f13fbbb51e8b1dba743c7eb171?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a75b0088cf21c85ba43e2b7b24d1f5de53566038",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "f375d01e1b1230cb0bbfc3c6ce6a81c26a578b633dc43e24956610c84205d688",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "f8200534508bbf5c0dfe461d9f7d63b5a8050402da1271343d7dcb65e97e8310",
+    "path": "model-00013-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=a75b0088cf21c85ba43e2b7b24d1f5de53566038&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f375d01e1b1230cb0bbfc3c6ce6a81c26a578b633dc43e24956610c84205d688?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6cd0b4c100fb1c2d46e518c346bf5415596cc2a1",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "b341417f09964cf477c60fd431ecd6e454442e973d41a17038004340ce8ad83e",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "055fa5965eaba4c67c5416c78d5d782b8426ffb189d1ea7e177e35e56368c1b7",
+    "path": "model-00014-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=6cd0b4c100fb1c2d46e518c346bf5415596cc2a1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/b341417f09964cf477c60fd431ecd6e454442e973d41a17038004340ce8ad83e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8f94dfecdbf91548d83689e02df6d20c8000a95b",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "9534ee2411e8c05451e19b7234ceddcd33271795b782d910baa9ebb96738d2f9",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "d1a78922b4d80df0252d67c633cf1e8227aaee6973885eba20e41b8aa19e5b29",
+    "path": "model-00015-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=8f94dfecdbf91548d83689e02df6d20c8000a95b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/9534ee2411e8c05451e19b7234ceddcd33271795b782d910baa9ebb96738d2f9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c624966151e743fcbe6230bee650897320d0a57f",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "46cd89549baf6099c1629a1a023b0a6886d5d115f9afc97ffb68390339967eb7",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "6cd82a1a5cd38113e21b3221955dda54d5bce121727e1565e5e136b1c6dfef93",
+    "path": "model-00016-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=c624966151e743fcbe6230bee650897320d0a57f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/46cd89549baf6099c1629a1a023b0a6886d5d115f9afc97ffb68390339967eb7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "827b47317aac25d14236b2276e626f5b21f5cce9",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "2b653d852e4d30f8eceb0800ae1a5b15c02fd203fae04c097aebb8fc99a0ef03",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "f52f0cb0f49fea0714173491673ec16a2541861a7386f0066bc3562faee3a9e2",
+    "path": "model-00017-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=827b47317aac25d14236b2276e626f5b21f5cce9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/2b653d852e4d30f8eceb0800ae1a5b15c02fd203fae04c097aebb8fc99a0ef03?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6a3f7e0cee9b508679e95ee4e11dc540f7232c29",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "cd82fedc4da324d1be93db896d0b30ccc02ffd4d267bd1b64875c5cc0d7cee22",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "f6a2764c28228fe21292872291d21cddac3b8098aa5bce6c816ca5b3d46eed3b",
+    "path": "model-00018-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=6a3f7e0cee9b508679e95ee4e11dc540f7232c29&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cd82fedc4da324d1be93db896d0b30ccc02ffd4d267bd1b64875c5cc0d7cee22?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "228b260293d6ed64bc4e0e349ae6b39c171b3938",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "835c2cce752c8f7030d04fdd11a27311efc489b1558dee9d646d135d3cd82044",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "3a1bc81c21915e2cc50f8102e4b217ee5b7dca45440f0b5f748eed5034ff231c",
+    "path": "model-00019-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=228b260293d6ed64bc4e0e349ae6b39c171b3938&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/835c2cce752c8f7030d04fdd11a27311efc489b1558dee9d646d135d3cd82044?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bbe0c6cbb1f40d0b8818c7ced86dbdf6581e8dfa",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "26a3ec988f47120f07938afbf7ce3a27dbeeaf955e816ccf202ebf3751833438",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "03116ccc855414426a94956815df99f9ab0e5b05eb27dd1a4e1bc12dec4df5fe",
+    "path": "model-00020-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=bbe0c6cbb1f40d0b8818c7ced86dbdf6581e8dfa&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/26a3ec988f47120f07938afbf7ce3a27dbeeaf955e816ccf202ebf3751833438?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "115375f04ac0408bf6eaefb5a8b52a3ab9a3a8c2",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "02376f1b7e16343f0e7ea4d847c85e33da30295499c25145fbd4998cb44fdcff",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "b0436fe11efc75a44423bfc1dd3ff70272150c988e17a63fe86b8e1bcb9f5f8c",
+    "path": "model-00021-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=115375f04ac0408bf6eaefb5a8b52a3ab9a3a8c2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/02376f1b7e16343f0e7ea4d847c85e33da30295499c25145fbd4998cb44fdcff?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "57e90f76bfb569e5c9a151b043f6d320fe6873a4",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "a177b349938d277b2ff17d4593981343c7a66a6445b964fd596551dc325dd889",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "f9e98f8452d9638b616f354b1afdeb91e9542b8ddab7e6b92f45f43a19147d29",
+    "path": "model-00022-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=57e90f76bfb569e5c9a151b043f6d320fe6873a4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/a177b349938d277b2ff17d4593981343c7a66a6445b964fd596551dc325dd889?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bee4b03197546f787d755da2a59d428918acc92e",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "ecbbd2355a4b74d425a1ab847de07d603a0f23c1eb5615563e72f224335022d7",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "0bc91cd3f3565370182521a1ed1b7876b0e374204c5e2d431be2af801c45dc1d",
+    "path": "model-00023-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=bee4b03197546f787d755da2a59d428918acc92e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/ecbbd2355a4b74d425a1ab847de07d603a0f23c1eb5615563e72f224335022d7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a47b0f110555eed763a22492f7a9edae816c4b55",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "505f7178c7e3d089aa51d3eb83b2133e379ae75e25b00ebc80793c4affbd90e3",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "04793d2694c621c84e196d3025aaa3baac728194d5a2bde4311bdc9b45908de3",
+    "path": "model-00024-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=a47b0f110555eed763a22492f7a9edae816c4b55&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/505f7178c7e3d089aa51d3eb83b2133e379ae75e25b00ebc80793c4affbd90e3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "325678d4d56b498c3d2f6316ea85257e6993c9a1",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "9240b5987ffbe8b47f0668db0b7608916e1648bc9a3a0b55f6079c222e430a83",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "af32ae85af776bb582b724105dac8d72655cf13713e198a112bdf60ba658d337",
+    "path": "model-00025-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=325678d4d56b498c3d2f6316ea85257e6993c9a1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/9240b5987ffbe8b47f0668db0b7608916e1648bc9a3a0b55f6079c222e430a83?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4942622fa799d760299eee6ceec658401802211b",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "4886aa2bf3e83fbb83adee7fde183b9476820dafcbaade99a87b95c8946e5b78",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "37501771f3c03d98d7be1ff5c14661ef7f0515948a4ef64af531a49e03f38235",
+    "path": "model-00026-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=4942622fa799d760299eee6ceec658401802211b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/4886aa2bf3e83fbb83adee7fde183b9476820dafcbaade99a87b95c8946e5b78?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6a64f025c652d37165c2fa87d32c052b58d13559",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "06e78ba422ca3d7188d701d6cbfef9ca79a94e56c572894ac63666cc90336a0c",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "f2f6b2fea560f7c4c660efd0159723e5e9054b82b423352764e00a64454ff454",
+    "path": "model-00027-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=6a64f025c652d37165c2fa87d32c052b58d13559&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/06e78ba422ca3d7188d701d6cbfef9ca79a94e56c572894ac63666cc90336a0c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ea8608f970a2ee3e8d3d770e02865437461886cc",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "4235b1e3d587a2ebbdcf111eb231c1d66a891ef0c8e6bc91214e4ebccbfa499f",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "d5f7c79d977835cca68a8c2ffab867aabf19dd7b5ee6ecf164e2ea019e98a665",
+    "path": "model-00028-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=ea8608f970a2ee3e8d3d770e02865437461886cc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/4235b1e3d587a2ebbdcf111eb231c1d66a891ef0c8e6bc91214e4ebccbfa499f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0ed25f79fabb2661d069eae5d98915870d3f5498",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "2e37a630cd0f516cf82442de3db77f1f4ec7f0fa7b37a429c51dd17c26fd6b02",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "1c084d7da353133e635c92f5f3250377ade4ae969fa2505a7a979e0550499c5f",
+    "path": "model-00029-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=0ed25f79fabb2661d069eae5d98915870d3f5498&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/2e37a630cd0f516cf82442de3db77f1f4ec7f0fa7b37a429c51dd17c26fd6b02?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9274a4b79445f7d081ea6cba1536f578b9e3a9f0",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "04da30f98f4c57c6a821090be82d0d8e3af92ccb3edefb7cabed893d96ee0a04",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "31a915f8fe8da81e988b9f68a3cfb45d7bd82483211308c74d28a50900ceb304",
+    "path": "model-00030-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=9274a4b79445f7d081ea6cba1536f578b9e3a9f0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/04da30f98f4c57c6a821090be82d0d8e3af92ccb3edefb7cabed893d96ee0a04?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8ee9f60b58c16e569404fa62ec1c4f0c19a3d640",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "fdf3def720479758dfb38f53b6cf97d4d326fd39f215b2d1c65699423d3af2ad",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "b7ec9bcc6431b723b00e1aa9ef203009cbfc71e0eae875ea1865fb97e1765355",
+    "path": "model-00031-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=8ee9f60b58c16e569404fa62ec1c4f0c19a3d640&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/fdf3def720479758dfb38f53b6cf97d4d326fd39f215b2d1c65699423d3af2ad?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "047ec2922d68e8f8f4774a411d6af9559174e0b9",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "52534a0a523aaf64c061297aa1efe3b6cb5e42a0af422f14933c159c92ba9e49",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "d22a168eafb629dae99bb6e65ad82903c55b0c4cd0cb1d3ea7c6c4a397da4ae3",
+    "path": "model-00032-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=047ec2922d68e8f8f4774a411d6af9559174e0b9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/52534a0a523aaf64c061297aa1efe3b6cb5e42a0af422f14933c159c92ba9e49?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b25d5a7ac303c0a6e6c45c864209c06879f22b56",
+    "size": 9809050936,
+    "lfs": {
+      "oid": "3b8438e1e9a6573f403c03defa00aa0649f716b5da098beb422827834e889ea8",
+      "size": 9809050936,
+      "pointerSize": 135
+    },
+    "xetHash": "3830c933c027543f9658f342234744862a3369657e09c8848c0404b0672b71b7",
+    "path": "model-00033-of-000064.safetensors",
+    "lastCommit": {
+      "id": "70a8ad02d86dbb7459abd22b8a4feca294d2c993",
+      "title": "Add files using upload-large-folder tool",
+      "date": "2026-01-01T09:22:54.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K2.5/4d01dfe0332d63057c186e0b262165819efb6611/files?blob-id=b25d5a7ac303c0a6e6c45c864209c06879f22b56&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/3b8438e1e9a6573f403c03defa00aa0649f716b5da098beb422827834e889ea8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  }
+]

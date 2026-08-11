@@ -1,17 +1,17 @@
 {
-  "repo": "zai-org/GLM-5.2-FP8",
+  "repo": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
   "requested_revision": "main",
-  "commit": "ba978f7d347eaf65d22f1a86833408afdb953541",
+  "commit": "9d90cf8fca1bf7b7acca42d3fc9ae694a2194069",
   "endpoint": "https://huggingface.co",
   "run": "2026-08-11T06:08:49Z-72054",
-  "collected_at": "2026-08-11T06:09:27Z",
+  "collected_at": "2026-08-11T06:09:44Z",
   "tool": "hf-audit.sh 1.0.0",
   "normalizer_version": 1,
   "collected_by": "cheewaichong",
   "collected_on": "Chees-MacBook-Air.local",
   "file_count": 50,
-  "total_bytes": 235992631846,
-  "safetensors_count": 44,
-  "files_unscanned": 0,
+  "total_bytes": 171519504026,
+  "safetensors_count": 43,
+  "files_unscanned": 50,
   "files_not_safe": 0
 }

@@ -1,0 +1,123 @@
+{
+  "_id": "65f8e068646c72375aa8096b",
+  "id": "Aryn/deformable-detr-DocLayNet",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "deformable_detr",
+    "object-detection",
+    "vision",
+    "dataset:ds4sd/DocLayNet",
+    "arxiv:2206.01062",
+    "arxiv:2010.04159",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 23479,
+  "likes": 51,
+  "modelId": "Aryn/deformable-detr-DocLayNet",
+  "author": "Aryn",
+  "sha": "d5503a90ae08dd43565de6984a5dd7924cad2400",
+  "lastModified": "2025-08-08T22:03:22.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_1.png",
+      "example_title": "DocLayNet Example 1"
+    },
+    {
+      "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_2.png",
+      "example_title": "DocLayNet Example 2"
+    },
+    {
+      "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_3.png",
+      "example_title": "DocLayNet Example 3"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "DeformableDetrForObjectDetection"
+    ],
+    "model_type": "deformable_detr"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "object-detection",
+      "vision"
+    ],
+    "datasets": [
+      "ds4sd/DocLayNet"
+    ],
+    "widget": [
+      {
+        "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_1.png",
+        "example_title": "DocLayNet Example 1"
+      },
+      {
+        "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_2.png",
+        "example_title": "DocLayNet Example 2"
+      },
+      {
+        "src": "https://huggingface.co/Aryn/deformable-detr-DocLayNet/resolve/main/examples/doclaynet_example_3.png",
+        "example_title": "DocLayNet Example 3"
+      }
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForObjectDetection",
+    "pipeline_tag": "object-detection",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "examples/doclaynet_example_1.png"
+    },
+    {
+      "rfilename": "examples/doclaynet_example_2.png"
+    },
+    {
+      "rfilename": "examples/doclaynet_example_3.png"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "Aabbhishekk/LayoutParser1",
+    "bouncesnare/Aryn-deformable-detr-DocLayNet",
+    "Aabbhishekk/LayoutParser",
+    "DeanLJY/Aryn-deformable-detr-DocLayNet"
+  ],
+  "createdAt": "2024-03-19T00:46:32.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 41145648
+    },
+    "total": 41145648
+  },
+  "usedStorage": 164653696
+}

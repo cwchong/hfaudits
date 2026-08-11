@@ -1,0 +1,422 @@
+{
+  "_id": "6a2a691312d31e23df8c42f5",
+  "id": "moonshotai/Kimi-K2.7-Code",
+  "private": false,
+  "pipeline_tag": "image-text-to-text",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "kimi_k25",
+    "feature-extraction",
+    "compressed-tensors",
+    "image-text-to-text",
+    "conversational",
+    "custom_code",
+    "license:other",
+    "eval-results",
+    "region:us"
+  ],
+  "downloads": 650368,
+  "likes": 1355,
+  "modelId": "moonshotai/Kimi-K2.7-Code",
+  "author": "moonshotai",
+  "sha": "74797c9c62378b951a1f6fcf5c4631024e9b8bef",
+  "lastModified": "2026-06-15T07:49:29.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "KimiK25ForConditionalGeneration"
+    ],
+    "auto_map": {
+      "AutoConfig": "configuration_kimi_k25.KimiK25Config",
+      "AutoModel": "modeling_kimi_k25.KimiK25ForConditionalGeneration",
+      "AutoModelForCausalLM": "modeling_kimi_k25.KimiK25ForConditionalGeneration"
+    },
+    "model_type": "kimi_k25",
+    "text_config": {
+      "quantization_config": {
+        "config_groups": {
+          "group_0": {
+            "targets": [
+              "Linear"
+            ],
+            "weights": {
+              "num_bits": 4
+            }
+          }
+        },
+        "format": "pack-quantized",
+        "ignore": [
+          "re:.*self_attn.*",
+          "re:.*shared_experts.*",
+          "re:.*mlp\\.(gate|up|gate_up|down)_proj.*",
+          "re:.*lm_head.*",
+          "re:.*vision_tower.*",
+          "re:.*mm_projector.*"
+        ],
+        "quant_method": "compressed-tensors"
+      }
+    },
+    "tokenizer_config": {
+      "bos_token": "[BOS]",
+      "eos_token": "[EOS]",
+      "pad_token": "[PAD]",
+      "unk_token": "[UNK]"
+    },
+    "chat_template_jinja": "{%- macro render_content(msg) -%}\n    {%- set c = msg.get('content') -%}\n    {%- if c is string -%}\n      {{ c }}\n    {%- elif c is not none -%}\n      {% for content in c -%}\n        {% if content['type'] == 'image' or content['type'] == 'image_url' -%}\n          <|media_begin|>image<|media_content|><|media_pad|><|media_end|>\n        {% elif content['type'] == 'video' or content['type']== 'video_url'-%}\n          <|kimi_k25_video_placeholder|>\n        {% else -%}\n          {{ content['text'] }}\n        {%- endif -%}\n      {%- endfor -%}\n    {%- endif -%}\n{%- endmacro -%}\n{% macro set_roles(message) -%}\n  {%- set role_name =  message.get('name') or  message['role'] -%}\n  {%- if message['role'] == 'user' -%}\n    <|im_user|>{{role_name}}<|im_middle|>\n  {%- elif message['role'] == 'assistant' -%}\n    <|im_assistant|>{{role_name}}<|im_middle|>\n  {%- else -%}\n    <|im_system|>{{role_name}}<|im_middle|>\n  {%- endif -%}\n{%- endmacro -%}\n{%- macro render_toolcalls(message) -%}\n  <|tool_calls_section_begin|>\n  {%- for tool_call in message['tool_calls'] -%}\n    {%- set formatted_id = tool_call['id'] -%}\n    <|tool_call_begin|>{{ formatted_id }}<|tool_call_argument_begin|>{% if tool_call['function']['arguments'] is string %}{{ tool_call['function']['arguments'] }}{% else %}{{ tool_call['function']['arguments'] | tojson }}{% endif %}<|tool_call_end|>\n  {%- endfor -%}\n  <|tool_calls_section_end|>\n{%- endmacro -%}\n{%- if tools -%}\n  {%- if tools_ts_str -%}\n    <|im_system|>tool_declare<|im_middle|>{{ tools_ts_str }}<|im_end|>\n  {%- else -%}\n    <|im_system|>tool_declare<|im_middle|>{{ tools | tojson(separators=(',', ':')) }}<|im_end|>\n  {%- endif -%}\n{%- endif -%}\n{%- for message in messages -%}\n  {{set_roles(message)}}\n  {%- if message['role'] == 'assistant' -%}\n    {%- set rc = message.get('reasoning', message.get('reasoning_content', '')) -%}\n    <think>{{rc}}</think>{{render_content(message)}}\n    {%- if message.get('tool_calls') -%}\n      {{render_toolcalls(message)}}\n    {%- endif -%}\n  {%- elif message['role'] == 'tool' -%}\n    {%- set tool_call_id = message.tool_call_id -%}\n    ## Return of {{ tool_call_id }}\n{{render_content(message)}}\n  {%- elif message['content'] is not none -%}\n    {{render_content(message)}}\n  {%- endif -%}\n  <|im_end|>\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n  <|im_assistant|>assistant<|im_middle|><think>\n{%- endif -%}\n"
+  },
+  "cardData": {
+    "tags": [
+      "compressed-tensors"
+    ],
+    "license": "other",
+    "license_name": "modified-mit",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel",
+    "custom_class": "modeling_kimi_k25.KimiK25ForConditionalGeneration",
+    "pipeline_tag": "feature-extraction",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "rfilename": "chat_template.jinja"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "configuration_deepseek.py"
+    },
+    {
+      "rfilename": "configuration_kimi_k25.py"
+    },
+    {
+      "rfilename": "docs/deploy_guidance.md"
+    },
+    {
+      "rfilename": "figures/demo_video.mp4"
+    },
+    {
+      "rfilename": "figures/kimi-logo.png"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "kimi_k25_processor.py"
+    },
+    {
+      "rfilename": "kimi_k25_vision_processing.py"
+    },
+    {
+      "rfilename": "media_utils.py"
+    },
+    {
+      "rfilename": "model-00001-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00006-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00007-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00008-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00009-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00010-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00011-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00012-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00013-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00014-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00015-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00016-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00017-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00018-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00019-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00020-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00021-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00022-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00023-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00024-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00025-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00026-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00027-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00028-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00029-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00030-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00031-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00032-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00033-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00034-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00035-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00036-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00037-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00038-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00039-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00040-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00041-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00042-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00043-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00044-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00045-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00046-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00047-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00048-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00049-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00050-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00051-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00052-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00053-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00054-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00055-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00056-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00057-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00058-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00059-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00060-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00061-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00062-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00063-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model-00064-of-000064.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "modeling_deepseek.py"
+    },
+    {
+      "rfilename": "modeling_kimi_k25.py"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "tiktoken.model"
+    },
+    {
+      "rfilename": "tokenization_kimi.py"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "tool_declaration_ts.py"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "smolagents/ml-intern",
+    "akhaliq/Kimi-K2.7-Code",
+    "huggingface/ml-intern-api",
+    "huggingface/ml-intern-api-docs",
+    "abcs-noob/Uploadfiles",
+    "bep40/ml-intern",
+    "hts-ai/sentinelai-takedown-engine-2gqv9",
+    "Langitzt/K27",
+    "VigneshCEO/moonshotai-Kimi-K2.7-Code",
+    "looknicemm1/tmp-files",
+    "avagridworkit/moonshotai-Kimi-K2.7-Code",
+    "Godwild27/Endpoint",
+    "1Temur/moonshotai-Kimi-K2.7-Code",
+    "harshil-code/moonshotai-Kimi-K2.7-Code",
+    "adnankabir/moonshotai-Kimi-K2.7-Code",
+    "Fenixo/moonshotai-Kimi-K2.7-Code",
+    "b1256/moonshotai-Kimi-K2.7-Code",
+    "Kushallcode/moonshotai-Kimi-K2.7-Code",
+    "Aylanss/moonshotai-Kimi-K2.7-Code",
+    "23456789ghjk/moonshotai-Kimi-K2.7-Code",
+    "developerjeremylive/Kimi-K2.7-Code-etheroi",
+    "rayline-ai/rayline-router-trainer",
+    "gamansai/astria",
+    "gamanimpex/astria",
+    "aparanjani232/astria",
+    "vijayreddylol/astria",
+    "Frsbk/moonshotai-Kimi-K2.7-Code",
+    "rohanchand21/freellmapi",
+    "Juanito01013/moonshotai-Kimi-K2.7-Code",
+    "steve20400/moonshotai-Kimi-K2.7-Code",
+    "mmrech/ml-intern",
+    "Chris4K/ml-intern",
+    "TUFFBABY1/tungtungahur",
+    "zentic-2026/moonshotai-Kimi-K2.7-Code",
+    "filestreamer/moonshotai-Kimi-K2.7-Code",
+    "Cinrostro1/moonshotai-Kimi-K2.7-Code",
+    "frankwild123/codex-agent-3",
+    "dddsq/moonshotai-Kimi-K2.7-Code",
+    "abidlabs/vlm-screenshot-to-webpage",
+    "Sekirosekai/kimi-k2-code-demo",
+    "kirikir13/dr_studios_dreammachine_v3pro",
+    "RespawnerzStudioz/BlockSmith-Minecraft"
+  ],
+  "createdAt": "2026-06-11T07:51:47.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 12193329648,
+      "F32": 23040,
+      "I32": 1014686023680
+    },
+    "total": 1026879376368
+  },
+  "inference": "warm",
+  "usedStorage": 595204651032
+}
