@@ -1,0 +1,111 @@
+[
+  {
+    "type": "file",
+    "oid": "b3235caa72407eed86ff827481815a454f3ad305",
+    "size": 1586,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "50181f6a75d3795a4ffe9d9617bdb4f4913dd150",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:09:36.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=b3235caa72407eed86ff827481815a454f3ad305&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f02e4934992a0a98efd7666690e58b145a765ac4",
+    "size": 7857,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "1d1dbdec4c0a5b479b11642669d5ae6514137e96",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:13:03.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=f02e4934992a0a98efd7666690e58b145a765ac4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "95d502649da8ce7b72377c69970a1e2aedca9fc1",
+    "size": 4368439552,
+    "lfs": {
+      "oid": "5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976",
+      "size": 4368439552,
+      "pointerSize": 135
+    },
+    "xetHash": "73b1c7b1e4d795531e42644a0d578fa9f12f6de886a51040a05378c729166998",
+    "path": "prometheus-7b-v2.0.Q4_K_M.gguf",
+    "lastCommit": {
+      "id": "50181f6a75d3795a4ffe9d9617bdb4f4913dd150",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:09:36.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=95d502649da8ce7b72377c69970a1e2aedca9fc1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  }
+]

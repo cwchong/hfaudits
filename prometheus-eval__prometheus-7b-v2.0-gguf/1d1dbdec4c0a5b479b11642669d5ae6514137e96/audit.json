@@ -1,0 +1,18 @@
+{
+  "repo": "prometheus-eval/prometheus-7b-v2.0-GGUF",
+  "requested_revision": "main",
+  "commit": "1d1dbdec4c0a5b479b11642669d5ae6514137e96",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-08-13T10:11:41Z-84439",
+  "collected_at": "2026-08-13T10:11:43Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 3,
+  "total_bytes": 4368448995,
+  "safetensors_count": 0,
+  "gguf_count": 1,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
-#  hf2docker.sh — Hugging Face safetensors -> Docker images, on a small disk,
-#                 with a retained provenance/scan audit record
+#  hf2docker.sh — Hugging Face safetensors/GGUF -> Docker images, on a small
+#                 disk, with a retained provenance/scan audit record
 # =============================================================================
 #
 #  Layout produced
@@ -17,10 +17,23 @@
 #  Use '-b debian:stable-slim --shell /bin/bash' for real bash, or '-b scratch'
 #  for a pure data image with no shell (only usable via COPY --from / image volumes).
 #
+#  Weight formats
+#  --------------
+#    A repo's shards are whichever of these are present: *.safetensors, or
+#    *.gguf. (Repos are not expected to mix the two; if they do, both kinds
+#    are shipped.) GGUF repos commonly publish several quantisations of the
+#    same model (Q4_K_M, Q5_K_M, Q8_0, ...), each possibly itself split into
+#    multiple part files — downloading all of them defeats the bounded-disk
+#    design, so:
+#      --gguf-quant PATTERN   only shard files whose name contains PATTERN
+#                             (case-insensitive substring, e.g. Q4_K_M)
+#    If a repo has more than one distinct quant and --gguf-quant is not set,
+#    the script warns and lists the quants it found before packing them all.
+#
 #  Grouping
 #  --------
 #    Small shards can be packed together so each image is a useful size:
-#      --per-image N          N safetensors per image (default 1; 0 = no count cap)
+#      --per-image N          N shard files per image (default 1; 0 = no count cap)
 #      --max-image-size SIZE  close a group early if it would exceed SIZE
 #    e.g. --per-image 4 --max-image-size 6GB  =>  up to 4 shards, never over 6 GiB.
 #    Group 1 additionally carries the repo metadata files and the audit bundle.
@@ -60,7 +73,7 @@
 set -Eeuo pipefail
 
 PROG=${0##*/}
-VERSION=3.0.0
+VERSION=3.1.0
 
 # ------------------------------------------------------------------ defaults --
 WORKDIR=${WORKDIR:-${PWD}/hf2docker-work}
@@ -78,9 +91,10 @@ SHELL_PATH=${SHELL_PATH:-/bin/bash}     # CMD for the image; /bin/bash on a debi
 PLATFORM=${PLATFORM:-linux/amd64}
 HF_ENDPOINT=${HF_ENDPOINT:-https://huggingface.co}
 
-PER_IMAGE=${PER_IMAGE:-1}             # safetensors per image; 0 = no count cap
+PER_IMAGE=${PER_IMAGE:-1}             # shard files per image; 0 = no count cap
 MAX_IMAGE_SIZE=${MAX_IMAGE_SIZE:-}    # e.g. 6GB; empty = no size cap
 MAX_IMAGE_BYTES=0
+GGUF_QUANT=${GGUF_QUANT:-}            # substring filter on .gguf filenames, e.g. Q4_K_M
 
 SPACE_PCT=${SPACE_PCT:-250}           # required free space as % of group size
 RESERVE_MB=${RESERVE_MB:-2048}        # absolute headroom kept free, on top of that
@@ -136,8 +150,8 @@ to_bytes() {
 
 usage() {
   cat <<EOF
-$PROG $VERSION — pack Hugging Face safetensors into Docker images on a small
-disk, retaining a full provenance/scan audit record.
+$PROG $VERSION — pack Hugging Face safetensors or GGUF weights into Docker
+images on a small disk, retaining a full provenance/scan audit record.
 
 Usage: $PROG -n <dockerhub-namespace> [options] <repo> [<repo> ...]
 
@@ -146,10 +160,18 @@ Naming and layout:
   payload <models-root>/<MODEL_NAME>/...      (upstream casing preserved)
   e.g.    mlbakery:qwen3-coder-next-fp8-shard1
           /models/Qwen3-Coder-Next-FP8/model-00001-of-00009.safetensors
+  or      mlbakery:qwen2.5-7b-instruct-gguf-shard1
+          /models/Qwen2.5-7B-Instruct-GGUF/qwen2.5-7b-instruct-q4_k_m.gguf
+
+A repo's shards are whatever .safetensors or .gguf files it has.
 
 Grouping:
-      --per-image N        safetensors per image      (default: $PER_IMAGE; 0 = no count cap)
+      --per-image N        shard files per image      (default: $PER_IMAGE; 0 = no count cap)
       --max-image-size SZ  cap group payload, e.g. 6GB (default: none)
+
+GGUF:
+      --gguf-quant PATTERN  only shard .gguf files whose name contains
+                             PATTERN, case-insensitive (default: all quants)
 
 Options:
   -n, --namespace NS     Docker Hub user/org to push to        (env DOCKER_NS)
@@ -226,7 +248,7 @@ while (( $# )); do
     -n|--namespace|-i|--image-name|-f|--repos-file|-r|--revision|-w|--workdir|\
     -a|--audit-dir|-b|--base|--models-root|--model-name|--per-image|\
     --max-image-size|-p|--platform|-t|--tag-prefix|--shard-word|--first-alias|\
-    --shell|--space-pct|--reserve-mb|--meta-max-mb|--paths-chunk)
+    --shell|--space-pct|--reserve-mb|--meta-max-mb|--paths-chunk|--gguf-quant)
       (( $# >= 2 )) || die "option $1 requires a value"
       if [[ $2 == -?* ]]; then
         die "option $1 requires a value but got '$2' — repeated flag or missing argument?"
@@ -254,6 +276,7 @@ while (( $# )); do
     --reserve-mb)       RESERVE_MB=$2; shift 2 ;;
     --meta-max-mb)      META_MAX_MB=$2; shift 2 ;;
     --paths-chunk)      PATHS_CHUNK=$2; shift 2 ;;
+    --gguf-quant)       GGUF_QUANT=$2; shift 2 ;;
     --require-safe)     REQUIRE_SAFE=1; shift ;;
     --require-scanned)  REQUIRE_SAFE=1; REQUIRE_SCANNED=1; shift ;;
     --no-local-sha)     LOCAL_SHA=0; shift ;;
@@ -513,6 +536,21 @@ is_weight() {
     [[ ${f,,} == $g ]] && return 0
   done
   return 1
+}
+
+# detect_gguf_quants <gguf-path>...  -> distinct quant tags found in filenames,
+# sorted, one per line (e.g. Q4_K_M, Q8_0, F16). Best-effort; unmatched
+# filenames (no recognisable quant token) are silently ignored here — they
+# still get downloaded normally, this is only used for the heads-up warning.
+detect_gguf_quants() {
+  local f q
+  declare -A seen
+  for f in "$@"; do
+    q=$(printf '%s' "${f##*/}" \
+        | grep -oiE '(IQ|Q)[0-9]+(_[A-Z0-9]+)*|B?F16|F32' | head -n1) || true
+    [[ -n $q ]] && seen["${q^^}"]=1
+  done
+  printf '%s\n' "${!seen[@]}" | LC_ALL=C sort
 }
 
 hf_curl() {
@@ -802,21 +840,43 @@ process_repo() {
   log "repo-level security status: $repo_status"
 
   SIZE=(); SHA=(); STATUS=(); SCANSUM=()
-  local -a shards=() metas=()
+  local -a shards=() metas=() gguf_all=() gguf_skipped=()
   local path sz sha
   while IFS=$'\t' read -r path sz sha; do
     [[ -n $path ]] || continue
     SIZE["$path"]=${sz:-0}
     SHA["$path"]=$sha
-    if [[ ${path,,} == *.safetensors ]]; then
-      shards+=("$path")
-    elif ! is_weight "$path" && (( ${sz:-0} <= META_MAX_MB * 1024 * 1024 )); then
-      metas+=("$path")
-    fi
+    case ${path,,} in
+      *.safetensors)
+        shards+=("$path") ;;
+      *.gguf)
+        gguf_all+=("$path")
+        if [[ -z $GGUF_QUANT ]] || [[ ${path,,} == *"${GGUF_QUANT,,}"* ]]; then
+          shards+=("$path")
+        else
+          gguf_skipped+=("$path")
+        fi ;;
+      *)
+        if ! is_weight "$path" && (( ${sz:-0} <= META_MAX_MB * 1024 * 1024 )); then
+          metas+=("$path")
+        fi ;;
+    esac
   done < <(jq -r '.[] | [ .path, .size, (.sha256 // "") ] | @tsv' "$adir/files.json" \
            | LC_ALL=C sort -t$'\t' -k1,1)
 
-  (( ${#shards[@]} )) || { warn "no .safetensors in $repo — skipped"; return 0; }
+  if [[ -n $GGUF_QUANT ]] && (( ${#gguf_skipped[@]} )); then
+    log "--gguf-quant '$GGUF_QUANT': shipping ${#shards[@]} of ${#gguf_all[@]} .gguf file(s), skipping ${#gguf_skipped[@]} non-matching"
+  elif (( ${#gguf_all[@]} )); then
+    local -a quants; quants=($(detect_gguf_quants "${gguf_all[@]}"))
+    if (( ${#quants[@]} > 1 )); then
+      warn "$repo has ${#quants[@]} distinct GGUF quants and --gguf-quant was not given:"
+      warn "  ${quants[*]}"
+      warn "ALL of them will be downloaded and packed. Re-run with e.g. --gguf-quant ${quants[0]} to pick one."
+    fi
+  fi
+
+  (( ${#shards[@]} )) \
+    || { warn "no .safetensors or .gguf shard files matched in $repo — skipped"; return 0; }
 
   local total=0 meta_bytes=0
   for path in "${shards[@]}"; do total=$(( total + SIZE["$path"] )); done
@@ -933,7 +993,7 @@ process_repo() {
 
     { echo "FROM ${BASE_REF}"
       echo "LABEL org.opencontainers.image.title=\"${model} ${SHARD_WORD}${i}/${n}\""
-      echo "LABEL org.opencontainers.image.description=\"${#gfiles[@]} safetensors file(s) from ${repo} at ${MODELS_ROOT}/${model}\""
+      echo "LABEL org.opencontainers.image.description=\"${#gfiles[@]} weight file(s) from ${repo} at ${MODELS_ROOT}/${model}\""
       echo "LABEL org.opencontainers.image.source=\"${HF_ENDPOINT}/${repo}\""
       echo "LABEL org.opencontainers.image.revision=\"${rev}\""
       echo "LABEL org.opencontainers.image.created=\"$(ts)\""

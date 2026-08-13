@@ -18,6 +18,11 @@
 #    5. Optionally applies a scan policy and exits non-zero, so it can gate a
 #       pipeline before anything downloads gigabytes.
 #
+#  Weight formats covered: *.safetensors and *.gguf, same as hf2docker.sh. A
+#  GGUF repo's file list often mixes several quantisations of one model; the
+#  --plan preview (and --gguf-quant to filter it) mirror hf2docker.sh exactly,
+#  so what you see here is what hf2docker.sh would actually build.
+#
 #  The normaliser is byte-identical to the one in hf2docker.sh (see
 #  NORMALIZER_VERSION), so records produced by either tool are comparable.
 #
@@ -33,6 +38,7 @@
 #    ./hf-audit.sh Qwen/Qwen3-Coder-Next-FP8
 #    ./hf-audit.sh -f repos.txt -o /srv/audit --require-safe
 #    ./hf-audit.sh --plan --per-image 3 --max-image-size 6GB MERaLiON/MERaLiON-SpeechEncoder-2
+#    ./hf-audit.sh --plan --gguf-quant Q4_K_M bartowski/Qwen2.5-7B-Instruct-GGUF
 #
 #  Exit codes: 0 ok   1 error   2 scan policy violation
 #
@@ -40,7 +46,7 @@
 set -Eeuo pipefail
 
 PROG=${0##*/}
-VERSION=1.0.0
+VERSION=1.1.0
 NORMALIZER_VERSION=1        # bump only when the jq block below changes
 
 # ------------------------------------------------------------------ defaults --
@@ -59,6 +65,7 @@ PLAN=0
 PER_IMAGE=${PER_IMAGE:-1}
 MAX_IMAGE_SIZE=${MAX_IMAGE_SIZE:-}
 MAX_IMAGE_BYTES=0
+GGUF_QUANT=${GGUF_QUANT:-}            # substring filter on .gguf filenames, e.g. Q4_K_M
 DOCKER_NS=${DOCKER_NS:-}
 IMAGE_NAME=${IMAGE_NAME:-mlbakery}
 MODELS_ROOT=${MODELS_ROOT:-/models}
@@ -123,8 +130,10 @@ Policy gate (exit code 2 on violation):
 
 Packaging preview (what hf2docker.sh would build):
       --plan             Add a planned-images section to the report
-      --per-image N      safetensors per image            (default: $PER_IMAGE)
+      --per-image N      shard files per image            (default: $PER_IMAGE)
       --max-image-size SZ  Cap group payload, e.g. 6GB    (default: none)
+      --gguf-quant PATTERN  Only plan .gguf files whose name contains
+                             PATTERN, case-insensitive     (default: all quants)
   -n, --namespace NS     Registry namespace for the preview
   -i, --image-name NAME  Image repo name                  (default: $IMAGE_NAME)
       --models-root PATH In-image parent directory        (default: $MODELS_ROOT)
@@ -171,7 +180,7 @@ read_repos_file() {
 while (( $# )); do
   case $1 in
     -o|--out|-f|--repos-file|-r|--revision|--report|--max-rows|--paths-chunk|\
-    --per-image|--max-image-size|-n|--namespace|-i|--image-name|--models-root|\
+    --per-image|--max-image-size|--gguf-quant|-n|--namespace|-i|--image-name|--models-root|\
     --shard-word|-t|--tag-prefix|--meta-max-mb)
       (( $# >= 2 )) || die "option $1 requires a value"
       if [[ $2 == -?* ]]; then
@@ -192,6 +201,7 @@ while (( $# )); do
     --plan)             PLAN=1; shift ;;
     --per-image)        PER_IMAGE=$2; PLAN=1; shift 2 ;;
     --max-image-size)   MAX_IMAGE_SIZE=$2; PLAN=1; shift 2 ;;
+    --gguf-quant)       GGUF_QUANT=$2; PLAN=1; shift 2 ;;
     -n|--namespace)     DOCKER_NS=$2; shift 2 ;;
     -i|--image-name)    IMAGE_NAME=$2; shift 2 ;;
     --models-root)      MODELS_ROOT=${2%/}; shift 2 ;;
@@ -223,7 +233,7 @@ case $REPORT in md|none) ;; *) die "--report must be 'md' or 'none'" ;; esac
 
 mkdir -p "$OUTDIR"
 INDEX="$OUTDIR/audit-index.tsv"
-IDX_HEADER=$'run\tcollected_at\trepo\tcommit\tfiles\tbytes\tsafetensors\tnot_safe\tunscanned\tbundle'
+IDX_HEADER=$'run\tcollected_at\trepo\tcommit\tfiles\tbytes\tsafetensors\tgguf\tnot_safe\tunscanned\tbundle'
 if [[ -f $INDEX ]]; then
   if [[ $(head -n1 "$INDEX") != "$IDX_HEADER" ]]; then
     mv "$INDEX" "${INDEX%.tsv}-superseded-$(date -u +%Y%m%dT%H%M%SZ).tsv"
@@ -342,6 +352,20 @@ is_weight() {
   return 1
 }
 
+# detect_gguf_quants <gguf-path>...  -> distinct quant tags found in filenames,
+# sorted, one per line (e.g. Q4_K_M, Q8_0, F16). Best-effort; kept identical to
+# the copy in hf2docker.sh so the two tools agree on what they report.
+detect_gguf_quants() {
+  local f q
+  declare -A seen
+  for f in "$@"; do
+    q=$(printf '%s' "${f##*/}" \
+        | grep -oiE '(IQ|Q)[0-9]+(_[A-Z0-9]+)*|B?F16|F32' | head -n1) || true
+    [[ -n $q ]] && seen["${q^^}"]=1
+  done
+  printf '%s\n' "${!seen[@]}" | LC_ALL=C sort
+}
+
 hf_curl() {
   local -a auth=()
   [[ -n ${HF_TOKEN:-} ]] && auth=(-H "Authorization: Bearer ${HF_TOKEN}")
@@ -446,12 +470,13 @@ derive() {
         --argjson files "$(jq 'length' "$out/files.json")" \
         --argjson bytes "$(jq '[ .[].size ] | add // 0' "$out/files.json")" \
         --argjson st "$(jq '[ .[] | select(.path | ascii_downcase | endswith(".safetensors")) ] | length' "$out/files.json")" \
+        --argjson gg "$(jq '[ .[] | select(.path | ascii_downcase | endswith(".gguf")) ] | length' "$out/files.json")" \
         --argjson unscanned "$(jq '[ .[] | select(.security_status == null) ] | length' "$out/files.json")" \
         --argjson unsafe "$(jq '[ .[] | select(.security_status != null and .security_status != "safe") ] | length' "$out/files.json")" \
         '{repo:$repo, requested_revision:$req, commit:$rev, endpoint:$endpoint,
           run:$run, collected_at:$ts, tool:$tool, normalizer_version:$normv,
           collected_by:$user, collected_on:$host,
-          file_count:$files, total_bytes:$bytes, safetensors_count:$st,
+          file_count:$files, total_bytes:$bytes, safetensors_count:$st, gguf_count:$gg,
           files_unscanned:$unscanned, files_not_safe:$unsafe}' \
      > "$out/audit.json"
 }
@@ -491,21 +516,44 @@ plan_section() {
   [[ $IMAGE_NAME != */* && -n $DOCKER_NS ]] && imgrepo="$(slug "$DOCKER_NS")/$IMAGE_NAME"
 
   SIZE=()
+  local -a gguf_all=() gguf_skipped=()
   while IFS=$'\t' read -r path sz; do
     [[ -n $path ]] || continue
     SIZE["$path"]=${sz:-0}
-    if [[ ${path,,} == *.safetensors ]]; then
-      shards+=("$path")
-    elif ! is_weight "$path" && (( ${sz:-0} <= META_MAX_MB * 1024 * 1024 )); then
-      metas+=("$path"); meta_bytes=$(( meta_bytes + ${sz:-0} ))
-    fi
+    case ${path,,} in
+      *.safetensors)
+        shards+=("$path") ;;
+      *.gguf)
+        gguf_all+=("$path")
+        if [[ -z $GGUF_QUANT ]] || [[ ${path,,} == *"${GGUF_QUANT,,}"* ]]; then
+          shards+=("$path")
+        else
+          gguf_skipped+=("$path")
+        fi ;;
+      *)
+        if ! is_weight "$path" && (( ${sz:-0} <= META_MAX_MB * 1024 * 1024 )); then
+          metas+=("$path"); meta_bytes=$(( meta_bytes + ${sz:-0} ))
+        fi ;;
+    esac
   done < <(jq -r '.[] | [ .path, .size ] | @tsv' "$out/files.json" | LC_ALL=C sort -t$'\t' -k1,1)
 
   echo
   echo "## Planned images"
   echo
+  if [[ -n $GGUF_QUANT ]] && (( ${#gguf_skipped[@]} )); then
+    printf '`--gguf-quant %s`: shipping %d of %d `.gguf` file(s), skipping %d non-matching.\n\n' \
+      "$GGUF_QUANT" "${#shards[@]}" "${#gguf_all[@]}" "${#gguf_skipped[@]}"
+  elif (( ${#gguf_all[@]} )); then
+    local -a quants; quants=($(detect_gguf_quants "${gguf_all[@]}"))
+    if (( ${#quants[@]} > 1 )); then
+      printf '> **%d distinct GGUF quants found and `--gguf-quant` not given: %s.**\n' \
+        "${#quants[@]}" "${quants[*]}"
+      printf '> ALL of them would be built. Re-run with e.g. `--gguf-quant %s` to pick one.\n\n' \
+        "${quants[0]}"
+    fi
+  fi
   if (( ${#shards[@]} == 0 )); then
-    echo "No \`.safetensors\` files — nothing would be built."
+    echo "No \`.safetensors\` or \`.gguf\` files — nothing would be built."
     return 0
   fi
   pack_groups "${shards[@]}"
@@ -552,6 +600,7 @@ render_report() {
            "| Endpoint | \(.endpoint) |\n" +
            "| Files | \(.file_count) |\n" +
            "| Safetensors | \(.safetensors_count) |\n" +
+           "| GGUF | \(.gguf_count) |\n" +
            "| Collected at | \(.collected_at) |\n" +
            "| Collected by | \(.collected_by)@\(.collected_on) |\n" +
            "| Tool | \(.tool), normaliser v\(.normalizer_version) |"' "$out/audit.json"
@@ -616,16 +665,54 @@ render_report() {
       echo
     fi
 
-    echo "## Safetensors"
-    echo
-    echo "| File | Size | sha256 (first 16) | Status |"
-    echo "|------|------|-------------------|--------|"
-    jq -r -L "$JQDIR" --argjson cap "$MAX_TABLE_ROWS" 'include "report";
-      [ .[] | select(.path | ascii_downcase | endswith(".safetensors")) ]
-      | .[0:$cap][]
-      | "| `\(.path)` | \(.size | hsize) | `\(.sha256 | shortsha)` | \(status_of) |"' \
-      "$out/files.json"
-    echo
+    local st_count gg_count
+    st_count=$(jq '[ .[] | select(.path | ascii_downcase | endswith(".safetensors")) ] | length' "$out/files.json")
+    gg_count=$(jq '[ .[] | select(.path | ascii_downcase | endswith(".gguf")) ] | length' "$out/files.json")
+
+    if (( st_count > 0 )); then
+      echo "## Safetensors"
+      echo
+      echo "| File | Size | sha256 (first 16) | Status |"
+      echo "|------|------|-------------------|--------|"
+      jq -r -L "$JQDIR" --argjson cap "$MAX_TABLE_ROWS" 'include "report";
+        [ .[] | select(.path | ascii_downcase | endswith(".safetensors")) ]
+        | .[0:$cap][]
+        | "| `\(.path)` | \(.size | hsize) | `\(.sha256 | shortsha)` | \(status_of) |"' \
+        "$out/files.json"
+      (( st_count > MAX_TABLE_ROWS )) && echo && echo "_… and $(( st_count - MAX_TABLE_ROWS )) more; see \`files.tsv\`._"
+      echo
+    fi
+
+    if (( gg_count > 0 )); then
+      echo "## GGUF"
+      echo
+      local -a gguf_paths quants
+      mapfile -t gguf_paths < <(jq -r '.[] | select(.path | ascii_downcase | endswith(".gguf")) | .path' "$out/files.json")
+      quants=($(detect_gguf_quants "${gguf_paths[@]}"))
+      if (( ${#quants[@]} > 1 )); then
+        echo "Distinct quants found: $(printf '`%s` ' "${quants[@]}")"
+        echo
+        echo "| Quant | Files | Size |"
+        echo "|-------|-------|------|"
+        local q
+        for q in "${quants[@]}"; do
+          jq -r -L "$JQDIR" --arg q "$q" 'include "report";
+            [ .[] | select(.path | ascii_downcase | endswith(".gguf")) | select((.path|ascii_upcase) | contains($q)) ]
+            | "| `\($q)` | \(length) | \(([.[].size] | add // 0) | hsize) |"' \
+            "$out/files.json"
+        done
+        echo
+      fi
+      echo "| File | Size | sha256 (first 16) | Status |"
+      echo "|------|------|-------------------|--------|"
+      jq -r -L "$JQDIR" --argjson cap "$MAX_TABLE_ROWS" 'include "report";
+        [ .[] | select(.path | ascii_downcase | endswith(".gguf")) ]
+        | .[0:$cap][]
+        | "| `\(.path)` | \(.size | hsize) | `\(.sha256 | shortsha)` | \(status_of) |"' \
+        "$out/files.json"
+      (( gg_count > MAX_TABLE_ROWS )) && echo && echo "_… and $(( gg_count - MAX_TABLE_ROWS )) more; see \`files.tsv\`._"
+      echo
+    fi
 
     if (( PLAN )); then plan_section "$repo" "$out"; fi
 
@@ -670,18 +757,19 @@ process_repo() {
   derive "$repo" "$rev" "$out" || return 1
   [[ $REPORT == md ]] && render_report "$repo" "$rev" "$out"
 
-  local files bytes st unsafe unscanned
+  local files bytes st gg unsafe unscanned
   files=$(jq -r '.file_count' "$out/audit.json")
   bytes=$(jq -r '.total_bytes' "$out/audit.json")
   st=$(jq -r '.safetensors_count' "$out/audit.json")
+  gg=$(jq -r '.gguf_count' "$out/audit.json")
   unsafe=$(jq -r '.files_not_safe' "$out/audit.json")
   unscanned=$(jq -r '.files_unscanned' "$out/audit.json")
 
-  printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
-    "$RUN_ID" "$(ts)" "$repo" "$rev" "$files" "$bytes" "$st" "$unsafe" "$unscanned" "$out" \
+  printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+    "$RUN_ID" "$(ts)" "$repo" "$rev" "$files" "$bytes" "$st" "$gg" "$unsafe" "$unscanned" "$out" \
     >> "$INDEX"
 
-  log "$files files, $(human "$bytes"), $st safetensors; $unsafe not-safe, $unscanned unscanned"
+  log "$files files, $(human "$bytes"), $st safetensors, $gg gguf; $unsafe not-safe, $unscanned unscanned"
   log "bundle: $out"
   [[ $REPORT == md ]] && log "report: $out/report.md"
 

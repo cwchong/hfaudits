@@ -1,0 +1,241 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 1586,
+    "blob_oid": "b3235caa72407eed86ff827481815a454f3ad305",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "50181f6a75d3795a4ffe9d9617bdb4f4913dd150",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:09:36.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=b3235caa72407eed86ff827481815a454f3ad305&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=b3235caa72407eed86ff827481815a454f3ad305&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 7857,
+    "blob_oid": "f02e4934992a0a98efd7666690e58b145a765ac4",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1d1dbdec4c0a5b479b11642669d5ae6514137e96",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:13:03.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=f02e4934992a0a98efd7666690e58b145a765ac4&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=f02e4934992a0a98efd7666690e58b145a765ac4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "prometheus-7b-v2.0.Q4_K_M.gguf",
+    "size": 4368439552,
+    "blob_oid": "95d502649da8ce7b72377c69970a1e2aedca9fc1",
+    "sha256": "5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976",
+    "lfs_pointer_size": 135,
+    "xet_hash": "73b1c7b1e4d795531e42644a0d578fa9f12f6de886a51040a05378c729166998",
+    "last_commit": {
+      "id": "50181f6a75d3795a4ffe9d9617bdb4f4913dd150",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-07-12T12:09:36.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=95d502649da8ce7b72377c69970a1e2aedca9fc1&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/prometheus-eval/prometheus-7b-v2.0-GGUF/1d1dbdec4c0a5b479b11642669d5ae6514137e96/files?blob-id=95d502649da8ce7b72377c69970a1e2aedca9fc1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  }
+]

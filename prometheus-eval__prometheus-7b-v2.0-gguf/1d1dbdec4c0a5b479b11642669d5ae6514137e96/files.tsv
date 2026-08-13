@@ -1,0 +1,4 @@
+path	size	sha256	blob_oid	scan_status	scanners
+.gitattributes	1586		b3235caa72407eed86ff827481815a454f3ad305	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+README.md	7857		f02e4934992a0a98efd7666690e58b145a765ac4	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+prometheus-7b-v2.0.Q4_K_M.gguf	4368439552	5bb7b0fa6b244a8cad8d2bb29d0f96422c43d3497fe1ab9ced7fd1ead03cc976	95d502649da8ce7b72377c69970a1e2aedca9fc1	safe	protectAiScan=safe;avScan=unscanned;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=safe
