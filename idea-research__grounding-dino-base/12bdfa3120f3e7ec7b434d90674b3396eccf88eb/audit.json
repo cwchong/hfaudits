@@ -1,0 +1,18 @@
+{
+  "repo": "IDEA-Research/grounding-dino-base",
+  "requested_revision": "main",
+  "commit": "12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T07:27:04Z-45340",
+  "collected_at": "2026-10-16T07:27:10Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 10,
+  "total_bytes": 1870353436,
+  "safetensors_count": 1,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

@@ -1,0 +1,18 @@
+{
+  "repo": "convaiinnovations/laya",
+  "requested_revision": "main",
+  "commit": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T06:01:08Z-44371",
+  "collected_at": "2026-10-16T06:01:10Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 39,
+  "total_bytes": 2372594929,
+  "safetensors_count": 3,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

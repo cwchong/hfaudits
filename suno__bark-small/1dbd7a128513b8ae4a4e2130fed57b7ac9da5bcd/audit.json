@@ -1,0 +1,18 @@
+{
+  "repo": "suno/bark-small",
+  "requested_revision": "main",
+  "commit": "1dbd7a128513b8ae4a4e2130fed57b7ac9da5bcd",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T07:27:04Z-45340",
+  "collected_at": "2026-10-16T07:27:28Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 48,
+  "total_bytes": 1677095268,
+  "safetensors_count": 0,
+  "gguf_count": 0,
+  "files_unscanned": 48,
+  "files_not_safe": 0
+}

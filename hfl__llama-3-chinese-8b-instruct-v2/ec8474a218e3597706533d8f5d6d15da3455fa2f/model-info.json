@@ -1,0 +1,110 @@
+{
+  "_id": "6639a4579e9d76f499cba011",
+  "id": "hfl/llama-3-chinese-8b-instruct-v2",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "llama",
+    "text-generation",
+    "conversational",
+    "zh",
+    "en",
+    "base_model:meta-llama/Meta-Llama-3-8B-Instruct",
+    "base_model:finetune:meta-llama/Meta-Llama-3-8B-Instruct",
+    "license:apache-2.0",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 8608,
+  "likes": 43,
+  "modelId": "hfl/llama-3-chinese-8b-instruct-v2",
+  "author": "hfl",
+  "sha": "ec8474a218e3597706533d8f5d6d15da3455fa2f",
+  "lastModified": "2024-05-29T05:14:15.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "model_type": "llama",
+    "tokenizer_config": {
+      "bos_token": "<|begin_of_text|>",
+      "chat_template": "{% set loop_messages = messages %}{% for message in loop_messages %}{% set content = '<|start_header_id|>' + message['role'] + '<|end_header_id|>\n\n'+ message['content'] | trim + '<|eot_id|>' %}{% if loop.index0 == 0 %}{% set content = bos_token + content %}{% endif %}{{ content }}{% endfor %}{% if add_generation_prompt %}{{ '<|start_header_id|>assistant<|end_header_id|>\n\n' }}{% endif %}",
+      "eos_token": "<|eot_id|>"
+    }
+  },
+  "cardData": {
+    "base_model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "license": "apache-2.0",
+    "language": [
+      "zh",
+      "en"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00004.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "hfl-rc/llama-3-chinese-8b-instruct-demo"
+  ],
+  "createdAt": "2024-05-07T03:47:35.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 6979588096,
+      "F16": 1050673152
+    },
+    "total": 8030261248
+  },
+  "inference": "warm",
+  "usedStorage": 16060556304
+}

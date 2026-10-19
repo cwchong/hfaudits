@@ -1,0 +1,18 @@
+{
+  "repo": "Organika/sdxl-detector",
+  "requested_revision": "main",
+  "commit": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T07:27:04Z-45340",
+  "collected_at": "2026-10-16T07:27:41Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 17,
+  "total_bytes": 1743092935,
+  "safetensors_count": 2,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 3
+}

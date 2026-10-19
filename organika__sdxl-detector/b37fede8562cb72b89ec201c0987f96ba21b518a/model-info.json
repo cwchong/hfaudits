@@ -1,0 +1,259 @@
+{
+  "_id": "6590f40bf5a209eeac2dcc8f",
+  "id": "Organika/sdxl-detector",
+  "private": false,
+  "pipeline_tag": "image-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "onnx",
+    "safetensors",
+    "swin",
+    "image-classification",
+    "autotrain",
+    "dataset:Colby/autotrain-data-sdxl-detection",
+    "license:cc-by-nc-3.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 86592,
+  "likes": 63,
+  "modelId": "Organika/sdxl-detector",
+  "author": "Organika",
+  "sha": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+  "lastModified": "2024-09-06T12:17:24.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+      "example_title": "Tiger"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+      "example_title": "Teapot"
+    },
+    {
+      "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+      "example_title": "Palace"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "SwinForImageClassification"
+    ],
+    "model_type": "swin"
+  },
+  "cardData": {
+    "tags": [
+      "autotrain",
+      "image-classification"
+    ],
+    "widget": [
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/tiger.jpg",
+        "example_title": "Tiger"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/teapot.jpg",
+        "example_title": "Teapot"
+      },
+      {
+        "src": "https://huggingface.co/datasets/mishig/sample_images/resolve/main/palace.jpg",
+        "example_title": "Palace"
+      }
+    ],
+    "datasets": [
+      "Colby/autotrain-data-sdxl-detection"
+    ],
+    "license": "cc-by-nc-3.0"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForImageClassification",
+    "pipeline_tag": "image-classification",
+    "processor": "AutoImageProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "checkpoint-801/config.json"
+    },
+    {
+      "rfilename": "checkpoint-801/model.safetensors"
+    },
+    {
+      "rfilename": "checkpoint-801/optimizer.pt"
+    },
+    {
+      "rfilename": "checkpoint-801/rng_state.pth"
+    },
+    {
+      "rfilename": "checkpoint-801/scheduler.pt"
+    },
+    {
+      "rfilename": "checkpoint-801/trainer_state.json"
+    },
+    {
+      "rfilename": "checkpoint-801/training_args.bin"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "onnx/config.json"
+    },
+    {
+      "rfilename": "onnx/model.onnx"
+    },
+    {
+      "rfilename": "onnx/preprocessor_config.json"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "training_args.bin"
+    },
+    {
+      "rfilename": "training_params.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": [
+      {
+        "path": "checkpoint-801/training_args.bin",
+        "level": "caution"
+      },
+      {
+        "path": "checkpoint-801/rng_state.pth",
+        "level": "caution"
+      },
+      {
+        "path": ".gitattributes",
+        "level": "error"
+      }
+    ]
+  },
+  "spaces": [
+    "Omnibus/AI-or-Not",
+    "umm-maybe/sdxl-detector",
+    "Nas0x1/ai-image-forensics",
+    "arkiitkgp/ai-image-detector",
+    "tayseek/Organika-sdxl-detector",
+    "hmb/sdxl-detector",
+    "cmckinle/AI-or-Not",
+    "cmckinle/AI-or-Not-v3",
+    "gannushalini2006/AI-IMAGE-DETECTOR",
+    "shadow861453/VERIDEX.V1",
+    "akagtag/deepdetection",
+    "elifnuroksuz/sahte-gorsel-tespit",
+    "youssefali277/CyberEye-Detector",
+    "parzaech/Organika-sdxl-detector",
+    "Jianhu2023/AI-art-detector",
+    "sajjad650/image-detector",
+    "cmckinle/AI-or-Not-v2",
+    "goldenbrown/sdxl-detector3",
+    "goldenbrown/sdxl-detector2",
+    "goldenbrown/sdxl_model",
+    "RotatingProxies/Organika-sdxl-detector",
+    "Colby/Organika-sdxl-detector",
+    "ramananvr89/Human_vs_AI_Generated",
+    "helllaa/CarInsuranceFraud",
+    "VOIDER/img-eval-test",
+    "LPX55/Deepfake-Detection-Leaderboard-v0",
+    "clockclock/ai-image_detector",
+    "clockclock/ai_image_detector_v2",
+    "Ayan515/deepfake-detector-api",
+    "Ayan515/deepfake",
+    "mirackchuks/deepfake",
+    "emptyPolenta7/AI-or-Not",
+    "sincereGelding2/AI-or-Not",
+    "relievedMare1/AI-or-Not",
+    "panickyWidgeon9/AI-or-Not",
+    "spiritedOcelot3/AI-or-Not",
+    "pluckyHeron2/AI-or-Not",
+    "thrilledVenison3/AI-or-Not",
+    "stressedCaviar1/AI-or-Not",
+    "drearySwift1/AI-or-Not",
+    "emptyMoth8/AI-or-Not",
+    "wakefulBittern9/AI-or-Not",
+    "LUV19/neuralens-hf-worker",
+    "solemnCordial5/AI-or-Not",
+    "ferventDove4/AI-or-Not",
+    "madBobolink9/AI-or-Not",
+    "gutturalIguana2/AI-or-Not",
+    "ecstaticToucan8/AI-or-Not",
+    "dejectedDove69/AI-or-Not",
+    "sugaryChough2/AI-or-Not",
+    "awedKitten0/AI-or-Not",
+    "holisticRat3/AI-or-Not",
+    "curiousMeerkat2/AI-or-Not",
+    "disha0001/AI-or-Not",
+    "thrilledMussel8/AI-or-Not",
+    "aboardDingo6/AI-or-Not",
+    "innocentJaguar8/AI-or-Not",
+    "grizzledEagle0/AI-or-Not",
+    "joyfulOtter8/AI-or-Not",
+    "NikhilN007/aivsreal",
+    "Speedofmastery/orynxml-agents",
+    "kushalkv/detectai-api",
+    "Barisalidursun/AI-Dedektifi-Pro",
+    "Andercar/ai-visual-detector-server",
+    "RotatingProxies/AI-or-Not2",
+    "terabytetrifler/ai-attestation-api",
+    "cipher8/my-deepfake-detector7",
+    "nepark/ai-image-filter",
+    "bahaeddinms/verivid",
+    "maddyrox/ai-detect",
+    "maddyrox/ai",
+    "maddyrox/ai-detection",
+    "maddyrox/coin-toss-detector",
+    "maddyrox/aii",
+    "mohamed9679/helwan_ai_detection",
+    "mohamed9679/gradio_version",
+    "HectorCast/I.a_generativa",
+    "HectorCast/Generador.de.imagen",
+    "pieben01/ISTHISAI",
+    "Crison11/AIFo-DEMO",
+    "TapasGhosh1999/veriai-api",
+    "ykausharova/ai-image-detector",
+    "purvaparwani/fake-image-detector",
+    "Aditya150/Veritas-AI",
+    "LetsDolly/AI-powered_deepfake",
+    "NextGen-js1/truth-pro-backend",
+    "Ahmadft/deepfake-pyhton",
+    "bakhromovv/ai-detector",
+    "vaibhavshiroorkar/deepfake-detection-api",
+    "umaro0/artguard",
+    "Emilyl613/ai-image-detector",
+    "riteshpoudel34/is-this-ai",
+    "hrushi1304/truthlens-api",
+    "mferrara/PhotoIDrevised3",
+    "vanshpatil16/deepshield-api",
+    "aboodhay/rasad-backend",
+    "Vansh-Parashar/deepguard-engine",
+    "maoster12/smart-authenticator-ml",
+    "daksh15/truthlens-backend",
+    "RushiAgrawal001/verit-image-strong"
+  ],
+  "createdAt": "2023-12-31T04:54:35.000Z",
+  "safetensors": {
+    "parameters": {
+      "I64": 57624,
+      "F32": 86745274
+    },
+    "total": 86802898
+  },
+  "inference": "warm",
+  "usedStorage": 1395572014
+}

@@ -1,0 +1,1310 @@
+{
+  "_id": "67d55ed28e1faf10204473c3",
+  "id": "ai4bharat/indic-conformer-600m-multilingual",
+  "private": false,
+  "pipeline_tag": "automatic-speech-recognition",
+  "tags": [
+    "onnx",
+    "automatic-speech-recognition",
+    "custom_code",
+    "license:mit",
+    "eval-results",
+    "region:us"
+  ],
+  "downloads": 452135,
+  "likes": 228,
+  "modelId": "ai4bharat/indic-conformer-600m-multilingual",
+  "author": "ai4bharat",
+  "sha": "2a77d305038dfc502fd9464e7d028b90381976cb",
+  "lastModified": "2026-10-08T08:47:15.000Z",
+  "gated": "auto",
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "auto_map": {
+      "AutoConfig": "model_onnx.IndicASRConfig",
+      "AutoModel": "model_onnx.IndicASRModel"
+    }
+  },
+  "cardData": {
+    "license": "mit",
+    "pipeline_tag": "automatic-speech-recognition"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "assets/Constant_1970_attr__value"
+    },
+    {
+      "rfilename": "assets/ctc_decoder.onnx"
+    },
+    {
+      "rfilename": "assets/encoder.onnx"
+    },
+    {
+      "rfilename": "assets/joint_enc.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_as.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_bn.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_brx.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_doi.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_gu.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_hi.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_kn.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_kok.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_ks.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_mai.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_ml.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_mni.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_mr.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_ne.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_or.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_pa.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_sa.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_sat.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_sd.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_ta.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_te.onnx"
+    },
+    {
+      "rfilename": "assets/joint_post_net_ur.onnx"
+    },
+    {
+      "rfilename": "assets/joint_pre_net.onnx"
+    },
+    {
+      "rfilename": "assets/joint_pred.onnx"
+    },
+    {
+      "rfilename": "assets/language_masks.json"
+    },
+    {
+      "rfilename": "assets/layers.0.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.0.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.0.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.0.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.0.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.1.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.1.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.1.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.1.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.1.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.10.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.10.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.10.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.10.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.10.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.11.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.11.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.11.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.11.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.11.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.12.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.12.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.12.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.12.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.12.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.13.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.13.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.13.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.13.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.13.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.14.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.14.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.14.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.14.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.14.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.15.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.15.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.15.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.15.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.15.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.16.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.16.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.16.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.16.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.16.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.17.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.17.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.17.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.17.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.17.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.18.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.18.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.18.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.18.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.18.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.19.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.19.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.19.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.19.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.19.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.2.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.2.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.2.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.2.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.2.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.20.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.20.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.20.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.20.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.20.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.21.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.21.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.21.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.21.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.21.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.22.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.22.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.22.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.22.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.22.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.23.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.23.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.23.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.23.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.23.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.3.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.3.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.3.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.3.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.3.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.4.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.4.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.4.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.4.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.4.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.5.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.5.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.5.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.5.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.5.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.6.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.6.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.6.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.6.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.6.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.7.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.7.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.7.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.7.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.7.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.8.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.8.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.8.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.8.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.8.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.9.conv.pointwise_conv1.bias"
+    },
+    {
+      "rfilename": "assets/layers.9.conv.pointwise_conv1.weight"
+    },
+    {
+      "rfilename": "assets/layers.9.conv.pointwise_conv2.weight"
+    },
+    {
+      "rfilename": "assets/layers.9.feed_forward1.linear1.bias"
+    },
+    {
+      "rfilename": "assets/layers.9.feed_forward2.linear1.bias"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_7995"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_7998"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8001"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8004"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8007"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8010"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8013"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8016"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8019"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8022"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8025"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8028"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8031"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8034"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8037"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8040"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8043"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8046"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8049"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8052"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8055"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8058"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8061"
+    },
+    {
+      "rfilename": "assets/onnx__Conv_8064"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8067"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8083"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8084"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8085"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8095"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8096"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8097"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8185"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8191"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8192"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8193"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8194"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8195"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8205"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8206"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8207"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8223"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8229"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8230"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8231"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8232"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8233"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8243"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8244"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8245"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8261"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8267"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8268"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8269"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8270"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8271"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8281"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8282"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8283"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8299"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8305"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8306"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8307"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8308"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8309"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8319"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8320"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8321"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8337"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8343"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8344"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8345"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8346"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8347"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8357"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8358"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8359"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8375"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8381"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8382"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8383"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8384"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8385"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8395"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8396"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8397"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8413"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8419"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8420"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8421"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8422"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8423"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8433"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8434"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8435"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8451"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8457"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8458"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8459"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8460"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8461"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8471"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8472"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8473"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8489"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8495"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8496"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8497"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8498"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8499"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8509"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8510"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8511"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8527"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8533"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8534"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8535"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8536"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8537"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8547"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8548"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8549"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8565"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8571"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8572"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8573"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8574"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8575"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8585"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8586"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8587"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8603"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8609"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8610"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8611"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8612"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8613"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8623"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8624"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8625"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8641"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8647"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8648"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8649"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8650"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8651"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8661"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8662"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8663"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8679"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8685"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8686"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8687"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8688"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8689"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8699"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8700"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8701"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8717"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8723"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8724"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8725"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8726"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8727"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8737"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8738"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8739"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8755"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8761"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8762"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8763"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8764"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8765"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8775"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8776"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8777"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8793"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8799"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8800"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8801"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8802"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8803"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8813"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8814"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8815"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8831"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8837"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8838"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8839"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8840"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8841"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8851"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8852"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8853"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8869"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8875"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8876"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8877"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8878"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8879"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8889"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8890"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8891"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8907"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8913"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8914"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8915"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8916"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8917"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8927"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8928"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8929"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8945"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8951"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8952"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8953"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8954"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8955"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8965"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8966"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8967"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8983"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8989"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8990"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8991"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8992"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_8993"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9003"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9004"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9005"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9021"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9027"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9028"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9029"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9030"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9031"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9041"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9042"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9043"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9059"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9065"
+    },
+    {
+      "rfilename": "assets/onnx__MatMul_9066"
+    },
+    {
+      "rfilename": "assets/pre_encode.conv.0.weight"
+    },
+    {
+      "rfilename": "assets/pre_encode.conv.2.weight"
+    },
+    {
+      "rfilename": "assets/pre_encode.conv.3.weight"
+    },
+    {
+      "rfilename": "assets/pre_encode.conv.5.weight"
+    },
+    {
+      "rfilename": "assets/pre_encode.conv.6.weight"
+    },
+    {
+      "rfilename": "assets/preprocessor.ts"
+    },
+    {
+      "rfilename": "assets/rnnt_decoder.onnx"
+    },
+    {
+      "rfilename": "assets/vocab.json"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model_onnx.py"
+    },
+    {
+      "rfilename": "model_onnx_1b_batched_rnnt.py"
+    },
+    {
+      "rfilename": "model_ts.py"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "say123ya123/indicvoices-asr-explorer",
+    "Noumida/ASR_IndicConformer",
+    "Noumida/ASR_New",
+    "rahulyadav101/voice-rag-assistant",
+    "1219Naveen/indicconformer-asr",
+    "AvtnshM/Indic_ASR_Comparison_Multi",
+    "nabil6391/bengali-asr-leaderboard",
+    "LG3370/Hindi-Adv-ai4bharat",
+    "tahirjm/IndicConformer",
+    "wishitwerethe90s/voice-assistant",
+    "ogflash/fastapi-asr-app",
+    "Noumida/Speech_to_Text_LID_Transcription",
+    "rverma0631/ASR_USING_INDIC_CONFORMER",
+    "Noumida/Speech_to_Text_LID_Transcription_2",
+    "Noumida/ASR_Hindi_finetuned",
+    "shubhankarAI/ASR_IndicConformer",
+    "sohamchitimali/indic-conformer",
+    "AvtnshM/Indic_ASR",
+    "fischerman/Indic_ASR_Comparison_Multi",
+    "ShaunMendes001/finvoice",
+    "AvtnshM/Indic_ASR_Comparison",
+    "Noumida/pipeline_recommendation_updated",
+    "JustNikunj/Sentimental_Analysis",
+    "kasimali/new-asr-voxlingua",
+    "monika75/Youtube",
+    "iuliiakr/SpeakSanskrit-test",
+    "rverma0631/MultilingualASR",
+    "likhita12/asr",
+    "JustNikunj/data_science_sentiment_analysis",
+    "JustNikunj/speech-emotion-women-empowerment",
+    "0xMathew/jobsathi-backend",
+    "Knwn-ai/Indic-Transcribe-Pro",
+    "arshadul/indic_conformer",
+    "munzurul/Indic_ASR_Comparison_Multi",
+    "arshadul/num_conv",
+    "arshadul/num_conv_new",
+    "arshadul/silence-trimmer",
+    "rzvn1/TRIEM_AI",
+    "arshadul/hin_tel_num_conv",
+    "Aina20/speech_to_text",
+    "vragipin/telehealth-asr",
+    "chaitumuppala/indian-scam-detector",
+    "uncertainrods/audio-service",
+    "Gaykar/AIService",
+    "itapunjabi/server.py",
+    "ishanr/modelhub-tester",
+    "shyamravidath/carnatify",
+    "Harsha909/Video-Audio-to-Text",
+    "Meow43/clinical-copilot",
+    "Arun0914/indicconformer-eval",
+    "aniketsirsikar/kirana-voice-order",
+    "Lingalingeswaran/tamil-live-asr",
+    "dateishapp/bazona-free-voice",
+    "souravkr529/sks-asr",
+    "mujeebmasi/meet-translate"
+  ],
+  "createdAt": "2025-03-15T11:04:50.000Z",
+  "usedStorage": 2553503826
+}

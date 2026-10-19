@@ -1,0 +1,816 @@
+[
+  {
+    "type": "directory",
+    "oid": "af2f176889fb1b7c7cecc916fc54071a74f0ae45",
+    "size": 0,
+    "path": "speaker_embeddings",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "61c12a88316011e2f7006e5cf83c973ddb8d7b67",
+    "size": 0,
+    "path": "speaker_embeddings/v2",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c7d9f3332a950355d5a77d85000f05e6f45435ea",
+    "size": 1477,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "468da2a6e3deacc999683e7f822c3573ea96c6bb",
+    "size": 8937,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "1dbd7a128513b8ae4a4e2130fed57b7ac9da5bcd",
+      "title": "Update README.md",
+      "date": "2023-11-10T10:11:12.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3c076663001cdfcc4b7805ac7d17aa74fcb84bf0",
+    "size": 8803,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "208cc283ff88be214c9cc220e12043ac6a9a0e6c",
+      "title": "Update config.json",
+      "date": "2023-09-08T15:54:05.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e602b1fa2372be3ada89135f477e300a57b3f21a",
+    "size": 4908,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ca0b25d8eba4fa9299ffe0066194d5f3f7b052e8",
+    "size": 1676663913,
+    "lfs": {
+      "oid": "f0f7f16b24f65789ce42b3c491aa6a1cdf219f7ef425066fcd194485245e65d9",
+      "size": 1676663913,
+      "pointerSize": 135
+    },
+    "xetHash": "fdbad267848427dbb5153817e9437c1cbaa8f4ca1af8998c2b667a9cf82569cf",
+    "path": "pytorch_model.bin",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9ace7141b6d24a00f647a5a7adce0f5f8cce078d",
+    "size": 3128,
+    "lfs": {
+      "oid": "2c77d5e1f9ab39e489d27628ab26dfae7a8b4cae4ba72658a1a94927f7ff5132",
+      "size": 3128,
+      "pointerSize": 129
+    },
+    "xetHash": "d8d22557b0321166495a08c268125080a64856fffc32618cb9d562a8c4157e9f",
+    "path": "speaker_embeddings/announcer_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8178357262a1de25d9ab0e82bd1ea9eb8a5b4195",
+    "size": 12128,
+    "lfs": {
+      "oid": "7aac73cd2a14c1939a718aeb48b064d149b39f773f1dcc9b93be6f79ebd33755",
+      "size": 12128,
+      "pointerSize": 130
+    },
+    "xetHash": "a2d28002dff572cf6c8d50968421d19e5f4f3137aaede857cc391f53be9cb3a6",
+    "path": "speaker_embeddings/announcer_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7c6a8b0d2bd3e579cff621deff40a56194259791",
+    "size": 1126,
+    "lfs": {
+      "oid": "f5564642cbd84db6f4d1d8a522bd26329b4f4cd8cd81e1965b90baf1ee80c7ff",
+      "size": 1126,
+      "pointerSize": 129
+    },
+    "xetHash": "5bc6ebfe47d02365459a073bcf738c3db0e61e57bbda01873f839d0f2950c0bd",
+    "path": "speaker_embeddings/announcer_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "876c488994f6f1607c4135ec42e53e76ed708d04",
+    "size": 9472,
+    "lfs": {
+      "oid": "3eb78af32779b5fabbb92e7cdbdeaaa34f5f8ad1085e213b101165665c5ce4cb",
+      "size": 9472,
+      "pointerSize": 129
+    },
+    "xetHash": "df6915d7ee68b47971a3249b3e5676607489e22ca8c94fad616339f8ca2f866b",
+    "path": "speaker_embeddings/de_speaker_0_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cb4b0f6adb09aeeeab88d1afeb2d7a3a64232060",
+    "size": 18816,
+    "lfs": {
+      "oid": "a2421bcbeb7fadfcf1c0b33e38e316474d4a95139d4dd0b3d861e72c8fd77c36",
+      "size": 18816,
+      "pointerSize": 130
+    },
+    "xetHash": "4b34f67c7799f86af855c9a80e635b35de54bc9545bb686db39036ba90839e20",
+    "path": "speaker_embeddings/de_speaker_0_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c12224f7529e7c2d4ebf9eea2f4668282b7ffed5",
+    "size": 3240,
+    "lfs": {
+      "oid": "44e5539dbcd158a2471c59b46cde7f0564d108cd2fd935e3664b2ec733ad4393",
+      "size": 3240,
+      "pointerSize": 129
+    },
+    "xetHash": "7042c2ba1db77d3334f9a77a78c0b14c65abf9aa381b94c86c1c61eec10fa8ba",
+    "path": "speaker_embeddings/de_speaker_0_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4dc8e38ab3684b1d7184362a59cf11dc8aff1dd0",
+    "size": 9472,
+    "lfs": {
+      "oid": "6ac93157e39cd0fa7a5e9d0404d6adcb3daaec8e820b42b72b96de62e19ca89b",
+      "size": 9472,
+      "pointerSize": 129
+    },
+    "xetHash": "2aeb65ac697703bbaef1fb985c8e0fb0af03a1bb4285d5859111eb8712ac02fe",
+    "path": "speaker_embeddings/de_speaker_1_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "91d089323f5258fa5713275eb5d40c1a61873cbd",
+    "size": 18816,
+    "lfs": {
+      "oid": "9f8eaca4b732dd3264213ac387f4c91f83a574563b0d72368b237df03fe92b4d",
+      "size": 18816,
+      "pointerSize": 130
+    },
+    "xetHash": "f4b54702a9a94ea1cc2db0320fc1e8cae68ed657369f1bd571b36d8169219079",
+    "path": "speaker_embeddings/de_speaker_1_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0c7f06a046bff9e4ca59d6339491428a21e31b09",
+    "size": 3240,
+    "lfs": {
+      "oid": "98cde60e36a6265d6534e4c6422436f201a9bfcdc87f9817d6faf6ab4f22554b",
+      "size": 3240,
+      "pointerSize": 129
+    },
+    "xetHash": "50079eca93adcbfb5dba4d904c658c591e1f371089a77e51d35486bfe99b5381",
+    "path": "speaker_embeddings/de_speaker_1_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "08b6a8e0c61eb7c9dbec792f6a543687c24ea49b",
+    "size": 6944,
+    "lfs": {
+      "oid": "fd5e9d07b0480dda2c3661de1da0671f34419c029c8e7410705139a38fb133d3",
+      "size": 6944,
+      "pointerSize": 129
+    },
+    "xetHash": "164bf72c51d2e47c2df0a81bf3257c851788fb7dbe7a1ce0a7a8da18254e917a",
+    "path": "speaker_embeddings/de_speaker_2_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "45fbf95d462d2b70e43f080fad3a7dce64bc1eae",
+    "size": 13760,
+    "lfs": {
+      "oid": "4f11b22a8a24428ca0114e4fcc770c0ca554376de95be7ac5ac560ae4f1988fb",
+      "size": 13760,
+      "pointerSize": 130
+    },
+    "xetHash": "fab1d15421108c64ca78e023c67c366702929d7bcedf6d0361d7720880464003",
+    "path": "speaker_embeddings/de_speaker_2_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "485cd57a0fa759056813a5b2a88cd9eb06462b0c",
+    "size": 2400,
+    "lfs": {
+      "oid": "8efe5707a724632900ab5cb274ffdbac0d39fd6dda1be49833d63311df478ef3",
+      "size": 2400,
+      "pointerSize": 129
+    },
+    "xetHash": "1eee42f79ad2882c4408a054f4f0ab30be1e21f4ef31d887e21be8c4eca05e1f",
+    "path": "speaker_embeddings/de_speaker_2_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8e0960f0363f0f189171851bafbde47b5e2084ce",
+    "size": 8608,
+    "lfs": {
+      "oid": "bf0fb48dd18c79996fc800abbd3407dd967b21a36bda695584e29d302ead274a",
+      "size": 8608,
+      "pointerSize": 129
+    },
+    "xetHash": "83ab828b27da35a72665e5f45f231f3a668821c2bb79dd23ea9b9fbff5c6de23",
+    "path": "speaker_embeddings/de_speaker_3_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0e0722627b677abab208cafd5e820d39805f7581",
+    "size": 17088,
+    "lfs": {
+      "oid": "229455388c628e9d168ad11940041b15ed3b40f724ab3a4747f6cb38b2f5230a",
+      "size": 17088,
+      "pointerSize": 130
+    },
+    "xetHash": "7571ed84e222b3e964d40e68ab6aa4ee88bdf6dab0e8fa7b344c7454c6419a41",
+    "path": "speaker_embeddings/de_speaker_3_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ba7d401fe36fb66a12f4ff85cd86a277c63b8969",
+    "size": 2952,
+    "lfs": {
+      "oid": "88fee5c6b974dbfb1168b55f73990be270847a91a2e7895d298b188f3ad7da9f",
+      "size": 2952,
+      "pointerSize": 129
+    },
+    "xetHash": "30f6f71c8bdec848950cf58f6f6768fd0f8b42ae065bf52176f167c6fbc45be4",
+    "path": "speaker_embeddings/de_speaker_3_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "da5c4d1a2daefeaeb537eeca0af6ebad2acd8022",
+    "size": 5984,
+    "lfs": {
+      "oid": "0268e63ef8aa7c6113af4a840c3581c08edea0eacec8aaa7d52da8012d8c16f5",
+      "size": 5984,
+      "pointerSize": 129
+    },
+    "xetHash": "19dd78cab2e77a6471f38f07c7ae0f855e4202919aa323c21657891bdf0d0ae2",
+    "path": "speaker_embeddings/de_speaker_4_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3cca32bdafb9b18eb85cc033e0002dc6e637eb37",
+    "size": 11840,
+    "lfs": {
+      "oid": "21c41cce8756afcd8b690ad8701e35f33b4c0be3c63bae5f6ebbc10e5cb3c150",
+      "size": 11840,
+      "pointerSize": 130
+    },
+    "xetHash": "222c3c7bcffaed963d5a9cbbd4a332a6ce2f8a34a8d2e5f168f58dd5f02ff243",
+    "path": "speaker_embeddings/de_speaker_4_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "48ad8c3f268c7a5c26360ee01c330443d2d6b596",
+    "size": 2080,
+    "lfs": {
+      "oid": "a03e84c7f1f4dd97f033d999fea8eb76c4dde6883e1dae67303b6a46bdb57803",
+      "size": 2080,
+      "pointerSize": 129
+    },
+    "xetHash": "06adf0623f4de21f9648c59967d3c2a20b97173ee2c6a74f686754cf0b460d59",
+    "path": "speaker_embeddings/de_speaker_4_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6d33d06d7df3aee0d6681bcc4184f9e4a2bfc0fa",
+    "size": 10416,
+    "lfs": {
+      "oid": "3f4272d4c3928264a36a406b9c0d306db99316180dca8e96504c93244fc61d96",
+      "size": 10416,
+      "pointerSize": 130
+    },
+    "xetHash": "54d7f7508e8500f77513757e9fc4535fddc23ca0287cf6829a7b16892f8470bb",
+    "path": "speaker_embeddings/de_speaker_5_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4bc183ea5f7571d0f70c09ad6161bf90eff27d56",
+    "size": 20704,
+    "lfs": {
+      "oid": "dac52541ccb321598997fe0e27ebadf5540eb6e53a8b3a614d7cabfcbae4b2d0",
+      "size": 20704,
+      "pointerSize": 130
+    },
+    "xetHash": "7c0073cab2bb87806003d914e5512a200eea68c27184cee041ce12e468795c4c",
+    "path": "speaker_embeddings/de_speaker_5_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cf65e2fb1a45a6795f109cd0da634a5765043fb7",
+    "size": 3552,
+    "lfs": {
+      "oid": "412b3a1f45525390e84bd2109bb86af782da2245adcbdd8803c1b362a311075c",
+      "size": 3552,
+      "pointerSize": 129
+    },
+    "xetHash": "3100eaf2a317f81539f1546b80c07d41e43d140fb28106d1056d93c1183cea50",
+    "path": "speaker_embeddings/de_speaker_5_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dec2b54828d49822999b559bd9bce3515e81139b",
+    "size": 9408,
+    "lfs": {
+      "oid": "bc029718234023df88f9ae4ea830a90115bd2256b10fe8c3c725483392c0f6c2",
+      "size": 9408,
+      "pointerSize": 129
+    },
+    "xetHash": "30ade5dc0b756101249c2203c32ea6ea817170ea700eb918f5f80897c1e7df5f",
+    "path": "speaker_embeddings/de_speaker_6_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4795fdae66d31c0b2a579b2fcaad2c91a85521da",
+    "size": 18688,
+    "lfs": {
+      "oid": "3414b015ad3567a2590f5b044f3d2043270bef8b03cb1348b7265d21bbca2299",
+      "size": 18688,
+      "pointerSize": 130
+    },
+    "xetHash": "2ab7ac3849c9a012393ce89b809907232df67e2beda44e2e55899cfc66a49b08",
+    "path": "speaker_embeddings/de_speaker_6_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "98ee7967c865958ccfc08b8a34456d4cae2a4e98",
+    "size": 3216,
+    "lfs": {
+      "oid": "2300ace5fda24f16a27b345a6f54c19e2e2363808cac0a58bac12518b4c8f77d",
+      "size": 3216,
+      "pointerSize": 129
+    },
+    "xetHash": "b0d61173fe3614c19a6daaac26334fefb658f7040416861f80b14e8cee3e1877",
+    "path": "speaker_embeddings/de_speaker_6_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fdcb39af907c13843ddbaae329e498aabc3c57f2",
+    "size": 17696,
+    "lfs": {
+      "oid": "cd86cb193cb39a077a2cb2540af2953ce7f2f480ec3129c5191e730b87329493",
+      "size": 17696,
+      "pointerSize": 130
+    },
+    "xetHash": "17be913f681646dc2ade14bf154b7cc3f8e9cfef2d15d42571149cb60f80762a",
+    "path": "speaker_embeddings/de_speaker_7_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3f082a8ef28bc533cd878ea6355b9d21f2cfd1f0",
+    "size": 35264,
+    "lfs": {
+      "oid": "6e97d71d8a7120bff91f08ccf1d0e6d1e8b6983642d56dad0cbe0f8dc2554343",
+      "size": 35264,
+      "pointerSize": 130
+    },
+    "xetHash": "d675bbfcbf59850e9e0a1547ac96fecfff06ebd6028aa17f15c8965359887254",
+    "path": "speaker_embeddings/de_speaker_7_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8e555ee7ac87c814288dfefc91492c428d055bdb",
+    "size": 5976,
+    "lfs": {
+      "oid": "7be7d81cb55364f3db979ce92315e2e64517203b9300caca6414970ec81c220b",
+      "size": 5976,
+      "pointerSize": 129
+    },
+    "xetHash": "7f3b959f658c43cb5e69ca60ef3b5d9fa8190ad40e82226953811629fa4a8b05",
+    "path": "speaker_embeddings/de_speaker_7_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c8fa330fecf211c8797cef3d7d1a930baeabfd40",
+    "size": 7424,
+    "lfs": {
+      "oid": "06efd00181d007e30b7b7bede472ea50e9f7c61aa7b76074884d26eec8d965f7",
+      "size": 7424,
+      "pointerSize": 129
+    },
+    "xetHash": "43fefe9d12f113105cd459b1acc16e5668ac80bece76c04a89835dc036ecf7e7",
+    "path": "speaker_embeddings/de_speaker_8_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c7be9476ce0ba4b50497149b39aac91566493b09",
+    "size": 14720,
+    "lfs": {
+      "oid": "f566f926840a3e70e115fc41b0bf4c3f658b1b23e8583e7492d7f0ae13423ac5",
+      "size": 14720,
+      "pointerSize": 130
+    },
+    "xetHash": "03af7de458777d6cf9638705c49712a80305b412d0b8edcb1fcd3cec7d8b353b",
+    "path": "speaker_embeddings/de_speaker_8_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d208fd9d7bc86836ea2d1c535994c8df55276310",
+    "size": 2560,
+    "lfs": {
+      "oid": "1919388fdd9b0e236e7bdeef4f6ad1416c7b0e49daf72cf5e064b2e2106584aa",
+      "size": 2560,
+      "pointerSize": 129
+    },
+    "xetHash": "ddb8ffdd0bc307a2bfa8232d6681bf09ac2cfdc24fd008b6e63b535fa0e4373b",
+    "path": "speaker_embeddings/de_speaker_8_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fc02e6d1a92305558ce7787a8e78cc8b1599a87d",
+    "size": 6544,
+    "lfs": {
+      "oid": "97012e37b1d51da9b2aebfb521b568713042cb4e086367dc5f2558c0b6629486",
+      "size": 6544,
+      "pointerSize": 129
+    },
+    "xetHash": "bad41b14a786d3e8d63bf45effa008363816ed1102df9b47bf4cecf815292d09",
+    "path": "speaker_embeddings/de_speaker_9_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e2a9b8c2a907e643308dd99a011c03d157a8c039",
+    "size": 12960,
+    "lfs": {
+      "oid": "f455a59e0d759103c7d8802bccef33cf0cafbf9122605179278d6f7ff302acdf",
+      "size": 12960,
+      "pointerSize": 130
+    },
+    "xetHash": "27b6313c9909bbd893da23fe9fffef80cc666338c7a06c3c0c6e9742b6b9fb7d",
+    "path": "speaker_embeddings/de_speaker_9_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "07c4af041e9ffc90f664fa0cd01494cfbdf6375d",
+    "size": 2264,
+    "lfs": {
+      "oid": "8efede4bec02ec98fc470dc53ca00154fea57f895a931ef6f44b1e9621b18ad2",
+      "size": 2264,
+      "pointerSize": 129
+    },
+    "xetHash": "c637f0fded1d543fd2545f8fe854cb36d7263d66431d169a0be0400264376978",
+    "path": "speaker_embeddings/de_speaker_9_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "31b15a2cdfe7ca1b143c72bb5027bd3bacc332c1",
+    "size": 6608,
+    "lfs": {
+      "oid": "1d91b5e26a8c703a7764b21570d8cc94aee3bb043a407c3ace89976f701ddf8f",
+      "size": 6608,
+      "pointerSize": 129
+    },
+    "xetHash": "d328bd50544b6346623bd1b783376db64d02e1d36d06047e3f12606799fe3528",
+    "path": "speaker_embeddings/en_speaker_0_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "479622082457b07b33034051af3a84925d6e23e4",
+    "size": 13088,
+    "lfs": {
+      "oid": "24bebee667439786f17048d4ec3f36460d6d9f9f59495b3076a116e6e3f71f6e",
+      "size": 13088,
+      "pointerSize": 130
+    },
+    "xetHash": "da6238cf740e0dc71e2817394d68f0e6e74be66e078eff7367060a8f281db6e7",
+    "path": "speaker_embeddings/en_speaker_0_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "50d2cc97a477be8ead549625700979f43be9839e",
+    "size": 2288,
+    "lfs": {
+      "oid": "01f0c8e96aee83c19514700491be4326c5a1194631cdd486e1d4b76e4d0c0de0",
+      "size": 2288,
+      "pointerSize": 129
+    },
+    "xetHash": "2a110a557f42fcd64160fbb27aebd741be249d4d17cf967a2488582d3184b9fd",
+    "path": "speaker_embeddings/en_speaker_0_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "648688e58f8e58d688a7fb2a5d052ab5e8ed444d",
+    "size": 5408,
+    "lfs": {
+      "oid": "ad174875bc5a8076a568bd61a293a8ab80056b97636e159d0ea7046a10833653",
+      "size": 5408,
+      "pointerSize": 129
+    },
+    "xetHash": "e1d3728e5b8e119d413b545dad7b9df77e84d9d321142885ff92e19bf3ecf6ab",
+    "path": "speaker_embeddings/en_speaker_1_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "06bbf66c6efd53ed4719a7f2b5cd204b6bb11187",
+    "size": 10688,
+    "lfs": {
+      "oid": "2f168630b806f09a27cff70e404ecc6aa1a62d30b2478e64c352461bb13e97a6",
+      "size": 10688,
+      "pointerSize": 130
+    },
+    "xetHash": "f2a5e0651536dba9b9b1a2efc2be62473c1e0c1388a6299cb1e61f386bac2cd6",
+    "path": "speaker_embeddings/en_speaker_1_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7999ecf5cd514129175240b481c704206abec56e",
+    "size": 1888,
+    "lfs": {
+      "oid": "04fd39ae31c48ce4c2578d25e07f436b671fa900fd526de06d68054735fe4fc6",
+      "size": 1888,
+      "pointerSize": 129
+    },
+    "xetHash": "94a640b7fc0f3b974fde9652a1ff84ad28fae3016f783aa38638cbf70ba58614",
+    "path": "speaker_embeddings/en_speaker_1_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "65fdaea43aeb23f96d4b3e73632682ed794a35dd",
+    "size": 10048,
+    "lfs": {
+      "oid": "04018345b2fe98c5a5d86dad0931f8ddad010307c3d3fd3eecc7c89a168747eb",
+      "size": 10048,
+      "pointerSize": 130
+    },
+    "xetHash": "7649956b04edc8a5e69f2974ec67be9dd36a8cd0339bff29bc49abdcf994e0f4",
+    "path": "speaker_embeddings/en_speaker_2_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b233e3d592dec788be26c1672498b86ddbf1d2df",
+    "size": 19968,
+    "lfs": {
+      "oid": "d860a933d31cda9c8b2220384545b2e7c9e022e8456769326dcb5cfe34f3b5b6",
+      "size": 19968,
+      "pointerSize": 130
+    },
+    "xetHash": "ff1ff73488d426dd423cc395a10065628e15fa1bccb55b09710ff6796de71c4d",
+    "path": "speaker_embeddings/en_speaker_2_fine_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "96b5bc0dea73097c453d76bf2cb0d60d16f1a149",
+    "size": 3432,
+    "lfs": {
+      "oid": "218470a0699f110d856a7b8a75faee823d2d496ebd526dcc81acb65e43176c80",
+      "size": 3432,
+      "pointerSize": 129
+    },
+    "xetHash": "442c8eca8adea5f462cbe633062a99e0ec242f0df6637bfcb154b373a41226a8",
+    "path": "speaker_embeddings/en_speaker_2_semantic_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d9991793be69c32f70e6fb77f6224083730f6ea5",
+    "size": 11328,
+    "lfs": {
+      "oid": "ced32dac3a50fd964373f0f3480a3eadb4c8e59e56139e8bf3eb9ddffc1d4e85",
+      "size": 11328,
+      "pointerSize": 130
+    },
+    "xetHash": "681c9c99d8496905d2248d6bbf4463017a0c1021187f6bc606cf7cd55d48f1ba",
+    "path": "speaker_embeddings/en_speaker_3_coarse_prompt.npy",
+    "lastCommit": {
+      "id": "50d807f50d09e1f289b6b15476e6c3d72ee3897d",
+      "title": "Duplicate from ylacombe/bark-small",
+      "date": "2023-07-18T13:50:46.000Z"
+    }
+  }
+]

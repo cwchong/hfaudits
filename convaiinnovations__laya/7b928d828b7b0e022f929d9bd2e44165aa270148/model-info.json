@@ -1,0 +1,269 @@
+{
+  "_id": "6aacc6b34a8e10ba66ac6d0f",
+  "id": "convaiinnovations/laya",
+  "private": false,
+  "pipeline_tag": "text-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "laya",
+    "system-one",
+    "calibrated-decisions",
+    "rlcd",
+    "classification",
+    "routing",
+    "scoring",
+    "guardrails",
+    "moderation",
+    "reinforcement-learning",
+    "commercial-use",
+    "text-classification",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 48894,
+  "likes": 5635,
+  "modelId": "convaiinnovations/laya",
+  "author": "convaiinnovations",
+  "sha": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+  "lastModified": "2026-10-03T18:00:07.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "I like you. I love you"
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "model_type": "laya",
+    "architectures": [
+      "LayaTypedDecisions"
+    ]
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "library_name": "transformers",
+    "pipeline_tag": "text-classification",
+    "tags": [
+      "laya",
+      "system-one",
+      "calibrated-decisions",
+      "rlcd",
+      "classification",
+      "routing",
+      "scoring",
+      "guardrails",
+      "moderation",
+      "reinforcement-learning",
+      "commercial-use"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "LayaTypedDecisions"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "assets/laya_benchmark.png"
+    },
+    {
+      "rfilename": "assets/laya_benchmark_common.png"
+    },
+    {
+      "rfilename": "assets/laya_vs_jev.png"
+    },
+    {
+      "rfilename": "assets/laya_vs_jev_full.png"
+    },
+    {
+      "rfilename": "assets/logo-lockup-dark.png"
+    },
+    {
+      "rfilename": "assets/logo-lockup-dark.svg"
+    },
+    {
+      "rfilename": "assets/logo-lockup.png"
+    },
+    {
+      "rfilename": "assets/logo-lockup.svg"
+    },
+    {
+      "rfilename": "assets/logo-mark-ink.png"
+    },
+    {
+      "rfilename": "assets/logo-mark-ink.svg"
+    },
+    {
+      "rfilename": "assets/logo-mark-mono.svg"
+    },
+    {
+      "rfilename": "assets/logo-mark.png"
+    },
+    {
+      "rfilename": "assets/logo-mark.svg"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "email_utils.py"
+    },
+    {
+      "rfilename": "encoder/config.json"
+    },
+    {
+      "rfilename": "eval/benchmark_comparison.png"
+    },
+    {
+      "rfilename": "eval/reliability_eval_in.png"
+    },
+    {
+      "rfilename": "eval/reliability_eval_zs.png"
+    },
+    {
+      "rfilename": "eval/results.json"
+    },
+    {
+      "rfilename": "eval/results.md"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "multilingual/encoder/config.json"
+    },
+    {
+      "rfilename": "multilingual/model.safetensors"
+    },
+    {
+      "rfilename": "multilingual/rl_agent_config.json"
+    },
+    {
+      "rfilename": "multilingual/tokenizer/tokenizer.json"
+    },
+    {
+      "rfilename": "multilingual/tokenizer/tokenizer_config.json"
+    },
+    {
+      "rfilename": "rl_agent_api.py"
+    },
+    {
+      "rfilename": "rl_agent_config.json"
+    },
+    {
+      "rfilename": "rl_common.py"
+    },
+    {
+      "rfilename": "tokenizer/tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer/tokenizer_config.json"
+    },
+    {
+      "rfilename": "typed-decisions/encoder/config.json"
+    },
+    {
+      "rfilename": "typed-decisions/model.safetensors"
+    },
+    {
+      "rfilename": "typed-decisions/rl_agent_config.json"
+    },
+    {
+      "rfilename": "typed-decisions/tokenizer/tokenizer.json"
+    },
+    {
+      "rfilename": "typed-decisions/tokenizer/tokenizer_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "multimodalart/jev-decision-index",
+    "tardellirs/model-pulse",
+    "hotchpotch/S1MB-leaderboard",
+    "convaiinnovations/laya-demo",
+    "mayafree/typed-decision-leaderboard",
+    "EuroEval/euroeval_leaderboard",
+    "benchmarkheaven/JevBench",
+    "Station-house/ConspiracyBench",
+    "RealFalconsAI/DecisionLab",
+    "frgfm/torch-cam",
+    "abhishekbhakat/laya-multilingual-demo",
+    "pollix/stuntd",
+    "yasserrmd/laya-lab",
+    "CallSohail/werewolf-village",
+    "durgesh-kanzariya/conduit-backend",
+    "afen0768/laya-zerogpu",
+    "hugging-apps/laya-hebrew",
+    "BunsDev/laya-calibration-lab",
+    "dkappe/IDU",
+    "aungthuhein-dev/laya-burmese-sib200-demo",
+    "henrybit/jev-vs-deepseek",
+    "KGFCode/laya-decision-lab",
+    "2045max/laya-demo-0921",
+    "nile1801/laya-demo",
+    "Mezahir2025/laya-triage",
+    "CallSohail/sway",
+    "nccyber/laya-school-email-triage",
+    "KingClancy/jev-decision-index",
+    "Anuragggggggg/laya_api",
+    "Dhanush4510/careerbridge-discover-quiz",
+    "siloh12/laya-demo",
+    "henrybit/laya",
+    "wuyouxiaobai/laya-demo",
+    "hadeas/laya-decision-playground",
+    "aired/laya-demo",
+    "Parvathy-2025/laya-prompt-guardrail",
+    "nickfury6023/laya-demo",
+    "khushali678/viralpilot-laya",
+    "dungdq1/laya-demo",
+    "AlenJoby/halo-laya",
+    "RomanRG008/gyra-demo",
+    "robynsd/Laya-demo",
+    "antonellof/laya-trader",
+    "danielgx300/KD",
+    "arudradey/universal-math-game",
+    "Prady0909/laya-reasoning-demo",
+    "gen24AI/laya-demo",
+    "souvik-dev07/laya-free-api",
+    "test0709/laya-free-api",
+    "gshreekar/civicpulse",
+    "AbidRayhanPro/LayaAPI",
+    "Slothwolf/laya-demo",
+    "uulonger/laya-demo",
+    "uulonger/jev-decision-index",
+    "medhurgham/laya-demo",
+    "huggyf/laya-demo",
+    "beginbotbot/trick-laya",
+    "sabeh26/laya-game-test",
+    "lucataco/decision-index-clef-preview",
+    "datafreak/laya-chess",
+    "VedantAndhale/laya",
+    "SaadKazmi/decisionkit-laya",
+    "1023RDDRK/laya-test",
+    "dvp007f/email-killer",
+    "v1d1tt/laya-api",
+    "gopaljigaur/pydecide-fallback-chain",
+    "assix-research/jev-decision-index"
+  ],
+  "createdAt": "2026-09-18T05:05:55.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 3,
+      "F16": 421293827
+    },
+    "total": 421293830
+  },
+  "usedStorage": 2366100536
+}

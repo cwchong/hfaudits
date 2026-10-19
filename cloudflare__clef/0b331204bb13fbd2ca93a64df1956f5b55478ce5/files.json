@@ -1,0 +1,2155 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 1570,
+    "blob_oid": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "LICENSE",
+    "size": 11544,
+    "blob_oid": "f938136e3adacfd92be087f6e113b5d6d97f678f",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=f938136e3adacfd92be087f6e113b5d6d97f678f&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=f938136e3adacfd92be087f6e113b5d6d97f678f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 11105,
+    "blob_oid": "5bf8da1926c6708c101db76502ba320200bad5d6",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "0b331204bb13fbd2ca93a64df1956f5b55478ce5",
+      "title": "Add SGLang cookbook and launch command to model card",
+      "date": "2026-10-09T18:46:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=5bf8da1926c6708c101db76502ba320200bad5d6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=5bf8da1926c6708c101db76502ba320200bad5d6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "chat_template.jinja",
+    "size": 8952,
+    "blob_oid": "c0c686f9c38d70d179fb7b5f5aa7530bc913dda3",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=c0c686f9c38d70d179fb7b5f5aa7530bc913dda3&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=c0c686f9c38d70d179fb7b5f5aa7530bc913dda3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "config.json",
+    "size": 3688,
+    "blob_oid": "924bcf0ac4f4d792dc7aa6b44b93774bfc4da473",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=924bcf0ac4f4d792dc7aa6b44b93774bfc4da473&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=924bcf0ac4f4d792dc7aa6b44b93774bfc4da473&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "generation_config.json",
+    "size": 214,
+    "blob_oid": "bfbe4ce905a96d5dd4daec54ce29ca2b7213de64",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=bfbe4ce905a96d5dd4daec54ce29ca2b7213de64&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=bfbe4ce905a96d5dd4daec54ce29ca2b7213de64&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "joint_head.safetensors",
+    "size": 256125024,
+    "blob_oid": "e563cdf7ebb28332e5752c7f26c2367500e07d6b",
+    "sha256": "a010ac04f078e699988e4049cbea5e62c962393f59fec366640b64e8d69a4953",
+    "lfs_pointer_size": 134,
+    "xet_hash": "a2f41d16f64d1aca21c513ef4b6f726c9adc5cd915b9bfe0b967c0fd042287f0",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=e563cdf7ebb28332e5752c7f26c2367500e07d6b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/a010ac04f078e699988e4049cbea5e62c962393f59fec366640b64e8d69a4953?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=e563cdf7ebb28332e5752c7f26c2367500e07d6b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a010ac04f078e699988e4049cbea5e62c962393f59fec366640b64e8d69a4953?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "joint_head_config.json",
+    "size": 119,
+    "blob_oid": "2268d622cd61bc87af4d8dc1a0548585b9bfef6c",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=2268d622cd61bc87af4d8dc1a0548585b9bfef6c&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=2268d622cd61bc87af4d8dc1a0548585b9bfef6c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "joint_schema_model.py",
+    "size": 23263,
+    "blob_oid": "6a3ac5fc030a3f33f7fa860a1271886b64a6606d",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a20e258b170e7f7a9fae1fb58d7bb6e089f2ce29",
+      "title": "Add systemone: Jev/SystemOne-compatible request and response API",
+      "date": "2026-10-01T01:30:19.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=6a3ac5fc030a3f33f7fa860a1271886b64a6606d&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=6a3ac5fc030a3f33f7fa860a1271886b64a6606d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "model-00001-of-00012.safetensors",
+    "size": 2542796928,
+    "blob_oid": "8a7b13137fad8bc802926bb04568324f1a2d2ab0",
+    "sha256": "54d83c1d36631de231876217a8e0c2483eccee8746369a482b79442bdfc5d958",
+    "lfs_pointer_size": 135,
+    "xet_hash": "4a8c494ff93bdcba95af387374af1c82bb96538ae699bc428a152ae160e654fc",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=8a7b13137fad8bc802926bb04568324f1a2d2ab0&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/54d83c1d36631de231876217a8e0c2483eccee8746369a482b79442bdfc5d958?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=8a7b13137fad8bc802926bb04568324f1a2d2ab0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/54d83c1d36631de231876217a8e0c2483eccee8746369a482b79442bdfc5d958?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00002-of-00012.safetensors",
+    "size": 4842451920,
+    "blob_oid": "25fdbda4de9e29d64dee1beeb0b19c6702e9bb1c",
+    "sha256": "464086af08be8e2ec14960a4dcff083ebc39974ade00d79d35497385f960ab3a",
+    "lfs_pointer_size": 135,
+    "xet_hash": "935bb690c6e7245a894aadb79fa025afc23814d5e3690a9f726816ff2587125d",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=25fdbda4de9e29d64dee1beeb0b19c6702e9bb1c&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/464086af08be8e2ec14960a4dcff083ebc39974ade00d79d35497385f960ab3a?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=25fdbda4de9e29d64dee1beeb0b19c6702e9bb1c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/464086af08be8e2ec14960a4dcff083ebc39974ade00d79d35497385f960ab3a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00003-of-00012.safetensors",
+    "size": 4965227944,
+    "blob_oid": "98c4c0f0b70d1659963942e49c704edbd6f978f1",
+    "sha256": "092212d3a02fafacd6424723eda59d60e5282d2068d68f0e37cb891f63bbb658",
+    "lfs_pointer_size": 135,
+    "xet_hash": "253a6bfc9ad7ed7b4714e4ab3e31c894c7470db5aab265d3c790ece5f2a156fe",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=98c4c0f0b70d1659963942e49c704edbd6f978f1&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/092212d3a02fafacd6424723eda59d60e5282d2068d68f0e37cb891f63bbb658?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=98c4c0f0b70d1659963942e49c704edbd6f978f1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/092212d3a02fafacd6424723eda59d60e5282d2068d68f0e37cb891f63bbb658?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00004-of-00012.safetensors",
+    "size": 4912819264,
+    "blob_oid": "234068314bc1eeaf07c7f86d4d9a479db43d7947",
+    "sha256": "d06ff197668c782145fafa74bba61bbc296fb27e39afb15fd522918ce3514dc5",
+    "lfs_pointer_size": 135,
+    "xet_hash": "90da54d6afd89742e1ed54cb6849903a3d2cbb8c8bba34cc5424f6a71fe81a92",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=234068314bc1eeaf07c7f86d4d9a479db43d7947&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/d06ff197668c782145fafa74bba61bbc296fb27e39afb15fd522918ce3514dc5?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=234068314bc1eeaf07c7f86d4d9a479db43d7947&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/d06ff197668c782145fafa74bba61bbc296fb27e39afb15fd522918ce3514dc5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00005-of-00012.safetensors",
+    "size": 4986198544,
+    "blob_oid": "329efb984605703ce0a9ee945615c58039a68c71",
+    "sha256": "cc693b8829614a72e0c2be303fb290cf05dbb4d7ded872a817b97bb222a78427",
+    "lfs_pointer_size": 135,
+    "xet_hash": "14b039a877710ee6f104a0dd6a99520307e1d95084d527a553b299166a7b206e",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=329efb984605703ce0a9ee945615c58039a68c71&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/cc693b8829614a72e0c2be303fb290cf05dbb4d7ded872a817b97bb222a78427?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=329efb984605703ce0a9ee945615c58039a68c71&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cc693b8829614a72e0c2be303fb290cf05dbb4d7ded872a817b97bb222a78427?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00006-of-00012.safetensors",
+    "size": 4912819320,
+    "blob_oid": "bb547ad660b1a71f0c1a4bcb19ef55ca54dc2678",
+    "sha256": "e7cce15da2443cb8b84aaed66a9a71f0c87dc9d043f83b5f58f4a89f64ba60ad",
+    "lfs_pointer_size": 135,
+    "xet_hash": "920d0e6e1962f4f95cef7772851b2bf1abe40345b3be1d5ebf676c3fd1a9c580",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=bb547ad660b1a71f0c1a4bcb19ef55ca54dc2678&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/e7cce15da2443cb8b84aaed66a9a71f0c87dc9d043f83b5f58f4a89f64ba60ad?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=bb547ad660b1a71f0c1a4bcb19ef55ca54dc2678&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e7cce15da2443cb8b84aaed66a9a71f0c87dc9d043f83b5f58f4a89f64ba60ad?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00007-of-00012.safetensors",
+    "size": 4932703272,
+    "blob_oid": "f65e157b5e0fe2ee887c2bb48ba0686da0207f65",
+    "sha256": "75fc7e76b57d5d17a5d85fff3e879d07dd33edc885a8ee04ad437a899bcd5307",
+    "lfs_pointer_size": 135,
+    "xet_hash": "6ac6f7e91acc8cdc5621fedb7e7671b4709ffb8a1c585732762576f7648be423",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=f65e157b5e0fe2ee887c2bb48ba0686da0207f65&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28092"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/75fc7e76b57d5d17a5d85fff3e879d07dd33edc885a8ee04ad437a899bcd5307?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=f65e157b5e0fe2ee887c2bb48ba0686da0207f65&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28092"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/75fc7e76b57d5d17a5d85fff3e879d07dd33edc885a8ee04ad437a899bcd5307?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00008-of-00012.safetensors",
+    "size": 4966314576,
+    "blob_oid": "17f8d86010e79ce0289277cc431745842389ae9c",
+    "sha256": "189b15cb6b1af48d5f118951446e15639bfeaf76081d5f20aed1f1b4253afe1d",
+    "lfs_pointer_size": 135,
+    "xet_hash": "2e80d45abc2f1a2486e0679adb9d143c1f17e59905bc52bcb4759c97598775e3",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=17f8d86010e79ce0289277cc431745842389ae9c&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28139"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/189b15cb6b1af48d5f118951446e15639bfeaf76081d5f20aed1f1b4253afe1d?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=17f8d86010e79ce0289277cc431745842389ae9c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28139"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/189b15cb6b1af48d5f118951446e15639bfeaf76081d5f20aed1f1b4253afe1d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00009-of-00012.safetensors",
+    "size": 4964162248,
+    "blob_oid": "84783425d0e0ebd1dbb0da0ce9690d393e3a9d67",
+    "sha256": "8101e2664bb14684fc7051f2e1f84903dbdf5489b17cae3212ac08a0af744a60",
+    "lfs_pointer_size": 135,
+    "xet_hash": "0ddc86e570827903466ed322bbda45712f0a546c3e4eec0fa0cecf407eac7ca4",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=84783425d0e0ebd1dbb0da0ce9690d393e3a9d67&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28139"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/8101e2664bb14684fc7051f2e1f84903dbdf5489b17cae3212ac08a0af744a60?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=84783425d0e0ebd1dbb0da0ce9690d393e3a9d67&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28139"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/8101e2664bb14684fc7051f2e1f84903dbdf5489b17cae3212ac08a0af744a60?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00010-of-00012.safetensors",
+    "size": 4933789824,
+    "blob_oid": "05de6415058e7a374b0323b32ca8bc30d8c41034",
+    "sha256": "a8e69016a1a8dab1c9ce8dd151c0d3224412ab864cf06d3a5e2b8a5775cfdfb8",
+    "lfs_pointer_size": 135,
+    "xet_hash": "693eb9481551935b8e6bcca30499b6ad4a235131ace451b9c4410b81f076d77b",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=05de6415058e7a374b0323b32ca8bc30d8c41034&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28139"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/a8e69016a1a8dab1c9ce8dd151c0d3224412ab864cf06d3a5e2b8a5775cfdfb8?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=05de6415058e7a374b0323b32ca8bc30d8c41034&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28139"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/a8e69016a1a8dab1c9ce8dd151c0d3224412ab864cf06d3a5e2b8a5775cfdfb8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00011-of-00012.safetensors",
+    "size": 4965228032,
+    "blob_oid": "45a1dc98d1b84cca2782de336b7d383bf1be8af9",
+    "sha256": "b328d21c36ab384696e40a30ac86a95aaf6dd82da89438ba009cb97d87c1d6b9",
+    "lfs_pointer_size": 135,
+    "xet_hash": "6d93a54bebd73edc54a34b78fc386582d60c7158eae4eb09259022024b668adc",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=45a1dc98d1b84cca2782de336b7d383bf1be8af9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28139"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/b328d21c36ab384696e40a30ac86a95aaf6dd82da89438ba009cb97d87c1d6b9?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=45a1dc98d1b84cca2782de336b7d383bf1be8af9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28139"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/b328d21c36ab384696e40a30ac86a95aaf6dd82da89438ba009cb97d87c1d6b9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00012-of-00012.safetensors",
+    "size": 2789094896,
+    "blob_oid": "eacfaeac06dd9d46928ceb39bd02b57dc27ff966",
+    "sha256": "7505eed910a84ea18e66953572476f8a8a6a6ef54192a6643d6e9cd21a3bb978",
+    "lfs_pointer_size": 135,
+    "xet_hash": "8e7fbb4fa3c2348e603ab62c3f3654b1be676ad78633f9c821b4d1c3235930b4",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=eacfaeac06dd9d46928ceb39bd02b57dc27ff966&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.4/28139"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/7505eed910a84ea18e66953572476f8a8a6a6ef54192a6643d6e9cd21a3bb978?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=eacfaeac06dd9d46928ceb39bd02b57dc27ff966&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28139"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/7505eed910a84ea18e66953572476f8a8a6a6ef54192a6643d6e9cd21a3bb978?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model.safetensors.index.json",
+    "size": 111110,
+    "blob_oid": "cc8da4e682c8b7483cd9c2c21a221188d547c26b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=cc8da4e682c8b7483cd9c2c21a221188d547c26b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=cc8da4e682c8b7483cd9c2c21a221188d547c26b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "processor_config.json",
+    "size": 1191,
+    "blob_oid": "33818c7f9e991ad735fd240209f4fa73e6c28c50",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=33818c7f9e991ad735fd240209f4fa73e6c28c50&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=33818c7f9e991ad735fd240209f4fa73e6c28c50&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer.json",
+    "size": 19989325,
+    "blob_oid": "5520bfd2dd834ce386c1312c410fa71af56db5ad",
+    "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+    "lfs_pointer_size": 133,
+    "xet_hash": "777bcaa63794fa47b8f53680be9d6d176f1fcbd7ba03cdc6c3bae2b3d76b323f",
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=5520bfd2dd834ce386c1312c410fa71af56db5ad&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/76 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=5520bfd2dd834ce386c1312c410fa71af56db5ad&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer_config.json",
+    "size": 1075,
+    "blob_oid": "0f19934ef65115549ff9629ff2c83d15e40e32d8",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "1292a46133f65be78d4951dd4b99e1cd333c83d4",
+      "title": "Add clef weights, joint schema head, code, and processor",
+      "date": "2026-09-30T23:31:54.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=0f19934ef65115549ff9629ff2c83d15e40e32d8&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Cloudflare/clef/0b331204bb13fbd2ca93a64df1956f5b55478ce5/files?blob-id=0f19934ef65115549ff9629ff2c83d15e40e32d8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

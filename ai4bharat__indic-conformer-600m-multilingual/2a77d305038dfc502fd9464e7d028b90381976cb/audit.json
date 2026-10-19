@@ -1,0 +1,18 @@
+{
+  "repo": "ai4bharat/indic-conformer-600m-multilingual",
+  "requested_revision": "main",
+  "commit": "2a77d305038dfc502fd9464e7d028b90381976cb",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T07:34:29Z-46878",
+  "collected_at": "2026-10-16T07:34:33Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 49,
+  "total_bytes": 137241218,
+  "safetensors_count": 0,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

@@ -1,0 +1,2074 @@
+[
+  {
+    "type": "file",
+    "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "b4296bb9f11a9d92f5a194bb3f24b5b380ebabd2",
+      "title": "initial commit",
+      "date": "2025-02-07T11:07:04.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5d63f29192b225a12302c16c31913cbf02fc687e",
+    "size": 10627,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+      "title": "Update README.md",
+      "date": "2025-02-08T12:15:27.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=5d63f29192b225a12302c16c31913cbf02fc687e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "790faf216e7e3f490e71e8bc80df79ed8941101c",
+    "size": 44,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=790faf216e7e3f490e71e8bc80df79ed8941101c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "eb62e9670f5a2a719ae2a7e954acc62ca2c83c9d",
+    "size": 325532232,
+    "lfs": {
+      "oid": "8fbea51ea711f2af382e88c833d9e288c6dc82ce5e98421ea61c058ce21a34cb",
+      "size": 325532232,
+      "pointerSize": 134
+    },
+    "xetHash": "4bc4e17341eef08c7aa195e661128fb8823e17aec243eaae73595d3b0560fdff",
+    "path": "onnx/model.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=eb62e9670f5a2a719ae2a7e954acc62ca2c83c9d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8fbea51ea711f2af382e88c833d9e288c6dc82ce5e98421ea61c058ce21a34cb?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4bf719116fd4cfa15113b06652f2977d1a360bc9",
+    "size": 163234740,
+    "lfs": {
+      "oid": "ba4527a874b42b21e35f468c10d326fdff3c7fc8cac1f85e9eb6c0dfc35c334a",
+      "size": 163234740,
+      "pointerSize": 134
+    },
+    "xetHash": "8d841ac5a82aa336d7688fa63e5a287b22ce8cca68b524175c3cfd23982576fc",
+    "path": "onnx/model_fp16.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=4bf719116fd4cfa15113b06652f2977d1a360bc9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ba4527a874b42b21e35f468c10d326fdff3c7fc8cac1f85e9eb6c0dfc35c334a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d691b62dcf04a56fcf8c5225ac0da3858ebb0e01",
+    "size": 305215966,
+    "lfs": {
+      "oid": "04cf570cf9c4153694f76347ed4b9a48c1b59ff1de0999e6605d123966b197c7",
+      "size": 305215966,
+      "pointerSize": 134
+    },
+    "xetHash": "3d13f4eaf1836250cc4dad2f7ab439f84a5253a5a0f9788c008ae29b783eb333",
+    "path": "onnx/model_q4.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=d691b62dcf04a56fcf8c5225ac0da3858ebb0e01&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/04cf570cf9c4153694f76347ed4b9a48c1b59ff1de0999e6605d123966b197c7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d2645beac972efa4105658e8aa41b0cbf147e1a3",
+    "size": 154586422,
+    "lfs": {
+      "oid": "d1a508a6a29671ead84fac99c7401fbd3c21a583fc6ed1406d1ec974d53bf45f",
+      "size": 154586422,
+      "pointerSize": 134
+    },
+    "xetHash": "616b5d7a067ac7e58e66c33e7cc03db9ce0e0544a7a24fd47556438de9ed4cf8",
+    "path": "onnx/model_q4f16.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=d2645beac972efa4105658e8aa41b0cbf147e1a3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d1a508a6a29671ead84fac99c7401fbd3c21a583fc6ed1406d1ec974d53bf45f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2fdfa155f445a1fd162c1ba5132e39f2af6bc220",
+    "size": 86033585,
+    "lfs": {
+      "oid": "04c658aec1b6008857c2ad10f8c589d4180d0ec427e7e6118ceb487e215c3cd0",
+      "size": 86033585,
+      "pointerSize": 133
+    },
+    "xetHash": "91d2089e76e6aa616741678bacc40de9bc56ff66e9773549b06bcd7e92be0308",
+    "path": "onnx/model_q8f16.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=2fdfa155f445a1fd162c1ba5132e39f2af6bc220&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/04c658aec1b6008857c2ad10f8c589d4180d0ec427e7e6118ceb487e215c3cd0?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "995a961ac558648214322f12fc3fda09f30a7bac",
+    "size": 92361116,
+    "lfs": {
+      "oid": "fbae9257e1e05ffc727e951ef9b9c98418e6d79f1c9b6b13bd59f5c9028a1478",
+      "size": 92361116,
+      "pointerSize": 133
+    },
+    "xetHash": "72db5d760d8920a2fbd09b5a5b109b29c71c5e525956e6166025d1146c851e15",
+    "path": "onnx/model_quantized.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=995a961ac558648214322f12fc3fda09f30a7bac&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fbae9257e1e05ffc727e951ef9b9c98418e6d79f1c9b6b13bd59f5c9028a1478?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "39199dd9e06071304a0a124cfb3b674ff4fc9b9b",
+    "size": 177464632,
+    "lfs": {
+      "oid": "6607a397d77b8514065420b7c1e7320117f7aabfdb45ce15f0050c5b0fe75aea",
+      "size": 177464632,
+      "pointerSize": 134
+    },
+    "xetHash": "26c2cd6f59f044b6108dd5dc829658d5fd8faf97d34f1c3fcdbd47995eb3742d",
+    "path": "onnx/model_uint8.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=39199dd9e06071304a0a124cfb3b674ff4fc9b9b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6607a397d77b8514065420b7c1e7320117f7aabfdb45ce15f0050c5b0fe75aea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8ecdc0542df430a53293a841ab60e5cd36d7c2c7",
+    "size": 114209226,
+    "lfs": {
+      "oid": "883333e03c597584b532eebea0f8310f25f0c9ade58fe864792c12d969944a9a",
+      "size": 114209226,
+      "pointerSize": 134
+    },
+    "xetHash": "a7439071e099cfdbd275b8e48855010cfa1d311d240b62c25cebed41ee0252fc",
+    "path": "onnx/model_uint8f16.onnx",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=8ecdc0542df430a53293a841ab60e5cd36d7c2c7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/883333e03c597584b532eebea0f8310f25f0c9ade58fe864792c12d969944a9a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4280f55fc1c32211bc9bb4d55545759a00054ecd",
+    "size": 3497,
+    "path": "tokenizer.json",
+    "lastCommit": {
+      "id": "73d73390d733dc015140aae0ccd665e54088a30d",
+      "title": "Update tokenizer.json",
+      "date": "2025-02-07T11:43:50.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=4280f55fc1c32211bc9bb4d55545759a00054ecd&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5c81e9a3a06db9139900d6ee5b60e8bb701ccb0b",
+    "size": 113,
+    "path": "tokenizer_config.json",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=5c81e9a3a06db9139900d6ee5b60e8bb701ccb0b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1cfa8827fdb6e27a3ec7bb64b5f0b0834d3044dd",
+    "size": 524288,
+    "lfs": {
+      "oid": "a4f11d9d055a12bfa0db2668a3e4f0ef8fd1f1ccca69494479718e44dbf9e41a",
+      "size": 524288,
+      "pointerSize": 131
+    },
+    "xetHash": "12856ad322149af688a096396977651ae48b8de502f6bea648a682da202e2a33",
+    "path": "voices/af.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "queued",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=1cfa8827fdb6e27a3ec7bb64b5f0b0834d3044dd&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a4f11d9d055a12bfa0db2668a3e4f0ef8fd1f1ccca69494479718e44dbf9e41a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "queued",
+        "message": ""
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0905106b01371419a35a8a56b5fb811a38a94ced",
+    "size": 522240,
+    "lfs": {
+      "oid": "c4a6b876047fd7fb472edf4ebd63cfac7c3b958a7cae7c106e8f038ca6308c45",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "cc492e124221db6b321217ebfc04bff10bd7318c5dacb51d23b6a93fbc89f77c",
+    "path": "voices/af_alloy.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=0905106b01371419a35a8a56b5fb811a38a94ced&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c4a6b876047fd7fb472edf4ebd63cfac7c3b958a7cae7c106e8f038ca6308c45?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "645743d70543d6d12a2ba8d8d71e6cff28696712",
+    "size": 522240,
+    "lfs": {
+      "oid": "4a004c33430762e2461eedb2013fad808ef4ab3121f5300f554476caf58d8361",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "2bfbb7152ee75283abd015c4445625b0bd6638784fe0d78ef90b76ab03306ef3",
+    "path": "voices/af_aoede.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=645743d70543d6d12a2ba8d8d71e6cff28696712&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/4a004c33430762e2461eedb2013fad808ef4ab3121f5300f554476caf58d8361?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "365633a9291e723da03eef8d4a044bdde938285f",
+    "size": 522240,
+    "lfs": {
+      "oid": "f69d836209b78eb8c66e75e3cda491e26ea838a3674257e9d4e5703cbaf55c8b",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "e219f941ba4ee32d1882fa2a4470104a35fd78f3f1fd60ae6862263a20b37904",
+    "path": "voices/af_bella.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=365633a9291e723da03eef8d4a044bdde938285f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f69d836209b78eb8c66e75e3cda491e26ea838a3674257e9d4e5703cbaf55c8b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e256d26664ef513affbcf7bace1246bbcffea5c3",
+    "size": 522240,
+    "lfs": {
+      "oid": "d583ccff3cdca2f7fae535cb998ac07e9fcb90f09737b9a41fa2734ec44a8f0b",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "478bbd0d587a03135a4899153eac4a80a046d65a32d924b25ea059319b055df8",
+    "path": "voices/af_heart.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=e256d26664ef513affbcf7bace1246bbcffea5c3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d583ccff3cdca2f7fae535cb998ac07e9fcb90f09737b9a41fa2734ec44a8f0b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4c49329c879859697d41b96e0bb155ec64f4cb40",
+    "size": 522240,
+    "lfs": {
+      "oid": "a240a5e3c15b43563d6e923bdca8ef5613a23471d9b77653694012435df23bd8",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "734a2a23bd2363efa2197bf969822345847e4cf3e8ee3d8a19d6fabf9334a9b0",
+    "path": "voices/af_jessica.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=4c49329c879859697d41b96e0bb155ec64f4cb40&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a240a5e3c15b43563d6e923bdca8ef5613a23471d9b77653694012435df23bd8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6b4042256fec935d32b9552d542d57f3a1f85c20",
+    "size": 522240,
+    "lfs": {
+      "oid": "9be5221b6a941c04b561959b8ff0b06e809444dcc4ab7e75a7b23606f691819e",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "653f4675aa3aba0e2d2f0b8eb718cc789462cdd706297332a99175c52fe0a0aa",
+    "path": "voices/af_kore.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=6b4042256fec935d32b9552d542d57f3a1f85c20&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/9be5221b6a941c04b561959b8ff0b06e809444dcc4ab7e75a7b23606f691819e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "672a558c7b1bb5ba3c3b5bd8b3684fda3fc3af92",
+    "size": 522240,
+    "lfs": {
+      "oid": "cd2191ab31b914ed7b318416b0e4440fdf392ddad9106a060819aa600a64f59a",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "f4f2697efcae3d20f433e96ccee02e9dc1abd7190be465923ff6aad1995100e3",
+    "path": "voices/af_nicole.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=672a558c7b1bb5ba3c3b5bd8b3684fda3fc3af92&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cd2191ab31b914ed7b318416b0e4440fdf392ddad9106a060819aa600a64f59a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e9c42fa5fc5c808b55f5765de52509a7a76e6cce",
+    "size": 522240,
+    "lfs": {
+      "oid": "18778272caa0d0eebaea251c35fd635f038434f9eee5e691d02a174bd328414f",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "dcb73d767cc445bcece1cd16132188175366dcb130415b593def678966bd04d7",
+    "path": "voices/af_nova.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=e9c42fa5fc5c808b55f5765de52509a7a76e6cce&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/18778272caa0d0eebaea251c35fd635f038434f9eee5e691d02a174bd328414f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a95eb345a5abebeccc4ed296fad15bfc7227968f",
+    "size": 522240,
+    "lfs": {
+      "oid": "00a2bcf82b1d86e8f19902ede58c65ccf6c0e43b44b7d74fad54e5d8933c9c30",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "38fc5eb5fd12ad10f87df3e9fd335e82d862cc3f72ccf949c4e0b8cb3b5ac13c",
+    "path": "voices/af_river.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=a95eb345a5abebeccc4ed296fad15bfc7227968f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/00a2bcf82b1d86e8f19902ede58c65ccf6c0e43b44b7d74fad54e5d8933c9c30?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "73133faa5c39d9c86c4133f63b8f06fec15d4732",
+    "size": 522240,
+    "lfs": {
+      "oid": "4409fbc125afabacc615d94db5398d847006a737b0247d6892b7a9a0007a2f0a",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "a0ed8c2fa1f7adb1db9946001a02bddd37b03b927930184d7d6beb5bd08a3851",
+    "path": "voices/af_sarah.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=73133faa5c39d9c86c4133f63b8f06fec15d4732&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/4409fbc125afabacc615d94db5398d847006a737b0247d6892b7a9a0007a2f0a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ad74f167c9c89528657b5ede844603fbab1e7396",
+    "size": 522240,
+    "lfs": {
+      "oid": "4435255c9744f3f31659e0d714ab7689bf65d9e77ec1cce060f083912614f0b9",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "0479ca8ec112b5681fb96cae792713782f01c922d98ea7250804cf3f709a3f0e",
+    "path": "voices/af_sky.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=ad74f167c9c89528657b5ede844603fbab1e7396&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/4435255c9744f3f31659e0d714ab7689bf65d9e77ec1cce060f083912614f0b9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b9d8c252d31ebf3fde34c76d39c78c819929b5cf",
+    "size": 522240,
+    "lfs": {
+      "oid": "162b035ed91cfc48b6046982184c645f72edcdd1b82843347f605d7bf7b15716",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "cd342ec9d00ca109a0dfc3952706a98f523e0f28a1663fb282fa40a3023c14bc",
+    "path": "voices/am_adam.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=b9d8c252d31ebf3fde34c76d39c78c819929b5cf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/162b035ed91cfc48b6046982184c645f72edcdd1b82843347f605d7bf7b15716?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4045c77f0c13881efc4d871783a04a75b1746c32",
+    "size": 522240,
+    "lfs": {
+      "oid": "3968b92c3c4cd1c4416dbded36c13eaa388a90d5788d02a13e4d781f5f8cf3c3",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "3185a20962151cc46fc33048634325e662e36123049d8a89ba15bae80548d54f",
+    "path": "voices/am_echo.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=4045c77f0c13881efc4d871783a04a75b1746c32&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3968b92c3c4cd1c4416dbded36c13eaa388a90d5788d02a13e4d781f5f8cf3c3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "19e2962d883dd389170ed6e7d841bb33169b940d",
+    "size": 522240,
+    "lfs": {
+      "oid": "e8b5be17edd1e3636901ce7598baafe2dc8dd8ff707a0c23bf9e461add7e2832",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "3863bc8f75cf28c35e1f52aab4752010608af7209b7637cb387bc713c71996bc",
+    "path": "voices/am_eric.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=19e2962d883dd389170ed6e7d841bb33169b940d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e8b5be17edd1e3636901ce7598baafe2dc8dd8ff707a0c23bf9e461add7e2832?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8f11b76a4bee997e468e1658237134e4bcd84e28",
+    "size": 522240,
+    "lfs": {
+      "oid": "c27989f741f7ee34d273a39d8a595cc0837d35f5ced9a29b7cc162614616df43",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "7c4c91799de9bdff4913e163a98c4505057169e587d77440ae1482770173ca7c",
+    "path": "voices/am_fenrir.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=8f11b76a4bee997e468e1658237134e4bcd84e28&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c27989f741f7ee34d273a39d8a595cc0837d35f5ced9a29b7cc162614616df43?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ded1f17a0bb1b50a0c1768cbba429e377a23caf3",
+    "size": 522240,
+    "lfs": {
+      "oid": "52403be32fd047c6a44517cb0bcd6b134f2a18baa73e70ef41651e0eab921ade",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "94a84d9704257a8ecab3b764c3d24e0420fcda9958112cde944fd4bbd551803b",
+    "path": "voices/am_liam.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=ded1f17a0bb1b50a0c1768cbba429e377a23caf3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/52403be32fd047c6a44517cb0bcd6b134f2a18baa73e70ef41651e0eab921ade?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fe0ada256058dc58006d5ba628b37a7e73c85e5f",
+    "size": 522240,
+    "lfs": {
+      "oid": "1d1f21dd8da39c30705cd4c75d039d265e9bc4a2a93ed09bc9e1b1225eb95ba1",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "c3cb357f5b6721e8510a736083912120e5fd4ab3d7a6fccb37453beff9e7d51e",
+    "path": "voices/am_michael.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=fe0ada256058dc58006d5ba628b37a7e73c85e5f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1d1f21dd8da39c30705cd4c75d039d265e9bc4a2a93ed09bc9e1b1225eb95ba1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5404c566a71636d445e91891fe1544897ebbdd15",
+    "size": 522240,
+    "lfs": {
+      "oid": "da5d135b424164916d75a68ffb4c2abce3d7d5ccc82dd1ee6cf447ce286145e6",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "693ca41c2bee6ac6550f87b6148802433ab33e78ec03fb74d0240a02971fb89f",
+    "path": "voices/am_onyx.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=5404c566a71636d445e91891fe1544897ebbdd15&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/da5d135b424164916d75a68ffb4c2abce3d7d5ccc82dd1ee6cf447ce286145e6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "501a49dee17309d44af14812508ba6d957f132fa",
+    "size": 522240,
+    "lfs": {
+      "oid": "fcf73c989033e9233e0b98713eca600c8c74dcc1614b37009d5450ff4a2274a0",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "60058a373871ba4625305008955681d4dbe8826e534c3ea58b4e871642037afe",
+    "path": "voices/am_puck.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=501a49dee17309d44af14812508ba6d957f132fa&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fcf73c989033e9233e0b98713eca600c8c74dcc1614b37009d5450ff4a2274a0?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d5acb14ca0820a858b74b4eb938770048887518b",
+    "size": 522240,
+    "lfs": {
+      "oid": "61150cf726ab6c5ed7a99f90a304f91f5a72c00c592e89ec94e5df11c319227a",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "20c255eae9eed36c63b993ffb84bab64bc74c6e32943cdba9b009ed7bbe7d001",
+    "path": "voices/am_santa.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=d5acb14ca0820a858b74b4eb938770048887518b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/61150cf726ab6c5ed7a99f90a304f91f5a72c00c592e89ec94e5df11c319227a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bf7311cf04a0fdbbc74d24819ec711ddeed89ad7",
+    "size": 522240,
+    "lfs": {
+      "oid": "08afa6ba24da61ea5e8efa139e5aadc938d83f0a6da5a900adaf763ac1da5573",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "074b71eb2779b7e30e5127c90a5986f1c5769782bde4667237ebceb150bfb109",
+    "path": "voices/bf_alice.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=bf7311cf04a0fdbbc74d24819ec711ddeed89ad7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/08afa6ba24da61ea5e8efa139e5aadc938d83f0a6da5a900adaf763ac1da5573?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "436db46f637565323f32e25974a45bedc737d54d",
+    "size": 522240,
+    "lfs": {
+      "oid": "669fe0647f9dd04fcab92f1439a40eeb4c8b4ab1f82e4996fe3d918ce4a63b73",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "7f0dee3509d59583cfa19e4c54dcded450b389d59df85caf859e968169efa491",
+    "path": "voices/bf_emma.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=436db46f637565323f32e25974a45bedc737d54d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/669fe0647f9dd04fcab92f1439a40eeb4c8b4ab1f82e4996fe3d918ce4a63b73?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a4fb02a24bf46b8b31a550a5c98a6061d1f7e61b",
+    "size": 522240,
+    "lfs": {
+      "oid": "3754352c4aaa46d17f27654ab7518d65b62ad6163a0f55a5f4330c2da2c4e94f",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "76ad315c9c79336319fceb5011a77d7aea7ab259ccbc851591e7b319a3daaf21",
+    "path": "voices/bf_isabella.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=a4fb02a24bf46b8b31a550a5c98a6061d1f7e61b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3754352c4aaa46d17f27654ab7518d65b62ad6163a0f55a5f4330c2da2c4e94f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5b52d4ace80c24d44bad51e1ab00ab5ac72ff02a",
+    "size": 522240,
+    "lfs": {
+      "oid": "5e0ee32ebe64a467124976b14e69590746f1c4ce41a12b587a50c862edfea335",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "04e4f61c54eae657ed35e3c1447a741f23f042030738603083cec502f32d1e56",
+    "path": "voices/bf_lily.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=5b52d4ace80c24d44bad51e1ab00ab5ac72ff02a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/5e0ee32ebe64a467124976b14e69590746f1c4ce41a12b587a50c862edfea335?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cb5de2d02e84598d5c586c0ddb52a8d858a5cfda",
+    "size": 522240,
+    "lfs": {
+      "oid": "6b3194bbceffb746733cbc22c8f593dd44e401a71d53895a2dca891bc595a1e8",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "db19f106d4937f582ec8f61d6867eb153a80e3c886b121307653d7969b1814cd",
+    "path": "voices/bm_daniel.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=cb5de2d02e84598d5c586c0ddb52a8d858a5cfda&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6b3194bbceffb746733cbc22c8f593dd44e401a71d53895a2dca891bc595a1e8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "065e0cfdbf027293c544cea3841ec0692360ce53",
+    "size": 522240,
+    "lfs": {
+      "oid": "f889083196807b4adb15e9204252165f503b8d33d3982e681c52443c49d798f1",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "b52ea778aac084afde71fd74f70219348c0008bbdeff727223af42d061454bc5",
+    "path": "voices/bm_fable.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=065e0cfdbf027293c544cea3841ec0692360ce53&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f889083196807b4adb15e9204252165f503b8d33d3982e681c52443c49d798f1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "197a97c2421b8be060b5d3408a318010d2ea9fff",
+    "size": 522240,
+    "lfs": {
+      "oid": "c4b235a4c1f2cd3b939fed08b899ce9385638b763f7b73a59616c4fc9bd6c9bc",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "55f09927e89ac0c37f83dac61fab0b9e8404990ef57d3243ebafb9a9935e1bf1",
+    "path": "voices/bm_george.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=197a97c2421b8be060b5d3408a318010d2ea9fff&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c4b235a4c1f2cd3b939fed08b899ce9385638b763f7b73a59616c4fc9bd6c9bc?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7057c1d0c24ff3b1ed4a197e1ee20b73b8796c25",
+    "size": 522240,
+    "lfs": {
+      "oid": "b8f671cef828c30e66fdf0b0756a76bba58f6bb3398cbbf27058642acbcedb97",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "0345eb010788e3437cfffe951fbe76390ea4ef94691db9f4f8dacd18e11ea960",
+    "path": "voices/bm_lewis.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=7057c1d0c24ff3b1ed4a197e1ee20b73b8796c25&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b8f671cef828c30e66fdf0b0756a76bba58f6bb3398cbbf27058642acbcedb97?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c2468cadd556a59c87a9cd0354d030490cac47fc",
+    "size": 522240,
+    "lfs": {
+      "oid": "f66ec66bd295acb18372e37008533a9a3228483ccd294e7538d5d9294ac9a532",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "7a9ee1b656af36bdb94cd20a10e719a5d6da11dc3b9e970abb62b4521bfaf717",
+    "path": "voices/ef_dora.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=c2468cadd556a59c87a9cd0354d030490cac47fc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f66ec66bd295acb18372e37008533a9a3228483ccd294e7538d5d9294ac9a532?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a9b33eee4548de7c954afb457242017688851a42",
+    "size": 522240,
+    "lfs": {
+      "oid": "27809e9eafdcbcfff90a3016c697568676531de2a2c39cee29c96c7bd6b83e95",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "85ec077be408c09927bfbe5665f59d4e8b8d69d11ddb3f56f5710339cd91f067",
+    "path": "voices/em_alex.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=a9b33eee4548de7c954afb457242017688851a42&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/27809e9eafdcbcfff90a3016c697568676531de2a2c39cee29c96c7bd6b83e95?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8efed8adedd03e37bf2ddd18c1ce3f1fce53555b",
+    "size": 522240,
+    "lfs": {
+      "oid": "ad43b774e1ca24d05c6161297d8aeb770ac3d29bb95daf516727af5f7d543683",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "554d5651fb50cfc7da99101139ac093c6162376b8752735b5073d1026963d688",
+    "path": "voices/em_santa.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=8efed8adedd03e37bf2ddd18c1ce3f1fce53555b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ad43b774e1ca24d05c6161297d8aeb770ac3d29bb95daf516727af5f7d543683?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3a44c9837070fbeee9ccd7c450b8e49bcb18d1b7",
+    "size": 522240,
+    "lfs": {
+      "oid": "a35f5675ad08948e326ae75fd0ea16ba5d0042e4f76b5f3d1df77d0a48c54861",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "7dbe062253da773e0103680defd4be99ab77508bd8aac352ff880cfe7a99e0c0",
+    "path": "voices/ff_siwis.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=3a44c9837070fbeee9ccd7c450b8e49bcb18d1b7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a35f5675ad08948e326ae75fd0ea16ba5d0042e4f76b5f3d1df77d0a48c54861?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2d9537173500579b57a3a904d43e7580f16d96c6",
+    "size": 522240,
+    "lfs": {
+      "oid": "040be6a4425411cc01fda5fd06693c76bfa78572632852bc8cda9c99232ffb56",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "e9f168de5fb8e6aa0841a1a41718f821271bcb9d2281c9c7907facd83346c02b",
+    "path": "voices/hf_alpha.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=2d9537173500579b57a3a904d43e7580f16d96c6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/040be6a4425411cc01fda5fd06693c76bfa78572632852bc8cda9c99232ffb56?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b1b377744ac61427ca4e3552f9568cede6ea8967",
+    "size": 522240,
+    "lfs": {
+      "oid": "cd83ae0bb9b2e4e4fb92b4973bd8d1822ca0036d3c498bf4fc89aa8e33917cc7",
+      "size": 522240,
+      "pointerSize": 131
+    },
+    "xetHash": "30a7f0eca2c71254373698f0d537ea8a50195eec5d47e4c37c132581a9a886ba",
+    "path": "voices/hf_beta.bin",
+    "lastCommit": {
+      "id": "468588286ebb2dd77c25b9771e5d165896538cce",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-02-07T11:18:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/onnx-community/Kokoro-82M-v1.0-ONNX/1939ad2a8e416c0acfeecc08a694d14ef25f2231/files?blob-id=b1b377744ac61427ca4e3552f9568cede6ea8967&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cd83ae0bb9b2e4e4fb92b4973bd8d1822ca0036d3c498bf4fc89aa8e33917cc7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  }
+]

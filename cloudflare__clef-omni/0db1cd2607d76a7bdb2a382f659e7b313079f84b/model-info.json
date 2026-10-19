@@ -1,0 +1,198 @@
+{
+  "_id": "6ac8692e8282a1825b6799a6",
+  "id": "Cloudflare/clef-omni",
+  "private": false,
+  "pipeline_tag": "image-text-to-text",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "qwen3_omni_moe",
+    "text-to-audio",
+    "clef",
+    "cloudflare",
+    "systemone",
+    "decision-model",
+    "qwen3-omni",
+    "post-train",
+    "image-text-to-typed-output",
+    "multimodal",
+    "audio",
+    "video",
+    "structured-output",
+    "classification",
+    "custom-code",
+    "image-text-to-text",
+    "conversational",
+    "base_model:Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "base_model:finetune:Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 2949,
+  "likes": 122,
+  "modelId": "Cloudflare/clef-omni",
+  "author": "Cloudflare",
+  "sha": "0db1cd2607d76a7bdb2a382f659e7b313079f84b",
+  "lastModified": "2026-10-09T17:49:32.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "Qwen3OmniMoeForConditionalGeneration"
+    ],
+    "model_type": "qwen3_omni_moe",
+    "tokenizer_config": {
+      "bos_token": null,
+      "eos_token": "<|im_end|>",
+      "pad_token": "<|endoftext|>",
+      "unk_token": null
+    },
+    "chat_template_jinja": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {%- if messages[0].content is string %}\n            {{- messages[0].content }}\n        {%- else %}\n            {%- for content in messages[0].content %}\n                {%- if content.type == 'image' or 'image' in content or 'image_url' in content %}\n                    {{- \"<|vision_start|><|image_pad|><|vision_end|>\" }}\n                {%- elif content.type == 'audio' or 'audio' in content or 'audio_url' in content %}\n                    {{- \"<|audio_start|><|audio_pad|><|audio_end|>\" }}\n                {%- elif content.type == 'video' or 'video' in content %}\n                    {{- \"<|vision_start|><|video_pad|><|vision_end|>\" }}\n                {%- elif content.type == 'text' %}\n                    {{- content.text }}\n                {%- endif %}\n            {%- endfor %}\n        {%- endif %}\n    {%- endif %}\n    {{- '\\n\\n' }}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {%- if messages[0].content is string %}\n            {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n        {%- else %}\n            {%- for content in messages[0].content %}\n                {%- if content.type == 'image' or 'image' in content or 'image_url' in content %}\n                    {{- '<|im_start|>system\\n' +\"<|vision_start|><|image_pad|><|vision_end|>\"+ '<|im_end|>\\n' }}\n                {%- elif content.type == 'audio' or 'audio' in content or 'audio_url' in content %}\n                    {{- '<|im_start|>system\\n' +\"<|audio_start|><|audio_pad|><|audio_end|>\"+ '<|im_end|>\\n' }}\n                {%- elif content.type == 'video' or 'video' in content %}\n                    {{- '<|im_start|>system\\n' +\"<|vision_start|><|video_pad|><|vision_end|>\"+ '<|im_end|>\\n' }}\n                {%- elif content.type == 'text' %}\n                    {{- '<|im_start|>system\\n' +content.text+ '<|im_end|>\\n' }}\n                {%- endif %}\n            {%- endfor %}\n        {%- endif %}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and message.content is string and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if message.content is string %}\n        {%- set content = message.content %}\n    {%- else %}\n        {%- set content = namespace(text=\"\") %}\n        {%- for mcontent in message.content %}\n            {%- if mcontent.type == 'image' or 'image' in mcontent or 'image_url' in mcontent %}\n                {%- set content.text = content.text~\"<|vision_start|><|image_pad|><|vision_end|>\" %}\n            {%- elif mcontent.type == 'audio' or 'audio' in mcontent or 'audio_url' in mcontent %}\n                {%- set content.text = content.text~\"<|audio_start|><|audio_pad|><|audio_end|>\" %}\n            {%- elif mcontent.type == 'video' or 'video' in mcontent %}\n                {%- set content.text = content.text~\"<|vision_start|><|video_pad|><|vision_end|>\" %}\n            {%- elif mcontent.type == 'text' %}\n                {%- set content.text = content.text~mcontent.text %}\n            {%- endif %}\n        {%- endfor %}\n        {%- set content = content.text %}\n    {%- endif %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = \"\" %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n            {%- set reasoning_content = content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n            {%- set content = content.split('</think>')[-1].lstrip('\\n') %}\n        {%- endif %}\n    {%- endif %}\n    {%- if loop.index0 > ns.last_query_index %}\n        {%- if loop.last or (not loop.last and reasoning_content) %}\n            {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip(\"\\n\") + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n    {%- else %}\n        {{- '<|im_start|>' + message.role + '\\n' + content }}\n    {%- endif %}\n    {%- if message.tool_calls %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if (loop.first and content) or (not loop.first) %}{{- '\\n' }}{%- endif %}\n            {%- if tool_call.function %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {%- if tool_call.arguments is string %}\n                {{- tool_call.arguments }}\n            {%- else %}\n                {{- tool_call.arguments | tojson }}\n            {%- endif %}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n    {%- endif %}\n    {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}{{- '<|im_start|>user' }}{%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}{{- '<|im_end|>\\n' }}{%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}{{- '<think>\\n\\n</think>\\n\\n' }}{%- endif %}\n{%- endif %}"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "library_name": "transformers",
+    "pipeline_tag": "image-text-to-text",
+    "base_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "base_model_relation": "finetune",
+    "tags": [
+      "clef",
+      "cloudflare",
+      "systemone",
+      "decision-model",
+      "qwen3-omni",
+      "post-train",
+      "image-text-to-typed-output",
+      "multimodal",
+      "audio",
+      "video",
+      "structured-output",
+      "classification",
+      "custom-code"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForMultimodalLM",
+    "pipeline_tag": "text-to-audio",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "chat_template.jinja"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "joint_head.safetensors"
+    },
+    {
+      "rfilename": "joint_head_config.json"
+    },
+    {
+      "rfilename": "joint_schema_model.py"
+    },
+    {
+      "rfilename": "model-00001-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00003-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00004-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00005-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00006-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00007-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00008-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00009-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00010-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00011-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00012-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00013-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00014-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model-00015-of-00015.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "processor_config.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "tardellirs/model-pulse",
+    "hugging-apps/clef-omni"
+  ],
+  "createdAt": "2026-10-09T04:10:22.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 35259818545
+    },
+    "total": 35259818545
+  },
+  "usedStorage": 70753087464
+}
