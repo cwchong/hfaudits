@@ -1,0 +1,138 @@
+{
+  "_id": "65ba5b9739bd6235f7750cb9",
+  "id": "Ultralytics/YOLOv8",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "tracking",
+    "instance-segmentation",
+    "image-classification",
+    "pose-estimation",
+    "obb",
+    "object-detection",
+    "yolo",
+    "yolov8",
+    "yolov3",
+    "yolov5",
+    "yolov9",
+    "yolov10",
+    "license:agpl-3.0",
+    "region:us"
+  ],
+  "downloads": 18033,
+  "likes": 392,
+  "modelId": "Ultralytics/YOLOv8",
+  "author": "Ultralytics",
+  "sha": "27f858f2dc238503a66ce10248cf7ec71a3ded5d",
+  "lastModified": "2026-06-26T10:23:01.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "pipeline_tag": "object-detection",
+    "tags": [
+      "ultralytics",
+      "tracking",
+      "instance-segmentation",
+      "image-classification",
+      "pose-estimation",
+      "obb",
+      "object-detection",
+      "yolo",
+      "yolov8",
+      "yolov3",
+      "yolov5",
+      "yolov9",
+      "yolov10"
+    ],
+    "library_name": "ultralytics"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "yolov8l.pt"
+    },
+    {
+      "rfilename": "yolov8m.pt"
+    },
+    {
+      "rfilename": "yolov8n.pt"
+    },
+    {
+      "rfilename": "yolov8s.pt"
+    },
+    {
+      "rfilename": "yolov8x.pt"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": [
+      {
+        "path": "yolov8l.pt",
+        "level": "caution"
+      },
+      {
+        "path": "yolov8m.pt",
+        "level": "caution"
+      },
+      {
+        "path": "yolov8n.pt",
+        "level": "caution"
+      },
+      {
+        "path": "yolov8s.pt",
+        "level": "caution"
+      },
+      {
+        "path": "yolov8x.pt",
+        "level": "caution"
+      }
+    ]
+  },
+  "spaces": [
+    "hippoiam10/yolo_hippo",
+    "lopesdri/ObjectDetection",
+    "LanglAdr/nonconform",
+    "itsanurag/Custom_yolov9_room_cleanliness_detector",
+    "DurgaDeepak/UVIS",
+    "senthil2421/mlforge",
+    "YeetingNumpy/Baybayin-Instance-Detection",
+    "youssefboutaleb/YOLOPUPIL",
+    "sarahawad24/nutrivision",
+    "Bingsu/adtriton",
+    "bunnyroshan/ML",
+    "root-sajjan/backend_image_detection",
+    "usri-yusron/deteksi-wajah-pribadi",
+    "NarendraChari/Obj_detect",
+    "ObindiG/Obj_detect",
+    "rajnandale/object-detection-demo2",
+    "JasonHong06/230327F",
+    "Vara1605454/ImageCaptioningProject",
+    "jeweledrain/DETECT",
+    "satwik24/object-detection-demo3",
+    "mrodriguezegues/mamografia-ai",
+    "Tai0947456180/yolov8-train",
+    "sandy-1202/Road_Hazard_Detection",
+    "BiasLab2025/Demo-2025",
+    "legomaheggo/OrionRetail",
+    "ET-1/yolov8n-detection",
+    "pun33th45/obstacle-detection",
+    "Michtiii/Smart_Survillance",
+    "Michtiii/live_surveillance",
+    "shubro18202758/netraai",
+    "wanlinxing/object-detection",
+    "athyysv/sistem_pengawas_ujian"
+  ],
+  "createdAt": "2024-01-31T14:39:19.000Z",
+  "usedStorage": 305862607
+}

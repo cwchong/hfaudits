@@ -1,0 +1,2492 @@
+[
+  {
+    "type": "file",
+    "oid": "5e51cb80d60d400f8a6930b96feffb99f97fa5d5",
+    "size": 1913,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "b963f751c12a31c236a4fc21059fe0e53761981f",
+      "title": "Upload 3 files",
+      "date": "2025-02-27T01:50:13.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=5e51cb80d60d400f8a6930b96feffb99f97fa5d5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cd202d28b065e6d9eb396ca0c307d01520e1e296",
+    "size": 2562,
+    "path": "DONATE.md",
+    "lastCommit": {
+      "id": "41e5892b9d8b43e56fc560f892312a328a410973",
+      "title": "Upload 3 files",
+      "date": "2025-01-28T03:29:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=cd202d28b065e6d9eb396ca0c307d01520e1e296&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "484ac8dcd971465258007528fb8bc4a99cf98633",
+    "size": 534,
+    "path": "EVAL.md",
+    "lastCommit": {
+      "id": "e3b844ba5874b355a6630a4541c0350efea192a9",
+      "title": "Upload 2 files",
+      "date": "2025-02-27T01:52:29.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=484ac8dcd971465258007528fb8bc4a99cf98633&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d6dc124205ad567631d14cd8700f1af77a861c3f",
+    "size": 6348,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+      "title": "Update README.md",
+      "date": "2025-04-10T18:12:48.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=d6dc124205ad567631d14cd8700f1af77a861c3f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d970051855ba0d8a16064c718af5dc29bcdd961a",
+    "size": 5956,
+    "path": "SAMPLES.md",
+    "lastCommit": {
+      "id": "30618d04b530efb8e3ac3bace784f9d4a8dcaa01",
+      "title": "Upload SAMPLES.md",
+      "date": "2025-01-29T23:48:52.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=d970051855ba0d8a16064c718af5dc29bcdd961a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ed78a806ffa121525449a848624600eae34037c7",
+    "size": 7625,
+    "path": "VOICES.md",
+    "lastCommit": {
+      "id": "c3327e9bac3dbe55779397bfa82de0f8806fb3bc",
+      "title": "Upload VOICES.md",
+      "date": "2025-01-29T23:43:48.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=ed78a806ffa121525449a848624600eae34037c7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "14a726edd3718279eac426630879ff743955b16a",
+    "size": 2351,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "4a34baf21f785e7cd08e41a290dffeb1fd0b66b7",
+      "title": "Upload config.json",
+      "date": "2025-01-27T23:23:02.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=14a726edd3718279eac426630879ff743955b16a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "252249b9482520322f9f2a230eb476d232957d21",
+    "size": 939504,
+    "lfs": {
+      "oid": "a312447a7801982507545380cce5d5ab5ef60081a5edb2001ca096b19f8f4621",
+      "size": 939504,
+      "pointerSize": 131
+    },
+    "xetHash": "4d694be9a855840377fe8cf343d1f3bedf4d45909a31b7567d63499dd8bafc1c",
+    "path": "eval/ArtificialAnalysis-2025-02-26.jpeg",
+    "lastCommit": {
+      "id": "b963f751c12a31c236a4fc21059fe0e53761981f",
+      "title": "Upload 3 files",
+      "date": "2025-02-27T01:50:13.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=252249b9482520322f9f2a230eb476d232957d21&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a312447a7801982507545380cce5d5ab5ef60081a5edb2001ca096b19f8f4621?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1fe20f83a9a85451c0030f987248b69dcdf6d56e",
+    "size": 560066,
+    "lfs": {
+      "oid": "f2caf29f9ad1108cdbf892dc6713423882a8e006c99930f61a17e15a79c3ef6f",
+      "size": 560066,
+      "pointerSize": 131
+    },
+    "xetHash": "129f64e8477228d993243d6e94bea6944a458b2ba82257160acb34977fef4e9f",
+    "path": "eval/TTS_Arena-2025-02-26.jpeg",
+    "lastCommit": {
+      "id": "b963f751c12a31c236a4fc21059fe0e53761981f",
+      "title": "Upload 3 files",
+      "date": "2025-02-27T01:50:13.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=1fe20f83a9a85451c0030f987248b69dcdf6d56e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f2caf29f9ad1108cdbf892dc6713423882a8e006c99930f61a17e15a79c3ef6f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6e8885e4860f968ead5f7ceb7013a0e013e23801",
+    "size": 515255,
+    "lfs": {
+      "oid": "b095b1048199fd2b23971595226c1c29200a779ff310c90273b766aa3f725fc9",
+      "size": 515255,
+      "pointerSize": 131
+    },
+    "xetHash": "dca006c9f6ff5d8231aeb3e7bb2f74a6dca2506655c9f41f48f7a2b47d693083",
+    "path": "eval/TTS_Spaces_Arena-2025-02-26.jpeg",
+    "lastCommit": {
+      "id": "b963f751c12a31c236a4fc21059fe0e53761981f",
+      "title": "Upload 3 files",
+      "date": "2025-02-27T01:50:13.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=6e8885e4860f968ead5f7ceb7013a0e013e23801&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b095b1048199fd2b23971595226c1c29200a779ff310c90273b766aa3f725fc9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "15769c415594dcb424579ba3dfae3085578aac4e",
+    "size": 327212226,
+    "lfs": {
+      "oid": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+      "size": 327212226,
+      "pointerSize": 134
+    },
+    "xetHash": "0c0ac263f5ae91312df578d1b6adfb4c6dfda401cc3696ba97042f835619c52f",
+    "path": "kokoro-v1_0.pth",
+    "lastCommit": {
+      "id": "41e5892b9d8b43e56fc560f892312a328a410973",
+      "title": "Upload 3 files",
+      "date": "2025-01-28T03:29:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=15769c415594dcb424579ba3dfae3085578aac4e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b5d5ac0109e1dbeadcec3071936dd3ee0f7228e9",
+    "size": 996044,
+    "path": "samples/HEARME.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=b5d5ac0109e1dbeadcec3071936dd3ee0f7228e9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d74d88d983a628cb6848433dab8797b184e712d6",
+    "size": 237644,
+    "path": "samples/af_heart_0.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=d74d88d983a628cb6848433dab8797b184e712d6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "92abcdd3c256d530ea8f1bee4a9ed19cd69b691b",
+    "size": 517244,
+    "path": "samples/af_heart_1.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=92abcdd3c256d530ea8f1bee4a9ed19cd69b691b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "421bf43c7c0dccc433846cf9b2f0273bba8d8168",
+    "size": 496844,
+    "path": "samples/af_heart_2.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=421bf43c7c0dccc433846cf9b2f0273bba8d8168&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f9b787da5b4ac0fc5c8e8f34f046f4582e6035b1",
+    "size": 1407644,
+    "lfs": {
+      "oid": "e758efcd852e77569772ee5a424df724695903db61a323a6021ee1c6a50ca616",
+      "size": 1407644,
+      "pointerSize": 132
+    },
+    "xetHash": "efe103aaf3e8a410d02506c0bee93ac4a924653e2fff02edf1d73b3da3a5093e",
+    "path": "samples/af_heart_3.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=f9b787da5b4ac0fc5c8e8f34f046f4582e6035b1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e758efcd852e77569772ee5a424df724695903db61a323a6021ee1c6a50ca616?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1f4423f8369262d3bbad8ec3c7372bd3f0e83698",
+    "size": 1116044,
+    "lfs": {
+      "oid": "d50c90f447686200052f4375dee55a3406ec0aa140473cf946e98fdfe860989b",
+      "size": 1116044,
+      "pointerSize": 132
+    },
+    "xetHash": "3a20688218786ef7bedf16894298cc9a89f4b8590773de1c653b933c8768c1c8",
+    "path": "samples/af_heart_4.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=1f4423f8369262d3bbad8ec3c7372bd3f0e83698&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d50c90f447686200052f4375dee55a3406ec0aa140473cf946e98fdfe860989b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "488c49532fe322dda735b85eac881526e5e5e779",
+    "size": 1033244,
+    "lfs": {
+      "oid": "bc4515b9479c219e4e9347463a859ea6716dd0eb45a520f5f42825a7662b5054",
+      "size": 1033244,
+      "pointerSize": 132
+    },
+    "xetHash": "09d82f8006640f02c79d6d03defd96509649822901c8d695ce39569e56566349",
+    "path": "samples/af_heart_5.wav",
+    "lastCommit": {
+      "id": "62bf881986e350d3e91023f216d64c8164b7368e",
+      "title": "Upload 7 files",
+      "date": "2025-01-29T23:44:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=488c49532fe322dda735b85eac881526e5e5e779&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/bc4515b9479c219e4e9347463a859ea6716dd0eb45a520f5f42825a7662b5054?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c0f72034c4e1369e4d17990442ffe35aeceb21f3",
+    "size": 523425,
+    "lfs": {
+      "oid": "6d877149dd8b348fbad12e5845b7e43d975390e9f3b68a811d1d86168bef5aa3",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "2cf15552fe7e23890ba834d9e6f3f058f8cdfb37466ad6f81185c33b1bc893b2",
+    "path": "voices/af_alloy.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=c0f72034c4e1369e4d17990442ffe35aeceb21f3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6d877149dd8b348fbad12e5845b7e43d975390e9f3b68a811d1d86168bef5aa3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "047c8e54f2fac7b9175dd5a2f85ac45f1813a4e3",
+    "size": 523425,
+    "lfs": {
+      "oid": "c03bd1a4c3716c2d8eaa3d50022f62d5c31cfbd6e15933a00b17fefe13841cc4",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "0945d0dc0f97799805a80b430912f3edd7641d10a2799036bdf9db6bf49a95c4",
+    "path": "voices/af_aoede.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=047c8e54f2fac7b9175dd5a2f85ac45f1813a4e3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c03bd1a4c3716c2d8eaa3d50022f62d5c31cfbd6e15933a00b17fefe13841cc4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "67135fde4b0f0ab1d8bfe6d3b1ab46d37675279b",
+    "size": 523425,
+    "lfs": {
+      "oid": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "359e602cbcd2506063b2fddd89a0644137c8c41fee30cf20a2751463db7bd56a",
+    "path": "voices/af_bella.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=67135fde4b0f0ab1d8bfe6d3b1ab46d37675279b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "23a296174457c31b22b694f6e07e4e1b558122bf",
+    "size": 523425,
+    "lfs": {
+      "oid": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "feb6de2a4ed45b3653eee237b058d0a581547de52a2916835b2e5c3e75fd5795",
+    "path": "voices/af_heart.pt",
+    "lastCommit": {
+      "id": "8542409da2986c0ab5d41b3cf0411f7a58caab38",
+      "title": "Upload af_heart.pt",
+      "date": "2025-01-29T23:43:09.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=23a296174457c31b22b694f6e07e4e1b558122bf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9740b43fd7ce43473fb5e673a16173136876ba04",
+    "size": 523435,
+    "lfs": {
+      "oid": "cdfdccb8cc975aa34ee6b89642963b0064237675de0e41a30ae64cc958dd4e87",
+      "size": 523435,
+      "pointerSize": 131
+    },
+    "xetHash": "6bdbb2e28f044d046e798859aa63bd4653cf615ee502588322ddb20a11d921a9",
+    "path": "voices/af_jessica.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=9740b43fd7ce43473fb5e673a16173136876ba04&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cdfdccb8cc975aa34ee6b89642963b0064237675de0e41a30ae64cc958dd4e87?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e5532ee773d500ac62cb2fdcc92e8847a867e8f8",
+    "size": 523420,
+    "lfs": {
+      "oid": "8bfbc512321c3db49dff984ac675fa5ac7eaed5a96cc31104d3a9080e179d69d",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "0b56691390f853faa13881a61739746342367f9c33894090b19b9f59e6a72358",
+    "path": "voices/af_kore.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=e5532ee773d500ac62cb2fdcc92e8847a867e8f8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8bfbc512321c3db49dff984ac675fa5ac7eaed5a96cc31104d3a9080e179d69d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8be29483c47b630ec3ce1315be802c79126be9da",
+    "size": 523430,
+    "lfs": {
+      "oid": "c5561808bcf5250fe8c5f5de32caf2d94f27e57e95befdb098c5c85991d4c5da",
+      "size": 523430,
+      "pointerSize": 131
+    },
+    "xetHash": "24d1c769e95553fbfca561b3b21f9e52237959df44b8bd98dd0dab169644ec64",
+    "path": "voices/af_nicole.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=8be29483c47b630ec3ce1315be802c79126be9da&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c5561808bcf5250fe8c5f5de32caf2d94f27e57e95befdb098c5c85991d4c5da?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4f781bca452e06e7acd8c5a5f80d73bf5abca5f7",
+    "size": 523420,
+    "lfs": {
+      "oid": "e0233676ddc21908c37a1f102f6b88a59e4e5c1bd764983616eb9eda629dbcd2",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "3d4747e84df33e60c7f64fc07b4c705dd0aaf53ebeb9c6d2afa67975cd29a6ed",
+    "path": "voices/af_nova.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=4f781bca452e06e7acd8c5a5f80d73bf5abca5f7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e0233676ddc21908c37a1f102f6b88a59e4e5c1bd764983616eb9eda629dbcd2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "78a4f7b3aba66fa78e82916f73028a3f24d894b8",
+    "size": 523425,
+    "lfs": {
+      "oid": "e149459bd9c084416b74756b9bd3418256a8b839088abb07d463730c369dab8f",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "03141288f440a71e1475cb920b44ce22bd31692258ad2d240392f23a481d1e21",
+    "path": "voices/af_river.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=78a4f7b3aba66fa78e82916f73028a3f24d894b8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e149459bd9c084416b74756b9bd3418256a8b839088abb07d463730c369dab8f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6e64a6594789ae709973e5902b111b77d8b40043",
+    "size": 523425,
+    "lfs": {
+      "oid": "49bd364ea3be9eb3e9685e8f9a15448c4883112a7c0ff7ab139fa4088b08cef9",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "90b9da97f8dcda67ab0a3fc9b593f618bd1d937fa2d7f9b09fd34bf7b88613c2",
+    "path": "voices/af_sarah.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=6e64a6594789ae709973e5902b111b77d8b40043&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/49bd364ea3be9eb3e9685e8f9a15448c4883112a7c0ff7ab139fa4088b08cef9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "097b254d4b6baf42efb838bf569d1064caeeeb86",
+    "size": 523351,
+    "lfs": {
+      "oid": "c799548aed06e0cb0d655a85a01b48e7f10484d71663f9a3045a5b9362e8512c",
+      "size": 523351,
+      "pointerSize": 131
+    },
+    "xetHash": "9bbc284626b619d6919073323107cf3f1cf99d9389225a7943f012cece6bfcd6",
+    "path": "voices/af_sky.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=097b254d4b6baf42efb838bf569d1064caeeeb86&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c799548aed06e0cb0d655a85a01b48e7f10484d71663f9a3045a5b9362e8512c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bcadf28e7b574cdc1eb1f4df59bae0b0303bd9f7",
+    "size": 523420,
+    "lfs": {
+      "oid": "ced7e284aba12472891be1da3ab34db84cc05cc02b5889535796dbf2d8b0cb34",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "cc20454dba0771585374e35c6478f3d9be0e09178d07e35ecf54647f9c1415cb",
+    "path": "voices/am_adam.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=bcadf28e7b574cdc1eb1f4df59bae0b0303bd9f7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ced7e284aba12472891be1da3ab34db84cc05cc02b5889535796dbf2d8b0cb34?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "424d55379346413fdf0282ab65518a10eab27c2a",
+    "size": 523420,
+    "lfs": {
+      "oid": "8bcfdc852bc985fb45c396c561e571ffb9183930071f962f1b50df5c97b161e8",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "ac76ecaadc7312537a96a613565c05a4b3c1455d11bd20c6d747672c6b4830d9",
+    "path": "voices/am_echo.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=424d55379346413fdf0282ab65518a10eab27c2a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8bcfdc852bc985fb45c396c561e571ffb9183930071f962f1b50df5c97b161e8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5c6a5e836ef7d9d104c5d42f8a48e6f95afc0365",
+    "size": 523420,
+    "lfs": {
+      "oid": "ada66f0eefff34ec921b1d7474d7ac8bec00cd863c170f1c534916e9b8212aae",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "7424942f729aef75329d5bbfff93fab2789e11f66c647fa4a9c9620306491c27",
+    "path": "voices/am_eric.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=5c6a5e836ef7d9d104c5d42f8a48e6f95afc0365&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ada66f0eefff34ec921b1d7474d7ac8bec00cd863c170f1c534916e9b8212aae?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "78f7a7d984453b438d546bb6006dabbe565a9884",
+    "size": 523430,
+    "lfs": {
+      "oid": "98e507eca1db08230ae3b6232d59c10aec9630022d19accac4f5d12fcec3c37a",
+      "size": 523430,
+      "pointerSize": 131
+    },
+    "xetHash": "05fe393569bff5121957f6ff17a95f60e3e873dfcce8f4a04aa711cbeed757f6",
+    "path": "voices/am_fenrir.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=78f7a7d984453b438d546bb6006dabbe565a9884&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/98e507eca1db08230ae3b6232d59c10aec9630022d19accac4f5d12fcec3c37a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ee88bcc01c91aa7ae5c6687de4444d2107f8c4f9",
+    "size": 523420,
+    "lfs": {
+      "oid": "c82550757ddb31308b97f30040dda8c2d609a9e2de6135848d0a948368138518",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "fd82957d97d0ae57e49e9e707540b31c53ae29cd50bee19afdc029c372ccf7ad",
+    "path": "voices/am_liam.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=ee88bcc01c91aa7ae5c6687de4444d2107f8c4f9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c82550757ddb31308b97f30040dda8c2d609a9e2de6135848d0a948368138518?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9e71bb84ce59989842ff0695f4119463fa72a35f",
+    "size": 523435,
+    "lfs": {
+      "oid": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+      "size": 523435,
+      "pointerSize": 131
+    },
+    "xetHash": "e8fdf4a6802791a80a614ae4f8a5db8295cc7c030bbe091379e8d26ec23db6c3",
+    "path": "voices/am_michael.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=9e71bb84ce59989842ff0695f4119463fa72a35f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "258cfa7e3a745f9379453e06bd21d1aa397487b5",
+    "size": 523420,
+    "lfs": {
+      "oid": "e8452be16cd0f6da7b4579eaf7b1e4506e92524882053d86d72b96b9a7fed584",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "bc38dce397c72de4ef54cbf452ff34d45d7d6585b0c3a4971c05a43f1dbb9122",
+    "path": "voices/am_onyx.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=258cfa7e3a745f9379453e06bd21d1aa397487b5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e8452be16cd0f6da7b4579eaf7b1e4506e92524882053d86d72b96b9a7fed584?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1bf5747ea6c19ef35d673a9ce066ff9cfa25295c",
+    "size": 523420,
+    "lfs": {
+      "oid": "dd1d8973f4ce4b7d8ae407c77a435f485dabc052081b80ea75c4f30b84f36223",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "456ae32dac1297f05863d69228b5c8e67248b3139e1bf48e32ad745633819abb",
+    "path": "voices/am_puck.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=1bf5747ea6c19ef35d673a9ce066ff9cfa25295c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/dd1d8973f4ce4b7d8ae407c77a435f485dabc052081b80ea75c4f30b84f36223?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a18e725bbe8790303fe5cb982457fd701a237bd8",
+    "size": 523425,
+    "lfs": {
+      "oid": "7f2f7582fa2b1f160e90aafe6d0b442a685e773608b6667e545d743b073e97a7",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "8f56b18020c7553ef16ded55bc6a6e3cf334fca70453d78eac50ebfbb8954cd1",
+    "path": "voices/am_santa.pt",
+    "lastCommit": {
+      "id": "f0f6f4d4f58a8407a05bae4974d8491c3a2a2637",
+      "title": "Upload am_santa.pt",
+      "date": "2025-01-29T21:53:49.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=a18e725bbe8790303fe5cb982457fd701a237bd8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/7f2f7582fa2b1f160e90aafe6d0b442a685e773608b6667e545d743b073e97a7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ae3a0a1db073ef34170583f2a55e8034bfa15932",
+    "size": 523425,
+    "lfs": {
+      "oid": "d292651b6af6c0d81705c2580dcb4463fccc0ff7b8d618a471dbb4e45655b3f3",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "3750b498bc11d28691cde8a57f43a078a59c03a3c043a4a478260b953d5046fa",
+    "path": "voices/bf_alice.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=ae3a0a1db073ef34170583f2a55e8034bfa15932&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d292651b6af6c0d81705c2580dcb4463fccc0ff7b8d618a471dbb4e45655b3f3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6b75d4188b780acb738f89f662133be5e24e42a0",
+    "size": 523420,
+    "lfs": {
+      "oid": "d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "0b710dc085c412b32df00eb48fb89a9f091b8f1fb56041f3ff4453e87da52903",
+    "path": "voices/bf_emma.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=6b75d4188b780acb738f89f662133be5e24e42a0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b08811a075e0212355bd1b283dda61b6ab5679d5",
+    "size": 523440,
+    "lfs": {
+      "oid": "cdd4c37003805104d1d08fb1e05855c8fb2c68de24ca6e71f264a30aaa59eefd",
+      "size": 523440,
+      "pointerSize": 131
+    },
+    "xetHash": "c06013890a574090f2410b8bbf9a80efd2fa206f53d07c85fe56f1da30519e4a",
+    "path": "voices/bf_isabella.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=b08811a075e0212355bd1b283dda61b6ab5679d5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cdd4c37003805104d1d08fb1e05855c8fb2c68de24ca6e71f264a30aaa59eefd?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7a57a8c0ae8f8b66c9db54b79faf6e1345e2ca20",
+    "size": 523420,
+    "lfs": {
+      "oid": "6e09c2e481e2d53004d7e5ae7d3a325369e130a6f45c35a6002de75084be9285",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "4d28786ad7d53dee17c10245bb474bf2396fa9377ad68060b625e4217ae0778a",
+    "path": "voices/bf_lily.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=7a57a8c0ae8f8b66c9db54b79faf6e1345e2ca20&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6e09c2e481e2d53004d7e5ae7d3a325369e130a6f45c35a6002de75084be9285?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "91e84f5066a015f03e3b37cbf0a1917739c6dbd2",
+    "size": 523430,
+    "lfs": {
+      "oid": "fc3fce4e9c12ed4dbc8fa9680cfe51ee190a96444ce7c3ad647549a30823fc5d",
+      "size": 523430,
+      "pointerSize": 131
+    },
+    "xetHash": "a56ca519334c05b58592460bdc34b75c3425110d77cd370ab9ab5e8299b54dab",
+    "path": "voices/bm_daniel.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=91e84f5066a015f03e3b37cbf0a1917739c6dbd2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fc3fce4e9c12ed4dbc8fa9680cfe51ee190a96444ce7c3ad647549a30823fc5d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "fd7542dc771b77a7048d80d019a5dc2617d06325",
+    "size": 523425,
+    "lfs": {
+      "oid": "d44935f3135257a9064df99f007fc1342ff1aa767552b4a4fa4c3b2e6e59079c",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "ca41f70de38c9e318fc073d05c597a3140a48f6d08559f70fbb48d1c39537fef",
+    "path": "voices/bm_fable.pt",
+    "lastCommit": {
+      "id": "e0d5ea95b027a30b35489e44691599324f079da5",
+      "title": "Upload 16 files",
+      "date": "2025-01-28T05:35:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=fd7542dc771b77a7048d80d019a5dc2617d06325&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d44935f3135257a9064df99f007fc1342ff1aa767552b4a4fa4c3b2e6e59079c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5004f161fa9fa923f031d6e925c6f5fbce9a9baf",
+    "size": 523430,
+    "lfs": {
+      "oid": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+      "size": 523430,
+      "pointerSize": 131
+    },
+    "xetHash": "3ec68cd8f58b4670c2d2479074f89a46ef35674816c673229a3e63ec03673599",
+    "path": "voices/bm_george.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=5004f161fa9fa923f031d6e925c6f5fbce9a9baf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5574f064d7aee6fafe88caa66000d7aa5f440c83",
+    "size": 523425,
+    "lfs": {
+      "oid": "b5204750dcba01029d2ac9cec17aec3b20a6d64073c579d694a23cb40effbd0e",
+      "size": 523425,
+      "pointerSize": 131
+    },
+    "xetHash": "fe4c5c78936b16bc0736c6d17f3497485498ffb43afaf83451ecb03e61451ced",
+    "path": "voices/bm_lewis.pt",
+    "lastCommit": {
+      "id": "3354499842599bdc250728ef7ddda928977e3705",
+      "title": "Upload 11 files",
+      "date": "2025-01-28T04:52:41.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=5574f064d7aee6fafe88caa66000d7aa5f440c83&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b5204750dcba01029d2ac9cec17aec3b20a6d64073c579d694a23cb40effbd0e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model\nSafe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "44cf5fc201c1f21711c24e46cc1053323959d9b5",
+    "size": 523420,
+    "lfs": {
+      "oid": "d9d69b0f8a2b87a345f269d89639f89dfbd1a6c9da0c498ae36dd34afcf35530",
+      "size": 523420,
+      "pointerSize": 131
+    },
+    "xetHash": "8e64be1348887dbd618d01163d2ee1a13daf6725262156c4e0baf0cf2522a722",
+    "path": "voices/ef_dora.pt",
+    "lastCommit": {
+      "id": "a3ebfcc2bb43e3d8df8199d4081f4fc6d310cc6d",
+      "title": "Upload 6 files",
+      "date": "2025-01-29T22:31:06.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hexgrad/Kokoro-82M/f3ff3571791e39611d31c381e3a41a3af07b4987/files?blob-id=44cf5fc201c1f21711c24e46cc1053323959d9b5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d9d69b0f8a2b87a345f269d89639f89dfbd1a6c9da0c498ae36dd34afcf35530?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe Pickle-based model",
+        "reportLink": "https://research.jfrog.com/model-threats/pickle-malcode?utm_source=huggingface"
+      }
+    }
+  }
+]

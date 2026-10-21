@@ -1,0 +1,19 @@
+path	size	sha256	blob_oid	scan_status	scanners
+.gitattributes	1519		a6344aac8c09253b3b630fb776ae94478aa0275b	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+LICENSE	7627		a7c3ca16cee30425ed6ad841a809590f2bcbf290	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+README.md	32033		45cc985c8dbbe3cf051a86de070555e4e5d1def0	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+USE_POLICY.md	4691		81ebb55902285e8dd5804ccf423d17ffb2a622ee	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+config.json	860		4527769ce567f5abb20a81c68a053a4cc54910b6	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+generation_config.json	160		83f8568e8af3ccd3ae1fd744b014d5982f1af6c7	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+llama_guard_3_figure.png	339430		fca054dceb39888165eb7a86ede8c75f4fdf92c4	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+model-00001-of-00004.safetensors	4976698672	****************************************************************	95a958d21ea9b8c70bb5f66156a78a7300d69836	safe	protectAiScan=safe;avScan=unscanned;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=safe
+model-00002-of-00004.safetensors	4999802720	****************************************************************	06825804527ae508f64ad4c7829cc14c04cec105	safe	protectAiScan=safe;avScan=unscanned;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=safe
+model-00003-of-00004.safetensors	4915916176	****************************************************************	c468980361a7761256b15d2c9874ccf795be56cb	safe	protectAiScan=safe;avScan=unscanned;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=safe
+model-00004-of-00004.safetensors	1168138808	****************************************************************	7504a0ef48cc50af39ce0f7dc599713fa02b00c0	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=safe
+model.safetensors.index.json	23950		0fd8120f1c6acddc268ebc2583058efaf699a771	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+original/consolidated.00.pth	16060563346	****************************************************************	62eff1d7f007da2a7f915c88156fa4326fb3c002	queued	protectAiScan=safe;avScan=unscanned;pickleImportScan=safe;virusTotalScan=unscanned;jFrogScan=queued
+original/params.json	200		7f9eb509327f537fa408ede703fd4c9829f03394	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+original/tokenizer.model	2183982	****************************************************************	a097ce5a06fce0fa3d685a8cfb175cef243dfde9	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=safe;jFrogScan=unscanned
+special_tokens_map.json	73		d8cd5076496dbe4be2320312abc10adc43097b81	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+tokenizer.json	9084449		412806596a1283ba83602123e49ec97da18e7f16	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned
+tokenizer_config.json	51967		2c7389eb390e538cee452e5049fb65f440d49d86	safe	protectAiScan=safe;avScan=safe;pickleImportScan=unscanned;virusTotalScan=unscanned;jFrogScan=unscanned

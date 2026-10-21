@@ -1,0 +1,990 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 1519,
+    "blob_oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c2d00abacc1e524407034d8c43dcc386f0ca1457",
+      "title": "initial commit",
+      "date": "2024-05-07T03:47:35.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 1089,
+    "blob_oid": "d0a643167bd40c62b7714ba0c55263da3a7a933c",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "94464efbb57bfb88337e80edc7aaad3601f67bef",
+      "title": "Update README.md",
+      "date": "2024-05-07T03:50:09.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d0a643167bd40c62b7714ba0c55263da3a7a933c&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d0a643167bd40c62b7714ba0c55263da3a7a933c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "config.json",
+    "size": 654,
+    "blob_oid": "31553d63b8f18df5d6d440860751533ada3759e4",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "ec8474a218e3597706533d8f5d6d15da3455fa2f",
+      "title": "update config file to sync meta's recent changes",
+      "date": "2024-05-29T05:14:15.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=31553d63b8f18df5d6d440860751533ada3759e4&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=31553d63b8f18df5d6d440860751533ada3759e4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "generation_config.json",
+    "size": 198,
+    "blob_oid": "d256506b0fc79f005c5dd10ffa124994ccdb9bb9",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d256506b0fc79f005c5dd10ffa124994ccdb9bb9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d256506b0fc79f005c5dd10ffa124994ccdb9bb9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "model-00001-of-00004.safetensors",
+    "size": 4976698616,
+    "blob_oid": "c81e943426e9ea170286fc4868eda7bf85b0847f",
+    "sha256": "d34869335d0af4cdca1e521c5109d597de5203d6fa9e41377f527acfe537b63c",
+    "lfs_pointer_size": 135,
+    "xet_hash": "1ca83eb4dd1f0b89377b3d154566976fe01b9464e7fe5187dbbfc69ac03b29bc",
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=c81e943426e9ea170286fc4868eda7bf85b0847f&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/d34869335d0af4cdca1e521c5109d597de5203d6fa9e41377f527acfe537b63c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=c81e943426e9ea170286fc4868eda7bf85b0847f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/d34869335d0af4cdca1e521c5109d597de5203d6fa9e41377f527acfe537b63c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00002-of-00004.safetensors",
+    "size": 4999802720,
+    "blob_oid": "7af4383f64c4c9a2792be99a62c3f1b97008c1b6",
+    "sha256": "6c17f517ef98c3605942ca597438bf4400179534f62b6421ba1ad8d93389d5a3",
+    "lfs_pointer_size": 135,
+    "xet_hash": "f98f64fa2a2e72935a609f3f05620830238aa6229b867aa725dc618f4f11063c",
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=7af4383f64c4c9a2792be99a62c3f1b97008c1b6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/6c17f517ef98c3605942ca597438bf4400179534f62b6421ba1ad8d93389d5a3?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=7af4383f64c4c9a2792be99a62c3f1b97008c1b6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/6c17f517ef98c3605942ca597438bf4400179534f62b6421ba1ad8d93389d5a3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00003-of-00004.safetensors",
+    "size": 4915916176,
+    "blob_oid": "4272449ec2c0d778110f22ebe0b7d14803a75c22",
+    "sha256": "b4b07f695a483823f7a70954639129460eaf8be0e95e304e5b7d57abe460733d",
+    "lfs_pointer_size": 135,
+    "xet_hash": "53304255dd1a88a77db70575ab2ea56da8c0f4a174dca0a60afaa76fc3ab6bb8",
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=4272449ec2c0d778110f22ebe0b7d14803a75c22&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/b4b07f695a483823f7a70954639129460eaf8be0e95e304e5b7d57abe460733d?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=4272449ec2c0d778110f22ebe0b7d14803a75c22&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/b4b07f695a483823f7a70954639129460eaf8be0e95e304e5b7d57abe460733d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00004-of-00004.safetensors",
+    "size": 1168138792,
+    "blob_oid": "fca5edada6a68c531f07b8497b7b094990c7c313",
+    "sha256": "6b5bc4ebf5d4ddc3bb7baf358f722f6bae347bc7f80b53a2d1ed574226089c9b",
+    "lfs_pointer_size": 135,
+    "xet_hash": "cb2b6b6ff21a0a1370f9809f50768d43da35e41e4e44ebf9e6ce263d983e97e2",
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=fca5edada6a68c531f07b8497b7b094990c7c313&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/6b5bc4ebf5d4ddc3bb7baf358f722f6bae347bc7f80b53a2d1ed574226089c9b?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=fca5edada6a68c531f07b8497b7b094990c7c313&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/6b5bc4ebf5d4ddc3bb7baf358f722f6bae347bc7f80b53a2d1ed574226089c9b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model.safetensors.index.json",
+    "size": 23949,
+    "blob_oid": "d7a7897dbf697cf038b2c734ffe5eeac8adde2b5",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d7a7897dbf697cf038b2c734ffe5eeac8adde2b5&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d7a7897dbf697cf038b2c734ffe5eeac8adde2b5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "special_tokens_map.json",
+    "size": 73,
+    "blob_oid": "d8cd5076496dbe4be2320312abc10adc43097b81",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "ec8474a218e3597706533d8f5d6d15da3455fa2f",
+      "title": "update config file to sync meta's recent changes",
+      "date": "2024-05-29T05:14:15.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d8cd5076496dbe4be2320312abc10adc43097b81&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=d8cd5076496dbe4be2320312abc10adc43097b81&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer.json",
+    "size": 9085698,
+    "blob_oid": "b197f72effb9d5ed16ee0f5663e11e4cfac2ba62",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "15cfcd776b55047b601bf6635052f059ca754ded",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-05-07T10:26:56.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=b197f72effb9d5ed16ee0f5663e11e4cfac2ba62&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=b197f72effb9d5ed16ee0f5663e11e4cfac2ba62&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "tokenizer_config.json",
+    "size": 50977,
+    "blob_oid": "1bfd1146b7bde6168de7bb673bfe0acaea6e684c",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "ec8474a218e3597706533d8f5d6d15da3455fa2f",
+      "title": "update config file to sync meta's recent changes",
+      "date": "2024-05-29T05:14:15.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=1bfd1146b7bde6168de7bb673bfe0acaea6e684c&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/hfl/llama-3-chinese-8b-instruct-v2/ec8474a218e3597706533d8f5d6d15da3455fa2f/files?blob-id=1bfd1146b7bde6168de7bb673bfe0acaea6e684c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

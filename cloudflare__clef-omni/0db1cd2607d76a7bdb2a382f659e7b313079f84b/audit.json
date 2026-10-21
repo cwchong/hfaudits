@@ -1,0 +1,18 @@
+{
+  "repo": "Cloudflare/clef-omni",
+  "requested_revision": "main",
+  "commit": "0db1cd2607d76a7bdb2a382f659e7b313079f84b",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T05:58:52Z-44027",
+  "collected_at": "2026-10-16T05:58:58Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 28,
+  "total_bytes": 70755891404,
+  "safetensors_count": 16,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

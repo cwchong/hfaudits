@@ -1,0 +1,595 @@
+[
+  {
+    "type": "file",
+    "oid": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+    "size": 1570,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+    "size": 11343,
+    "path": "LICENSE",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=6634c8cc3133b3848ec74b9f275acaaa1ea618ab&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5ab2055403108eb259417ad54337962b53779224",
+    "size": 9827,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb",
+      "title": "Update README.md",
+      "date": "2025-11-07T08:11:03.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=5ab2055403108eb259417ad54337962b53779224&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a0a77b93445b303c2cbe22b6e3f46ecbea41f6f2",
+    "size": 729,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=a0a77b93445b303c2cbe22b6e3f46ecbea41f6f2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "76b0c0e82f202eb40ea0ed77df1afb0ac6a4cd4e",
+    "size": 161,
+    "path": "generation_config.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=76b0c0e82f202eb40ea0ed77df1afb0ac6a4cd4e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+    "size": 1671853,
+    "path": "merges.txt",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=31349551d90c7606f325fe0f11bbb8bd5fa0d7c7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0f5e0cb41eb42bc49e52253fd4f1cdadbb9bbb4b",
+    "size": 3996250744,
+    "lfs": {
+      "oid": "017fbd70389fd873bbd89f1b833fe867aa09fcd87438dd35d556a7a8b403b8ea",
+      "size": 3996250744,
+      "pointerSize": 135
+    },
+    "xetHash": "19862b6cb257e3388b41cfa3f03561a418e38ba6fc1be95535f7f0c95f76705f",
+    "path": "model-00001-of-00005.safetensors",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=0f5e0cb41eb42bc49e52253fd4f1cdadbb9bbb4b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27937"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/017fbd70389fd873bbd89f1b833fe867aa09fcd87438dd35d556a7a8b403b8ea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "eb803dab0a943fd30e9312423c642002415477eb",
+    "size": 3993160032,
+    "lfs": {
+      "oid": "497581027655f3188e40f221d4130a8659c1ebd2191f898500210d69594cc712",
+      "size": 3993160032,
+      "pointerSize": 135
+    },
+    "xetHash": "c9b8cff28598bde2b888c97d3f0a6743d87b78bb6b220b8ce59f8ef9f62350e2",
+    "path": "model-00002-of-00005.safetensors",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=eb803dab0a943fd30e9312423c642002415477eb&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27937"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/497581027655f3188e40f221d4130a8659c1ebd2191f898500210d69594cc712?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9833a1eb64461b33aea7f89f06e04aeb08ff8a65",
+    "size": 3959604768,
+    "lfs": {
+      "oid": "c5b6112c09d0c89924d98be42a18887d516e1cce92ca537d20dc48ed9a0e29f2",
+      "size": 3959604768,
+      "pointerSize": 135
+    },
+    "xetHash": "09f2f43ad1a149123f7e49b9c0039786ccc133a4a0e7627557948804df353498",
+    "path": "model-00003-of-00005.safetensors",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=9833a1eb64461b33aea7f89f06e04aeb08ff8a65&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27937"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c5b6112c09d0c89924d98be42a18887d516e1cce92ca537d20dc48ed9a0e29f2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8ed397fa41821d686d768cc210f6941a7faa5bd2",
+    "size": 3187841392,
+    "lfs": {
+      "oid": "ea7cf87db6e61d88c0476dffac16a2c15b99015866ae0e5e733b28ccf756e5c3",
+      "size": 3187841392,
+      "pointerSize": 135
+    },
+    "xetHash": "159fb809baf553d176a3940047d1ef14af2c503ae10c2100623b40fcd273b540",
+    "path": "model-00004-of-00005.safetensors",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=8ed397fa41821d686d768cc210f6941a7faa5bd2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.2/27937"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ea7cf87db6e61d88c0476dffac16a2c15b99015866ae0e5e733b28ccf756e5c3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "68c2564e30bb70929979cc1df4e64e6552ef5412",
+    "size": 1244659840,
+    "lfs": {
+      "oid": "048a9615fa462914b5028b0e68256176feeee525235d194a6d9985c4973eb8c1",
+      "size": 1244659840,
+      "pointerSize": 135
+    },
+    "xetHash": "c74c678481b788ee1214d32a8fad7b19a90c091a9f054e7f3f170492edb567e4",
+    "path": "model-00005-of-00005.safetensors",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=68c2564e30bb70929979cc1df4e64e6552ef5412&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27937"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/048a9615fa462914b5028b0e68256176feeee525235d194a6d9985c4973eb8c1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "041fe9a0d3ab9c8895f264e7a3a60aa563398d7c",
+    "size": 32878,
+    "path": "model.safetensors.index.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=041fe9a0d3ab9c8895f264e7a3a60aa563398d7c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+    "size": 11422654,
+    "lfs": {
+      "oid": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "size": 11422654,
+      "pointerSize": 133
+    },
+    "xetHash": "6aec39639a0a2d1ca966356b8c2b8426a484f80ff80731f44fa8482040713bdf",
+    "path": "tokenizer.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=cd71f61a15a522601badb3dc960d800d9cb3766c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "409e51f8f3d4316361001ea16127a4aa7db80903",
+    "size": 9601,
+    "path": "tokenizer_config.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=409e51f8f3d4316361001ea16127a4aa7db80903&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4783fe10ac3adce15ac8f358ef5462739852c569",
+    "size": 2776833,
+    "path": "vocab.json",
+    "lastCommit": {
+      "id": "257ebbb0bb4f41a8e592a837dddc8a0994e21952",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-09-23T11:49:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3Guard-Gen-8B/4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb/files?blob-id=4783fe10ac3adce15ac8f358ef5462739852c569&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

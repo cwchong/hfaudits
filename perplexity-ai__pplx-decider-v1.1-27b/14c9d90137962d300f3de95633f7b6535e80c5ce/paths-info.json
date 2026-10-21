@@ -1,0 +1,1738 @@
+[
+  {
+    "type": "file",
+    "oid": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+    "size": 1570,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=52373fe24473b1aa44333d318f578ae6bf04b49b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f938136e3adacfd92be087f6e113b5d6d97f678f",
+    "size": 11544,
+    "path": "LICENSE",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=f938136e3adacfd92be087f6e113b5d6d97f678f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4be74230e526ebde4d8925ad1bc853517a6556ef",
+    "size": 604,
+    "path": "NOTICE",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=4be74230e526ebde4d8925ad1bc853517a6556ef&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "15651421a3e3a72c67a80425f837abb082edd5d2",
+    "size": 6712,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "14c9d90137962d300f3de95633f7b6535e80c5ce",
+      "title": "Credit Bespoke Nimble in the model card (#2)",
+      "date": "2026-10-12T07:26:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=15651421a3e3a72c67a80425f837abb082edd5d2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28150"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c0c686f9c38d70d179fb7b5f5aa7530bc913dda3",
+    "size": 8952,
+    "path": "chat_template.jinja",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=c0c686f9c38d70d179fb7b5f5aa7530bc913dda3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "677de5385197b35cec876101d24f574114feac6b",
+    "size": 3757,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=677de5385197b35cec876101d24f574114feac6b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28129"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d870f9fd4fe7feeaf27974f083e0c6b2473f019b",
+    "size": 6715,
+    "path": "decision_config.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=d870f9fd4fe7feeaf27974f083e0c6b2473f019b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "70a937a74e71dfd027b75c297a9290dba38d9c2a",
+    "size": 5943,
+    "path": "evaluation/checkpoint-verification.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=70a937a74e71dfd027b75c297a9290dba38d9c2a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0bbe12023e955af66afa87e3d166a1a69af37626",
+    "size": 10740,
+    "path": "evaluation/decision-index.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=0bbe12023e955af66afa87e3d166a1a69af37626&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5abeff135e7ccf71ad2e99ca1a56ed0b9e051594",
+    "size": 4997471976,
+    "lfs": {
+      "oid": "871e1db3d5eac13577467b25e5578e51de94fd7401e47f4a8222db62e7462ef6",
+      "size": 4997471976,
+      "pointerSize": 135
+    },
+    "xetHash": "eea23d6e074fc9ef709ad585d871e53fa8e354a3686e488c797168fc63ade580",
+    "path": "model-00001-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=5abeff135e7ccf71ad2e99ca1a56ed0b9e051594&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/871e1db3d5eac13577467b25e5578e51de94fd7401e47f4a8222db62e7462ef6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2f5cefc967b2d8bf46d52af6ef8ba7cf3c2cb775",
+    "size": 4965144568,
+    "lfs": {
+      "oid": "648be02d3d6581858a136a30f644e2cdc714d4f7bc2e23c64d630d30f3bf549e",
+      "size": 4965144568,
+      "pointerSize": 135
+    },
+    "xetHash": "07cd48a49dac6be2c5a47329056e95a6eea832bf8f41807983dfc669374fc427",
+    "path": "model-00002-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=2f5cefc967b2d8bf46d52af6ef8ba7cf3c2cb775&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/648be02d3d6581858a136a30f644e2cdc714d4f7bc2e23c64d630d30f3bf549e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0728134a5ba710fa376b42595b182f70c01908a5",
+    "size": 4933789248,
+    "lfs": {
+      "oid": "8b070e475ad9ecbe3d74a7107589e1d763b131dad83e10a3a7292d434b6dc4ff",
+      "size": 4933789248,
+      "pointerSize": 135
+    },
+    "xetHash": "88e94b3dda7947697a853aa3d3de0981a8b2f896c4dfd25cef03136bd5518ebf",
+    "path": "model-00003-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=0728134a5ba710fa376b42595b182f70c01908a5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/8b070e475ad9ecbe3d74a7107589e1d763b131dad83e10a3a7292d434b6dc4ff?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f8fef1c80a9ef799da5643081a59ecdf2cd04a15",
+    "size": 4965227496,
+    "lfs": {
+      "oid": "4a9fe94648fc385ab5f21c243743c9284f77104c3447659e6cfcab50b16fb15e",
+      "size": 4965227496,
+      "pointerSize": 135
+    },
+    "xetHash": "474645a1c8e7b50caae08daaf9d5a367cb774341b82ad6da912d7e54b877fece",
+    "path": "model-00004-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=f8fef1c80a9ef799da5643081a59ecdf2cd04a15&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/4a9fe94648fc385ab5f21c243743c9284f77104c3447659e6cfcab50b16fb15e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8c6298d9ea585a93d24c8aa704b5c8d8823e0f8c",
+    "size": 4974750552,
+    "lfs": {
+      "oid": "715cc1ea4a9336759ed6dd026b9d3ea886cf4597f9437cdd55180d290e16fe69",
+      "size": 4974750552,
+      "pointerSize": 135
+    },
+    "xetHash": "8e1ca4092d3faf1c9510ff8909e64df19b550a7bafdbfaecda4d71638d179256",
+    "path": "model-00005-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=8c6298d9ea585a93d24c8aa704b5c8d8823e0f8c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/715cc1ea4a9336759ed6dd026b9d3ea886cf4597f9437cdd55180d290e16fe69?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3f5ee828ca86847ebe076aacf1e168c383cfa91a",
+    "size": 4924266240,
+    "lfs": {
+      "oid": "f6fce9ec95eb4a46a7e74852b996f52b6b0d6924f24070590b05bec7c4b6d7c3",
+      "size": 4924266240,
+      "pointerSize": 135
+    },
+    "xetHash": "72ddd4604c34879da0fcb5c84a4dfc3b8486171db0db007b8320cff57cc16b30",
+    "path": "model-00006-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=3f5ee828ca86847ebe076aacf1e168c383cfa91a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f6fce9ec95eb4a46a7e74852b996f52b6b0d6924f24070590b05bec7c4b6d7c3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7bdfcac0f62adc9a6cf0bcdc681b2e4822288379",
+    "size": 4974750560,
+    "lfs": {
+      "oid": "cd407127147c1b08c47003446d43f4608704c1cb53b9de648b7bc2f8a2a352d4",
+      "size": 4974750560,
+      "pointerSize": 135
+    },
+    "xetHash": "c6891112faa551f9055d1335d67d752785da13e7d52add487f12577870e787c9",
+    "path": "model-00007-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=7bdfcac0f62adc9a6cf0bcdc681b2e4822288379&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cd407127147c1b08c47003446d43f4608704c1cb53b9de648b7bc2f8a2a352d4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "1b099ed709846b3aa56a80f455649109bcfcf21d",
+    "size": 4902229944,
+    "lfs": {
+      "oid": "e3c361f9dee455590897d92c00d10a317363845b008e8e66de4d12ea0d6d3319",
+      "size": 4902229944,
+      "pointerSize": 135
+    },
+    "xetHash": "294c34348c4c8102d9985f1b961c72cd9b77e2c9cac793c65dd85545db58bda6",
+    "path": "model-00008-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=1b099ed709846b3aa56a80f455649109bcfcf21d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/e3c361f9dee455590897d92c00d10a317363845b008e8e66de4d12ea0d6d3319?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "87aa04d9bc77bc247d1d139a2bd793e2fa6045ca",
+    "size": 4996786840,
+    "lfs": {
+      "oid": "7c4ec1d3435a341041cd1406866aab7f5780a0cd6ca9581adb4de6fafb52ef9c",
+      "size": 4996786840,
+      "pointerSize": 135
+    },
+    "xetHash": "7522baafaabcee6b012fb912e4b297bbd97e1ee6835150f92150b0fc26183abc",
+    "path": "model-00009-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=87aa04d9bc77bc247d1d139a2bd793e2fa6045ca&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/7c4ec1d3435a341041cd1406866aab7f5780a0cd6ca9581adb4de6fafb52ef9c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b1ede124132d71c86f8eef059e83ea6c68a50866",
+    "size": 4902229960,
+    "lfs": {
+      "oid": "a05b9bd813536e3a945e6dd48403fcffb0a1d34ab7942f2adbaeb99402c4a809",
+      "size": 4902229960,
+      "pointerSize": 135
+    },
+    "xetHash": "57a1f633e97052ef9c4096c8012011d048316058a7b80d5f9703f442b3d2007a",
+    "path": "model-00010-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=b1ede124132d71c86f8eef059e83ea6c68a50866&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/a05b9bd813536e3a945e6dd48403fcffb0a1d34ab7942f2adbaeb99402c4a809?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dba4aa5d90a68fac2720da131ad868cb0f1e3e2e",
+    "size": 2634155256,
+    "lfs": {
+      "oid": "cdd6261ab7c785908c010ff96d0094660681024c265356bc01d528fbbbb5394f",
+      "size": 2634155256,
+      "pointerSize": 135
+    },
+    "xetHash": "0cb5d3b308b448a1dd9d90dca84235e63c822909f6366977f916127540983dd0",
+    "path": "model-00011-of-00011.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=dba4aa5d90a68fac2720da131ad868cb0f1e3e2e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.4/28144"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/cdd6261ab7c785908c010ff96d0094660681024c265356bc01d528fbbbb5394f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d8b3102fa62fdb8e4ed1befb8ce04864ad8cfce8",
+    "size": 103954,
+    "path": "model.safetensors.index.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=d8b3102fa62fdb8e4ed1befb8ce04864ad8cfce8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5bbb53bba97f903f41846cb7e1ab2ba3a98cd54c",
+    "size": 1219,
+    "path": "processor_config.json",
+    "lastCommit": {
+      "id": "6195aa55a72ae21e503c8a60198f7b390d42adb5",
+      "title": "Raise image cap from 512x512 to configurable max_image_pixels (default 2048x2048)",
+      "date": "2026-10-09T13:26:36.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=5bbb53bba97f903f41846cb7e1ab2ba3a98cd54c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f9ad38de3f00248a387adf8781d8fda1afc05191",
+    "size": 2611288,
+    "lfs": {
+      "oid": "774eadedb750f68d38cd7d0d7311a646dc9aed00636910e298951b5d78f16e49",
+      "size": 2611288,
+      "pointerSize": 132
+    },
+    "xetHash": "d0e5453dc4a07c434a4fb8b0093dcb0839cc6f8d9df5286197ec599efc59862b",
+    "path": "readout.safetensors",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=f9ad38de3f00248a387adf8781d8fda1afc05191&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/774eadedb750f68d38cd7d0d7311a646dc9aed00636910e298951b5d78f16e49?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3d405682ddacb145013838b7eb02573448e18b56",
+    "size": 7302,
+    "path": "release-manifest.json",
+    "lastCommit": {
+      "id": "6195aa55a72ae21e503c8a60198f7b390d42adb5",
+      "title": "Raise image cap from 512x512 to configurable max_image_pixels (default 2048x2048)",
+      "date": "2026-10-09T13:26:36.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=3d405682ddacb145013838b7eb02573448e18b56&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28148"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bf40214093c00faa1d59e5004c1f8eac48593066",
+    "size": 314,
+    "path": "requirements.txt",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=bf40214093c00faa1d59e5004c1f8eac48593066&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6ec523076f64477693ec8641543278ee0a95d8f5",
+    "size": 1462,
+    "path": "source/pyproject.toml",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=6ec523076f64477693ec8641543278ee0a95d8f5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "size": 0,
+    "path": "source/src/autojev/__init__.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=e69de29bb2d1d6434b8b29ae775ad8c2e48c5391&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model\nUnsupported machine-learning model\nSafe model, does not support code execution on load.\nSafe TensorFlow SavedModel\nTensorFlow H5 model without Lambda Layers"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2003f0d4f6fd5514ea0b4fc4011987172bd1ee9d",
+    "size": 34479,
+    "path": "source/src/autojev/data.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=2003f0d4f6fd5514ea0b4fc4011987172bd1ee9d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d67c17f406b6371001d8b57714a3a31b7be1a599",
+    "size": 3138,
+    "path": "source/src/autojev/distributed.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=d67c17f406b6371001d8b57714a3a31b7be1a599&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ec8a8da54a0516677d88453716d9bcc390b916d0",
+    "size": 26697,
+    "path": "source/src/autojev/evaluate.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=ec8a8da54a0516677d88453716d9bcc390b916d0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9f8026bf5a854e9da133944ed52630fef2be338f",
+    "size": 756,
+    "path": "source/src/autojev/events.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=9f8026bf5a854e9da133944ed52630fef2be338f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dfbcacae70169fbb5cb2b00ae7a014b279139a79",
+    "size": 638,
+    "path": "source/src/autojev/loss.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=dfbcacae70169fbb5cb2b00ae7a014b279139a79&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "389ba7f1fc2d3fec5f6e6b570570e58f04ce8db5",
+    "size": 17304,
+    "path": "source/src/autojev/model.py",
+    "lastCommit": {
+      "id": "6195aa55a72ae21e503c8a60198f7b390d42adb5",
+      "title": "Raise image cap from 512x512 to configurable max_image_pixels (default 2048x2048)",
+      "date": "2026-10-09T13:26:36.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=389ba7f1fc2d3fec5f6e6b570570e58f04ce8db5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28148"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6bfdc390f48c46d42f09a63f28e16aab4f8c73f3",
+    "size": 4702,
+    "path": "source/src/autojev/optim.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=6bfdc390f48c46d42f09a63f28e16aab4f8c73f3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "561d472ef62a69748daad1490fd0e42ddaddb98d",
+    "size": 49671,
+    "path": "source/src/autojev/report.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=561d472ef62a69748daad1490fd0e42ddaddb98d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7c597a89658cd437806e13d0ceb21fdd008588f3",
+    "size": 8698,
+    "path": "source/src/autojev/server.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=7c597a89658cd437806e13d0ceb21fdd008588f3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "061b833c0ace941501d3fcbabadc01cfc349cce8",
+    "size": 17397,
+    "path": "source/src/autojev/sft_numeric.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=061b833c0ace941501d3fcbabadc01cfc349cce8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6fb2f89c55dc94359129e4f553c179b8a2404c06",
+    "size": 33777,
+    "path": "source/src/autojev/sft_pipeline.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=6fb2f89c55dc94359129e4f553c179b8a2404c06&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f0a256736fe605b25e3f3640d683452e047b147b",
+    "size": 53816,
+    "path": "source/src/autojev/sft_synthetic.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=f0a256736fe605b25e3f3640d683452e047b147b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "003ffb204834a3291d771070c5d7a0f20a7c0e59",
+    "size": 21916,
+    "path": "source/src/autojev/synthetic.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=003ffb204834a3291d771070c5d7a0f20a7c0e59&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e7029dbe36c684c984ee2f27c22bdc8e3d783737",
+    "size": 49282,
+    "path": "source/src/autojev/train.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=e7029dbe36c684c984ee2f27c22bdc8e3d783737&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "283f80c667744988ef75c8c6e71e046c95c2980a",
+    "size": 1800,
+    "path": "source/src/autojev/types.py",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=283f80c667744988ef75c8c6e71e046c95c2980a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0244dd6de30985a2c88fe4bc0128766d4782ae8f",
+    "size": 696353,
+    "path": "source/uv.lock",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=0244dd6de30985a2c88fe4bc0128766d4782ae8f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9a481bbb155a395e3cd6c823c5a6902178bacedb",
+    "size": 19989492,
+    "lfs": {
+      "oid": "6f32ce20dc35f57a7f9ad1eac03525bd7d30f9df8cea6507e958279cc3657706",
+      "size": 19989492,
+      "pointerSize": 133
+    },
+    "xetHash": "a534f7c9d12bb01a2bc21781b55369e077043baed4c8f646fdeff5ff02dfd4d6",
+    "path": "tokenizer.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=9a481bbb155a395e3cd6c823c5a6902178bacedb&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6f32ce20dc35f57a7f9ad1eac03525bd7d30f9df8cea6507e958279cc3657706?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "48e883d93941a5b318ea53dcac02d96fa23b599e",
+    "size": 1165,
+    "path": "tokenizer_config.json",
+    "lastCommit": {
+      "id": "db124e5056059be396ec5ba69b97a33dd6adb815",
+      "title": "Release evaluated step-02446 checkpoint (Decision Index 61.56)",
+      "date": "2026-10-05T12:33:43.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/perplexity-ai/pplx-decider-v1.1-27b/14c9d90137962d300f3de95633f7b6535e80c5ce/files?blob-id=48e883d93941a5b318ea53dcac02d96fa23b599e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

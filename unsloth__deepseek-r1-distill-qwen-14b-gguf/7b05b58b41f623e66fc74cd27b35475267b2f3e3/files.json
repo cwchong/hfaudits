@@ -1,0 +1,870 @@
+[
+  {
+    "path": ".gitattributes",
+    "size": 2126,
+    "blob_oid": "c1dce006f28ec6670d1e289c68409a93db26fede",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "87049cc07b73be28897b7e990f55fc1a8a627c85",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf with huggingface_hub",
+      "date": "2025-01-20T15:02:07.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=c1dce006f28ec6670d1e289c68409a93db26fede&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=c1dce006f28ec6670d1e289c68409a93db26fede&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-F16.gguf",
+    "size": 29547715744,
+    "blob_oid": "cacc29056a850056194acf4d48bfa5e5615cd4bc",
+    "sha256": "3251072aa6ad2496348b4b2043f88e61d0d3578ddb00b4c8ef80c43fac833906",
+    "lfs_pointer_size": 136,
+    "xet_hash": "68f3983df575585034ae48e2addaf738331b17e77c819c3a8b72437c692a166e",
+    "last_commit": {
+      "id": "421c28c6a327461586d06950225c010acc0d1e2a",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-F16.gguf with huggingface_hub",
+      "date": "2025-01-20T14:53:15.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=cacc29056a850056194acf4d48bfa5e5615cd4bc&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/3251072aa6ad2496348b4b2043f88e61d0d3578ddb00b4c8ef80c43fac833906?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=cacc29056a850056194acf4d48bfa5e5615cd4bc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3251072aa6ad2496348b4b2043f88e61d0d3578ddb00b4c8ef80c43fac833906?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q2_K.gguf",
+    "size": 5770497184,
+    "blob_oid": "0c16933ead5769aa4e4d709ce11e25cdceaf2132",
+    "sha256": "a6a5c207881de36603306aeda400c566141d2272cdd946387767051208ab00fd",
+    "lfs_pointer_size": 135,
+    "xet_hash": "5937ac6a90936a67c6eb6bc8723ae3a71ac46e54fa0a841d2e0103e09d23193c",
+    "last_commit": {
+      "id": "9f8456b6e4d21907d60300fe5be9704377e22fe3",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q2_K.gguf with huggingface_hub",
+      "date": "2025-01-20T14:54:41.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=0c16933ead5769aa4e4d709ce11e25cdceaf2132&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/a6a5c207881de36603306aeda400c566141d2272cdd946387767051208ab00fd?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=0c16933ead5769aa4e4d709ce11e25cdceaf2132&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a6a5c207881de36603306aeda400c566141d2272cdd946387767051208ab00fd?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q2_K_L.gguf",
+    "size": 5952973984,
+    "blob_oid": "4aea06ae354bee73c0cf1ae510ef4d3b9ab40cdc",
+    "sha256": "d7b38b112a9b76e7e926fd2826b6e2aa325c9bfe41afa65742fc4f3a3a751c38",
+    "lfs_pointer_size": 135,
+    "xet_hash": "8824ebd71d22598c7ca05ef3a708ac0b691c33b21d0c130347493a51a70e44dc",
+    "last_commit": {
+      "id": "d26873a26f982df2b3eaded1a039ac17c8eed046",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q2_K_L.gguf with huggingface_hub",
+      "date": "2025-01-20T14:59:58.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=4aea06ae354bee73c0cf1ae510ef4d3b9ab40cdc&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.4.3/27734"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/74 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/d7b38b112a9b76e7e926fd2826b6e2aa325c9bfe41afa65742fc4f3a3a751c38?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=4aea06ae354bee73c0cf1ae510ef4d3b9ab40cdc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.4.3/27734"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d7b38b112a9b76e7e926fd2826b6e2aa325c9bfe41afa65742fc4f3a3a751c38?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q3_K_M.gguf",
+    "size": 7339203744,
+    "blob_oid": "8da5351ba16cb056d3723ba208ad9495336e343f",
+    "sha256": "2b3ee8773eed0104717cfce14f32afcab252fa973ad76e2d7373a696e4f87820",
+    "lfs_pointer_size": 135,
+    "xet_hash": "d3a02e61b5c146b32121754bb7291d62082f71ed1546f7bfa66f5770cef3bfcc",
+    "last_commit": {
+      "id": "e2c60fb1c87bf0a6928db5e9a83f1bcb46874589",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q3_K_M.gguf with huggingface_hub",
+      "date": "2025-01-20T14:41:29.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=8da5351ba16cb056d3723ba208ad9495336e343f&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/74 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/2b3ee8773eed0104717cfce14f32afcab252fa973ad76e2d7373a696e4f87820?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=8da5351ba16cb056d3723ba208ad9495336e343f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2b3ee8773eed0104717cfce14f32afcab252fa973ad76e2d7373a696e4f87820?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf",
+    "size": 8988109984,
+    "blob_oid": "a104759606ff63ba8278d4a6953fd4582649eac9",
+    "sha256": "67a7933cf2ad596a393c8e13b30bc4da2d50b283e250b78554aed18817eca31c",
+    "lfs_pointer_size": 135,
+    "xet_hash": "554c99f4f5ea033972bca89bc9def2553925839e5aaf894b1a5c8adbf3e34b20",
+    "last_commit": {
+      "id": "87049cc07b73be28897b7e990f55fc1a8a627c85",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf with huggingface_hub",
+      "date": "2025-01-20T15:02:07.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=a104759606ff63ba8278d4a6953fd4582649eac9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.1/27915"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/74 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/67a7933cf2ad596a393c8e13b30bc4da2d50b283e250b78554aed18817eca31c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=a104759606ff63ba8278d4a6953fd4582649eac9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.1/27915"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/67a7933cf2ad596a393c8e13b30bc4da2d50b283e250b78554aed18817eca31c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf",
+    "size": 10508872864,
+    "blob_oid": "a819bbb24fb2191f2248dccff7e3cec1efd9e4a7",
+    "sha256": "a4881d266de97cc5fedeac12ec92846b0a0c6f76da8a777eb6b6e57d5b80d644",
+    "lfs_pointer_size": 136,
+    "xet_hash": "ed0f0c1f59e44ddc577d09c9b5e42d7a3434801ca9721c3777dd71ca3c3b1754",
+    "last_commit": {
+      "id": "f80bed72905a3484164ccfcc84c4e21de9d59bef",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf with huggingface_hub",
+      "date": "2025-01-20T14:46:55.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=a819bbb24fb2191f2248dccff7e3cec1efd9e4a7&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.1/27915"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/74 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/a4881d266de97cc5fedeac12ec92846b0a0c6f76da8a777eb6b6e57d5b80d644?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=a819bbb24fb2191f2248dccff7e3cec1efd9e4a7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.1/27915"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/a4881d266de97cc5fedeac12ec92846b0a0c6f76da8a777eb6b6e57d5b80d644?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q6_K.gguf",
+    "size": 12124683424,
+    "blob_oid": "00792c5c461327c331d7a66f6dc18465b48b5479",
+    "sha256": "278c3d9ff5710f9e54db3b09dff5aa7c3f969526241284e36a1eb73119b30d2d",
+    "lfs_pointer_size": 136,
+    "xet_hash": "681880293084d939dacb3a90bdc55fcb9d66a3be6f2d955a41bc45f1c9348b88",
+    "last_commit": {
+      "id": "bf8e19372bafbce861820e5e2c200d2b3da6fc27",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q6_K.gguf with huggingface_hub",
+      "date": "2025-01-20T14:44:24.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=00792c5c461327c331d7a66f6dc18465b48b5479&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/278c3d9ff5710f9e54db3b09dff5aa7c3f969526241284e36a1eb73119b30d2d?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=00792c5c461327c331d7a66f6dc18465b48b5479&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/278c3d9ff5710f9e54db3b09dff5aa7c3f969526241284e36a1eb73119b30d2d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "DeepSeek-R1-Distill-Qwen-14B-Q8_0.gguf",
+    "size": 15701597344,
+    "blob_oid": "be47fa8c26129ffbdcf59e621328aadf6a33f8f9",
+    "sha256": "9be78e224d99535ad81f192bf993bdd01f78e7cc611642b64fd545e10fdb3fc4",
+    "lfs_pointer_size": 136,
+    "xet_hash": "9db08f637c1358b4a266be393f8edd69257f59787a520fb69e9d9c139fe871a9",
+    "last_commit": {
+      "id": "c05b06984e4217b01d854188cc1792897b95689a",
+      "title": "Upload DeepSeek-R1-Distill-Qwen-14B-Q8_0.gguf with huggingface_hub",
+      "date": "2025-01-20T14:58:30.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=be47fa8c26129ffbdcf59e621328aadf6a33f8f9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": ""
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/74 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/9be78e224d99535ad81f192bf993bdd01f78e7cc611642b64fd545e10fdb3fc4?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe GGUF model",
+          "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=be47fa8c26129ffbdcf59e621328aadf6a33f8f9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": ""
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/9be78e224d99535ad81f192bf993bdd01f78e7cc611642b64fd545e10fdb3fc4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe GGUF model",
+        "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 24739,
+    "blob_oid": "dbe3d34c6f32f78409e85eaaa8917fcb60b7358a",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "7b05b58b41f623e66fc74cd27b35475267b2f3e3",
+      "title": "Update README.md",
+      "date": "2025-01-25T09:06:24.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=dbe3d34c6f32f78409e85eaaa8917fcb60b7358a&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF/7b05b58b41f623e66fc74cd27b35475267b2f3e3/files?blob-id=dbe3d34c6f32f78409e85eaaa8917fcb60b7358a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

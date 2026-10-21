@@ -1,0 +1,18 @@
+{
+  "repo": "Cloudflare/clef-flash",
+  "requested_revision": "main",
+  "commit": "8b2e5fd17c09fd49bc2880b805d5323ec7ff4ff3",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T05:58:52Z-44027",
+  "collected_at": "2026-10-16T05:58:56Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 17,
+  "total_bytes": 19083378312,
+  "safetensors_count": 5,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

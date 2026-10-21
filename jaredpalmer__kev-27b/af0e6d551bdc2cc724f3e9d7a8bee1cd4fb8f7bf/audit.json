@@ -1,0 +1,18 @@
+{
+  "repo": "jaredpalmer/kev-27b",
+  "requested_revision": "main",
+  "commit": "af0e6d551bdc2cc724f3e9d7a8bee1cd4fb8f7bf",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T06:01:08Z-44371",
+  "collected_at": "2026-10-16T06:01:11Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 20,
+  "total_bytes": 51279886109,
+  "safetensors_count": 11,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

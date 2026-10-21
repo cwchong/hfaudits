@@ -1,0 +1,2575 @@
+{
+  "_id": "64b698b6807ef63cbb5ab159",
+  "id": "suno/bark-small",
+  "private": false,
+  "pipeline_tag": "text-to-speech",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "bark",
+    "text-to-audio",
+    "audio",
+    "text-to-speech",
+    "en",
+    "de",
+    "es",
+    "fr",
+    "hi",
+    "it",
+    "ja",
+    "ko",
+    "pl",
+    "pt",
+    "ru",
+    "tr",
+    "zh",
+    "license:mit",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 11887,
+  "likes": 264,
+  "modelId": "suno/bark-small",
+  "author": "suno",
+  "sha": "1dbd7a128513b8ae4a4e2130fed57b7ac9da5bcd",
+  "lastModified": "2023-11-10T10:11:12.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "BarkModel"
+    ],
+    "model_type": "bark",
+    "tokenizer_config": {
+      "cls_token": "[CLS]",
+      "mask_token": "[MASK]",
+      "pad_token": "[PAD]",
+      "sep_token": "[SEP]",
+      "unk_token": "[UNK]"
+    }
+  },
+  "cardData": {
+    "language": [
+      "en",
+      "de",
+      "es",
+      "fr",
+      "hi",
+      "it",
+      "ja",
+      "ko",
+      "pl",
+      "pt",
+      "ru",
+      "tr",
+      "zh"
+    ],
+    "thumbnail": "https://user-images.githubusercontent.com/5068315/230698495-cbb1ced9-c911-4c9a-941d-a1a4a1286ac6.png",
+    "library": "bark",
+    "license": "mit",
+    "tags": [
+      "bark",
+      "audio",
+      "text-to-speech"
+    ],
+    "duplicated_from": "ylacombe/bark-small",
+    "pipeline_tag": "text-to-speech"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForTextToWaveform",
+    "pipeline_tag": "text-to-audio",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "speaker_embeddings/announcer_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/announcer_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/announcer_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/de_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/en_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/es_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/fr_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/hi_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/it_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ja_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ko_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pl_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/pt_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/ru_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/tr_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/de_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/en_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/es_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/fr_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/hi_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/it_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ja_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ko_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pl_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/pt_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/ru_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/tr_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/v2/zh_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_0_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_0_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_0_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_1_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_1_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_1_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_2_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_2_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_2_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_3_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_3_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_3_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_4_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_4_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_4_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_5_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_5_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_5_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_6_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_6_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_6_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_7_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_7_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_7_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_8_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_8_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_8_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_9_coarse_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_9_fine_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings/zh_speaker_9_semantic_prompt.npy"
+    },
+    {
+      "rfilename": "speaker_embeddings_path.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.txt"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "Daniel9046/SoniTranslate",
+    "r3gm/SoniTranslate_translate_audio_of_a_video_content",
+    "dayona/I2V-EXTENDED",
+    "r3gm/video_dubbing_sonitr_demo",
+    "souljoy/ChatPDF",
+    "RO-Rtechs/Translate_Video_language",
+    "hf-audio/vocos-bark",
+    "aikitty/SoniTranslate_translate_audio_of_a_video_content-sandbox",
+    "matanmichaely/image_to_audio_story",
+    "sub314xxl/SoniTranslate_translate_audio_of_a_video_content",
+    "Dragunflie-420/SoniTranslate_translate_audio_of_a_video_content",
+    "JonnyTran/SoniTranslate",
+    "Omnibus/Bark-simple",
+    "marcolorenzi98/AAI-projects",
+    "ROGSOL/SoniTranslate_translate_audio_of_a_video_content",
+    "MartsoBodziu1994/SoniTranslate_translate_audio_of_a_video_content",
+    "michellelychan/bark_voice_clone",
+    "yilmazmusa-ml/abstract_summarizer",
+    "itsmariamaraki/AAI-Assessment3",
+    "RO-Rtechs/Aleph-Weo-Webeta",
+    "gnosticdev/SoniTranslate_translate_audio_of_a_video_content",
+    "flocolombari/COLOMBARI_VIGNES-FERRINO_DERNIAUX_NIYONKURU",
+    "VinayHajare/Speech-To-Speech-Translation-For-Marathi-To-English",
+    "FlavioBF/AI_in_production_PRJs",
+    "arjunbahuguna/suno",
+    "test-rtechs/soni_cloned",
+    "sampsontan/llama3-rag",
+    "yasserrmd/NotebookLlama",
+    "waloneai/VideoTranslate_translate_audio_of_a_video_content",
+    "G-Rost/SoniTranslate_2",
+    "fLausch/SoniTranslate_translate_audio_of_a_video_content",
+    "johnwang2026/voice",
+    "LeonceNsh/iga-tts",
+    "rywiz/suno-bark-small",
+    "albeprime/abstract_to_audio",
+    "flintrepa/audio_pdf_summary",
+    "manuel-calzolari/assessment3_part2",
+    "valdan75/DanieleValentini",
+    "thivav/image-to-audio",
+    "prakharC47/texttoaudioapi",
+    "Mopix/donotmindthis",
+    "test-rtechs/ALEPH_WEO-WEBETA",
+    "yasserrmd/NotebookLlamaGroq",
+    "id2223-SE/id2223-lab2",
+    "RXTIME/traducao-videos",
+    "Deepakraj2006/News_Scraper_TTS",
+    "Saiteja/SoniTranslate",
+    "rohitptnk/V2V-Translate",
+    "DavinGeorge/you_translate",
+    "BIBLETUM/Audio_itits",
+    "pradyutkrishna123/aiaiai",
+    "hoangquocviet/SoniTranslate_2",
+    "Marvin9005/ElevenLab-ai",
+    "Suman2003/sweet-ai-backend",
+    "Mbanksbey/Sovereign-Multimodal-Orchestrator",
+    "Asem75/Aiocr_Radar",
+    "cablocofaroeste/LocalIA",
+    "build-small-hackathon/Voinal",
+    "rsinhacabi/llms-huggingface",
+    "rakumar25/discharge-simplifier-voice",
+    "Asem75/Islamic_clock",
+    "bhagatsuryainatom/3Xf9ZbQ7wL1oT6yR2eV4mU5pA8cD0jK",
+    "lukermngnkafn/suno-bark-small",
+    "RemyVF/seminaire1",
+    "hD13/S1-ESGI2-flo-rem",
+    "faser45/suno-bark-small",
+    "Kvikontent/text2speech",
+    "egvpprojects/suno-bark-small",
+    "ns84/dev",
+    "Zhannaa/suno-bark-small",
+    "alvetro/suno-bark-small",
+    "oteneto/suno-bark-small",
+    "clausman/bark_test_v3",
+    "shridurga/Audio_Caption",
+    "davidggphy/speech-to-speech-translation",
+    "michellelychan/bark_voice_cloning",
+    "mockinJay/suno-bark-small",
+    "futilong/suno-bark-small",
+    "menghuiguxiang/image_to_story_audio",
+    "MattGPT/ClassUI",
+    "mdaleinee/lineplease_test",
+    "PH83/image_to_speech_pen",
+    "marcogallen/tutorial",
+    "yhraje/suno-bark-small",
+    "sourabh98/playground.ai",
+    "majidnisar-Iquasar/suno-bark-small",
+    "DAVATECH/suno-bark-small",
+    "iblfe/test",
+    "Alexndem/speech-to-speech-translation",
+    "TRIT0N/speech-to-speech-translation",
+    "Omnibus-archive/vocos-bark",
+    "AlexanderMoshnov/speech-to-speech-translation",
+    "vladelesin/speech-to-speech-translation-Elesin3",
+    "firengiz/gradio-summarization",
+    "vakilrathod67/suno-bark-small",
+    "Omnibus/EZ-Voice-Clone-EZ",
+    "the237/text2speech_ISJS",
+    "OMGJ/Text-to-speech",
+    "ismaeltorres00/Entrega118",
+    "mixklim/pdfai"
+  ],
+  "createdAt": "2023-07-18T13:50:46.000Z",
+  "usedStorage": 17899388836
+}

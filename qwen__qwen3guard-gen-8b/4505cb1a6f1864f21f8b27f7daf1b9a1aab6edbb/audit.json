@@ -1,0 +1,18 @@
+{
+  "repo": "Qwen/Qwen3Guard-Gen-8B",
+  "requested_revision": "main",
+  "commit": "4505cb1a6f1864f21f8b27f7daf1b9a1aab6edbb",
+  "endpoint": "https://huggingface.co",
+  "run": "2026-10-16T07:27:04Z-45340",
+  "collected_at": "2026-10-16T07:27:32Z",
+  "tool": "hf-audit.sh 1.1.0",
+  "normalizer_version": 1,
+  "collected_by": "cheewaichong",
+  "collected_on": "Chees-MacBook-Air.local",
+  "file_count": 15,
+  "total_bytes": 16397454225,
+  "safetensors_count": 5,
+  "gguf_count": 0,
+  "files_unscanned": 0,
+  "files_not_safe": 0
+}

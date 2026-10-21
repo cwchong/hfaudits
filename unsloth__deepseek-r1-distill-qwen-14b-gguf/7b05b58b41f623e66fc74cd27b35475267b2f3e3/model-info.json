@@ -1,0 +1,102 @@
+{
+  "_id": "678e603057018a604d5445a6",
+  "id": "unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+  "private": false,
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "gguf",
+    "deepseek",
+    "qwen",
+    "qwen2",
+    "unsloth",
+    "en",
+    "arxiv:2501.12948",
+    "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "base_model:quantized:deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "region:us",
+    "conversational"
+  ],
+  "downloads": 28751,
+  "likes": 139,
+  "modelId": "unsloth/DeepSeek-R1-Distill-Qwen-14B-GGUF",
+  "author": "unsloth",
+  "sha": "7b05b58b41f623e66fc74cd27b35475267b2f3e3",
+  "lastModified": "2025-01-25T09:06:24.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "base_model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "language": [
+      "en"
+    ],
+    "license": "apache-2.0",
+    "library_name": "transformers",
+    "tags": [
+      "deepseek",
+      "qwen",
+      "qwen2",
+      "unsloth",
+      "transformers"
+    ]
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel"
+  },
+  "gguf": {
+    "total": 14770033664,
+    "architecture": "qwen2",
+    "context_length": 131072,
+    "chat_template": "{% if not add_generation_prompt is defined %}{% set add_generation_prompt = false %}{% endif %}{% set ns = namespace(is_first=false, is_tool=false, is_output_first=true, system_prompt='') %}{%- for message in messages %}{%- if message['role'] == 'system' %}{% set ns.system_prompt = message['content'] %}{%- endif %}{%- endfor %}{{bos_token}}{{ns.system_prompt}}{%- for message in messages %}{%- if message['role'] == 'user' %}{%- set ns.is_tool = false -%}{{'<｜User｜>' + message['content']}}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is none %}{%- set ns.is_tool = false -%}{%- for tool in message['tool_calls']%}{%- if not ns.is_first %}{{'<｜Assistant｜><｜tool▁calls▁begin｜><｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{%- set ns.is_first = true -%}{%- else %}{{'\\n' + '<｜tool▁call▁begin｜>' + tool['type'] + '<｜tool▁sep｜>' + tool['function']['name'] + '\\n' + '```json' + '\\n' + tool['function']['arguments'] + '\\n' + '```' + '<｜tool▁call▁end｜>'}}{{'<｜tool▁calls▁end｜><｜end▁of▁sentence｜>'}}{%- endif %}{%- endfor %}{%- endif %}{%- if message['role'] == 'assistant' and message['content'] is not none %}{%- if ns.is_tool %}{{'<｜tool▁outputs▁end｜>' + message['content'] + '<｜end▁of▁sentence｜>'}}{%- set ns.is_tool = false -%}{%- else %}{% set content = message['content'] %}{% if '</think>' in content %}{% set content = content.split('</think>')[-1] %}{% endif %}{{'<｜Assistant｜>' + content + '<｜end▁of▁sentence｜>'}}{%- endif %}{%- endif %}{%- if message['role'] == 'tool' %}{%- set ns.is_tool = true -%}{%- if ns.is_output_first %}{{'<｜tool▁outputs▁begin｜><｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- set ns.is_output_first = false %}{%- else %}{{'\\n<｜tool▁output▁begin｜>' + message['content'] + '<｜tool▁output▁end｜>'}}{%- endif %}{%- endif %}{%- endfor -%}{% if ns.is_tool %}{{'<｜tool▁outputs▁end｜>'}}{% endif %}{% if add_generation_prompt and not ns.is_tool %}{{'<｜Assistant｜>'}}{% endif %}",
+    "bos_token": "<｜begin▁of▁sentence｜>",
+    "eos_token": "<｜end▁of▁sentence｜>",
+    "totalFileSize": 29547715744
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-F16.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q2_K.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q2_K_L.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q3_K_M.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q4_K_M.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q5_K_M.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q6_K.gguf"
+    },
+    {
+      "rfilename": "DeepSeek-R1-Distill-Qwen-14B-Q8_0.gguf"
+    },
+    {
+      "rfilename": "README.md"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "Lyte/DeepSeek-R1-Distill-Qwen-14B-Demo-GGUF",
+    "HomemadeMirpur/DeepSeek-R1-Distill-Qwen-14B-Demo-GGUF-2",
+    "mik450025/m-wellness-pro-32b"
+  ],
+  "createdAt": "2025-01-20T14:39:44.000Z",
+  "usedStorage": 95933654272
+}

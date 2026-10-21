@@ -1,0 +1,844 @@
+[
+  {
+    "type": "directory",
+    "oid": "f7ced7b9727abe0b92003fa9b527fccb8c6621ff",
+    "size": 0,
+    "path": "checkpoint-801",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "544ae0088d4885983e0c30f1a21babccee315ebc",
+    "size": 0,
+    "path": "onnx",
+    "lastCommit": {
+      "id": "6f3a829d0fdc4043bdab8a6f0b0a20ecccfd9e23",
+      "title": "Adding ONNX file of this model (#3)",
+      "date": "2024-09-06T12:03:56.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "2ff9c3da6173c38877ecaa612a31de7581ea28db",
+      "title": "initial commit",
+      "date": "2023-12-31T04:54:35.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c84b529ea631a6ffe87ec6d5e8fe64ea0790ec82",
+    "size": 2031,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+      "title": "Update README.md",
+      "date": "2024-09-06T12:17:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=c84b529ea631a6ffe87ec6d5e8fe64ea0790ec82&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "321d15454e002727090950a4e19c899b1f17c751",
+    "size": 1130,
+    "path": "checkpoint-801/config.json",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=321d15454e002727090950a4e19c899b1f17c751&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a0f8b8d4f10048fbf46d1dcca237e395c40e08c3",
+    "size": 347498816,
+    "lfs": {
+      "oid": "f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c",
+      "size": 347498816,
+      "pointerSize": 134
+    },
+    "xetHash": "911cb7ec3aba7d4e2e2b87b345c88e3cebade6362c1dad8d8b7621ea4217d4ef",
+    "path": "checkpoint-801/model.safetensors",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=a0f8b8d4f10048fbf46d1dcca237e395c40e08c3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3d36d56fb04520ffb7379183ca0cc9ffb65c0352",
+    "size": 694317645,
+    "lfs": {
+      "oid": "daad0983551fa9b570f1c4661cab0724f4648f791c91721035497159d7cda112",
+      "size": 694317645,
+      "pointerSize": 134
+    },
+    "xetHash": "06342bef4315ba972d1d5616a59b81cfa7bce052373ae2926b31ca3eee29cafb",
+    "path": "checkpoint-801/optimizer.pt",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=3d36d56fb04520ffb7379183ca0cc9ffb65c0352&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "FloatStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/daad0983551fa9b570f1c4661cab0724f4648f791c91721035497159d7cda112?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "208495907c54d63b0e640d3105be4d9acc3a2085",
+    "size": 14244,
+    "lfs": {
+      "oid": "15c6904e663600c82d51028f0065ee58d3a7185294ffde1645e768dff690018a",
+      "size": 14244,
+      "pointerSize": 130
+    },
+    "xetHash": "10eae18524386826df83bef5f8ca140a9f61dbcc3e85220eb49291a35593ccde",
+    "path": "checkpoint-801/rng_state.pth",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=208495907c54d63b0e640d3105be4d9acc3a2085&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "torch",
+            "name": "ByteStorage",
+            "safety": "innocuous"
+          },
+          {
+            "module": "numpy",
+            "name": "ndarray",
+            "safety": "innocuous"
+          },
+          {
+            "module": "torch._utils",
+            "name": "_rebuild_tensor_v2",
+            "safety": "innocuous"
+          },
+          {
+            "module": "collections",
+            "name": "OrderedDict",
+            "safety": "innocuous"
+          },
+          {
+            "module": "numpy.core.multiarray",
+            "name": "_reconstruct",
+            "safety": "innocuous"
+          },
+          {
+            "module": "numpy",
+            "name": "dtype",
+            "safety": "innocuous"
+          },
+          {
+            "module": "_codecs",
+            "name": "encode",
+            "safety": "suspicious"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/15c6904e663600c82d51028f0065ee58d3a7185294ffde1645e768dff690018a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6b7d14a0d2895f685a08e899f613675386deb606",
+    "size": 1064,
+    "lfs": {
+      "oid": "d67a04a34872c2a6db1e1467676af5482d45f0631e6c4fb79faa3f48012940bc",
+      "size": 1064,
+      "pointerSize": 129
+    },
+    "xetHash": "3610f1d660826d13d079536d540e74d4dd93310ed0abd49d334c8b8c54202048",
+    "path": "checkpoint-801/scheduler.pt",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=6b7d14a0d2895f685a08e899f613675386deb606&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d67a04a34872c2a6db1e1467676af5482d45f0631e6c4fb79faa3f48012940bc?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4ce0e37e3b48b4d30448f29dc4510a8a0dddc04b",
+    "size": 8988,
+    "path": "checkpoint-801/trainer_state.json",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=4ce0e37e3b48b4d30448f29dc4510a8a0dddc04b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0e6d5f6c328a469240c9e43012dfaa1345199247",
+    "size": 4728,
+    "lfs": {
+      "oid": "2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681",
+      "size": 4728,
+      "pointerSize": 129
+    },
+    "xetHash": "d7863578795ed578d22d8106578c92a18cc0ee2bcb7392a32e017997e218c6ac",
+    "path": "checkpoint-801/training_args.bin",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=0e6d5f6c328a469240c9e43012dfaa1345199247&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "transformers.training_args",
+            "name": "OptimizerNames",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "HubStrategy",
+            "safety": "suspicious"
+          },
+          {
+            "module": "accelerate.utils.dataclasses",
+            "name": "DistributedType",
+            "safety": "suspicious"
+          },
+          {
+            "module": "accelerate.state",
+            "name": "PartialState",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "device",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "IntervalStrategy",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.training_args",
+            "name": "TrainingArguments",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "SchedulerType",
+            "safety": "suspicious"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "321d15454e002727090950a4e19c899b1f17c751",
+    "size": 1130,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=321d15454e002727090950a4e19c899b1f17c751&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a0f8b8d4f10048fbf46d1dcca237e395c40e08c3",
+    "size": 347498816,
+    "lfs": {
+      "oid": "f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c",
+      "size": 347498816,
+      "pointerSize": 134
+    },
+    "xetHash": "911cb7ec3aba7d4e2e2b87b345c88e3cebade6362c1dad8d8b7621ea4217d4ef",
+    "path": "model.safetensors",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=a0f8b8d4f10048fbf46d1dcca237e395c40e08c3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "67ff4e3ca461b2de8239a180de5d08ca54d70353",
+    "size": 1097,
+    "path": "onnx/config.json",
+    "lastCommit": {
+      "id": "6f3a829d0fdc4043bdab8a6f0b0a20ecccfd9e23",
+      "title": "Adding ONNX file of this model (#3)",
+      "date": "2024-09-06T12:03:56.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=67ff4e3ca461b2de8239a180de5d08ca54d70353&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "8f12bb78d58564560482d4541f55c90bfa433c9e",
+    "size": 353735517,
+    "lfs": {
+      "oid": "966487e0b8e43d35c803e7e6b794fb7164b1d9e23329388773a55f2b2bd4d1e4",
+      "size": 353735517,
+      "pointerSize": 134
+    },
+    "xetHash": "b6a0ed449925c068405a608cbd5ba45a683fb462a9a338d64a9638fda5bb4067",
+    "path": "onnx/model.onnx",
+    "lastCommit": {
+      "id": "6f3a829d0fdc4043bdab8a6f0b0a20ecccfd9e23",
+      "title": "Adding ONNX file of this model (#3)",
+      "date": "2024-09-06T12:03:56.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=8f12bb78d58564560482d4541f55c90bfa433c9e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/966487e0b8e43d35c803e7e6b794fb7164b1d9e23329388773a55f2b2bd4d1e4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "781050dc2fba431bd074d168e9e8218a6d717f1e",
+    "size": 339,
+    "path": "onnx/preprocessor_config.json",
+    "lastCommit": {
+      "id": "6f3a829d0fdc4043bdab8a6f0b0a20ecccfd9e23",
+      "title": "Adding ONNX file of this model (#3)",
+      "date": "2024-09-06T12:03:56.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=781050dc2fba431bd074d168e9e8218a6d717f1e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c51f9953abca17af652063d4d341ede2cfda7397",
+    "size": 337,
+    "path": "preprocessor_config.json",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=c51f9953abca17af652063d4d341ede2cfda7397&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0e6d5f6c328a469240c9e43012dfaa1345199247",
+    "size": 4728,
+    "lfs": {
+      "oid": "2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681",
+      "size": 4728,
+      "pointerSize": 129
+    },
+    "xetHash": "d7863578795ed578d22d8106578c92a18cc0ee2bcb7392a32e017997e218c6ac",
+    "path": "training_args.bin",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "caution",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=0e6d5f6c328a469240c9e43012dfaa1345199247&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "caution",
+        "message": "This file contains imports that require your attention. Click on the pickle button to get more detail.",
+        "pickleImports": [
+          {
+            "module": "transformers.training_args",
+            "name": "OptimizerNames",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "HubStrategy",
+            "safety": "suspicious"
+          },
+          {
+            "module": "accelerate.utils.dataclasses",
+            "name": "DistributedType",
+            "safety": "suspicious"
+          },
+          {
+            "module": "accelerate.state",
+            "name": "PartialState",
+            "safety": "suspicious"
+          },
+          {
+            "module": "torch",
+            "name": "device",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "IntervalStrategy",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.training_args",
+            "name": "TrainingArguments",
+            "safety": "suspicious"
+          },
+          {
+            "module": "transformers.trainer_utils",
+            "name": "SchedulerType",
+            "safety": "suspicious"
+          }
+        ],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe PyTorch model",
+        "reportLink": "https://research.jfrog.com/model-threats/pytorch-malcode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0131e1e8b76b3403445f34f35b6d238d597a3906",
+    "size": 806,
+    "path": "training_params.json",
+    "lastCommit": {
+      "id": "3bec1130d3df99daf28661028d61f60ab3e3006a",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2023-12-31T04:54:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/Organika/sdxl-detector/b37fede8562cb72b89ec201c0987f96ba21b518a/files?blob-id=0131e1e8b76b3403445f34f35b6d238d597a3906&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

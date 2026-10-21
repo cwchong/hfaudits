@@ -1,0 +1,1591 @@
+[
+  {
+    "type": "directory",
+    "oid": "951ab8c0f1e7947090c0e390a7125200141a3e1c",
+    "size": 0,
+    "path": "assets",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "55680b3291548aea0b32ad508043937d4d0f365a",
+    "size": 0,
+    "path": "encoder",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "e7126fff44724ace63ac2e4c3909f37042fcfe27",
+    "size": 0,
+    "path": "eval",
+    "lastCommit": {
+      "id": "7c76b622dfc5cac71b2dc1c29873efe2ce509a05",
+      "title": "Resize benchmark plot within 4096 limit",
+      "date": "2026-09-18T05:51:49.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "de7883e4ef73e15f09af019dd10526bfd3099bcc",
+    "size": 0,
+    "path": "multilingual",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "3dab0f21aa014e7aded1f8e8087665d2a501b457",
+    "size": 0,
+    "path": "multilingual/encoder",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "fb46ae282300390f9b4441103b7186ec6694d59a",
+    "size": 0,
+    "path": "multilingual/tokenizer",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "1512be27ff6ae613ba611fdbc1e408b598e213c3",
+    "size": 0,
+    "path": "tokenizer",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "ea9dbe53c1385fd37ba85d51b4f7e0dc5edfa255",
+    "size": 0,
+    "path": "typed-decisions",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "7e375288a538a0846b8317f0c7270efc612db8ee",
+    "size": 0,
+    "path": "typed-decisions/encoder",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    }
+  },
+  {
+    "type": "directory",
+    "oid": "d65e425f8e45d82a4e5b533efdc9db0cc0df1f10",
+    "size": 0,
+    "path": "typed-decisions/tokenizer",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dceb67c98a62aff599412b8884267372c16870bf",
+    "size": 1913,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "498f8dc51f62e9866bf3c7b37b773de05b4b38cb",
+      "title": "assets: comprehensive Laya vs Jev benchmark figure",
+      "date": "2026-09-19T09:40:26.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=dceb67c98a62aff599412b8884267372c16870bf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28130"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ac11a565c217959d0cb062748a2f83e05da446a5",
+    "size": 23187,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "55cf4c4ebb4ebe31b2550e8bdf3bd21b99753851",
+      "title": "README: recommend max_len=8192, laya 0.3.20 notes",
+      "date": "2026-09-24T05:39:22.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=ac11a565c217959d0cb062748a2f83e05da446a5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b514d800b01bdc9eeb5df4fa37294fd63262ca64",
+    "size": 260892,
+    "lfs": {
+      "oid": "e01e49f0d842b4616e44c4c9a0feb92a9ae45efeb533f8f838888715dc89c2b9",
+      "size": 260892,
+      "pointerSize": 131
+    },
+    "xetHash": "05ccb1f0c4f8ba19ede46814b92c306be1966d530a2e71e3385e303b3f1ce162",
+    "path": "assets/laya_benchmark.png",
+    "lastCommit": {
+      "id": "22b4842468d629e544e7de1a7c18054f00ad7845",
+      "title": "assets: host benchmark figures in the repo",
+      "date": "2026-09-19T08:41:23.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=b514d800b01bdc9eeb5df4fa37294fd63262ca64&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e01e49f0d842b4616e44c4c9a0feb92a9ae45efeb533f8f838888715dc89c2b9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "98b8f335652d8f051f9d7c213c4dd20d22d280ec",
+    "size": 278159,
+    "lfs": {
+      "oid": "183b0b17e8d90e091582e415d9f1da0ef34b40c3db6ccd2c8bbfd2b9232b95a6",
+      "size": 278159,
+      "pointerSize": 131
+    },
+    "xetHash": "ba384e36cf6e71324e6560a9dfac5490be1b34e68522455b806e571b5d027b41",
+    "path": "assets/laya_benchmark_common.png",
+    "lastCommit": {
+      "id": "58b4ea5d547e9621bae854e50ed4e3ab2101dd52",
+      "title": "assets: host benchmark figures in the repo",
+      "date": "2026-09-19T08:41:27.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=98b8f335652d8f051f9d7c213c4dd20d22d280ec&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/183b0b17e8d90e091582e415d9f1da0ef34b40c3db6ccd2c8bbfd2b9232b95a6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "30ec453679622fbc541fe6fb68cf81665d6fcc6d",
+    "size": 216412,
+    "lfs": {
+      "oid": "5c06517ea7f3e5f3f84873ddaa3cb470f101ad0276f921c58886f8fb12fbe0a8",
+      "size": 216412,
+      "pointerSize": 131
+    },
+    "xetHash": "bfcb9833f043da9f4abd2046ffab1d694afc37ea8df8226bbdc2cdc33c3ff268",
+    "path": "assets/laya_vs_jev.png",
+    "lastCommit": {
+      "id": "07701772775599387262a3a68200655389e4b26f",
+      "title": "assets: re-render without the header overlap",
+      "date": "2026-09-19T08:42:48.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=30ec453679622fbc541fe6fb68cf81665d6fcc6d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/5c06517ea7f3e5f3f84873ddaa3cb470f101ad0276f921c58886f8fb12fbe0a8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2725f4d30d16b2868229a754d1290e23dfdbbfe1",
+    "size": 487005,
+    "lfs": {
+      "oid": "ee47b751d524a0bb65159e026141b4ce70cc83d03b14df8ec68afbc7bcdb95b3",
+      "size": 487005,
+      "pointerSize": 131
+    },
+    "xetHash": "00bef152bb96585f7c8830333076fe0fd0683f8666a7d29cc7fefee9707398d1",
+    "path": "assets/laya_vs_jev_full.png",
+    "lastCommit": {
+      "id": "498f8dc51f62e9866bf3c7b37b773de05b4b38cb",
+      "title": "assets: comprehensive Laya vs Jev benchmark figure",
+      "date": "2026-09-19T09:40:26.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=2725f4d30d16b2868229a754d1290e23dfdbbfe1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28130"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ee47b751d524a0bb65159e026141b4ce70cc83d03b14df8ec68afbc7bcdb95b3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dd36fd15f0b8e78ab37571146f3342695f476257",
+    "size": 27666,
+    "path": "assets/logo-lockup-dark.png",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=dd36fd15f0b8e78ab37571146f3342695f476257&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4c554bff104db984f9e7fbeee6723089b6caadb5",
+    "size": 1590,
+    "path": "assets/logo-lockup-dark.svg",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=4c554bff104db984f9e7fbeee6723089b6caadb5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4eb8314e10129298d87fc8961431fb8bdf455fcc",
+    "size": 26761,
+    "path": "assets/logo-lockup.png",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=4eb8314e10129298d87fc8961431fb8bdf455fcc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "df3c20fd2c2cd346763b2a19847549dc7a15e125",
+    "size": 1590,
+    "path": "assets/logo-lockup.svg",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=df3c20fd2c2cd346763b2a19847549dc7a15e125&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3de0fb5871026c69bfcf6a2171af9878d190c21d",
+    "size": 17378,
+    "path": "assets/logo-mark-ink.png",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=3de0fb5871026c69bfcf6a2171af9878d190c21d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "81a5dc2ea0be5588ff56d1843d257e89a3132f07",
+    "size": 1320,
+    "path": "assets/logo-mark-ink.svg",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=81a5dc2ea0be5588ff56d1843d257e89a3132f07&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d5ea7429b190610006a5ffd6d1b3957da9f8dad8",
+    "size": 1380,
+    "path": "assets/logo-mark-mono.svg",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=d5ea7429b190610006a5ffd6d1b3957da9f8dad8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c90077fc8eab8c7689ad748aeefa763bfab5f595",
+    "size": 17962,
+    "path": "assets/logo-mark.png",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=c90077fc8eab8c7689ad748aeefa763bfab5f595&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ba86d6a056c48d2ecb28e2ae516d40ceadcdc185",
+    "size": 1320,
+    "path": "assets/logo-mark.svg",
+    "lastCommit": {
+      "id": "c5d78730f3493e4fe16d61507ef4b78eef7318cf",
+      "title": "Add the Laya logo and use the lockup in the model card",
+      "date": "2026-09-19T09:53:44.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=ba86d6a056c48d2ecb28e2ae516d40ceadcdc185&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7b4305a11f6d6936882e99492abe8e34d8ae6e3a",
+    "size": 160,
+    "path": "config.json",
+    "lastCommit": {
+      "id": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+      "title": "chore: root config.json so the Hub tracks downloads",
+      "date": "2026-10-03T18:00:07.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=7b4305a11f6d6936882e99492abe8e34d8ae6e3a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7fad36ed6e631fb3fb62c7ad26cc440923efca27",
+    "size": 3937,
+    "path": "email_utils.py",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=7fad36ed6e631fb3fb62c7ad26cc440923efca27&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5881ba831f2db5ce0f606bbaa1f2668e1e6cb706",
+    "size": 2083,
+    "path": "encoder/config.json",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=5881ba831f2db5ce0f606bbaa1f2668e1e6cb706&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "4beb2735e3f259c78787d082870b70c08f758ebe",
+    "size": 467466,
+    "lfs": {
+      "oid": "78e4b926bfca3950ff5441d1030a1453515973fbe5d7dd70a1c764a81f0d3d38",
+      "size": 467466,
+      "pointerSize": 131
+    },
+    "xetHash": "7eeec5fa00f146898dd0d92bb3d628e0f0e978c5e970d9ee9a23f6b83aadf40d",
+    "path": "eval/benchmark_comparison.png",
+    "lastCommit": {
+      "id": "7c76b622dfc5cac71b2dc1c29873efe2ce509a05",
+      "title": "Resize benchmark plot within 4096 limit",
+      "date": "2026-09-18T05:51:49.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=4beb2735e3f259c78787d082870b70c08f758ebe&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/78e4b926bfca3950ff5441d1030a1453515973fbe5d7dd70a1c764a81f0d3d38?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ec88017c0d24d9eefaabd7540916dc9b244e06a7",
+    "size": 65436,
+    "path": "eval/reliability_eval_in.png",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=ec88017c0d24d9eefaabd7540916dc9b244e06a7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e17099e08c5c1970de51c4c00db674635c8a28db",
+    "size": 72014,
+    "path": "eval/reliability_eval_zs.png",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=e17099e08c5c1970de51c4c00db674635c8a28db&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "db4219c92927e0c5d3f44daca3133eb3d179b836",
+    "size": 2976,
+    "path": "eval/results.json",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=db4219c92927e0c5d3f44daca3133eb3d179b836&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "99340c1099ebe7139cb33acab5f57735626ce7f2",
+    "size": 1608,
+    "path": "eval/results.md",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=99340c1099ebe7139cb33acab5f57735626ce7f2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9bef25a12dcb807627a798837cfbb0ea73c0e38d",
+    "size": 842609210,
+    "lfs": {
+      "oid": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+      "size": 842609210,
+      "pointerSize": 134
+    },
+    "xetHash": "dd8562d713759821a0bc049e79abd09e5817d218d18fa51478ad16986d018764",
+    "path": "model.safetensors",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=9bef25a12dcb807627a798837cfbb0ea73c0e38d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0de0e2d30638873790cf962def52e2acf4db3eef",
+    "size": 1938,
+    "path": "multilingual/encoder/config.json",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=0de0e2d30638873790cf962def52e2acf4db3eef&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b99c8bea239c53f6f6bce734557dc6c403fa6b3e",
+    "size": 643835514,
+    "lfs": {
+      "oid": "9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204",
+      "size": 643835514,
+      "pointerSize": 134
+    },
+    "xetHash": "53499790a05bdabd4023a797e9e2776d39efd3bac72d6ddaed70495da40c6eb0",
+    "path": "multilingual/model.safetensors",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=b99c8bea239c53f6f6bce734557dc6c403fa6b3e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/9d628fd971b700382ac6f65920a86f149777b2e748e0c955fb3b19695aa8f204?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "00e35f88bb731bb9126a914666ab1cdac8a204c8",
+    "size": 472,
+    "path": "multilingual/rl_agent_config.json",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=00e35f88bb731bb9126a914666ab1cdac8a204c8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "56d765858ed38eaabd35cd90759cbb1f89b0baa4",
+    "size": 34363188,
+    "lfs": {
+      "oid": "609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f",
+      "size": 34363188,
+      "pointerSize": 133
+    },
+    "xetHash": "8fdbdb0307b65058d3b81a88cba0082cd1bbe8e85d34295d2271d6fa85a31c7a",
+    "path": "multilingual/tokenizer/tokenizer.json",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=56d765858ed38eaabd35cd90759cbb1f89b0baa4&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/609d8f4c067cd3950f88594c5a802616cea245823836ef5848ee4fc40aab5b6f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c255ac0c8cb34a37d066cd0dafe313fd769d27ae",
+    "size": 524,
+    "path": "multilingual/tokenizer/tokenizer_config.json",
+    "lastCommit": {
+      "id": "c56c1b6f535b746ed1709b8cc65941c9d7991f00",
+      "title": "feat: bundle the multilingual checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=c255ac0c8cb34a37d066cd0dafe313fd769d27ae&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "51b0c3b899d2f6b45c1ffe5a57522f75a686f2bc",
+    "size": 4732,
+    "path": "rl_agent_api.py",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=51b0c3b899d2f6b45c1ffe5a57522f75a686f2bc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3e4fcbf12cf36164ce18a1398aa9f35f58375ae0",
+    "size": 745,
+    "path": "rl_agent_config.json",
+    "lastCommit": {
+      "id": "7fa060d66e5934991e49732619dec06a6dc4e4ed",
+      "title": "chore: point encoder at the upstream model id instead of a local build path",
+      "date": "2026-09-19T06:46:52.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=3e4fcbf12cf36164ce18a1398aa9f35f58375ae0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d90d564964bcdc77586a257b0acccb5b7b19d6cf",
+    "size": 19139,
+    "path": "rl_common.py",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=d90d564964bcdc77586a257b0acccb5b7b19d6cf&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2f4d8583e507b7466d2490e2d6c045647a822698",
+    "size": 3583228,
+    "path": "tokenizer/tokenizer.json",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=2f4d8583e507b7466d2490e2d6c045647a822698&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9fd800115c5c92353220aa66addfce67a9135f32",
+    "size": 308,
+    "path": "tokenizer/tokenizer_config.json",
+    "lastCommit": {
+      "id": "00c37c405e3c3ad73ee070227614c89cda06b99e",
+      "title": "Initial release of Laya fine-tuned System 1 decision model",
+      "date": "2026-09-18T05:13:12.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=9fd800115c5c92353220aa66addfce67a9135f32&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d4be4829750fb04c0aa8b9897c3ea827f76c0109",
+    "size": 2084,
+    "path": "typed-decisions/encoder/config.json",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=d4be4829750fb04c0aa8b9897c3ea827f76c0109&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3fb9c9678050815e76d0c847115919d7871ace3e",
+    "size": 842609220,
+    "lfs": {
+      "oid": "4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e",
+      "size": 842609220,
+      "pointerSize": 134
+    },
+    "xetHash": "b944f07439893c34eed267bc3430ed0da390d5e435952f8a77e6a7dbf79669d1",
+    "path": "typed-decisions/model.safetensors",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=3fb9c9678050815e76d0c847115919d7871ace3e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/74 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/4fa56de72383a9d3efa9cfa78955733c81b9fc8067a587ca4beb82c78107a24e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5f0e1d5f2366fe8ba2ff330dffaeed53b469e97e",
+    "size": 847,
+    "path": "typed-decisions/rl_agent_config.json",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=5f0e1d5f2366fe8ba2ff330dffaeed53b469e97e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2f4d8583e507b7466d2490e2d6c045647a822698",
+    "size": 3583228,
+    "path": "typed-decisions/tokenizer/tokenizer.json",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=2f4d8583e507b7466d2490e2d6c045647a822698&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ed1ffabc2ce11120754705709569e365e46da71a",
+    "size": 337,
+    "path": "typed-decisions/tokenizer/tokenizer_config.json",
+    "lastCommit": {
+      "id": "458d7563c5cab85ff9f7f6e06cf2dd166fb697e2",
+      "title": "feat: bundle the typed-decisions checkpoint so laya/ holds the whole family",
+      "date": "2026-09-19T06:48:28.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/convaiinnovations/laya/7b928d828b7b0e022f929d9bd2e44165aa270148/files?blob-id=ed1ffabc2ce11120754705709569e365e46da71a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]

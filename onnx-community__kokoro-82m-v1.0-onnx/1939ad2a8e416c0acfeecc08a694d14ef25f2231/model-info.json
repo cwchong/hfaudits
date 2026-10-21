@@ -1,0 +1,287 @@
+{
+  "_id": "67a5e958d363dcc0e458b910",
+  "id": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "private": false,
+  "pipeline_tag": "text-to-speech",
+  "library_name": "transformers.js",
+  "tags": [
+    "transformers.js",
+    "onnx",
+    "style_text_to_speech_2",
+    "text-to-speech",
+    "en",
+    "base_model:hexgrad/Kokoro-82M",
+    "base_model:quantized:hexgrad/Kokoro-82M",
+    "license:apache-2.0",
+    "region:us"
+  ],
+  "downloads": 690365,
+  "likes": 274,
+  "modelId": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "author": "onnx-community",
+  "sha": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
+  "lastModified": "2025-02-08T12:15:27.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "model_type": "style_text_to_speech_2",
+    "tokenizer_config": {
+      "pad_token": "$",
+      "unk_token": "$"
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "library_name": "transformers.js",
+    "language": [
+      "en"
+    ],
+    "base_model": [
+      "hexgrad/Kokoro-82M"
+    ],
+    "pipeline_tag": "text-to-speech"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModel"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "onnx/model.onnx"
+    },
+    {
+      "rfilename": "onnx/model_fp16.onnx"
+    },
+    {
+      "rfilename": "onnx/model_q4.onnx"
+    },
+    {
+      "rfilename": "onnx/model_q4f16.onnx"
+    },
+    {
+      "rfilename": "onnx/model_q8f16.onnx"
+    },
+    {
+      "rfilename": "onnx/model_quantized.onnx"
+    },
+    {
+      "rfilename": "onnx/model_uint8.onnx"
+    },
+    {
+      "rfilename": "onnx/model_uint8f16.onnx"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "voices/af.bin"
+    },
+    {
+      "rfilename": "voices/af_alloy.bin"
+    },
+    {
+      "rfilename": "voices/af_aoede.bin"
+    },
+    {
+      "rfilename": "voices/af_bella.bin"
+    },
+    {
+      "rfilename": "voices/af_heart.bin"
+    },
+    {
+      "rfilename": "voices/af_jessica.bin"
+    },
+    {
+      "rfilename": "voices/af_kore.bin"
+    },
+    {
+      "rfilename": "voices/af_nicole.bin"
+    },
+    {
+      "rfilename": "voices/af_nova.bin"
+    },
+    {
+      "rfilename": "voices/af_river.bin"
+    },
+    {
+      "rfilename": "voices/af_sarah.bin"
+    },
+    {
+      "rfilename": "voices/af_sky.bin"
+    },
+    {
+      "rfilename": "voices/am_adam.bin"
+    },
+    {
+      "rfilename": "voices/am_echo.bin"
+    },
+    {
+      "rfilename": "voices/am_eric.bin"
+    },
+    {
+      "rfilename": "voices/am_fenrir.bin"
+    },
+    {
+      "rfilename": "voices/am_liam.bin"
+    },
+    {
+      "rfilename": "voices/am_michael.bin"
+    },
+    {
+      "rfilename": "voices/am_onyx.bin"
+    },
+    {
+      "rfilename": "voices/am_puck.bin"
+    },
+    {
+      "rfilename": "voices/am_santa.bin"
+    },
+    {
+      "rfilename": "voices/bf_alice.bin"
+    },
+    {
+      "rfilename": "voices/bf_emma.bin"
+    },
+    {
+      "rfilename": "voices/bf_isabella.bin"
+    },
+    {
+      "rfilename": "voices/bf_lily.bin"
+    },
+    {
+      "rfilename": "voices/bm_daniel.bin"
+    },
+    {
+      "rfilename": "voices/bm_fable.bin"
+    },
+    {
+      "rfilename": "voices/bm_george.bin"
+    },
+    {
+      "rfilename": "voices/bm_lewis.bin"
+    },
+    {
+      "rfilename": "voices/ef_dora.bin"
+    },
+    {
+      "rfilename": "voices/em_alex.bin"
+    },
+    {
+      "rfilename": "voices/em_santa.bin"
+    },
+    {
+      "rfilename": "voices/ff_siwis.bin"
+    },
+    {
+      "rfilename": "voices/hf_alpha.bin"
+    },
+    {
+      "rfilename": "voices/hf_beta.bin"
+    },
+    {
+      "rfilename": "voices/hm_omega.bin"
+    },
+    {
+      "rfilename": "voices/hm_psi.bin"
+    },
+    {
+      "rfilename": "voices/if_sara.bin"
+    },
+    {
+      "rfilename": "voices/im_nicola.bin"
+    },
+    {
+      "rfilename": "voices/jf_alpha.bin"
+    },
+    {
+      "rfilename": "voices/jf_gongitsune.bin"
+    },
+    {
+      "rfilename": "voices/jf_nezumi.bin"
+    },
+    {
+      "rfilename": "voices/jf_tebukuro.bin"
+    },
+    {
+      "rfilename": "voices/jm_kumo.bin"
+    },
+    {
+      "rfilename": "voices/pf_dora.bin"
+    },
+    {
+      "rfilename": "voices/pm_alex.bin"
+    },
+    {
+      "rfilename": "voices/pm_santa.bin"
+    },
+    {
+      "rfilename": "voices/zf_xiaobei.bin"
+    },
+    {
+      "rfilename": "voices/zf_xiaoni.bin"
+    },
+    {
+      "rfilename": "voices/zf_xiaoxiao.bin"
+    },
+    {
+      "rfilename": "voices/zf_xiaoyi.bin"
+    },
+    {
+      "rfilename": "voices/zm_yunjian.bin"
+    },
+    {
+      "rfilename": "voices/zm_yunxi.bin"
+    },
+    {
+      "rfilename": "voices/zm_yunxia.bin"
+    },
+    {
+      "rfilename": "voices/zm_yunyang.bin"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": true,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "ainspired/kokoro-onnx-api-test",
+    "abersbail/kokoro-text-to-speech-web",
+    "layla55/voicebox",
+    "j1seki/kokoro-onnx-api-query-get",
+    "signup2netmon/NetMonTTS",
+    "johnbridges/NetMonTTS",
+    "johnbridges/NetMonTTS2",
+    "johnbridges/NetMonTTS3",
+    "WSYBYT/ybtts",
+    "twiggieeAU/kokoro-onnx-api-test",
+    "auralodyssey/api",
+    "anyam12/zelli-free-ai",
+    "nagnapk/TTS_Kokoro",
+    "a9/kokoro-onnx-api-test",
+    "Hazeezadebayo/voxsieve-app",
+    "wahb-ai/Stillpoint-TTS",
+    "PassionateLogic/9-minute-reset",
+    "Ekremayaz/kokoro-tts-app",
+    "chief24434/FTTS",
+    "jackboyla/microduck-voice",
+    "mrfakename/kokoro-7m-distill-webgpu",
+    "affan1519/hindi-voice-tool-lite",
+    "andrewsuvinston/orbit-reader",
+    "LatcuTM/tiny-voice",
+    "iamdgarcia/kokoro-tab"
+  ],
+  "createdAt": "2025-02-07T11:07:04.000Z",
+  "usedStorage": 1447363167
+}

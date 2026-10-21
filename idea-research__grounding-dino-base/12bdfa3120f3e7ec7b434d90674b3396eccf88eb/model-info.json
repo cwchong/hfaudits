@@ -1,0 +1,202 @@
+{
+  "_id": "6510e202ed4cd83cd15026ee",
+  "id": "IDEA-Research/grounding-dino-base",
+  "private": false,
+  "pipeline_tag": "zero-shot-object-detection",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "safetensors",
+    "grounding-dino",
+    "zero-shot-object-detection",
+    "vision",
+    "arxiv:2303.05499",
+    "license:apache-2.0",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 1994711,
+  "likes": 220,
+  "modelId": "IDEA-Research/grounding-dino-base",
+  "author": "IDEA-Research",
+  "sha": "12bdfa3120f3e7ec7b434d90674b3396eccf88eb",
+  "lastModified": "2024-05-12T09:03:22.000Z",
+  "gated": false,
+  "disabled": false,
+  "mask_token": "[MASK]",
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "GroundingDinoForObjectDetection"
+    ],
+    "model_type": "grounding-dino",
+    "tokenizer_config": {
+      "cls_token": "[CLS]",
+      "mask_token": "[MASK]",
+      "pad_token": "[PAD]",
+      "sep_token": "[SEP]",
+      "unk_token": "[UNK]"
+    }
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "tags": [
+      "vision"
+    ],
+    "inference": false,
+    "pipeline_tag": "zero-shot-object-detection"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForZeroShotObjectDetection",
+    "pipeline_tag": "zero-shot-object-detection",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    },
+    {
+      "rfilename": "vocab.txt"
+    }
+  ],
+  "securityRepoStatus": {
+    "scansDone": false,
+    "filesWithIssues": []
+  },
+  "spaces": [
+    "VAST-AI/MIDI-3D",
+    "zheyangqin/VADER",
+    "nvidia/addit",
+    "merve/GroundingDINO_OWL",
+    "fantos/textcutobject",
+    "merve/GroundingSAM",
+    "ZENLLC/videodiffusion",
+    "developer0hye/Grounding_DINO_Base_demo",
+    "andrewkatumba/GroundingDINO_DSA2024",
+    "dwb2023/omniscience",
+    "hysts-gradio-custom-html/detection-viewer-demo",
+    "veltre/GroundingSAM",
+    "veltre/GroundingSAM2",
+    "HorizonRobotics/3D-Fixer",
+    "martintomov/InsectSAM",
+    "martintomov/InsectModelZoo",
+    "piyk/finegrain-object-cutter",
+    "dangtiendatdat/real",
+    "Heartsync/addit",
+    "Yiyuan/VSA",
+    "ashhadahsan/lang-segment-anything-gradio",
+    "mukaist/textcutobject",
+    "lopezkor000/comp-arch-project",
+    "xfu314/Robotics_Data_Engine",
+    "subirmansukhani/smolvla-inspect",
+    "RehamAAhmed/Ai_Inspection_System",
+    "samurvivor-07/yolov8-object-detector",
+    "RehamAAhmed/Matching_and_Damage",
+    "RehamAAhmed/inspection-website",
+    "kiiwee/RB_IBDM_ModelZoo",
+    "Gaejoon/GroundingDINO_OWL",
+    "Gaejoon/OWLv2_Demo",
+    "mukaist/finegrain-object-cutter",
+    "xinglilu/Vadhwid",
+    "johnsathya/finegrain-object-cutter555",
+    "fantaxy/VADER",
+    "aanshbasu/grounding-dino-gradio",
+    "shouryap/groundingdi",
+    "FQiao/SoundingStreet",
+    "kodekdevs/kodek-roomrestyler",
+    "GF-John/Grounding_DINO_Base_demo",
+    "gabrielsemiceki9/SoundingStreet",
+    "DODOMOOV/dodoatrin",
+    "Chidex12/ImageImage-Inserter",
+    "Onyeka1187/addit",
+    "rbuffi/addit",
+    "sohamnk/lost-and-found-ai-pipeline",
+    "Kesherat/blade-inspection-demo",
+    "sohamnk/lnf_v2_ai_pipeline",
+    "awpbash/Geo-Safely",
+    "tokeron/SAM-Grounding-DINO",
+    "jesenator/GroundingSAM",
+    "tingul4/text-image-seg",
+    "earthtoolsmaker/snowleopard-reid",
+    "BiasLab2025/Demo-2025",
+    "ascestark/ACTIONSPACE",
+    "DFHDGD/MIDI-3D",
+    "BiasLab2025/detection_base",
+    "mmrech/MIDI-3D",
+    "hbatali2020/image-shield-api",
+    "BiasLab2025/perception2",
+    "pinkmamba/finegrain-object-cutter",
+    "honey90/textcutobject",
+    "BiasLab2025/isr-demo",
+    "mandresyandri/detection-viewer-demo",
+    "prachiatsvaraai/summarization",
+    "prachiatsvaraai/summarizer2",
+    "ahammadshawki8/cattle-detection-api",
+    "badgaitintin/shoedetclss",
+    "acirl08/rain-video-automation",
+    "BiasLab2025/ISR",
+    "rdulal01/cattle-muzzle-detection",
+    "prachiatsvaraai/pdfsumm",
+    "harish1612/retailvision",
+    "XtewaldX/Grounded-SAM1",
+    "mohsenimani86/contextual-communication-demo",
+    "webolavo/aibuild",
+    "JacksonX01/BlurEffect",
+    "PRAVEEN33377/AGENTCHAIN_GEONLI_V1",
+    "abrarbhattii/geoai_demo_backend",
+    "hbatali2020/Salesforceblip-vqa-base",
+    "RehamAAhmed/inspection-api",
+    "Kvy19/dinosam2",
+    "khaledsalah80/addit",
+    "arihant3704/supervision-annotator-playground",
+    "shubro18202758/netraai",
+    "C4pt41n22/cultural_transcreation",
+    "hacktogone/cadrimages-saas",
+    "prantosaha59/grounding-dino-detector",
+    "miguel2020/geometry-endpoint",
+    "sciencellama/vision-space",
+    "vadly/langsight",
+    "RehamAAhmed/count-model",
+    "Adit1Sharma/acc_api",
+    "farshid90/beenx-detector",
+    "Abdo96/easy-blury",
+    "AbstractPhil/qwen-caption-array",
+    "baurlaur/object-counter",
+    "SudharshanR/elidedb-demo",
+    "pc4work/GroundingSAM"
+  ],
+  "createdAt": "2023-09-25T01:27:30.000Z",
+  "safetensors": {
+    "parameters": {
+      "I64": 497664,
+      "F32": 232313216
+    },
+    "total": 232810880
+  },
+  "usedStorage": 2805157461
+}

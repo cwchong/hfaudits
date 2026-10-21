@@ -1,0 +1,4178 @@
+[
+  {
+    "path": ".eval_results/apex-agents.yaml",
+    "size": 157,
+    "blob_oid": "bc4f27631a8da7e36ff6fc19906a759627627c57",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "9f62e4e9fffbd0a83ddd60e1c209d828994b3569",
+      "title": "Add community evaluation results for GPQA, HLE, DEEP-SWE, APEX-AGENTS (#37)",
+      "date": "2026-07-27T16:29:18.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bc4f27631a8da7e36ff6fc19906a759627627c57&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bc4f27631a8da7e36ff6fc19906a759627627c57&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": ".eval_results/deep-swe.yaml",
+    "size": 156,
+    "blob_oid": "1a85439360bfda9807159f61eef5810eeaa4ca7d",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "9f62e4e9fffbd0a83ddd60e1c209d828994b3569",
+      "title": "Add community evaluation results for GPQA, HLE, DEEP-SWE, APEX-AGENTS (#37)",
+      "date": "2026-07-27T16:29:18.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=1a85439360bfda9807159f61eef5810eeaa4ca7d&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=1a85439360bfda9807159f61eef5810eeaa4ca7d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": ".eval_results/gpqa.yaml",
+    "size": 152,
+    "blob_oid": "9d85a8b366b3f83c95c5b23890ef25601dfbbeb9",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "9f62e4e9fffbd0a83ddd60e1c209d828994b3569",
+      "title": "Add community evaluation results for GPQA, HLE, DEEP-SWE, APEX-AGENTS (#37)",
+      "date": "2026-07-27T16:29:18.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=9d85a8b366b3f83c95c5b23890ef25601dfbbeb9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=9d85a8b366b3f83c95c5b23890ef25601dfbbeb9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": ".eval_results/hle.yaml",
+    "size": 139,
+    "blob_oid": "5583f56cad45958f9dcb39274bc507fc51258530",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "9f62e4e9fffbd0a83ddd60e1c209d828994b3569",
+      "title": "Add community evaluation results for GPQA, HLE, DEEP-SWE, APEX-AGENTS (#37)",
+      "date": "2026-07-27T16:29:18.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=5583f56cad45958f9dcb39274bc507fc51258530&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=5583f56cad45958f9dcb39274bc507fc51258530&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": ".eval_results/moonshotai__Kimi-K3.yaml",
+    "size": 211,
+    "blob_oid": "17d2221734260f9c87ffdcfe4123a41757178776",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "f831ab66814297da540d832a5235f8e904f29d06",
+      "title": "Add Toolathlon-Verified evaluation result (#183)",
+      "date": "2026-09-02T02:22:41.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=17d2221734260f9c87ffdcfe4123a41757178776&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=17d2221734260f9c87ffdcfe4123a41757178776&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": ".gitattributes",
+    "size": 1639,
+    "blob_oid": "62375aaf6f0f97fad2b39e33dbc99fee014c7d8d",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=62375aaf6f0f97fad2b39e33dbc99fee014c7d8d&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=62375aaf6f0f97fad2b39e33dbc99fee014c7d8d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "LICENSE",
+    "size": 3065,
+    "blob_oid": "97c0111bba229b0981b1d74e34bacef723ca8f7b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=97c0111bba229b0981b1d74e34bacef723ca8f7b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=97c0111bba229b0981b1d74e34bacef723ca8f7b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "README.md",
+    "size": 45261,
+    "blob_oid": "10466db3bd36b1eb9b14a099d9d8d77130247712",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "301be1b88c89c0d3a763da6301352cb8fe399e90",
+      "title": "Update README.md (#33)",
+      "date": "2026-07-27T15:35:41.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=10466db3bd36b1eb9b14a099d9d8d77130247712&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=10466db3bd36b1eb9b14a099d9d8d77130247712&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "assets/kimi-logo.png",
+    "size": 87988,
+    "blob_oid": "870b8be6e07cc2c46f7173e800fbaff8af0af5d1",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=870b8be6e07cc2c46f7173e800fbaff8af0af5d1&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=870b8be6e07cc2c46f7173e800fbaff8af0af5d1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "config.json",
+    "size": 7006,
+    "blob_oid": "d7f26ead420b1d967f2759679dbebc65edfcff93",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=d7f26ead420b1d967f2759679dbebc65edfcff93&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=d7f26ead420b1d967f2759679dbebc65edfcff93&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "configuration_kimi_k3.py",
+    "size": 11343,
+    "blob_oid": "b38c4f8fcab1ce295aea236772ea1cba57f978c9",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b38c4f8fcab1ce295aea236772ea1cba57f978c9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b38c4f8fcab1ce295aea236772ea1cba57f978c9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "encoding_k3.py",
+    "size": 26304,
+    "blob_oid": "82a5f1f0777cd6135d3394002be82639345d0fe3",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "a590ce090cb049c93a33dfe8c208ec652aa20503",
+      "title": "Update encoding_k3.py (#173)",
+      "date": "2026-08-20T04:57:37.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=82a5f1f0777cd6135d3394002be82639345d0fe3&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=82a5f1f0777cd6135d3394002be82639345d0fe3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "generation_config.json",
+    "size": 53,
+    "blob_oid": "3908a4a5477122aa4b09386acab760fb7887c0fc",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=3908a4a5477122aa4b09386acab760fb7887c0fc&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=3908a4a5477122aa4b09386acab760fb7887c0fc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "kimi_k3_processor.py",
+    "size": 7660,
+    "blob_oid": "033a5773885c144509788e89a445217b76d6c046",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=033a5773885c144509788e89a445217b76d6c046&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=033a5773885c144509788e89a445217b76d6c046&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "kimi_k3_vision_processing.py",
+    "size": 6686,
+    "blob_oid": "58154424ff951289570c8fb5578e7372bfbfaa8b",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=58154424ff951289570c8fb5578e7372bfbfaa8b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=58154424ff951289570c8fb5578e7372bfbfaa8b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "media_utils.py",
+    "size": 13844,
+    "blob_oid": "e8b2ae127e254e364e6b568b1093a7e12ac576e0",
+    "sha256": null,
+    "lfs_pointer_size": null,
+    "xet_hash": null,
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=e8b2ae127e254e364e6b568b1093a7e12ac576e0&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "No security issues detected",
+          "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "Not a machine-learning model"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=e8b2ae127e254e364e6b568b1093a7e12ac576e0&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "path": "model-00001-of-000096.safetensors",
+    "size": 2341216112,
+    "blob_oid": "fb73b5d245e724c978fbef56a653c3b44a9e2b83",
+    "sha256": "975584c00f85a95fce8ae0f840af8cef69c2ef4db00d34cab3e2cbdfc60f6e51",
+    "lfs_pointer_size": 135,
+    "xet_hash": "a8211e237bf9a455d6f194c255a201ee87d75df10d2742e269c036f8504e959d",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=fb73b5d245e724c978fbef56a653c3b44a9e2b83&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/975584c00f85a95fce8ae0f840af8cef69c2ef4db00d34cab3e2cbdfc60f6e51?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=fb73b5d245e724c978fbef56a653c3b44a9e2b83&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/975584c00f85a95fce8ae0f840af8cef69c2ef4db00d34cab3e2cbdfc60f6e51?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00002-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "62066be9801f922833a5e3b37c1085a2b5602b59",
+    "sha256": "26a3284e1d2cb567934ebef002e6a1813551d646739e8bcb1e9e3fe7f878e0f5",
+    "lfs_pointer_size": 136,
+    "xet_hash": "7886c72da2d0ca82208d6874f705c582e39ec2f7f6b4f41b39825a79f5ef15a5",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=62066be9801f922833a5e3b37c1085a2b5602b59&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/26a3284e1d2cb567934ebef002e6a1813551d646739e8bcb1e9e3fe7f878e0f5?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=62066be9801f922833a5e3b37c1085a2b5602b59&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/26a3284e1d2cb567934ebef002e6a1813551d646739e8bcb1e9e3fe7f878e0f5?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00003-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "11dbdb67d83d32e90d8dfe29ce313a1e387d6d10",
+    "sha256": "e54af9de4c554956082364010f732443bcd5097390f0121a33fb35e37280b5a9",
+    "lfs_pointer_size": 136,
+    "xet_hash": "f450674b9f526ecbd940462f7d5a5fe233458d19e79081550588c2d18c8d9d35",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=11dbdb67d83d32e90d8dfe29ce313a1e387d6d10&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/e54af9de4c554956082364010f732443bcd5097390f0121a33fb35e37280b5a9?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=11dbdb67d83d32e90d8dfe29ce313a1e387d6d10&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e54af9de4c554956082364010f732443bcd5097390f0121a33fb35e37280b5a9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00004-of-000096.safetensors",
+    "size": 16567501776,
+    "blob_oid": "943054919b3c6f1ed3a4fd046bec91c8a80d1d3e",
+    "sha256": "5955fd8feda89b1af8400c25e885e7177d47edff155f54b318beb8dd1cec5c05",
+    "lfs_pointer_size": 136,
+    "xet_hash": "c0910cc07a217656b12901d115663cf19fdb182d884e5ca228f238537d04c11e",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=943054919b3c6f1ed3a4fd046bec91c8a80d1d3e&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/5955fd8feda89b1af8400c25e885e7177d47edff155f54b318beb8dd1cec5c05?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=943054919b3c6f1ed3a4fd046bec91c8a80d1d3e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/5955fd8feda89b1af8400c25e885e7177d47edff155f54b318beb8dd1cec5c05?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00005-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "fcf12d84b8089c5275705af47eb7b8b150f92275",
+    "sha256": "d60d68ad0381ffd2d8716d5991a65993cc81837455bf05d1c76ea3a75662e268",
+    "lfs_pointer_size": 136,
+    "xet_hash": "4967373a7f29e55532d2468b0ab71d9b802b477ab4fc9a9fd362d564a100c29c",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=fcf12d84b8089c5275705af47eb7b8b150f92275&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/d60d68ad0381ffd2d8716d5991a65993cc81837455bf05d1c76ea3a75662e268?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=fcf12d84b8089c5275705af47eb7b8b150f92275&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d60d68ad0381ffd2d8716d5991a65993cc81837455bf05d1c76ea3a75662e268?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00006-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "543ee8bd58b737c39ef71ecdbdf3fceaa18159c6",
+    "sha256": "b1d4805767471a9721cd087d2047843ab9262d4f9bbe0d4a306e72c07179f939",
+    "lfs_pointer_size": 136,
+    "xet_hash": "f7cb0a559e7748c0a8d4d428106f628fa653a7157a02aa4862f81f39f1dce647",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=543ee8bd58b737c39ef71ecdbdf3fceaa18159c6&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/b1d4805767471a9721cd087d2047843ab9262d4f9bbe0d4a306e72c07179f939?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=543ee8bd58b737c39ef71ecdbdf3fceaa18159c6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b1d4805767471a9721cd087d2047843ab9262d4f9bbe0d4a306e72c07179f939?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00007-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "b2210fadbce11a8e93591e5a6528a9f076bd6e72",
+    "sha256": "fb1120fef34c0416e73a3259ae6114b9a82b6081871b368a199e0b265cac7df7",
+    "lfs_pointer_size": 136,
+    "xet_hash": "0abed4bea6378a5032faacb8c83ae698ab374e126cc58f7c4651015f72cb24fe",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b2210fadbce11a8e93591e5a6528a9f076bd6e72&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/fb1120fef34c0416e73a3259ae6114b9a82b6081871b368a199e0b265cac7df7?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b2210fadbce11a8e93591e5a6528a9f076bd6e72&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fb1120fef34c0416e73a3259ae6114b9a82b6081871b368a199e0b265cac7df7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00008-of-000096.safetensors",
+    "size": 16567501776,
+    "blob_oid": "6878ea442e2b46f6e561841623f3e88a76f14e87",
+    "sha256": "2318dda54fc1985b63d6068de54fbe312ac87317c902666c9075aa5e10e8a1c9",
+    "lfs_pointer_size": 136,
+    "xet_hash": "17d9cd416edb9d381f63052cf85f1318b25fac8ee305dda50251a378fee31dd1",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6878ea442e2b46f6e561841623f3e88a76f14e87&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/2318dda54fc1985b63d6068de54fbe312ac87317c902666c9075aa5e10e8a1c9?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6878ea442e2b46f6e561841623f3e88a76f14e87&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2318dda54fc1985b63d6068de54fbe312ac87317c902666c9075aa5e10e8a1c9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00009-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "32c661c5b32beaecb97a3e8ab9f14f001dd9fd53",
+    "sha256": "8b66cdde34f5130cf4f99ec35b16f1f6d33bf0ec946cf2a5612004f5d399f998",
+    "lfs_pointer_size": 136,
+    "xet_hash": "ff8ca5e58c262c7c36ac10720039ddb5ada1a51db3d32e6e3e3e992377d7eb5c",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=32c661c5b32beaecb97a3e8ab9f14f001dd9fd53&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/8b66cdde34f5130cf4f99ec35b16f1f6d33bf0ec946cf2a5612004f5d399f998?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=32c661c5b32beaecb97a3e8ab9f14f001dd9fd53&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8b66cdde34f5130cf4f99ec35b16f1f6d33bf0ec946cf2a5612004f5d399f998?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00010-of-000096.safetensors",
+    "size": 16990911504,
+    "blob_oid": "38188c9c6177bd85b897d7eafaac4706cdb327ab",
+    "sha256": "d34f55f7b734a1eaecc986fc7f92bcaa1b7d18fad90a33befd3fae4f1b2771a9",
+    "lfs_pointer_size": 136,
+    "xet_hash": "af3be1dea194a771eca1a720b2a9d24e40e9c2f91fabec43f53b941b9e0fb0a4",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=38188c9c6177bd85b897d7eafaac4706cdb327ab&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/d34f55f7b734a1eaecc986fc7f92bcaa1b7d18fad90a33befd3fae4f1b2771a9?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=38188c9c6177bd85b897d7eafaac4706cdb327ab&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d34f55f7b734a1eaecc986fc7f92bcaa1b7d18fad90a33befd3fae4f1b2771a9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00011-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "6c394f8462cfd4bf745d7fc9b6467a1947a59138",
+    "sha256": "1738856a4cca2e356510892de4accf3c3f94b9f598b0394a87e7951740ba4a21",
+    "lfs_pointer_size": 136,
+    "xet_hash": "8c4a8579fb7c1c0c337283fcf1edc3295b9c5c06e0d1498bb5390cb273500e42",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6c394f8462cfd4bf745d7fc9b6467a1947a59138&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/1738856a4cca2e356510892de4accf3c3f94b9f598b0394a87e7951740ba4a21?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6c394f8462cfd4bf745d7fc9b6467a1947a59138&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1738856a4cca2e356510892de4accf3c3f94b9f598b0394a87e7951740ba4a21?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00012-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "74c5b37aa917f406405aff5286d75f5b86abd2a2",
+    "sha256": "c6b9bef38415f509898fa7b5c04d20c6fee84b0e02c05d74259d201fe6f3868b",
+    "lfs_pointer_size": 136,
+    "xet_hash": "aee740d727a727d7eef46d6a00f972995170a70da58dde817d005dad1c4dd344",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=74c5b37aa917f406405aff5286d75f5b86abd2a2&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/c6b9bef38415f509898fa7b5c04d20c6fee84b0e02c05d74259d201fe6f3868b?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=74c5b37aa917f406405aff5286d75f5b86abd2a2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c6b9bef38415f509898fa7b5c04d20c6fee84b0e02c05d74259d201fe6f3868b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00013-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "18297583bc00ef577f01b47cf83b43d2fe8a0c92",
+    "sha256": "3cbf43d56d9c80be0f848a4866e290741c697e09d885dc2351b0a11de514d9c8",
+    "lfs_pointer_size": 136,
+    "xet_hash": "a5f6d13f4c9461173aac675319844ce01db257e8cd4e70796211711209e7e2c8",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=18297583bc00ef577f01b47cf83b43d2fe8a0c92&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/3cbf43d56d9c80be0f848a4866e290741c697e09d885dc2351b0a11de514d9c8?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=18297583bc00ef577f01b47cf83b43d2fe8a0c92&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3cbf43d56d9c80be0f848a4866e290741c697e09d885dc2351b0a11de514d9c8?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00014-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "bea8ae805f6a18dac1041f0249438577686667af",
+    "sha256": "ce5f343f07d408c64fb247bbe8691edb84d54e3976d3ff586ebcf5929fd143ad",
+    "lfs_pointer_size": 136,
+    "xet_hash": "d02210043aa7ed0c49073df72b67b6e4144fa6644e517edb54ed11aeed9b184d",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bea8ae805f6a18dac1041f0249438577686667af&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/ce5f343f07d408c64fb247bbe8691edb84d54e3976d3ff586ebcf5929fd143ad?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bea8ae805f6a18dac1041f0249438577686667af&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ce5f343f07d408c64fb247bbe8691edb84d54e3976d3ff586ebcf5929fd143ad?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00015-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "f713a6e7d41c9b53ddafd9218789b9c84a70835d",
+    "sha256": "b55caa8013348498525eef2b1416a657f0c28264ada9b245df19d2eea168b4c1",
+    "lfs_pointer_size": 136,
+    "xet_hash": "f45e4fb05d9d8520c735b3037df29aa3d4b0a6e54cb48c6c11953c71a1529476",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f713a6e7d41c9b53ddafd9218789b9c84a70835d&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/b55caa8013348498525eef2b1416a657f0c28264ada9b245df19d2eea168b4c1?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f713a6e7d41c9b53ddafd9218789b9c84a70835d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/b55caa8013348498525eef2b1416a657f0c28264ada9b245df19d2eea168b4c1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00016-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "255a25ad439a5019cb62d052191a35d3d668e92b",
+    "sha256": "5a63e63ced659c1996b02ccabdea977546a39ecce025af1e54552de3bfc0489e",
+    "lfs_pointer_size": 136,
+    "xet_hash": "de5e82bfaf54852cc2126cd708daf6927286ca23a047f66dd4c5a5861aa1c269",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=255a25ad439a5019cb62d052191a35d3d668e92b&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/5a63e63ced659c1996b02ccabdea977546a39ecce025af1e54552de3bfc0489e?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=255a25ad439a5019cb62d052191a35d3d668e92b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/5a63e63ced659c1996b02ccabdea977546a39ecce025af1e54552de3bfc0489e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00017-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "39496e6cbd0d52a3b04f047c48201bea637ca794",
+    "sha256": "622bfa605205f4ef65e44dac07246bea79e18123ae8b84ab33eec89b6364c3a9",
+    "lfs_pointer_size": 136,
+    "xet_hash": "2501aa102a0978c6a36e626f013e1e0e669bbc66bc72b707c6d1cb15f67f4112",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=39496e6cbd0d52a3b04f047c48201bea637ca794&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/622bfa605205f4ef65e44dac07246bea79e18123ae8b84ab33eec89b6364c3a9?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=39496e6cbd0d52a3b04f047c48201bea637ca794&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/622bfa605205f4ef65e44dac07246bea79e18123ae8b84ab33eec89b6364c3a9?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00018-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "8f57732e2c81476d79b091f0f6d9c6c90f7ae374",
+    "sha256": "838b265ebb86a1320e589685779125d224663160823873b9e5930cf63fafe796",
+    "lfs_pointer_size": 136,
+    "xet_hash": "7c693e80d3ca71dbb2b7aec9a5b14d5b370356fd47ec02232dd40d4f274b393e",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=8f57732e2c81476d79b091f0f6d9c6c90f7ae374&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/838b265ebb86a1320e589685779125d224663160823873b9e5930cf63fafe796?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=8f57732e2c81476d79b091f0f6d9c6c90f7ae374&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/838b265ebb86a1320e589685779125d224663160823873b9e5930cf63fafe796?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00019-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "9bbb4ff2ad0caeffbfdcd6868a395b08661d9de9",
+    "sha256": "599a8ecf88f21d4c91295b4160e7564e501807535e522195ee45050a04f17ded",
+    "lfs_pointer_size": 136,
+    "xet_hash": "3d4f6351e9701dd4e23bd858f0dbd409a379ec87f30295431df3d6ad08bab6c4",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=9bbb4ff2ad0caeffbfdcd6868a395b08661d9de9&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/599a8ecf88f21d4c91295b4160e7564e501807535e522195ee45050a04f17ded?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=9bbb4ff2ad0caeffbfdcd6868a395b08661d9de9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/599a8ecf88f21d4c91295b4160e7564e501807535e522195ee45050a04f17ded?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00020-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "3c903a84b0d76fdc5f97e02d10d80f812f68e6e2",
+    "sha256": "8e01b61ab76655ca0c5bd6645303a00c05fb58da94e00f978a9ef1e8114a6f0f",
+    "lfs_pointer_size": 136,
+    "xet_hash": "f7d8a7641ddc6ba1916613c024ea279e692b7865cdf8c36f360e131830649474",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=3c903a84b0d76fdc5f97e02d10d80f812f68e6e2&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/8e01b61ab76655ca0c5bd6645303a00c05fb58da94e00f978a9ef1e8114a6f0f?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=3c903a84b0d76fdc5f97e02d10d80f812f68e6e2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8e01b61ab76655ca0c5bd6645303a00c05fb58da94e00f978a9ef1e8114a6f0f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00021-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "c69fcadca7e713d99556c4806fb06daf53deac81",
+    "sha256": "1944265bd024ea6caa23796326e420260a801e5c52e6253155f22ce97e9578d0",
+    "lfs_pointer_size": 136,
+    "xet_hash": "51b8d7be5600543cd042d3d663db8ace86c0566cba936661d211443114609826",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=c69fcadca7e713d99556c4806fb06daf53deac81&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/1944265bd024ea6caa23796326e420260a801e5c52e6253155f22ce97e9578d0?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=c69fcadca7e713d99556c4806fb06daf53deac81&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1944265bd024ea6caa23796326e420260a801e5c52e6253155f22ce97e9578d0?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00022-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "b5ea22963fad44b0c5cbe613749340db39cc8c74",
+    "sha256": "2d32d3e3c8da0764f73830289c6a22224f755c0cf058df0262fb0f83b3777029",
+    "lfs_pointer_size": 136,
+    "xet_hash": "4d2b39ec863f50b32edae0e8de726d0df83eca394fcbe86170018e6ae85f0fec",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b5ea22963fad44b0c5cbe613749340db39cc8c74&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/2d32d3e3c8da0764f73830289c6a22224f755c0cf058df0262fb0f83b3777029?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=b5ea22963fad44b0c5cbe613749340db39cc8c74&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2d32d3e3c8da0764f73830289c6a22224f755c0cf058df0262fb0f83b3777029?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00023-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "6ddaa6ffc4d8ab253d6f0c3fe85678caeead19ea",
+    "sha256": "c291f2ec15788cb24cdf791c6d68dbf8803b26d01415cff3fab367cba581a169",
+    "lfs_pointer_size": 136,
+    "xet_hash": "d02fe017c88afb0b3aad822418ba12a904d9183a9ec70f0f944b1d737ea850d1",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6ddaa6ffc4d8ab253d6f0c3fe85678caeead19ea&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/c291f2ec15788cb24cdf791c6d68dbf8803b26d01415cff3fab367cba581a169?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=6ddaa6ffc4d8ab253d6f0c3fe85678caeead19ea&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c291f2ec15788cb24cdf791c6d68dbf8803b26d01415cff3fab367cba581a169?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00024-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "f91eba1cc7bdb1496664904dc5f9a937d3d68527",
+    "sha256": "278855ab81d42337e2a1857f136d740911fe3f5b1813dc21ce2cb03dc5c3cde3",
+    "lfs_pointer_size": 136,
+    "xet_hash": "187c1d2bb7bb05f1ded105fd3ea6f0047a1848cc31ab86182e3ad91e86e083a9",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f91eba1cc7bdb1496664904dc5f9a937d3d68527&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/278855ab81d42337e2a1857f136d740911fe3f5b1813dc21ce2cb03dc5c3cde3?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f91eba1cc7bdb1496664904dc5f9a937d3d68527&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/278855ab81d42337e2a1857f136d740911fe3f5b1813dc21ce2cb03dc5c3cde3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00025-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "aed3b0067083b86911455049c636f4dac09b41e8",
+    "sha256": "6e3ae6ad868f5b38fa7ddface520796ea251568b07447deee3d164a0a32d862b",
+    "lfs_pointer_size": 136,
+    "xet_hash": "7c21204410195eed9675a7e370ead497ba1180d45ce206d54be88a6be30a8648",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=aed3b0067083b86911455049c636f4dac09b41e8&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/6e3ae6ad868f5b38fa7ddface520796ea251568b07447deee3d164a0a32d862b?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=aed3b0067083b86911455049c636f4dac09b41e8&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/6e3ae6ad868f5b38fa7ddface520796ea251568b07447deee3d164a0a32d862b?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00026-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "31096ed20d34361ea900c56939a339c78dfa2d60",
+    "sha256": "cdd79fb52c7a3350926c4b947ae82cccd0af17fa3fb537c5694a4cedf2b59811",
+    "lfs_pointer_size": 136,
+    "xet_hash": "8750ff12644b75052b1d6f073b31de9082532e99f4fb90c25f6247b88e95adcd",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=31096ed20d34361ea900c56939a339c78dfa2d60&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/cdd79fb52c7a3350926c4b947ae82cccd0af17fa3fb537c5694a4cedf2b59811?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=31096ed20d34361ea900c56939a339c78dfa2d60&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cdd79fb52c7a3350926c4b947ae82cccd0af17fa3fb537c5694a4cedf2b59811?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00027-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "f6409df643698e5663faa7bfadb5f09f5d7cc8f7",
+    "sha256": "1d974b40c4aeb5cc0adeba6f9fbad25fc99f8cd39f9dd3513aeb2fb30a9c4188",
+    "lfs_pointer_size": 136,
+    "xet_hash": "aa7ac29ca304b07ca4763e9013cbb846bc37688154bc7194e5790e4d44d72402",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f6409df643698e5663faa7bfadb5f09f5d7cc8f7&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/1d974b40c4aeb5cc0adeba6f9fbad25fc99f8cd39f9dd3513aeb2fb30a9c4188?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=f6409df643698e5663faa7bfadb5f09f5d7cc8f7&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1d974b40c4aeb5cc0adeba6f9fbad25fc99f8cd39f9dd3513aeb2fb30a9c4188?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00028-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "825f5a263e10cee9a59c886ad2cef9208501c522",
+    "sha256": "1bec58e89ab7835d3ca40e581cc6f047cb93de47fda804eaea4e2407e01c3ed3",
+    "lfs_pointer_size": 136,
+    "xet_hash": "bf5b661edc35aed5be3b08a075f823b3b407ecd067f5d792da937cbd2ea46a50",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=825f5a263e10cee9a59c886ad2cef9208501c522&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/1bec58e89ab7835d3ca40e581cc6f047cb93de47fda804eaea4e2407e01c3ed3?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=825f5a263e10cee9a59c886ad2cef9208501c522&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1bec58e89ab7835d3ca40e581cc6f047cb93de47fda804eaea4e2407e01c3ed3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00029-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "7624d11f6b45f8e7a33bdbc20083ed5a7a4b610f",
+    "sha256": "c3bf0e738aa5fbd6ca3ecad982aba8d09efffd58b40cd8fb62d02fe0492f5ceb",
+    "lfs_pointer_size": 136,
+    "xet_hash": "cf67b1459deb5d7bebe74e34c2dca8efc41fa144a66c2827b3f2d9633abf79c7",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=7624d11f6b45f8e7a33bdbc20083ed5a7a4b610f&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/c3bf0e738aa5fbd6ca3ecad982aba8d09efffd58b40cd8fb62d02fe0492f5ceb?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=7624d11f6b45f8e7a33bdbc20083ed5a7a4b610f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c3bf0e738aa5fbd6ca3ecad982aba8d09efffd58b40cd8fb62d02fe0492f5ceb?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00030-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "bd47ee12954bb638046a959273c4893b7dfe97d5",
+    "sha256": "7b996410482ad3c21700ed35d3f2b36282540db92b5631a31aeda1c5e90d6343",
+    "lfs_pointer_size": 136,
+    "xet_hash": "041e17d2918b397895150323ad2c959bfaa406a6b6aef42111c2a46e0b692373",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bd47ee12954bb638046a959273c4893b7dfe97d5&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/7b996410482ad3c21700ed35d3f2b36282540db92b5631a31aeda1c5e90d6343?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=bd47ee12954bb638046a959273c4893b7dfe97d5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/7b996410482ad3c21700ed35d3f2b36282540db92b5631a31aeda1c5e90d6343?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00031-of-000096.safetensors",
+    "size": 16990916912,
+    "blob_oid": "063ef5d60b4b6fffde45af096a6a3f9d6bc37b55",
+    "sha256": "c26689540a2471fe690c441a6cf9bec8f00471930e3131962206fd992e0d377c",
+    "lfs_pointer_size": 136,
+    "xet_hash": "6098d2e81bebf328940e8f516302f326b6429bc9a545e12304dbd52bfd916301",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=063ef5d60b4b6fffde45af096a6a3f9d6bc37b55&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "0/73 engines detect it as malicious.",
+          "reportLink": "https://www.virustotal.com/gui/file/c26689540a2471fe690c441a6cf9bec8f00471930e3131962206fd992e0d377c?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=063ef5d60b4b6fffde45af096a6a3f9d6bc37b55&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/73 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c26689540a2471fe690c441a6cf9bec8f00471930e3131962206fd992e0d377c?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  },
+  {
+    "path": "model-00032-of-000096.safetensors",
+    "size": 16567507176,
+    "blob_oid": "30304e6f56e2fb1c74ea23e343806ae49d9c107e",
+    "sha256": "f7dc9e726d46d5c7c2c35af2eea4860cc89dd38a52b60591358a5ca7899c5159",
+    "lfs_pointer_size": 136,
+    "xet_hash": "9799f888435690f63427586e3c542e7cc6fb26387e109b77f134474ff53f8af9",
+    "last_commit": {
+      "id": "c5d1dd4c428bd1ce8b88c5044f3b6ccde9e3b721",
+      "title": "Initial commit",
+      "date": "2026-07-27T13:31:26.000Z"
+    },
+    "security_status": "safe",
+    "scanners": [
+      {
+        "name": "protectAiScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "This file has no security findings.",
+          "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=30304e6f56e2fb1c74ea23e343806ae49d9c107e&utm_source=huggingface"
+        }
+      },
+      {
+        "name": "avScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "",
+          "version": "1.5.3/28064"
+        }
+      },
+      {
+        "name": "pickleImportScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "pickleImports": [],
+          "version": "0.0.0"
+        }
+      },
+      {
+        "name": "virusTotalScan",
+        "verdict": "unscanned",
+        "details": {
+          "status": "unscanned",
+          "message": "File not scanned in VirusTotal",
+          "reportLink": "https://www.virustotal.com/gui/file/f7dc9e726d46d5c7c2c35af2eea4860cc89dd38a52b60591358a5ca7899c5159?utm_source=huggingface"
+        }
+      },
+      {
+        "name": "jFrogScan",
+        "verdict": "safe",
+        "details": {
+          "status": "safe",
+          "message": "Safe model, does not support code execution on load.",
+          "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+        }
+      }
+    ],
+    "security_raw": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06/files?blob-id=30304e6f56e2fb1c74ea23e343806ae49d9c107e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "unscanned",
+        "message": "",
+        "version": "1.5.3/28064"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned",
+        "message": "File not scanned in VirusTotal",
+        "reportLink": "https://www.virustotal.com/gui/file/f7dc9e726d46d5c7c2c35af2eea4860cc89dd38a52b60591358a5ca7899c5159?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "safe",
+        "message": "Safe model, does not support code execution on load.",
+        "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+      }
+    }
+  }
+]

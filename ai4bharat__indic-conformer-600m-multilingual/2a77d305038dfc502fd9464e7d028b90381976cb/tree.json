@@ -1,0 +1,2064 @@
+[
+  {
+    "type": "directory",
+    "oid": "4cbccd0d43e8eef59e1d5f7aaf243cabaaaa3566",
+    "size": 0,
+    "path": "assets",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2f4b3b72f0cd67db4046917b1913bbd122c8fc23",
+    "size": 18829,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=2f4b3b72f0cd67db4046917b1913bbd122c8fc23&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f7efbac2afe71a9af7b6c755dd2f91ebf08587ad",
+    "size": 3129,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "2a77d305038dfc502fd9464e7d028b90381976cb",
+      "title": "Upload README.md",
+      "date": "2026-10-08T08:47:15.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=f7efbac2afe71a9af7b6c755dd2f91ebf08587ad&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.4/28145"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f1ebb8651e45b3b4c62934b4e3656506ab1e4b17",
+    "size": 40955904,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 40955904,
+      "pointerSize": 133
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/Constant_1970_attr__value",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=f1ebb8651e45b3b4c62934b4e3656506ab1e4b17&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/1465c92f236b194eca79e9ae640d9793ed043b755b2756e03347296a40ce3082?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "e2813c1649664bc45dd302d3a63f2dd3975efba1",
+    "size": 23095918,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 23095918,
+      "pointerSize": 133
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/ctc_decoder.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=e2813c1649664bc45dd302d3a63f2dd3975efba1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/9b79abea81daf271e77fcc0e24c9fb76f79e50323d771e1bb6049c972c18f6ea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9aeb09b812cae2edd442d226625b4bd2080a5a8e",
+    "size": 2976427,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 2976427,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/encoder.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=9aeb09b812cae2edd442d226625b4bd2080a5a8e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/566309af834aeea4df55600df42c804cde8a0746dada9592b5f0097ef387122f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cefd295bbfc98c8b1e79298bf4cb2eb974b9f935",
+    "size": 2628240,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 2628240,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_enc.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=cefd295bbfc98c8b1e79298bf4cb2eb974b9f935&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/123a28f8442b30241a871f2a34f71f6273653df153ffe40e6cfdecd14aad34b0?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "db79be54bacf695f5bcc8957b843ad5ad2af4efb",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_as.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=db79be54bacf695f5bcc8957b843ad5ad2af4efb&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/8c24809b26529ca8776ff90071828c4f45d06388312e3f88b6ad4e5617e9ac47?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c2882408cb0449014b55da7a74b8ac49c266fe7e",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_bn.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=c2882408cb0449014b55da7a74b8ac49c266fe7e&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/0d69e6442ff6b3520ebf1e42bf2f3e97c3f1620ecea05a373c31a85f8d368f77?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b2c25c5e1a54fa3c1a29173685bb4d237079cca3",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_brx.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=b2c25c5e1a54fa3c1a29173685bb4d237079cca3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/797ea1e2a273b1e8d5970ce69fab6fe5cfc10073c20515f8746fc06e67bbb7a4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b11d71ec2b977f4ce6baeee52bd3b79a52722cfe",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_doi.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=b11d71ec2b977f4ce6baeee52bd3b79a52722cfe&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f649dd6aac945c08db46d211695902b526b8e021c2fcbb4d0eea734e4932804e?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "48b7084e342e596a56d14f99f64b0646beb86289",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_gu.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=48b7084e342e596a56d14f99f64b0646beb86289&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c8c604c013e8866297a682f0b57f0065e71f5bb10bc1771bf0096b1141904e01?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a9211d0257e7bdaf640d969f4a193bf73bb0ed10",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_hi.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=a9211d0257e7bdaf640d969f4a193bf73bb0ed10&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fe7ef3a9a0835d9b265d315bf34214cd083e644bd891c0ae8ae0bdfe7cf2f7be?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "74299d8fcd796e13f6af407b14a032c99242a945",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_kn.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=74299d8fcd796e13f6af407b14a032c99242a945&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/38462f4de48d3affbda44a5de75576561f870d96c70d61af3a564012d2d3bfa6?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ed08dbe1e594dd9b2171b1ffa25711d69770b683",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_kok.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=ed08dbe1e594dd9b2171b1ffa25711d69770b683&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/640ade5928af65fc0526fb14c7c88db468da3943a80d33b854f68e40d37c4080?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "92029a102cdc9af8917f6e1f8d6509eeb4d91137",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_ks.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=92029a102cdc9af8917f6e1f8d6509eeb4d91137&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/3e3c2ce8a3a0d541cd1c87bf98eab811eb2df585edf076c4f3055a5c088619e2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "611a4672cac1d7e7b62f830c7a7816b471b52d4a",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_mai.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=611a4672cac1d7e7b62f830c7a7816b471b52d4a&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f2b450c2c189e993896ceccd9c21eeb8b59bd7578372be02434bff93fe60ee7d?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6a9e3583b75700346c643957b9be4d105f53a26f",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_ml.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=6a9e3583b75700346c643957b9be4d105f53a26f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/c32b6e5454bc04d5660c4479759babfed81517b4df6b7669ad2f4a8488af0610?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "ce384c2c3baed08ed466ab979b159587007627bc",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_mni.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=ce384c2c3baed08ed466ab979b159587007627bc&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/ce9ea2e33fe59c0baf7e33e414d0776d8977f3fa39d4af78124d64ccd7e746ce?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "3172e7ed854442d294206d9770ff55f541cfef9b",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_mr.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=3172e7ed854442d294206d9770ff55f541cfef9b&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2f9cf259a760851d603679fc993a4c9f6875f7b90e687352ec6c08170c1f6421?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d72896234c447deab107928da9a592c94af21442",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_ne.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=d72896234c447deab107928da9a592c94af21442&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/54a9187d865103aa827b22701a8f93ca2bb7f258dd732da88a40744bd829dbd4?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "a9dc8b164812152a170bf4f14a7c1093cd743ee9",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_or.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=a9dc8b164812152a170bf4f14a7c1093cd743ee9&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/16f2882a04db60c27a89bf8256ffa52b03263e573f0fd3dbddf6a321d74900e7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "869bd9e8d494771d9b5be074c4cdf128ea803433",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_pa.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=869bd9e8d494771d9b5be074c4cdf128ea803433&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fe66c25c1185cd40b5c04438c2cbcb98ad82f9633df2fbd9d02b7dae031c0cf3?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "6830311d9839771198124297d707c68cf3d05158",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_sa.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=6830311d9839771198124297d707c68cf3d05158&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2e4c351be52f742da0bba88c382579ec000e5bf4ac5244526ad1234e323235ea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0c5b73ea633c01f994c5064eb32193c158af81b1",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_sat.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=0c5b73ea633c01f994c5064eb32193c158af81b1&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/d259b88c667b7298c493b7589e1fb2e53705937151e4c2bc702ec673f62d51da?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b71ab764ed6146a65402a2e390a5f69a9de28680",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_sd.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=b71ab764ed6146a65402a2e390a5f69a9de28680&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/2040e5119c48801eee060b28e00b2db5703777d6b7a52a464c7ecfdb13723088?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9f24a756e9f8182889f5f30908b6b10f14635e78",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_ta.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=9f24a756e9f8182889f5f30908b6b10f14635e78&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/04ab7846716f69810def41ca94e088353bf03c189b5eb4ff0d745498e80d91d2?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5eb61ebf6204f7a6c8d94887c5287ad782c86777",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_te.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=5eb61ebf6204f7a6c8d94887c5287ad782c86777&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/b6628733b9580492b5a516d6e4d4bd58588a16b52ff9ab37e3ac7aa5b91e47b7?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "5a91134196e988fc86727f954d37038fdbbf99f6",
+    "size": 663185,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 663185,
+      "pointerSize": 131
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_post_net_ur.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=5a91134196e988fc86727f954d37038fdbbf99f6&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/00ea3d5e9959c8ad98236fa22e0bcd9750450250ec45cba8c9e5d5f26f69822f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cea8f6448e3d240dcc1c114ceabf9f28ca8b6f1d",
+    "size": 2773,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 2773,
+      "pointerSize": 129
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_pre_net.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=cea8f6448e3d240dcc1c114ceabf9f28ca8b6f1d&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/74f0bc758ef6a467392522726ff7ca1f74e931d962b33a9e92f7bcd7e260d501?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "02897479a1f49175760c1b7a69a734130ea66442",
+    "size": 1645197,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 1645197,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/joint_pred.onnx",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=02897479a1f49175760c1b7a69a734130ea66442&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/54ce89785b9241475662646c2f1ca10e1e627e79661bcb2b80ede8a733495788?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Unsupported machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "bf71d48c317f44b679d3740952596d666209f828",
+    "size": 862011,
+    "path": "assets/language_masks.json",
+    "lastCommit": {
+      "id": "86e5dcc5175aec62aa84ccfc694359c32e8877f7",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:05:20.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=bf71d48c317f44b679d3740952596d666209f828&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "14ea538fbe4a0c928d52946342f995cffe8b7efd",
+    "size": 8192,
+    "path": "assets/layers.0.conv.pointwise_conv1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=14ea538fbe4a0c928d52946342f995cffe8b7efd&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "2e1463c54f5b825172ee468e6e80f79e8d6dda86",
+    "size": 8388608,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 8388608,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.0.conv.pointwise_conv1.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=2e1463c54f5b825172ee468e6e80f79e8d6dda86&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/79e97dcc85e2e57b6afb92d5062fbd4e059857371ccc5554c3cc3c2141f7f205?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "7a2edd9802970ac01062c20b14d5cc3d98800c7c",
+    "size": 4194304,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 4194304,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.0.conv.pointwise_conv2.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=7a2edd9802970ac01062c20b14d5cc3d98800c7c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/58da5f25f1a015b85a028576dda494002d8780f99b69a7e388459ed78d1b85db?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d4fa38f9fed51ad161f63b732cd75a7e9e358575",
+    "size": 16384,
+    "path": "assets/layers.0.feed_forward1.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=d4fa38f9fed51ad161f63b732cd75a7e9e358575&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0ea90eeab4ebc6cff18df57c3ffc365093446ca2",
+    "size": 16384,
+    "path": "assets/layers.0.feed_forward2.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=0ea90eeab4ebc6cff18df57c3ffc365093446ca2&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "cace4c90780db2ebae84341274de45323f1e2035",
+    "size": 8192,
+    "path": "assets/layers.1.conv.pointwise_conv1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=cace4c90780db2ebae84341274de45323f1e2035&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b17590e09df1f50298fc79149923aaed3a8a8a71",
+    "size": 8388608,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 8388608,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.1.conv.pointwise_conv1.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=b17590e09df1f50298fc79149923aaed3a8a8a71&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f4d47a6346fbfe6dabf268663d4f4cdc3208dcd4036461a2080e57525cae314f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "86d10ad7a3c7bb8be3e6f0453f54ee45a95fdc5c",
+    "size": 4194304,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 4194304,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.1.conv.pointwise_conv2.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=86d10ad7a3c7bb8be3e6f0453f54ee45a95fdc5c&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/429f67aa02ae038af2049514b977c86e13d6d97d36868dba2f88f3e45caff418?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "f12b47df8283de61b527ff543545ca9828885fee",
+    "size": 16384,
+    "path": "assets/layers.1.feed_forward1.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=f12b47df8283de61b527ff543545ca9828885fee&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "d27b017e9adc454e0099bd2489ab903d26accece",
+    "size": 16384,
+    "path": "assets/layers.1.feed_forward2.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=d27b017e9adc454e0099bd2489ab903d26accece&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0d479631b14ca52d9f4e44a0af441aa6dd4561b5",
+    "size": 8192,
+    "path": "assets/layers.10.conv.pointwise_conv1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=0d479631b14ca52d9f4e44a0af441aa6dd4561b5&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0861d46a21f11a9d21e1153448a7da8438bba408",
+    "size": 8388608,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 8388608,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.10.conv.pointwise_conv1.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=0861d46a21f11a9d21e1153448a7da8438bba408&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/fbebf92e355f3c9fc1fee98d0a5c1945aec616909ff30eb1d50af2a19b14ccea?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9779159bc8441d2dbe90bfaa7302452f66288536",
+    "size": 4194304,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 4194304,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.10.conv.pointwise_conv2.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=9779159bc8441d2dbe90bfaa7302452f66288536&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/7c58e3bec6a6527313b548fdbbc921217efcfcbeb23624f40d5f0708214bfe1a?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9def2c8dd2d7809086b8a94691face41c0ae13d3",
+    "size": 16384,
+    "path": "assets/layers.10.feed_forward1.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=9def2c8dd2d7809086b8a94691face41c0ae13d3&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "9cf8e824cbf318d7f4691f4cdacf62a832141c50",
+    "size": 16384,
+    "path": "assets/layers.10.feed_forward2.linear1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=9cf8e824cbf318d7f4691f4cdacf62a832141c50&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "52ac8c510400e1ddd3923dfb07208b81ac63d3ac",
+    "size": 8192,
+    "path": "assets/layers.11.conv.pointwise_conv1.bias",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=52ac8c510400e1ddd3923dfb07208b81ac63d3ac&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "16f4ea99b96195ce1e74d13ea8d628f044450e65",
+    "size": 8388608,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 8388608,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.11.conv.pointwise_conv1.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=16f4ea99b96195ce1e74d13ea8d628f044450e65&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27960"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/f4b6f09f6889ea12feaf2e30f8d0426f1a5daa5db8304b296b41e4a145330f5f?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "b5b238c205a15a594cc1d103a286f6f34e4ed66f",
+    "size": 4194304,
+    "lfs": {
+      "oid": "****************************************************************",
+      "size": 4194304,
+      "pointerSize": 132
+    },
+    "xetHash": "****************************************************************",
+    "path": "assets/layers.11.conv.pointwise_conv2.weight",
+    "lastCommit": {
+      "id": "33ca12f15009d73e54036ffafc3c52a41bf52beb",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-03-15T11:15:24.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "safe",
+        "message": "This file has no security findings.",
+        "reportLink": "https://insights-db.paloaltonetworks.com/models/ai4bharat/indic-conformer-600m-multilingual/2a77d305038dfc502fd9464e7d028b90381976cb/files?blob-id=b5b238c205a15a594cc1d103a286f6f34e4ed66f&utm_source=huggingface"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "",
+        "version": "1.5.2/27961"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/76 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/e1fc4a934492d4b2501c00e664b7808561c2769fd4f3e1e8405da5889374fde1?utm_source=huggingface"
+      },
+      "jFrogScan": {
+        "status": "unscanned",
+        "message": "Not a machine-learning model"
+      }
+    }
+  }
+]
